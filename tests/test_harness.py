@@ -254,6 +254,25 @@ class RuntimeTests(unittest.TestCase):
             self.assertEqual(json.loads((tmp / "list.json").read_text()), entries)
             self.assertTrue(text.startswith("Before\n"))
             self.assertTrue(text.endswith("After\n"))
+            self.assertNotIn("<img", text)
+
+    def test_build_adds_existing_screenshots_to_an_entry(self):
+        build = load("build")
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            shots = tmp / "assets/screenshots/example__gem"
+            shots.mkdir(parents=True)
+            for name in ("2.webp", "1.webp", "sources.json"):
+                (shots / name).write_bytes(b"")
+            with patch.object(build, "ROOT", tmp):
+                text = build.line({"repo": "Example/Gem", "full_name": "Example/Gem", "name": "A & B", "note": "Note.",
+                                   "stars": 50, "license_tag": "MIT", "pushed": "2026-10-01"})
+            head, images = text.split("<br>\n  ")
+            self.assertTrue(head.endswith("`2026-10`"))
+            self.assertEqual(
+                images,
+                '<img src="./assets/screenshots/example__gem/1.webp" width="24%" alt="A &amp; B screenshot 1"> '
+                '<img src="./assets/screenshots/example__gem/2.webp" width="24%" alt="A &amp; B screenshot 2">')
 
     def test_client_packaging_is_synchronized(self):
         result = subprocess.run([sys.executable, str(ROOT / "scripts/sync_plugin.py"), "--check"],

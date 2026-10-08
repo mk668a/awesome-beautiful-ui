@@ -51,6 +51,24 @@ class InlineTests(unittest.TestCase):
         self.assertEqual(r.assets, ["assets/hero.png"])
 
 
+    def test_entry_screenshots_render_and_are_collected(self):
+        r = pages.Renderer(repo=REPO)
+        out = r.render(
+            "- [Lenis](https://github.com/x/lenis) - Smooth scrolling. `MIT`<br>\n"
+            '  <img src="./assets/screenshots/x__lenis/1.webp" width="24%" alt="Lenis screenshot 1"> '
+            '<img src="./assets/screenshots/x__lenis/2.webp" width="24%" alt="Lenis screenshot 2">\n'
+            "- [Next](https://github.com/x/next) - Another. `MIT`"
+        )
+        self.assertIn(
+            '<code>MIT</code><br> <a class="shot" href="assets/screenshots/x__lenis/1.webp">'
+            '<img src="assets/screenshots/x__lenis/1.webp" alt="Lenis screenshot 1" loading="lazy"></a>', out)
+        self.assertEqual(out.count("<li>"), 2)
+        self.assertEqual(r.assets, ["assets/screenshots/x__lenis/1.webp", "assets/screenshots/x__lenis/2.webp"])
+
+    def test_other_html_is_still_escaped(self):
+        self.assertEqual(render("a <script>x</script>"), "<p>a &lt;script&gt;x&lt;/script&gt;</p>")
+
+
 class BlockTests(unittest.TestCase):
     def test_heading_anchors_match_github(self):
         out = render("# Awesome Beautiful UI\n\n## Motion and text animation\n## WebGL & creative coding\n## Motion and text animation")

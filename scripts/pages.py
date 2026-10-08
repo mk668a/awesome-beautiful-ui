@@ -34,7 +34,10 @@ INLINE = re.compile(
     r"|(?<![\w*])\*(?!\s)(?P<em_star>.+?)(?<!\s)\*(?![\w*])"
     r"|(?<!\w)_(?!\s)(?P<em_under>.+?)(?<!\s)_(?!\w)"
     r"|<(?P<auto>https?://[^>\s]+)>"
+    r"|(?P<br><br\s*/?>)"
+    r"|<img\s(?P<html_img>[^<>]*)>"
 )
+ATTR = re.compile(r'([\w-]+)="([^"]*)"')
 
 
 def repo_slug(explicit):
@@ -123,6 +126,14 @@ class Renderer:
                 out.append("<strong>%s</strong>" % self.inline(g["bold"]))
             elif g["em_star"] or g["em_under"]:
                 out.append("<em>%s</em>" % self.inline(g["em_star"] or g["em_under"]))
+            elif g["br"]:
+                out.append("<br>")
+            elif g["html_img"]:
+                # The screenshot rows of the list are HTML because Markdown cannot size an image.
+                attrs = dict(ATTR.findall(g["html_img"]))
+                src = html.escape(self.src(html.unescape(attrs.get("src", ""))))
+                out.append('<a class="shot" href="%s"><img src="%s" alt="%s" loading="lazy"></a>' % (
+                    src, src, html.escape(html.unescape(attrs.get("alt", "")))))
             elif g["auto"]:
                 out.append('<a href="%s">%s</a>' % (html.escape(g["auto"]), html.escape(g["auto"])))
         out.append(html.escape(text[pos:], quote=False))
@@ -343,6 +354,8 @@ th, td { text-align: left; vertical-align: top; padding: .5rem .6rem; border-bot
 th { color: var(--muted); font-weight: 600; }
 hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
 img { max-width: 100%; height: auto; }
+a.shot { display: inline-block; width: calc(25% - .4rem); margin: .4rem .15rem .6rem 0; vertical-align: top; }
+a.shot img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 6px; border: 1px solid var(--tag); }
 em { color: var(--muted); }
 .top { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 2rem; font-size: .9rem; color: var(--muted); }
 .top a { color: inherit; }

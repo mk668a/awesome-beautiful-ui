@@ -4,6 +4,8 @@
 
 > Open source UI that is beautiful and still being maintained.
 
+**Browse it as a site: [mk668a.github.io/awesome-beautiful-ui](https://mk668a.github.io/awesome-beautiful-ui/)**
+
 You find a gorgeous shader background or text effect, wire it into your app, and only later notice that the last commit was two years ago. Visual libraries are especially prone to this. Once the effect looks finished, the author moves on, and the next framework release breaks it.
 
 This list covers the web (components, motion, WebGL), the terminal, and the small widgets in between. It has two rules.

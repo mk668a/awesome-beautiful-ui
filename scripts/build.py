@@ -5,6 +5,7 @@ Usage: python3 scripts/build.py
 """
 
 import argparse
+import html
 import json
 import os
 import subprocess
@@ -87,10 +88,25 @@ def license_tag(entry, data):
     return spdx if spdx in PERMISSIVE else spdx + " ⚠"
 
 
+def screenshots(repo):
+    """README-relative paths of an entry's captures, written by scripts/screenshots.py."""
+    folder = ROOT / "assets" / "screenshots" / repo.lower().replace("/", "__")
+    return [p.relative_to(ROOT).as_posix() for p in sorted(folder.glob("[1-9].webp"))]
+
+
 def line(e):
-    return "- [%s](https://github.com/%s) - %s `★ %s` `%s` `%s`" % (
+    text = "- [%s](https://github.com/%s) - %s `★ %s` `%s` `%s`" % (
         e["name"], e["full_name"], e["note"], stars(e["stars"]), e["license_tag"], e["pushed"][:7],
     )
+    shots = screenshots(e["repo"])
+    if not shots:
+        return text
+    # Four to a row. Markdown image syntax cannot set a width, so these are HTML.
+    images = " ".join(
+        '<img src="./%s" width="24%%" alt="%s screenshot %d">' % (path, html.escape(e["name"]), n)
+        for n, path in enumerate(shots, 1)
+    )
+    return text + "<br>\n  " + images
 
 
 def main():
