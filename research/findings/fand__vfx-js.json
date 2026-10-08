@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "repo": "fand/vfx-js",
+  "facts": {
+    "found": true,
+    "repo": "fand/vfx-js",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:01:14+00:00",
+    "stars": 1149,
+    "archived": false,
+    "fork": false,
+    "created": "2019-12-14",
+    "pushed": "2026-09-10",
+    "description": "WebGL effects made easy.",
+    "homepage": "https://amagi.dev/vfx-js",
+    "topics": [
+      "animation",
+      "animations",
+      "creative-coding",
+      "frontend",
+      "frontend-web",
+      "glsl",
+      "image-effect",
+      "image-effects",
+      "javascript",
+      "post-processing",
+      "react",
+      "shader",
+      "shaders",
+      "typescript",
+      "video-effect",
+      "video-effects",
+      "visual-effect",
+      "visual-effects",
+      "web-development",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2020-present The VFX-JS developers\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\nthe Software, and to permit persons to whom the Software is furnished to do so,\nsubject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS"
+    },
+    "rootFiles": [
+      ".changeset",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".husky",
+      ".vscode",
+      ".zed",
+      "CLAUDE.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "biome.json",
+      "docs",
+      "package.json",
+      "packages",
+      "plan.md",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "turbo.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "webgl",
+    "name": "VFX-JS",
+    "note": "Attaches WebGL shader effects such as glitch, RGB shift and rainbow directly to ordinary img, video, div and canvas elements.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "GLSL shader presets attached to plain DOM img elements",
+        "rgbShift chromatic split with scanline tearing",
+        "glitch preset drawing outside element bounds via overflow",
+        "animated rainbow stripe fill"
+      ],
+      "evidenceUrls": [
+        "https://amagi.dev/vfx-js/"
+      ]
+    },
+    "unverified": []
+  }
+}

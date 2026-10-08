@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "repo": "pensarai/apex",
+  "facts": {
+    "found": true,
+    "repo": "pensarai/apex",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:18:42+00:00",
+    "stars": 316,
+    "archived": false,
+    "fork": false,
+    "created": "2025-10-10",
+    "pushed": "2026-10-08",
+    "description": "AI-powered offensive security testing using autonomous agents, directly in your terminal.",
+    "homepage": "https://pensar.dev",
+    "topics": [
+      "agents",
+      "ai",
+      "ai-sdk",
+      "anthropic",
+      "cybersecurity",
+      "offensive-security",
+      "pentesting",
+      "tui",
+      "typescript",
+      "vllm"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "file": "LICENSE",
+      "head": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\nTERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n1.  Definitions.\n    \"License\" shall mean the terms and conditions for use, reproduction,\n    and distribution as defined by Sections 1 through 9 of this document.\n    \"Licensor\" shall mean the copyright owner or entity authorized by\n    the copyright owner that is granting the License.\n    \"Legal Entity\" shall mean the union of the acting entity and all\n    other entities that control, are controlled by, or are under common\n    control with that entity. For the purposes of this definition,"
+    },
+    "rootFiles": [
+      ".agent-instructions",
+      ".agents",
+      ".claude",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".npmignore",
+      ".prettierrc",
+      ".vscode",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "PRODUCT.md",
+      "README.md",
+      "RESPONSIBLE_USE.md",
+      "SECURITY.md",
+      "assets",
+      "benchmarks",
+      "bin",
+      "biome.jsonc",
+      "bun.lock",
+      "bunfig.toml",
+      "container",
+      "decisions",
+      "docs",
+      "examples",
+      "fern",
+      "knip.json",
+      "loader-demo.tsx",
+      "package.json",
+      "pensar.svg",
+      "screenshot.png",
+      "scripts",
+      "src",
+      "tsconfig.json",
+      "tsconfig.lib.json",
+      "vitest.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "Pensar Apex",
+    "note": "Terminal app for AI agent penetration testing, with a green ASCII density-shaded banner over a centered command prompt.",
+    "license": "Apache-2.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "green ASCII density-shaded banner across the top of the home screen"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/pensarai/apex/HEAD/screenshot.png"
+      ]
+    },
+    "unverified": []
+  }
+}

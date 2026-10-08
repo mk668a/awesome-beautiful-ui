@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "repo": "shazow/wifitui",
+  "facts": {
+    "found": true,
+    "repo": "shazow/wifitui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:22:17+00:00",
+    "stars": 343,
+    "archived": false,
+    "fork": false,
+    "created": "2025-08-22",
+    "pushed": "2026-09-24",
+    "description": "Fast featureful friendly wifi terminal UI. 🛜✨",
+    "homepage": null,
+    "topics": [
+      "networkmanager",
+      "tui",
+      "wifi"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2025 Andrey Petrov\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".devcontainer.json",
+      ".github",
+      ".gitignore",
+      ".goreleaser.yaml",
+      "LICENSE",
+      "Makefile",
+      "README.md",
+      "backend.go",
+      "backend_darwin.go",
+      "backend_linux.go",
+      "backend_linux_test.go",
+      "backend_mock.go",
+      "checks",
+      "cli.go",
+      "cli_test.go",
+      "flake.lock",
+      "flake.nix",
+      "go.mod",
+      "go.sum",
+      "internal",
+      "main.go",
+      "main_test.go",
+      "qrwifi",
+      "theme.toml",
+      "wifi"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "wifitui",
+    "note": "Terminal Wi-Fi manager for NetworkManager with gradient-colored signal strength, fuzzy filtering and QR code network sharing.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "signal strength percentage colored on a green-to-orange gradient",
+        "Wi-Fi share QR code rendered as text in the terminal",
+        "saved, visible and out-of-range networks in one list, dimmed with last-connected age"
+      ],
+      "evidenceUrls": [
+        "https://github.com/user-attachments/assets/2a49cc88-4ce0-4532-b7ef-e64d7c3dc888",
+        "https://github.com/shazow/wifitui/blob/HEAD/theme.toml",
+        "https://github.com/shazow/wifitui/blob/HEAD/qrwifi/qrwifi.go"
+      ]
+    },
+    "unverified": []
+  }
+}

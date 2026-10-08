@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "repo": "pmndrs/react-postprocessing",
+  "facts": {
+    "found": true,
+    "repo": "pmndrs/react-postprocessing",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:19:08+00:00",
+    "stars": 1395,
+    "archived": false,
+    "fork": false,
+    "created": "2020-05-07",
+    "pushed": "2026-09-27",
+    "description": "📬  Postprocessing for react-three-fiber",
+    "homepage": "https://docs.pmnd.rs/react-postprocessing",
+    "topics": [
+      "3d",
+      "postprocessing",
+      "react",
+      "react-postprocessing",
+      "react-three-fiber",
+      "threejs",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2020 react-spring\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".node-version",
+      ".npmignore",
+      ".prettierrc",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "bubbles.jpg",
+      "control.jpg",
+      "docs",
+      "eslint.config.mjs",
+      "package.json",
+      "pnpm-lock.yaml",
+      "src",
+      "tsconfig.build.json",
+      "tsconfig.json",
+      "vite.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "webgl",
+    "name": "react-postprocessing",
+    "note": "Postprocessing effects for react-three-fiber, declared as JSX children of an EffectComposer that merges them into one pass.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "JSX effects chain inside EffectComposer, merged into a single EffectPass",
+        "depth of field, bloom, film noise and vignette stacked on a reflective bubbles scene",
+        "33 effect components in src/effects including GodRays, Glitch, ASCII, LensFlare, Water, ShockWave and TiltShift"
+      ],
+      "evidenceUrls": [
+        "https://github.com/pmndrs/react-postprocessing#readme",
+        "https://pmndrs.github.io/examples/bubbles/thumbnail.webp",
+        "https://pmndrs.github.io/examples/take-control/thumbnail.webp",
+        "https://github.com/pmndrs/react-postprocessing/tree/master/src/effects"
+      ]
+    },
+    "unverified": []
+  }
+}

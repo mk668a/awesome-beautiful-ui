@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "repo": "winsznx/bull-rush",
+  "facts": {
+    "found": true,
+    "repo": "winsznx/bull-rush",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:24:28+00:00",
+    "stars": 352,
+    "archived": false,
+    "fork": false,
+    "created": "2026-06-25",
+    "pushed": "2026-07-20",
+    "description": "🐂 BULL RUSH — a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game + Hono/Redis API + dynamic X share cards. Play → trybullrush.xyz",
+    "homepage": "https://trybullrush.xyz",
+    "topics": [
+      "3d",
+      "crypto",
+      "endless-runner",
+      "game",
+      "hono",
+      "memecoin",
+      "react",
+      "react-three-fiber",
+      "redis",
+      "solana",
+      "threejs",
+      "typescript",
+      "vite",
+      "web-game",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 winsznx\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".env.production",
+      ".github",
+      ".gitignore",
+      ".gitleaks.toml",
+      "ASSET_PROVENANCE.md",
+      "LICENSE",
+      "LOCAL-TESTING.md",
+      "README.md",
+      "contracts",
+      "docker-compose.yml",
+      "docs",
+      "functions",
+      "index.html",
+      "package-lock.json",
+      "package.json",
+      "public",
+      "scripts",
+      "server",
+      "src",
+      "tsconfig.json",
+      "vite.config.ts",
+      "vitest.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "app",
+    "section": "webgl",
+    "name": "Bull Rush",
+    "note": "Three-lane 3D endless runner in React Three Fiber with neon bloom lighting and deterministic, replay-verified daily courses.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": false,
+    "signature": {
+      "effects": [
+        "deterministic daily course shared by all players with replay-verified runs",
+        "neon green and violet point lights in fog with bloom and vignette post-processing"
+      ],
+      "evidenceUrls": [
+        "https://github.com/winsznx/bull-rush/blob/main/README.md",
+        "https://github.com/winsznx/bull-rush/blob/main/src/three/Game.tsx"
+      ]
+    },
+    "unverified": [
+      "The game was not seen running: WebFetch of https://trybullrush.xyz returned only the title text, and no browser was allowed in this session.",
+      "The repository has no gameplay screenshots or recordings; the only images viewed (public/og-card.jpg, public/bull-hero.jpg) are promotional key art of a bull, not the game.",
+      "Both signature effects were read from the README and src/three/Game.tsx source, not observed rendered.",
+      "requiresHostedService is false based on the README stating the API client is offline-safe and the game deploys as a static site; this was not tested.",
+      "The README says the production URL serves a pre-migration build, so the live site may differ from the code on main."
+    ]
+  }
+}

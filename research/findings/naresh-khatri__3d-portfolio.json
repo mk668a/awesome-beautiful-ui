@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "repo": "Naresh-Khatri/3d-portfolio",
+  "facts": {
+    "found": true,
+    "repo": "Naresh-Khatri/3d-portfolio",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:17:26+00:00",
+    "stars": 1307,
+    "archived": false,
+    "fork": false,
+    "created": "2024-05-07",
+    "pushed": "2026-10-08",
+    "description": "Interactive 3D developer portfolio with a keyboard where every keycap is a skill. Built with Next.js, React, TypeScript, GSAP & Motion. Free to use!",
+    "homepage": "https://nareshkhatri.dev",
+    "topics": [
+      "3d",
+      "animation",
+      "developer-portfolio",
+      "framer-motion",
+      "gsap",
+      "interactive",
+      "motion",
+      "nextjs",
+      "personal-website",
+      "portfolio",
+      "portfolio-template",
+      "portfolio-website",
+      "react",
+      "shadcn",
+      "spline",
+      "tailwindcss",
+      "threejs-alternative",
+      "typescript"
+    ],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".env.example",
+      ".github",
+      ".gitignore",
+      "README.md",
+      "components.json",
+      "eslint.config.mjs",
+      "next.config.mjs",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "postcss.config.mjs",
+      "public",
+      "src",
+      "tailwind.config.ts",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "template",
+    "section": "webgl",
+    "name": "3D Portfolio",
+    "note": "Next.js portfolio template built around a 3D keyboard whose keycaps are skill logos and which moves between sections on scroll.",
+    "license": "MIT per README; no LICENSE file in repository",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "3D keyboard with a skill logo on every keycap",
+        "keyboard repositions and rotates per page section on scroll",
+        "keycap press and release sounds"
+      ],
+      "evidenceUrls": [
+        "https://github.com/Naresh-Khatri/Portfolio/blob/main/public/assets/projects-screenshots/portfolio/landing.png?raw=true",
+        "https://github.com/Naresh-Khatri/3d-portfolio/blob/HEAD/src/components/keyboard/motion.ts",
+        "https://github.com/Naresh-Khatri/3d-portfolio/blob/HEAD/src/components/keyboard/use-keyboard-sounds.ts",
+        "https://nareshkhatri.dev"
+      ]
+    },
+    "unverified": [
+      "Only a static landing screenshot was viewed; the scroll-driven keyboard motion and keycap sounds were read from source code, not seen or heard running.",
+      "The README says MIT and links to a LICENSE file, but the repository has no LICENSE file and the GitHub license API returns 404."
+    ]
+  }
+}

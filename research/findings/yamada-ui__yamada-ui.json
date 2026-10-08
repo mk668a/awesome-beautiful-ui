@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "repo": "yamada-ui/yamada-ui",
+  "facts": {
+    "found": true,
+    "repo": "yamada-ui/yamada-ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:24:47+00:00",
+    "stars": 1027,
+    "archived": false,
+    "fork": false,
+    "created": "2022-10-06",
+    "pushed": "2026-10-08",
+    "description": "React UI components of the Yamada, by the Yamada, for the Yamada built with React and Emotion.",
+    "homepage": "https://yamada-ui.com",
+    "topics": [
+      "a11y",
+      "animation",
+      "animation-css",
+      "dark-mode",
+      "emotion",
+      "framer-motion",
+      "react",
+      "responsive-design",
+      "ui",
+      "ui-components",
+      "ui-design",
+      "ui-library",
+      "uikit",
+      "yamada-ui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2023 Hirotomo Yamada\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".agents",
+      ".changeset",
+      ".claude",
+      ".commitlintrc",
+      ".github",
+      ".gitignore",
+      ".npmrc",
+      ".nvmrc",
+      ".opencode",
+      "AGENTS.md",
+      "AI_POLICY.ja.md",
+      "AI_POLICY.md",
+      "CLAUDE.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.ja.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.ja.md",
+      "README.md",
+      "SECURITY.md",
+      "codecov.yml",
+      "context7.json",
+      "cspell.json",
+      "lefthook.yaml",
+      "logo",
+      "oxfmt.config.ts",
+      "package.json",
+      "packages",
+      "playgrounds",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "turbo.json",
+      "www"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "components",
+    "name": "Yamada UI",
+    "note": "React component library built on Emotion with about 130 components, including charts, calendar, carousel and motion helpers.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": true,
+    "demoViewed": false,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The components were not seen rendered: the homepage and Airy docs page were read as text only, the repository has no screenshots (only logo PNGs), and the og:image is a plain title card.",
+      "genericCollection is judged from the README (which credits Chakra UI, shadcn/ui, MUI and Mantine as inspiration), the component directory listing and the homepage text, not from seeing the visual design."
+    ]
+  }
+}

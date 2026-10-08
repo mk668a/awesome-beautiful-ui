@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "repo": "Troels51/dtui",
+  "facts": {
+    "found": true,
+    "repo": "Troels51/dtui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:24:01+00:00",
+    "stars": 317,
+    "archived": false,
+    "fork": false,
+    "created": "2022-11-28",
+    "pushed": "2026-08-23",
+    "description": "Small TUI for introspecting the state of the system/session dbus",
+    "homepage": null,
+    "topics": [
+      "dbus",
+      "ratatui",
+      "tui",
+      "zbus"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2024 Troels Hoffmeyer\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".config",
+      ".github",
+      ".gitignore",
+      "Cargo.lock",
+      "Cargo.toml",
+      "LICENSE",
+      "README.md",
+      "TODO.md",
+      "examples",
+      "images",
+      "src"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "dtui",
+    "note": "Terminal browser for D-Bus services with an object tree and a method call form that checks typed arguments.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "method call form whose argument fields turn green when the text parses against the D-Bus type signature",
+        "four-pane layout: services list, collapsible object/interface/method tree, results log, call form with per-argument inputs"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/Troels51/dtui/HEAD/images/dtui.png",
+        "https://github.com/Troels51/dtui#parsing"
+      ]
+    },
+    "unverified": []
+  }
+}

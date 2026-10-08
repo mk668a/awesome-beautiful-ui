@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "repo": "Gamote/lottie-react",
+  "facts": {
+    "found": true,
+    "repo": "Gamote/lottie-react",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:01:15+00:00",
+    "stars": 969,
+    "archived": false,
+    "fork": false,
+    "created": "2020-03-30",
+    "pushed": "2026-09-07",
+    "description": "Lottie animations in React: one component for the easy path, the whole engine when you need control.",
+    "homepage": "https://lottiereact.com",
+    "topics": [
+      "after-effects",
+      "animation",
+      "lottie",
+      "lottie-react",
+      "lottie-web",
+      "react",
+      "react-component",
+      "react-hooks",
+      "typescript"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE.md",
+      "head": "The MIT License (MIT)\nCopyright © 2022 David Gamote\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    "rootFiles": [
+      ".claude",
+      ".github",
+      ".gitignore",
+      ".nvmrc",
+      "CLAUDE.md",
+      "CONTRIBUTING.md",
+      "LICENSE.md",
+      "README.md",
+      "SECURITY.md",
+      "biome.jsonc",
+      "package.json",
+      "patches",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "scripts",
+      "src",
+      "tsconfig.json",
+      "tsdown.config.ts",
+      "vitest.config.ts",
+      "website"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "motion",
+    "name": "lottie-react",
+    "note": "React component and hook for Lottie animations, with scroll-scrubbed playback and a ready-made transport control bar.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "scroll-scrubbed Lottie playhead limited to a range band of the scroll",
+        "drop-in transport control bar with seek, frame readout, loop, direction, speed and fullscreen"
+      ],
+      "evidenceUrls": [
+        "https://lottiereact.com/docs/interactions/scroll-scrubbing",
+        "https://lottiereact.com/docs/player/control-bar",
+        "https://lottiereact.com/docs/examples/compositions",
+        "https://lottiereact.com/docs/examples/interactions"
+      ]
+    },
+    "unverified": []
+  }
+}

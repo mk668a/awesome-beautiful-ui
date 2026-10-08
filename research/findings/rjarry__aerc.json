@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "repo": "rjarry/aerc",
+  "facts": {
+    "found": true,
+    "repo": "rjarry/aerc",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:21:13+00:00",
+    "stars": 302,
+    "archived": false,
+    "fork": false,
+    "created": "2021-11-14",
+    "pushed": "2026-09-29",
+    "description": "Read-only mirror of https://git.sr.ht/~rjarry/aerc. This repository does not accept pull requests. Please send contributions to https://lists.sr.ht/~rjarry/aerc-devel.",
+    "homepage": "https://git.sr.ht/~rjarry/aerc",
+    "topics": [
+      "email",
+      "tui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "Copyright (c) 2018-2019 Drew DeVault\nCopyright (c) 2021-2022 Robin Jarry\nThe MIT License\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR"
+    },
+    "rootFiles": [
+      ".builds",
+      ".codespellrc",
+      ".editorconfig",
+      ".github",
+      ".gitignore",
+      ".golangci.toml",
+      ".mailmap",
+      "CHANGELOG.md",
+      "CONTRIBUTING.md",
+      "GNUmakefile",
+      "LICENSE",
+      "MAINTAINERS",
+      "Makefile",
+      "README.md",
+      "app",
+      "commands",
+      "completer",
+      "config",
+      "contrib",
+      "doc",
+      "filters",
+      "go.mod",
+      "go.sum",
+      "lib",
+      "main.go",
+      "models",
+      "stylesets",
+      "templates",
+      "worker"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "aerc",
+    "note": "Terminal email client that composes mail in an embedded editor tab, tmux-style, with vim-like keybindings and ex commands.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "compose email in an embedded terminal editor inside a tab, tmux-style",
+        "account setup wizard rendered as a terminal form",
+        "vim-style keybindings and ex-command system"
+      ],
+      "evidenceUrls": [
+        "https://aerc-mail.org/aerc-intro.mp4",
+        "https://aerc-mail.org/"
+      ]
+    },
+    "unverified": []
+  }
+}

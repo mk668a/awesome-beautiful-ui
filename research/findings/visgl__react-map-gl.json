@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "repo": "visgl/react-map-gl",
+  "facts": {
+    "found": true,
+    "repo": "visgl/react-map-gl",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:24:26+00:00",
+    "stars": 8504,
+    "archived": false,
+    "fork": false,
+    "created": "2015-10-08",
+    "pushed": "2026-09-03",
+    "description": "React friendly API wrapper around MapboxGL JS",
+    "homepage": "http://visgl.github.io/react-map-gl/",
+    "topics": [
+      "data-visualization",
+      "map",
+      "mapbox-gl",
+      "mapbox-gl-js",
+      "react",
+      "uber",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE",
+      "head": "Copyright Vis.gl contributors.\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".nvmrc",
+      ".ocularrc.js",
+      ".prettierrc",
+      ".yarnrc.yml",
+      "CHANGELOG.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "TESTING.md",
+      "biome.jsonc",
+      "docs",
+      "examples",
+      "index.html",
+      "lerna.json",
+      "modules",
+      "package.json",
+      "scripts",
+      "test",
+      "tsconfig.json",
+      "vitest.config.ts",
+      "website",
+      "yarn.lock"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "webgl",
+    "name": "react-map-gl",
+    "note": "React components that wrap Mapbox GL JS or MapLibre GL JS so the map camera, layers, markers and controls are driven by props.",
+    "license": "MIT, with a BSD-style notice for code taken from Mapbox GL JS",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "fully controlled map camera that never deviates from its React props",
+        "side-by-side maps kept in sync through shared React state"
+      ],
+      "evidenceUrls": [
+        "https://github.com/visgl/react-map-gl/blob/master/docs/README.md",
+        "https://visgl.github.io/react-map-gl/examples",
+        "https://visgl.github.io/react-map-gl/images/examples/side-by-side.jpg"
+      ]
+    },
+    "unverified": []
+  }
+}

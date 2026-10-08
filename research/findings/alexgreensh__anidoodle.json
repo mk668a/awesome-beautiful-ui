@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "repo": "alexgreensh/anidoodle",
+  "facts": {
+    "found": true,
+    "repo": "alexgreensh/anidoodle",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T16:59:56+00:00",
+    "stars": 856,
+    "archived": false,
+    "fork": false,
+    "created": "2026-09-22",
+    "pushed": "2026-10-05",
+    "description": "Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
+    "homepage": "https://alexgreenshpun.com",
+    "topics": [
+      "agent-skills",
+      "animation",
+      "canvas",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "codex-plugin",
+      "creative-code",
+      "creative-coding",
+      "creative-tools",
+      "deterministic",
+      "generative-art",
+      "hand-drawn",
+      "illustration",
+      "launch-video",
+      "motion-design",
+      "motion-graphics",
+      "plugin",
+      "procedural-generation",
+      "skill"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "file": "LICENSE",
+      "head": "Copyright 2026 Alex Greenshpun\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n   1. Definitions.\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common"
+    },
+    "rootFiles": [
+      ".agents",
+      ".claude-plugin",
+      ".codex-plugin",
+      ".gitignore",
+      ".grok-plugin",
+      "LICENSE",
+      "NOTICE",
+      "PRIVACY.md",
+      "README.es-ES.md",
+      "README.fr-FR.md",
+      "README.ja-JP.md",
+      "README.ko-KR.md",
+      "README.md",
+      "README.zh-CN.md",
+      "assets",
+      "plugins",
+      "scripts",
+      "skills"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "motion",
+    "name": "anidoodle",
+    "note": "Agent skill and Node engine that draws illustrations and animations in 31 hand-made styles from deterministic code, each able to film itself being drawn.",
+    "license": "Apache-2.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "pictures that draw themselves stroke by stroke in the order of the medium (woodblock keyblock then colour blocks, pixel art flat shapes then shading)",
+        "31 code-drawn illustration styles such as scratchboard, single-line engraving, embroidery, risograph and sumi-e",
+        "form companion mascot that watches typing, covers its eyes at the password field and cheers on submit"
+      ],
+      "evidenceUrls": [
+        "https://github.com/alexgreensh/anidoodle/blob/HEAD/assets/readme/drawing.gif",
+        "https://github.com/alexgreensh/anidoodle/blob/HEAD/assets/styles.jpg",
+        "https://github.com/alexgreensh/anidoodle/blob/HEAD/assets/readme/interactive.gif",
+        "https://github.com/alexgreensh/anidoodle#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

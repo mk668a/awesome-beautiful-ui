@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "repo": "muhammedaksam/waha-tui",
+  "facts": {
+    "found": true,
+    "repo": "muhammedaksam/waha-tui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:03:32+00:00",
+    "stars": 405,
+    "archived": false,
+    "fork": false,
+    "created": "2025-12-17",
+    "pushed": "2026-10-02",
+    "description": "A beautiful Terminal User Interface for WhatsApp using WAHA (WhatsApp HTTP API). Manage your WhatsApp sessions, chats, and messages directly from your terminal with an intuitive TUI powered by OpenTUI.",
+    "homepage": "https://www.npmjs.com/package/@muhammedaksam/waha-tui",
+    "topics": [
+      "chat",
+      "cli",
+      "messaging",
+      "opentui",
+      "terminal",
+      "tui",
+      "waha",
+      "whatsapp"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2025 Muhammed Mustafa AKŞAM\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".husky",
+      ".markdownlint.json",
+      ".prettierignore",
+      ".prettierrc.js",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "DEVELOPMENT.md",
+      "LICENSE",
+      "README.md",
+      "SECURITY.md",
+      "bun.lock",
+      "commitlint.config.ts",
+      "eslint.config.ts",
+      "package.json",
+      "scripts",
+      "src",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "WAHA TUI",
+    "note": "Terminal WhatsApp client with a WhatsApp Web style two-pane layout, message bubbles with quoted replies, and QR code pairing drawn in the terminal.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "WhatsApp Web style two-pane chat layout in the terminal with icon rail, filter tabs and initials avatars",
+        "right-aligned green message bubbles with nested quoted-reply blocks, timestamps and double-tick read receipts",
+        "full-size QR code pairing screen rendered in terminal cells",
+        "pixel-block wordmark header"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/muhammedaksam/waha-tui/HEAD/.github/media/images/05-main-screen.png",
+        "https://raw.githubusercontent.com/muhammedaksam/waha-tui/HEAD/.github/media/images/06-conversation-view.png",
+        "https://raw.githubusercontent.com/muhammedaksam/waha-tui/HEAD/.github/media/images/03-qr-code-login.png"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "repo": "chojs23/ec",
+  "facts": {
+    "found": true,
+    "repo": "chojs23/ec",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:00:49+00:00",
+    "stars": 313,
+    "archived": false,
+    "fork": false,
+    "created": "2026-01-31",
+    "pushed": "2026-09-11",
+    "description": "Terminal-native 3-way git mergetool and diff viewer",
+    "homepage": "https://github.com/chojs23/ec",
+    "topics": [
+      "cli",
+      "conflict",
+      "conflict-resolution",
+      "diff-tool",
+      "diff-viewer",
+      "diff3",
+      "git",
+      "go",
+      "golang",
+      "merge-conflict",
+      "mergetool",
+      "neovim",
+      "terminal",
+      "tui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2024-2026 chojs23\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "Makefile",
+      "README.md",
+      "assets",
+      "cmd",
+      "codecov.yml",
+      "flake.lock",
+      "flake.nix",
+      "go.mod",
+      "go.sum",
+      "internal",
+      "lua",
+      "nix",
+      "npm",
+      "plugin",
+      "scripts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "ec",
+    "note": "Terminal Git conflict resolver with ours, result and theirs panes, a live preview of the pending resolution, and a split or unified diff viewer.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "three-pane ours / result / theirs conflict resolver with syntax highlighting",
+        "result pane previews the selected side before it is applied (\"Preview: OURS, not applied\")",
+        "side-by-side old/new commit diff viewer with a file explorer pane"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/chojs23/ec/main/assets/conflict-resolver.png",
+        "https://raw.githubusercontent.com/chojs23/ec/main/assets/diff-viewer.png",
+        "https://github.com/chojs23/ec#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

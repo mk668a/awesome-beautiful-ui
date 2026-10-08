@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "repo": "sazardev/shiki",
+  "facts": {
+    "found": true,
+    "repo": "sazardev/shiki",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:21:42+00:00",
+    "stars": 324,
+    "archived": false,
+    "fork": false,
+    "created": "2026-07-23",
+    "pushed": "2026-10-08",
+    "description": "TUI note-taking app in Rust — Yazi-style navigation, notebooks as independent git repos, real per-note version history, themes, and fast fuzzy search.",
+    "homepage": "https://sazardev.github.io/shiki/",
+    "topics": [
+      "cli",
+      "git",
+      "markdown",
+      "note-taking",
+      "notes",
+      "productivity",
+      "ratatui",
+      "rust",
+      "terminal",
+      "tui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Omar\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".cargo",
+      ".github",
+      ".gitignore",
+      ".opencode",
+      "AGENTS.md",
+      "CHANGELOG.md",
+      "CLAUDE.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "Cargo.lock",
+      "Cargo.toml",
+      "IDEA.md",
+      "LICENSE",
+      "README.md",
+      "SECURITY.md",
+      "browser-extension",
+      "bucket",
+      "contrib",
+      "docs",
+      "nix",
+      "packaging",
+      "scripts",
+      "shiki-cli",
+      "shiki-config",
+      "shiki-core",
+      "shiki-desktop",
+      "shiki-mcp",
+      "shiki-native-host",
+      "shiki-tui"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "shiki",
+    "note": "Terminal note-taking app with a three-pane Miller-column browser, rendered Markdown preview, and git branch and commit controls per notebook.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "three-pane Miller-column notes browser (notebooks, notes, rendered Markdown preview) in the terminal",
+        "git state per notebook in the status bar (branch and pending change count) with an in-app commit prompt",
+        "built-in themes that recolor the whole TUI (Gruvbox Dark and Cyberpunk 2077 screenshots compared)"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/sazardev/shiki/HEAD/docs/assets/screenshots/gruvbox-dark.png",
+        "https://raw.githubusercontent.com/sazardev/shiki/HEAD/docs/assets/screenshots/Cyberpunk%202077.png",
+        "https://raw.githubusercontent.com/sazardev/shiki/HEAD/docs/assets/demo.gif",
+        "https://sazardev.github.io/shiki/"
+      ]
+    },
+    "unverified": []
+  }
+}

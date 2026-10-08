@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "repo": "nikolic-milos/ratatui-hypertile",
+  "facts": {
+    "found": true,
+    "repo": "nikolic-milos/ratatui-hypertile",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:04:01+00:00",
+    "stars": 314,
+    "archived": false,
+    "fork": false,
+    "created": "2026-03-06",
+    "pushed": "2026-10-01",
+    "description": "Hyprland-inspired BSP tiling for Ratatui 🐀",
+    "homepage": "https://crates.io/crates/ratatui-hypertile",
+    "topics": [
+      "cli",
+      "ratatui",
+      "rust",
+      "terminal",
+      "terminal-user-interface",
+      "tui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Miloš Nikolić\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".rules",
+      "AGENTS.md",
+      "AI_POLICY.md",
+      "Cargo.lock",
+      "Cargo.toml",
+      "LICENSE",
+      "README.md",
+      "assets",
+      "examples",
+      "extras",
+      "src"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "terminal",
+    "name": "ratatui-hypertile",
+    "note": "Hyprland-style BSP tiling for Ratatui apps, with animated pane moves, mouse-dragged split borders and a plugin palette.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Hyprland-style BSP pane tiling inside a single Ratatui app",
+        "panes glide between tiles when moved, shown mid-transition in the recording",
+        "split borders resized by hovering and dragging with the mouse",
+        "command palette that fuzzy-picks a plugin to fill a newly split pane"
+      ],
+      "evidenceUrls": [
+        "https://github.com/nikolic-milos/ratatui-hypertile/blob/HEAD/assets/showcase.gif",
+        "https://github.com/nikolic-milos/ratatui-hypertile#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

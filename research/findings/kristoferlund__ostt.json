@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "repo": "kristoferlund/ostt",
+  "facts": {
+    "found": true,
+    "repo": "kristoferlund/ostt",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:02:02+00:00",
+    "stars": 303,
+    "archived": false,
+    "fork": false,
+    "created": "2025-11-27",
+    "pushed": "2026-10-01",
+    "description": "Open source voice-to-text for the terminal. Record from a hotkey, transcribe with any provider, pipe to AI or shell commands.",
+    "homepage": "https://ostt.ai",
+    "topics": [
+      "dictation",
+      "hyprland",
+      "linux",
+      "omarchy",
+      "ratatui",
+      "rust",
+      "speech-to-text",
+      "transcription",
+      "tui",
+      "voice-input",
+      "wayland"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2025 Kristofer Lund\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".cargo",
+      ".github",
+      ".gitignore",
+      "AGENTS.md",
+      "CHANGELOG.md",
+      "Cargo.lock",
+      "Cargo.toml",
+      "LICENSE",
+      "PROMPT.md",
+      "README.md",
+      "RELEASE.md",
+      "build.rs",
+      "dist-workspace.toml",
+      "environments",
+      "loop.sh",
+      "ostt.png",
+      "specs",
+      "src"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "OSTT",
+    "note": "Terminal voice-to-text popup that draws a live mirrored waveform while recording, then pastes the transcript.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "live mirrored audio waveform drawn in a small terminal popup while recording",
+        "hotkey popup that records, shows a transcribing state, then drops the text into the focused editor"
+      ],
+      "evidenceUrls": [
+        "https://github.com/user-attachments/assets/8df8afb8-04f6-44d7-8cf3-8e40c4816d40",
+        "https://github.com/kristoferlund/ostt#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

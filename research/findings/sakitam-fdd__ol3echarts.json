@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "repo": "sakitam-fdd/ol3Echarts",
+  "facts": {
+    "found": true,
+    "repo": "sakitam-fdd/ol3Echarts",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:21:41+00:00",
+    "stars": 333,
+    "archived": false,
+    "fork": false,
+    "created": "2017-02-14",
+    "pushed": "2026-09-11",
+    "description": ":earth_asia: :bar_chart: ol3Echarts | a openlayers extension to echarts",
+    "homepage": "https://sakitam-fdd.github.io/ol3Echarts",
+    "topics": [
+      "canvas",
+      "echarts",
+      "gis",
+      "karma",
+      "map",
+      "openlayers",
+      "react",
+      "rollup",
+      "webgl",
+      "webpack"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE",
+      "head": "The MIT License (MIT)\nCopyright (c) 2017 FDD\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\nthe Software, and to permit persons to whom the Software is furnished to do so,\nsubject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS"
+    },
+    "rootFiles": [
+      ".changeset",
+      ".editorconfig",
+      ".eslintignore",
+      ".eslintrc.cjs",
+      ".github",
+      ".gitignore",
+      ".npmrc",
+      ".nvmrc",
+      ".prettierignore",
+      ".prettierrc.js",
+      "AGENTS.md",
+      "CHANGELOG.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "docs",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "tsconfig.eslint.json",
+      "tsconfig.json",
+      "turbo.json",
+      "vitest.config.ts",
+      "vitest.workspace.json",
+      "vitest"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "gems",
+    "name": "ol3Echarts",
+    "note": "Overlays Apache ECharts series such as migration lines and scatter points on an OpenLayers map, keeping view and coordinates in sync.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "ECharts chart layer overlaid on an OpenLayers map in map coordinates",
+        "curved migration routes with plane markers between cities on a dark basemap",
+        "dense glowing point cloud of check-in data lighting up a country map"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/sakitam-fdd/ol3Echarts/master/docs/static/images/mock-migration.jpg",
+        "https://raw.githubusercontent.com/sakitam-fdd/ol3Echarts/master/docs/static/images/wchart-gl.jpg",
+        "https://raw.githubusercontent.com/sakitam-fdd/ol3Echarts/master/docs/static/images/scatter.jpg",
+        "https://blog.sakitam.com/ol3Echarts"
+      ]
+    },
+    "unverified": []
+  }
+}

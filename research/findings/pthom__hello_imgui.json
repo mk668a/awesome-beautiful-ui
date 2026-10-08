@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "repo": "pthom/hello_imgui",
+  "facts": {
+    "found": true,
+    "repo": "pthom/hello_imgui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:19:53+00:00",
+    "stars": 918,
+    "archived": false,
+    "fork": false,
+    "created": "2020-06-07",
+    "pushed": "2026-10-08",
+    "description": "Dear ImGui apps made simple: desktop, mobile, and web from one codebase. Minimal code. Maximally readable.",
+    "homepage": "https://pthom.github.io/hello_imgui",
+    "topics": [
+      "android",
+      "cpp",
+      "creative-coding",
+      "cross-platform",
+      "emscripten",
+      "gui",
+      "hello-world",
+      "imgui",
+      "immediate-gui",
+      "ios",
+      "linux",
+      "metal",
+      "mobile",
+      "opengl",
+      "osx",
+      "research",
+      "windows"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "The MIT License (MIT)\nCopyright (c) 2019-2020 Pascal Thomet\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".clang-format",
+      ".clang-tidy",
+      ".github",
+      ".gitignore",
+      ".gitmodules",
+      ".gitpod.yml",
+      "CMakeLists.txt",
+      "CMakePresets.json",
+      "Changelog.md",
+      "Default-568h@2x.png",
+      "LICENSE",
+      "README.md",
+      "README.src.md",
+      "_example_integration",
+      "cmake",
+      "docs_src",
+      "external",
+      "hello_imgui_assets",
+      "hello_imgui_cmake",
+      "hello_imgui_example.ini",
+      "justfile",
+      "logo",
+      "src",
+      "tools",
+      "vcpkg-configuration.json",
+      "vcpkg.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "widgets",
+    "name": "Hello ImGui",
+    "note": "C++ wrapper around Dear ImGui that runs one codebase on desktop, mobile and web, with docking layouts, themes and a custom 3D background.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Dear ImGui parameter panel drawn over a full-window animated shader background (Seascape ocean shader in the demo)",
+        "dockable multi-panel application layout with a status bar and log pane set up by the framework"
+      ],
+      "evidenceUrls": [
+        "https://github.com/pthom/hello_imgui/blob/master/docs_src/images/custom_background.jpg?raw=true",
+        "https://github.com/pthom/hello_imgui/blob/master/docs_src/images/docking.jpg?raw=true"
+      ]
+    },
+    "unverified": [
+      "Only small static README screenshots were viewed (400x201 custom background, 200x134 docking, 250x148 manual); the online Emscripten demos were not run, so motion and interaction were not observed.",
+      "The homepage https://pthom.github.io/hello_imgui returned empty content to WebFetch, so the documentation site was not read.",
+      "Additional themes, borderless movable windows, power save mode, high DPI scaling and emoji or colored fonts are README claims and were not seen.",
+      "The ocean shader in the custom background screenshot is credited in the image to Alexander Alekseev (TDM, 2014), so the visual itself is third-party; the library's own part is hosting a custom background behind the widgets."
+    ]
+  }
+}

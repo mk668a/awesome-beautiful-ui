@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "repo": "margelo/react-native-graph",
+  "facts": {
+    "found": true,
+    "repo": "margelo/react-native-graph",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:02:36+00:00",
+    "stars": 2632,
+    "archived": false,
+    "fork": false,
+    "created": "2022-04-29",
+    "pushed": "2026-09-17",
+    "description": "📈 Beautiful, high-performance Graphs and Charts for React Native built with Skia",
+    "homepage": "https://margelo.com",
+    "topics": [
+      "android",
+      "animated",
+      "animation",
+      "beautiful",
+      "chart",
+      "charts",
+      "crypto",
+      "graph",
+      "graphs",
+      "ios",
+      "library",
+      "linegraph",
+      "performance",
+      "react",
+      "react-native",
+      "skia",
+      "stock",
+      "svg",
+      "wallet"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Marc Rousavy\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".editorconfig",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".nvmrc",
+      ".watchmanconfig",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "babel.config.js",
+      "bun.lock",
+      "bunfig.toml",
+      "eslint.config.mjs",
+      "example",
+      "img",
+      "package.json",
+      "package",
+      "tsconfig.base.json",
+      "tsconfig.json",
+      "turbo.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "motion",
+    "name": "react-native-graph",
+    "note": "Skia line graph for React Native that morphs between data ranges and dims the line ahead of your finger while you scrub.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "line path morphing between time ranges",
+        "scrub gesture that fades the line ahead of the finger and tracks it with a haloed selection dot",
+        "min and max value labels pinned to the curve's extremes"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/margelo/react-native-graph/main/img/change.gif",
+        "https://raw.githubusercontent.com/margelo/react-native-graph/main/img/pan.gif",
+        "https://raw.githubusercontent.com/margelo/react-native-graph/main/img/selection-dot.jpeg",
+        "https://raw.githubusercontent.com/margelo/react-native-graph/main/img/demo.gif",
+        "https://github.com/margelo/react-native-graph#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

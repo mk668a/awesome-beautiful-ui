@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "repo": "ibelick/ui-skills",
+  "facts": {
+    "found": true,
+    "repo": "ibelick/ui-skills",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:01:17+00:00",
+    "stars": 9507,
+    "archived": false,
+    "fork": false,
+    "created": "2026-01-07",
+    "pushed": "2026-10-07",
+    "description": "Skills for Design Engineers",
+    "homepage": "https://www.ui-skills.com/",
+    "topics": [
+      "skills",
+      "ui-skills"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Julien Thibeaut\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".dev.vars.example",
+      ".env.example",
+      ".github",
+      ".gitignore",
+      ".prettierignore",
+      ".prettierrc.json",
+      ".vscode",
+      "AGENTS.md",
+      "DESIGN.md",
+      "LICENSE",
+      "README.md",
+      "astro.config.mjs",
+      "bin",
+      "package-lock.json",
+      "package.json",
+      "public",
+      "scripts",
+      "skills",
+      "src",
+      "tests",
+      "tsconfig.json",
+      "wrangler.jsonc"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "list",
+    "section": "gems",
+    "name": "UI Skills",
+    "note": "Curated registry of agent skills for design engineering, browsable on the web, from a CLI and over MCP, with a playbook of short UI lessons.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "curated registry of design engineering agent skills from many authors, served through a CLI and an MCP endpoint",
+        "baseline-ui skill: MUST/SHOULD/NEVER constraint list an agent applies to UI code (compositor-only animation, 200ms feedback cap, h-dvh, text-balance)",
+        "playbook of one-line UI lessons distilled from the skills (inner radius = outer radius minus padding, 0.96 press scale, 44px touch targets)"
+      ],
+      "evidenceUrls": [
+        "https://www.ui-skills.com/",
+        "https://www.ui-skills.com/playbook",
+        "https://github.com/ibelick/ui-skills/blob/main/skills/baseline-ui/SKILL.md",
+        "https://github.com/ibelick/ui-skills/blob/main/bin/ui-skills.ts"
+      ]
+    },
+    "unverified": []
+  }
+}

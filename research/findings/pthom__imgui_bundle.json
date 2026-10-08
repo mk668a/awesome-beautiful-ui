@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "repo": "pthom/imgui_bundle",
+  "facts": {
+    "found": true,
+    "repo": "pthom/imgui_bundle",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:20:02+00:00",
+    "stars": 1373,
+    "archived": false,
+    "fork": false,
+    "created": "2022-07-05",
+    "pushed": "2026-10-08",
+    "description": "Interactive Python & C++ apps for desktop, mobile, and web - powered by Dear ImGui. Stop fighting GUI frameworks. Start building.",
+    "homepage": "https://imgui-bundle.pages.dev",
+    "topics": [
+      "cpp",
+      "creative-coding",
+      "imgui",
+      "immediate-gui",
+      "jupyter-notebook",
+      "python3",
+      "research-and-development"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "The MIT License (MIT)\nCopyright (c) 2021-2023 Pascal Thomet\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".claude",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".gitmodules",
+      ".pre-commit-config.yaml",
+      "AGENTS.md",
+      "CHANGELOG.md",
+      "CLAUDE.md",
+      "CMakeLists.txt",
+      "CMakePresets.json",
+      "LICENSE",
+      "Readme.md",
+      "_example_integration",
+      "bindings",
+      "ci_scripts",
+      "cloudflare",
+      "docs",
+      "external",
+      "hello_imgui_example.ini",
+      "imgui_bundle_assets",
+      "imgui_bundle_cmake",
+      "justfile",
+      "litgen_imconfig.h",
+      "logo",
+      "pybind_native_debug",
+      "pyodide_projects",
+      "pyproject.toml",
+      "pytest.ini",
+      "requirements-dev.txt",
+      "tests"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "components",
+    "name": "Dear ImGui Bundle",
+    "note": "Dear ImGui packaged with plotting, node editor and image tools for C++ and Python, with a demo explorer that shows each demo's source.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "demo explorer app with tabs per bundled library and view-sources / view-docs buttons beside each demo",
+        "Dear ImGui, ImPlot, node editor and other add-ons bundled under matching C++ and Python APIs"
+      ],
+      "evidenceUrls": [
+        "https://imgui-bundle.pages.dev/resources/bundle_explorer_vid.gif",
+        "https://github.com/pthom/imgui_bundle",
+        "https://imgui-bundle.pages.dev"
+      ]
+    },
+    "unverified": []
+  }
+}

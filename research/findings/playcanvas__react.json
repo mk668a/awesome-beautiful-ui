@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "repo": "playcanvas/react",
+  "facts": {
+    "found": true,
+    "repo": "playcanvas/react",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:19:07+00:00",
+    "stars": 537,
+    "archived": false,
+    "fork": false,
+    "created": "2024-10-11",
+    "pushed": "2026-09-28",
+    "description": "Build 3D apps with React",
+    "homepage": "https://developer.playcanvas.com/user-manual/react/",
+    "topics": [
+      "3d",
+      "gaussian",
+      "react",
+      "splats",
+      "webgl",
+      "webgpu"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2011-2026 PlayCanvas Ltd.\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".changeset",
+      ".github",
+      ".gitignore",
+      ".npmrc",
+      "LICENSE",
+      "README.md",
+      "eslint.config.mjs",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "prettier.config.mjs",
+      "renovate.json",
+      "tsconfig.json",
+      "vitest.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "webgl",
+    "name": "@playcanvas/react",
+    "note": "React components for the PlayCanvas 3D engine, with built-in physics, pointer events, asset loading and Gaussian splat rendering.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Gaussian splat rendering as a JSX component (<GSplat> with useSplat for PLY/SOG files)",
+        "declarative entity-component 3D scenes in JSX on the PlayCanvas engine (Application, Entity, Camera, Render)",
+        "pointer-pushed rigid bodies in zero gravity from built-in physics"
+      ],
+      "evidenceUrls": [
+        "https://developer.playcanvas.com/user-manual/react/api/gsplat/",
+        "https://github.com/playcanvas/react#readme",
+        "https://developer.playcanvas.com/user-manual/react/examples/",
+        "https://github.com/user-attachments/assets/084fc21a-8efa-4967-9e50-e9520a627e8c"
+      ]
+    },
+    "unverified": [
+      "No example was seen running: only static README screenshots were viewed (hero skull render, Motion example, Physics example), so motion, spring animation and pointer interaction are taken from the docs text.",
+      "No Gaussian splat output was seen; the GSplat component is documented in the API page but no image of its rendering was viewed."
+    ]
+  }
+}

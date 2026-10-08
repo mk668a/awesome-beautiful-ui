@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "repo": "asdfghj1237890/mini-macau",
+  "facts": {
+    "found": true,
+    "repo": "asdfghj1237890/mini-macau",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T16:59:56+00:00",
+    "stars": 636,
+    "archived": false,
+    "fork": false,
+    "created": "2026-04-16",
+    "pushed": "2026-10-08",
+    "description": "Trilingual 3D visualization of Macau's public transit and aviation — LRT, buses, ferries, and MFM airport flights with schedule-driven simulation",
+    "homepage": "https://mini-map-macau.app",
+    "topics": [
+      "3d-visualization",
+      "aviation",
+      "bus",
+      "ferry",
+      "i18n",
+      "lrt",
+      "macau",
+      "maplibre",
+      "openstreetmap",
+      "react",
+      "real-time",
+      "simulation",
+      "tailwindcss",
+      "transit",
+      "typescript",
+      "vite",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 asdfghj1237890\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".claude",
+      ".github",
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "assets",
+      "data",
+      "docs",
+      "eslint.config.js",
+      "functions",
+      "index.html",
+      "package-lock.json",
+      "package.json",
+      "plugins",
+      "public",
+      "scripts",
+      "server",
+      "src",
+      "thank-you.html",
+      "tsconfig.app.json",
+      "tsconfig.functions.json",
+      "tsconfig.json",
+      "tsconfig.node.json",
+      "vite.config.ts",
+      "wrangler.jsonc"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "app",
+    "section": "webgl",
+    "name": "Mini Map Macau",
+    "note": "3D map of Macau where LRT trains, buses, ferries and flights move along real routes from timetables, with a time scrubber.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "timetable-driven 3D vehicles (LRT, buses, ferries, aircraft) moving along real route geometry on a dark extruded city map",
+        "bottom time scrubber with 1x to 60x playback speed and a service-density strip",
+        "click-to-follow vehicle view with a per-line station timetable panel"
+      ],
+      "evidenceUrls": [
+        "https://github.com/asdfghj1237890/mini-macau/releases/download/readme-assets-v1/demo-01.gif",
+        "https://github.com/asdfghj1237890/mini-macau/releases/download/readme-assets-v1/demo-02.gif",
+        "https://mini-map-macau.app/og-image.png"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "repo": "Andarius/piou",
+  "facts": {
+    "found": true,
+    "repo": "Andarius/piou",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T16:59:56+00:00",
+    "stars": 315,
+    "archived": false,
+    "fork": false,
+    "created": "2021-12-10",
+    "pushed": "2026-10-02",
+    "description": "A CLI tool to build beautiful rich text command-line interfaces with type validation.",
+    "homepage": "https://andarius.github.io/piou/",
+    "topics": [
+      "cli",
+      "commad-line",
+      "python",
+      "shell",
+      "terminal",
+      "tui",
+      "typehints"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "The MIT License (MIT)\nCopyright (c) 2018 Julien Brayere\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".pre-commit-config.yaml",
+      "AGENTS.md",
+      "CHANGELOG.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "bin",
+      "docs",
+      "examples",
+      "mkdocs.yml",
+      "piou",
+      "pyproject.toml",
+      "tests",
+      "uv.lock"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "terminal",
+    "name": "Piou",
+    "note": "Python CLI library whose typed commands also run as a slash-command TUI with live suggestions and argument hints.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "slash-command TUI mode generated from the same typed CLI definition, with a filtered suggestion list and inline usage/argument hints under the prompt",
+        "Poetry-style Rich help output with uppercase section headings and colored command names"
+      ],
+      "evidenceUrls": [
+        "https://github.com/Andarius/piou/raw/master/docs/static/tui-demo.gif",
+        "https://github.com/Andarius/piou/raw/master/docs/static/tui-help.gif",
+        "https://github.com/Andarius/piou/raw/master/docs/static/simple-output.svg",
+        "https://andarius.github.io/piou/"
+      ]
+    },
+    "unverified": []
+  }
+}

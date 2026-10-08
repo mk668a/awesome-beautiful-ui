@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "repo": "kuraydev/react-native-dynamic-search-bar",
+  "facts": {
+    "found": true,
+    "repo": "kuraydev/react-native-dynamic-search-bar",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:02:09+00:00",
+    "stars": 480,
+    "archived": false,
+    "fork": false,
+    "created": "2019-03-28",
+    "pushed": "2026-08-16",
+    "description": "Medium Article: https://freakycoder.com/react-native-library-dynamic-search-bar-c03fea9fae36",
+    "homepage": null,
+    "topics": [
+      "android",
+      "animation",
+      "customizable-dynamic-search",
+      "ios",
+      "mobile",
+      "mobile-app",
+      "mobile-development",
+      "react",
+      "react-native",
+      "react-native-component",
+      "react-native-dynamic-search-bar",
+      "react-native-search-bar",
+      "search-bar"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2019 FreakyCoder\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".commitlintrc.json",
+      ".eslintignore",
+      ".eslintrc.js",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".husky",
+      ".npmignore",
+      ".prettierignore",
+      ".prettierrc.js",
+      ".watchmanconfig",
+      "CHANGELOG.md",
+      "LICENSE",
+      "README.md",
+      "assets",
+      "example",
+      "lib",
+      "package.json",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "components",
+    "name": "React Native Dynamic Search Bar",
+    "note": "React Native search bar whose search icon turns into a loading spinner while results are fetched.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

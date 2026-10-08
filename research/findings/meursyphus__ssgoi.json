@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "repo": "meursyphus/ssgoi",
+  "facts": {
+    "found": true,
+    "repo": "meursyphus/ssgoi",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:03:14+00:00",
+    "stars": 993,
+    "archived": false,
+    "fork": false,
+    "created": "2023-11-17",
+    "pushed": "2026-10-07",
+    "description": "animated page transition for major ssr frameworks and browsers, including Safari",
+    "homepage": "https://ssgoi.dev",
+    "topics": [
+      "animation",
+      "nextjs",
+      "page-animation",
+      "react",
+      "svelte",
+      "sveltekit",
+      "view-transitions"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 MeurSyphus\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".agents",
+      ".claude-plugin",
+      ".claude",
+      ".gitignore",
+      ".husky",
+      ".npmrc",
+      ".prettierrc",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "LICENSE",
+      "README.md",
+      "apps",
+      "package.json",
+      "packages",
+      "plans",
+      "plugins",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "research",
+      "scripts",
+      "ssgoi.gif",
+      "templates",
+      "wrangler.jsonc"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "motion",
+    "name": "SSGOI",
+    "note": "Page transition library that gives web apps native-style drill, sheet, zoom and film navigation using the Web Animations API.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "zoom page transition where the detail page unfolds from the tapped thumbnail while the list blurs out",
+        "sheet transition that slides a page up over a blurred, dimmed previous page",
+        "drill transition that slides the next page in over the previous one like native stack navigation",
+        "film transition that shrinks the page into a framed strip and scrolls to the next scene",
+        "spring physics precomputed into Web Animations API keyframes instead of the View Transition API"
+      ],
+      "evidenceUrls": [
+        "https://github.com/meursyphus/ssgoi/blob/main/apps/docs/public/blog/view-transition-api-limitations/zoom-blur.gif",
+        "https://github.com/meursyphus/ssgoi/blob/main/apps/docs/public/blog/view-transition-api-limitations/sheet-blur-full.gif",
+        "https://github.com/meursyphus/ssgoi/blob/main/apps/docs/public/readme-drill.gif",
+        "https://github.com/meursyphus/ssgoi/blob/main/apps/docs/public/blog/view-transition-api-limitations/film.gif",
+        "https://github.com/meursyphus/ssgoi#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

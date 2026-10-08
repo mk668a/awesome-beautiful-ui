@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "repo": "bikeshaving/termdom",
+  "facts": {
+    "found": true,
+    "repo": "bikeshaving/termdom",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:00:27+00:00",
+    "stars": 326,
+    "archived": false,
+    "fork": false,
+    "created": "2025-08-22",
+    "pushed": "2026-10-08",
+    "description": "Build terminal apps with HTML, CSS and DOM.",
+    "homepage": "https://termdom.org",
+    "topics": [
+      "ansi",
+      "bun",
+      "cli",
+      "deno",
+      "dom",
+      "javascript",
+      "node",
+      "terminal",
+      "tui",
+      "typescript"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Brian Kim\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      "COMPATIBILITY.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "bun.lock",
+      "docs",
+      "eslint.config.js",
+      "examples",
+      "fuzz",
+      "package.json",
+      "scripts",
+      "src",
+      "tests",
+      "tsconfig.json",
+      "website"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "terminal",
+    "name": "TermDOM",
+    "note": "Renders real HTML, CSS and DOM nodes to terminal cells, so TUIs are written like web pages and repaint on mutation.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "HTML and CSS rendered to a terminal character grid through a real DOM and CSS cascade",
+        "automatic repaint on DOM mutation with no render call",
+        "CSS box model, flexbox and grid layout computed in whole terminal cells (Klondike solitaire board with stacked cards)"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/bikeshaving/termdom/HEAD/docs/solitaire.gif",
+        "https://raw.githubusercontent.com/bikeshaving/termdom/HEAD/docs/readme.gif",
+        "https://termdom.org",
+        "https://github.com/bikeshaving/termdom"
+      ]
+    },
+    "unverified": []
+  }
+}

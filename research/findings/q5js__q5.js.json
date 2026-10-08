@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "repo": "q5js/q5.js",
+  "facts": {
+    "found": true,
+    "repo": "q5js/q5.js",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:20:16+00:00",
+    "stars": 422,
+    "archived": false,
+    "fork": false,
+    "created": "2023-02-07",
+    "pushed": "2026-10-02",
+    "description": "Beginner friendly graphics powered by WebGPU, optimized for interactive art!",
+    "homepage": "https://q5js.org",
+    "topics": [
+      "art",
+      "creative-coding",
+      "design",
+      "education",
+      "generative-art",
+      "graphics",
+      "interactive-art",
+      "p5",
+      "p5js",
+      "p5xjs",
+      "q5",
+      "q5js",
+      "q5xjs"
+    ],
+    "license": {
+      "spdx": "LGPL-3.0",
+      "file": "LICENSE.md",
+      "head": "# GNU LESSER GENERAL PUBLIC LICENSE\nVersion 3, 29 June 2007\nCopyright (C) 2007 Free Software Foundation, Inc.\n<https://fsf.org/>\nEveryone is permitted to copy and distribute verbatim copies of this\nlicense document, but changing it is not allowed.\nThis version of the GNU Lesser General Public License incorporates the\nterms and conditions of version 3 of the GNU General Public License,\nsupplemented by the additional permissions listed below.\n## 0. Additional Definitions.\nAs used herein, \"this License\" refers to version 3 of the GNU Lesser\nGeneral Public License, and the \"GNU GPL\" refers to version 3 of the"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".npmignore",
+      ".prettierignore",
+      ".vscode",
+      "CNAME",
+      "CODE_OF_CONDUCT.md",
+      "LICENSE.md",
+      "README.md",
+      "assets",
+      "builtinFonts",
+      "defs",
+      "deno.json",
+      "dev",
+      "fonts",
+      "home",
+      "index.html",
+      "lang",
+      "learn",
+      "package.json",
+      "py.typed",
+      "q5-deno-server.js",
+      "q5-server.js",
+      "q5.d.ts",
+      "q5.js",
+      "q5.min.js",
+      "q5.min.js.map",
+      "q5.pyi",
+      "q5js_brand.avif",
+      "q5js_icon.png",
+      "q5js_logo.avif",
+      "src",
+      "teach",
+      "test"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "webgl",
+    "name": "q5.js",
+    "note": "Creative coding library with a p5.js-style API that draws 2D sketches through a WebGPU renderer and custom WGSL shaders.",
+    "license": "LGPL-3.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "p5.js-compatible sketch API rendered through WebGPU",
+        "MSDF text rendering in a WGSL text shader",
+        "user-replaceable shape, image, text, frame and video shaders (createShapesShader and siblings)",
+        "top-level await Canvas() sketch format without preload or setup",
+        "homepage hero sketch of draggable noise-deformed lava blobs"
+      ],
+      "evidenceUrls": [
+        "https://github.com/q5js/q5.js/blob/main/src/q5-webgpu.js",
+        "https://github.com/q5js/q5.js/tree/main/src/shaders",
+        "https://github.com/q5js/q5.js/blob/main/home/index.html",
+        "https://github.com/q5js/q5.js/blob/main/home/home.js",
+        "https://youtu.be/RHTXMsy8gjI",
+        "https://i.ytimg.com/vi/RHTXMsy8gjI/maxresdefault.jpg"
+      ]
+    },
+    "unverified": [
+      "The only visual seen was one frame (the YouTube thumbnail) of the project's v4.0 release video, showing warped and motion-blurred numeral 4 glyphs on a light blue background; that this frame was rendered with q5 is inferred from it being the project's release video.",
+      "q5js.org and q5js.org/learn are rendered client side and returned no content to WebFetch, so the live homepage sketch and interactive docs examples were not seen running; the signature effects are taken from the repository source and homepage HTML, not from watching them.",
+      "The homepage claims of SDF shape rendering, HDR colors by default and being 100x faster than p5.js were read as claims only and not confirmed."
+    ]
+  }
+}

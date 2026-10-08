@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "repo": "ddoemonn/interior",
+  "facts": {
+    "found": true,
+    "repo": "ddoemonn/interior",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:00:58+00:00",
+    "stars": 823,
+    "archived": false,
+    "fork": false,
+    "created": "2026-07-30",
+    "pushed": "2026-09-10",
+    "description": "micro-interactions for react, built for the half-second after a click",
+    "homepage": "https://interior.dev",
+    "topics": [
+      "animation",
+      "micro-interactions",
+      "motion",
+      "react",
+      "ui-components"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 ozzy\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".oxlintrc.json",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "app",
+      "bun.lock",
+      "components",
+      "eslint.config.mjs",
+      "lib",
+      "next.config.ts",
+      "package.json",
+      "postcss.config.mjs",
+      "public",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "interior[.]dev",
+    "note": "Copy-in React micro-interactions, each a headless hook plus a styled example, such as a slider with detents and a hold-to-confirm button.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "slider that snaps to labelled detents within a capture radius, with a vibration on each capture",
+        "hold-to-confirm button whose fill drains back on early release and resumes from what is left when pressed again",
+        "tooltip group that delays the first tooltip and opens the next ones instantly while the group stays warm",
+        "loading button that keeps its width while the label changes between states",
+        "every component split into a headless behaviour hook and a replaceable styled component in one copyable file"
+      ],
+      "evidenceUrls": [
+        "https://www.interior.dev/",
+        "https://www.interior.dev/docs/slider-detents",
+        "https://www.interior.dev/docs/hold-to-confirm",
+        "https://www.interior.dev/docs/tooltip-group",
+        "https://github.com/ddoemonn/interior"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "repo": "stipsan/react-spring-bottom-sheet",
+  "facts": {
+    "found": true,
+    "repo": "stipsan/react-spring-bottom-sheet",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:22:52+00:00",
+    "stars": 1066,
+    "archived": false,
+    "fork": false,
+    "created": "2020-11-25",
+    "pushed": "2026-10-07",
+    "description": "Accessible ♿️, Delightful ✨, & Fast 🚀",
+    "homepage": "https://react-spring.bottom-sheet.dev/",
+    "topics": [
+      "animation",
+      "bottom-drawer",
+      "bottom-sheet",
+      "bottomsheet",
+      "dialog",
+      "drag-drop",
+      "draggableview",
+      "drawer",
+      "gesture-control",
+      "modal",
+      "overlay",
+      "popup",
+      "react",
+      "react-spring",
+      "sheet",
+      "tailwind-css",
+      "ux"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2020 Cody Olsen\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".babelrc",
+      ".eslintignore",
+      ".eslintrc.js",
+      ".github",
+      ".gitignore",
+      "CHANGELOG.md",
+      "CODE_OF_CONDUCT.md",
+      "GET_STARTED.md",
+      "LICENSE",
+      "README.md",
+      "defaults.json",
+      "docs",
+      "next-env.d.ts",
+      "package-lock.json",
+      "package.json",
+      "pages",
+      "postcss.config.js",
+      "public",
+      "release.config.js",
+      "renovate.json",
+      "src",
+      "tailwind.config.js",
+      "tsconfig.declarations.json",
+      "tsconfig.json",
+      "tsconfig.microbundle.json",
+      "vercel.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "components",
+    "name": "react-spring-bottom-sheet",
+    "note": "React bottom sheet with spring snap points, rubber-band dragging and focus trapping, animated through CSS custom properties.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": false,
+    "signature": {
+      "effects": [
+        "sheet animation driven through CSS custom properties (--rsbs-overlay-h, --rsbs-overlay-translate-y, --rsbs-backdrop-opacity) instead of inline styles",
+        "rubber-band resistance when the sheet is dragged past its snap bounds",
+        "velocity-aware spring snapping between snap points",
+        "sticky header and footer that accept drag gestures",
+        "non-blocking mode that leaves the page behind the sheet interactive"
+      ],
+      "evidenceUrls": [
+        "https://react-spring.bottom-sheet.dev/",
+        "https://github.com/stipsan/react-spring-bottom-sheet/blob/main/src/style.css",
+        "https://github.com/stipsan/react-spring-bottom-sheet/blob/main/src/BottomSheet.tsx",
+        "https://github.com/stipsan/react-spring-bottom-sheet#readme"
+      ]
+    },
+    "unverified": [
+      "The demo was not seen running: the homepage demos load only on a button click in a browser, and no browser was allowed in this session.",
+      "The repository and homepage contain no screenshots or recordings of the sheet; the only images seen were the logo illustration (readme.svg), the social card and an empty phone frame.",
+      "The signature effects are taken from the homepage text, the README and the source (style.css, BottomSheet.tsx), not from watching the motion, so how the animation looks and feels is not observed."
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "repo": "MengTo/sylva",
+  "facts": {
+    "found": true,
+    "repo": "MengTo/sylva",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:02:51+00:00",
+    "stars": 346,
+    "archived": false,
+    "fork": false,
+    "created": "2026-08-18",
+    "pushed": "2026-08-18",
+    "description": "An interactive Three.js landscape study with a procedural, pointer-responsive moss world.",
+    "homepage": "https://mengto.github.io/sylva/",
+    "topics": [
+      "creative-coding",
+      "github-pages",
+      "interactive-design",
+      "procedural-generation",
+      "threejs",
+      "webgl"
+    ],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".gitignore",
+      "README.md",
+      "assets",
+      "index.html",
+      "licenses",
+      "sylva-assets"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "other",
+    "section": "webgl",
+    "name": "Sylva",
+    "note": "Single-page Three.js study of a procedural moss-covered root whose instanced blades part around the pointer.",
+    "license": "No license: README states no license is granted for reuse or redistribution; only bundled Three.js (MIT) and Lexend (OFL-1.1) are licensed",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "procedural moss-covered root and arch built at runtime in Three.js with no model file",
+        "moss blades that flatten and part around the pointer",
+        "liquid-metal WebGL2 button rims rendered in sandboxed iframes"
+      ],
+      "evidenceUrls": [
+        "https://mengto.github.io/sylva/",
+        "https://github.com/MengTo/sylva/blob/HEAD/assets/sylva-preview.webp",
+        "https://github.com/MengTo/sylva#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

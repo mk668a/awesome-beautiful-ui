@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "repo": "Aashu-Dubey/react-native-animation-samples",
+  "facts": {
+    "found": true,
+    "repo": "Aashu-Dubey/react-native-animation-samples",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T16:59:56+00:00",
+    "stars": 356,
+    "archived": false,
+    "fork": false,
+    "created": "2022-06-18",
+    "pushed": "2026-08-11",
+    "description": "Gesture based interruptible animation samples in React Native.",
+    "homepage": null,
+    "topics": [
+      "android",
+      "animation",
+      "gesture",
+      "gesture-handler",
+      "ios",
+      "react",
+      "react-native",
+      "reanimated",
+      "samples",
+      "toolbar"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2022 Ashutosh\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".bundle",
+      ".eslintrc.js",
+      ".github",
+      ".gitignore",
+      ".prettierrc.js",
+      ".watchmanconfig",
+      ".yarnrc.yml",
+      "App.tsx",
+      "Gemfile",
+      "Gemfile.lock",
+      "LICENSE",
+      "README.md",
+      "__tests__",
+      "android",
+      "app.json",
+      "babel.config.js",
+      "index.js",
+      "ios",
+      "jest.config.js",
+      "metro.config.js",
+      "package.json",
+      "src",
+      "tsconfig.json",
+      "yarn.lock"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "component-collection",
+    "section": "motion",
+    "name": "React Native Animation Samples",
+    "note": "Five gesture-driven React Native samples: a scrubbable toolbar, a fanning color swatch, a magnifying icon grid, a bezier rope and an animated text caret.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "icon grid that collapses into a bubble magnifier around the touch point on long press and drag",
+        "color swatch that fans out in rotating layers following the drag gesture",
+        "toolbar whose buttons expand into labels on long press and scale down at the scroll edges",
+        "text caret that fills up as the max length approaches and turns into a check badge when reached",
+        "bezier rope with glow and shadow drawn between two sockets"
+      ],
+      "evidenceUrls": [
+        "https://user-images.githubusercontent.com/46301285/183157173-e9e98fff-7ff0-42e4-a4ce-eaf5f36b1328.mp4",
+        "https://user-images.githubusercontent.com/46301285/178355435-b9a3eab5-0f06-4cb0-8231-7b0ec2065622.mov",
+        "https://user-images.githubusercontent.com/46301285/174402436-43cdf090-443e-4022-85ba-1cfa93937dcb.mov",
+        "https://user-images.githubusercontent.com/46301285/266543701-26fc7ab9-1e65-466c-ad4f-56cf4ceb933c.mov",
+        "https://github.com/Aashu-Dubey/react-native-animation-samples/blob/main/src/assets/demo/rope/rope-sockets-demo.png"
+      ]
+    },
+    "unverified": []
+  }
+}

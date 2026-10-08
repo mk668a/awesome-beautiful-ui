@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "repo": "mmmerl/shader-doodle",
+  "facts": {
+    "found": true,
+    "repo": "mmmerl/shader-doodle",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:03:16+00:00",
+    "stars": 588,
+    "archived": false,
+    "fork": false,
+    "created": "2019-04-11",
+    "pushed": "2026-09-15",
+    "description": "A friendly web-component for writing and rendering shaders.",
+    "homepage": "https://shader-doodle-overview.glitch.me/",
+    "topics": [
+      "canvas",
+      "creative-coding",
+      "fragment-shader",
+      "glsl",
+      "glsl-sandbox",
+      "html-canvas",
+      "javascript",
+      "pixel-shader",
+      "shader-playback",
+      "shaders",
+      "shadertoy",
+      "texture",
+      "uniform",
+      "vertex-shaders",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2019, 2020 merl <merl@vvvvv.co>\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".editorconfig",
+      ".github",
+      ".gitignore",
+      "CODE_OF_CONDUCT.md",
+      "LICENSE",
+      "README.md",
+      "demo",
+      "package-lock.json",
+      "package.json",
+      "rollup.config.js",
+      "screenshot",
+      "src"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "webgl",
+    "name": "<shader-doodle />",
+    "note": "Web component that renders a GLSL fragment shader written inline in HTML, with Shadertoy-style uniforms and image, video, webcam and audio inputs.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "fragment shader written inline inside an HTML custom element",
+        "Shadertoy-compatible uniform mode via a shadertoy attribute",
+        "image, video, canvas and webcam sources as shader textures via sd-texture",
+        "audio frequency and waveform data as a shader texture via sd-audio"
+      ],
+      "evidenceUrls": [
+        "https://github.com/mmmerl/shader-doodle#readme",
+        "https://raw.githubusercontent.com/mmmerl/shader-doodle/HEAD/screenshot/hello.gif",
+        "https://raw.githubusercontent.com/mmmerl/shader-doodle/HEAD/screenshot/fire-rings.gif",
+        "https://raw.githubusercontent.com/mmmerl/shader-doodle/HEAD/screenshot/webcam.gif",
+        "https://raw.githubusercontent.com/mmmerl/shader-doodle/HEAD/screenshot/raymarching-clouds.gif"
+      ]
+    },
+    "unverified": []
+  }
+}

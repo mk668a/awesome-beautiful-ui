@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "repo": "ITomPoland/portfolio-itom",
+  "facts": {
+    "found": true,
+    "repo": "ITomPoland/portfolio-itom",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:01:37+00:00",
+    "stars": 426,
+    "archived": false,
+    "fork": false,
+    "created": "2025-12-27",
+    "pushed": "2026-09-08",
+    "description": "An immersive, interactive 3D Web Developer portfolio built by Tomasz 'ITom' Szmajda using React Three Fiber, GSAP, and advanced WebGL rendering architecture.",
+    "homepage": "https://itomdev.com",
+    "topics": [
+      "3d-website",
+      "frontend-development",
+      "gsap",
+      "interactive-design",
+      "portfolio",
+      "r3f",
+      "react",
+      "threejs",
+      "vite",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Tomasz Szmajda\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".agent",
+      ".github",
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "TODO.md",
+      "eslint.config.js",
+      "functions",
+      "index.html",
+      "localhost_5173-20260403T205917.html",
+      "package-lock.json",
+      "package.json",
+      "portfolio-itom",
+      "public",
+      "scripts",
+      "seo-plugin.js",
+      "src",
+      "tmp",
+      "vite.config.js"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "other",
+    "section": "webgl",
+    "name": "ITom Dev Portfolio",
+    "note": "Personal portfolio drawn as a pencil sketch, where a doorway preloader opens onto a 3D corridor of rooms you scroll through.",
+    "license": "MIT (code only; README reserves the textures, images and copy to the author)",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "monochrome pencil-sketch textures on a whole 3D scene",
+        "preloader drawn as a brick wall with double doors that you click to enter",
+        "scroll-driven walk down a 3D corridor with labelled doors for each section",
+        "game-style HUD with rank captions and an achievements button"
+      ],
+      "evidenceUrls": [
+        "https://itomdev.com/"
+      ]
+    },
+    "unverified": []
+  }
+}

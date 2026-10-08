@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "repo": "tanem/react-nprogress",
+  "facts": {
+    "found": true,
+    "repo": "tanem/react-nprogress",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:23:13+00:00",
+    "stars": 466,
+    "archived": false,
+    "fork": false,
+    "created": "2018-09-30",
+    "pushed": "2026-10-08",
+    "description": ":hourglass: A React primitive for building slim progress bars.",
+    "homepage": "https://npm.im/@tanem/react-nprogress",
+    "topics": [
+      "animation",
+      "component",
+      "higher-order-component",
+      "hoc",
+      "hook",
+      "hooks",
+      "javascript",
+      "loading",
+      "nprogress",
+      "progress",
+      "progress-bar",
+      "progressbar",
+      "react",
+      "render-props",
+      "spinner",
+      "typescript"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2018 Tane Morgan\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".mailmap",
+      ".nvmrc",
+      ".prettierignore",
+      ".prettierrc.json",
+      "AGENTS.md",
+      "AUTHORS",
+      "CHANGELOG.md",
+      "LICENSE",
+      "MIGRATION.md",
+      "README.md",
+      "codecov.yml",
+      "eslint.config.mjs",
+      "examples",
+      "package-lock.json",
+      "package.json",
+      "renovate.json",
+      "scripts",
+      "src",
+      "test",
+      "tsconfig.json",
+      "tsdown.config.mts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "widgets",
+    "name": "react-nprogress",
+    "note": "Headless React hook and render-prop port of nprogress that supplies trickling progress state and leaves the bar markup and CSS to you.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": false,
+    "signature": {
+      "effects": [
+        "headless trickle progress state: hook returns progress, isFinished and animationDuration and renders no markup or CSS"
+      ],
+      "evidenceUrls": [
+        "https://github.com/tanem/react-nprogress#when-to-use-this",
+        "https://github.com/tanem/react-nprogress#increment"
+      ]
+    },
+    "unverified": [
+      "The demo was not viewed: the README and repository tree contain no screenshots or recordings, and the only live examples are CodeSandbox devboxes, which returned HTTP 403 to WebFetch and need a browser.",
+      "The signature effect is taken from the README's description of the API, not from seeing a progress bar running; the visual result depends entirely on the bar the consumer writes."
+    ]
+  }
+}

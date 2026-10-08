@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "repo": "av/remotion-bits",
+  "facts": {
+    "found": true,
+    "repo": "av/remotion-bits",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:00:19+00:00",
+    "stars": 487,
+    "archived": false,
+    "fork": false,
+    "created": "2026-01-23",
+    "pushed": "2026-09-15",
+    "description": "Ready-made animated components for Remotion — charts, transitions, text reveals, and more",
+    "homepage": "https://remotion-bits.dev",
+    "topics": [
+      "animation",
+      "components",
+      "motion-graphics",
+      "react",
+      "remotion",
+      "remotion-video",
+      "typescript",
+      "video",
+      "video-editing"
+    ],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".npmignore",
+      ".oxfmt.json",
+      ".oxlintrc.json",
+      "AGENTS.md",
+      "CHANGELOG.md",
+      "CLAUDE.md",
+      "COMPAL_LOG.md",
+      "README.md",
+      "demo",
+      "docs",
+      "eslint.config.js",
+      "jsrepo.config.ts",
+      "package-lock.json",
+      "package.json",
+      "registry.json",
+      "scripts",
+      "skills",
+      "src",
+      "tsconfig.json",
+      "vitest.config.ts",
+      "vitest.setup.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "component-collection",
+    "section": "motion",
+    "name": "Remotion Bits",
+    "note": "Copy-paste animation components for Remotion videos, including text reveals, particle systems and 3D camera scenes.",
+    "license": "MIT (declared in package.json and on npm; no LICENSE file in the repository)",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "words spawning in the distance and flying past the camera as a 3D tunnel"
+      ],
+      "evidenceUrls": [
+        "https://remotion-bits.dev/docs/bits/flying-through-words/"
+      ]
+    },
+    "unverified": []
+  }
+}

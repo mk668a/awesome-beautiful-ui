@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "repo": "Etto48/HexPatch",
+  "facts": {
+    "found": true,
+    "repo": "Etto48/HexPatch",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:01:13+00:00",
+    "stars": 336,
+    "archived": false,
+    "fork": false,
+    "created": "2024-03-03",
+    "pushed": "2026-08-30",
+    "description": "HexPatch: a binary patcher and editor written in Rust with terminal user interface (TUI).",
+    "homepage": "https://etto48.github.io/HexPatch/",
+    "topics": [
+      "aarch64",
+      "arm",
+      "binary-patching",
+      "elf",
+      "hex-editor",
+      "lua",
+      "mach-o",
+      "portable-executable",
+      "reverse-engineering",
+      "sftp",
+      "ssh",
+      "tui",
+      "x86",
+      "x86-64"
+    ],
+    "license": {
+      "spdx": "AGPL-3.0",
+      "file": "LICENSE",
+      "head": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n                            Preamble\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.\n  The licenses for most software and other practical works are designed\nto take away your freedom to share and change the works.  By contrast,\nour General Public Licenses are intended to guarantee your freedom to"
+    },
+    "rootFiles": [
+      ".dockerignore",
+      ".github",
+      ".gitignore",
+      "Cargo.lock",
+      "Cargo.toml",
+      "Dockerfile",
+      "LICENSE",
+      "Makefile.toml",
+      "build.rs",
+      "docs",
+      "locales",
+      "src",
+      "test",
+      "typos.toml"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "HexPatch",
+    "note": "Terminal hex editor that disassembles binaries and lets you type assembly to patch them, showing the resulting bytes as you write.",
+    "license": "AGPL-3.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "patch popup where typed assembly is shown as assembled bytes above the input, colored green, red and gray",
+        "hex grid with bytes colored by value class, zero bytes dimmed, beside a matching text view",
+        "side-by-side hex and disassembly view with symbol names inline"
+      ],
+      "evidenceUrls": [
+        "https://etto48.github.io/HexPatch/SCREENSHOTS.html",
+        "https://etto48.github.io/HexPatch/assets/screenshots/patch.png",
+        "https://etto48.github.io/HexPatch/assets/screenshots/main_view.png",
+        "https://etto48.github.io/HexPatch/assets/screenshots/fullscreen_hex.png"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "repo": "ccbrown/iocraft",
+  "facts": {
+    "found": true,
+    "repo": "ccbrown/iocraft",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:00:31+00:00",
+    "stars": 1558,
+    "archived": false,
+    "fork": false,
+    "created": "2024-09-02",
+    "pushed": "2026-10-07",
+    "description": "A Rust crate for beautiful, artisanally crafted CLIs, TUIs, and text-based IO.",
+    "homepage": "https://crates.io/crates/iocraft",
+    "topics": [
+      "cli",
+      "iocraft",
+      "logs",
+      "rust",
+      "terminal",
+      "tui"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "file": "LICENSE-APACHE",
+      "head": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n   1. Definitions.\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,"
+    },
+    "rootFiles": [
+      ".codecov.yml",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      "CONTRIBUTING.md",
+      "Cargo.toml",
+      "LICENSE-APACHE",
+      "LICENSE-MIT",
+      "Makefile.toml",
+      "README.md",
+      "examples",
+      "packages"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "terminal",
+    "name": "iocraft",
+    "note": "Rust crate for terminal UIs and styled text output, declared React-style with an element! macro, hooks and flexbox layout.",
+    "license": "Apache-2.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "React-style element! macro and hooks for declaring terminal UIs in Rust",
+        "flexbox layout of terminal cells, shown in a fullscreen calculator button grid",
+        "overlapping bordered elements layered over text, transparent or with a background fill"
+      ],
+      "evidenceUrls": [
+        "https://github.com/ccbrown/iocraft#readme",
+        "https://raw.githubusercontent.com/ccbrown/iocraft/refs/heads/main/examples/images/calculator.png",
+        "https://raw.githubusercontent.com/ccbrown/iocraft/refs/heads/main/examples/images/overlap.png",
+        "https://raw.githubusercontent.com/ccbrown/iocraft/refs/heads/main/examples/images/table.png",
+        "https://raw.githubusercontent.com/ccbrown/iocraft/refs/heads/main/examples/images/form.png"
+      ]
+    },
+    "unverified": []
+  }
+}

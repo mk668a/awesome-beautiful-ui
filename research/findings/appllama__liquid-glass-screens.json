@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "repo": "Appllama/liquid-glass-screens",
+  "facts": {
+    "found": true,
+    "repo": "Appllama/liquid-glass-screens",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T16:59:56+00:00",
+    "stars": 311,
+    "archived": false,
+    "fork": false,
+    "created": "2026-09-05",
+    "pushed": "2026-09-05",
+    "description": "Explore liquid-glass welcome screens with floating stickers and interactive swipe animations.",
+    "homepage": "https://appllama.io",
+    "topics": [
+      "animation",
+      "expo",
+      "expo-router",
+      "glassmorphism",
+      "ios",
+      "liquid-glass",
+      "mobile-development",
+      "mobile-ui",
+      "onboarding",
+      "react",
+      "react-native",
+      "react-native-animation",
+      "react-native-gesture-handler",
+      "react-native-reanimated",
+      "react-native-skia",
+      "react-native-ui",
+      "shaders",
+      "skia",
+      "typescript",
+      "ui-components"
+    ],
+    "license": {
+      "spdx": "GPL-3.0",
+      "file": "LICENSE",
+      "head": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n                            Preamble\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n  The licenses for most software and other practical works are designed\nto take away your freedom to share and change the works.  By contrast,\nthe GNU General Public License is intended to guarantee your freedom to\nshare and change all versions of a program--to make sure it remains free"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      "LICENSE",
+      "NOTICE.md",
+      "README.md",
+      "app.json",
+      "assets",
+      "docs",
+      "eslint.config.js",
+      "package-lock.json",
+      "package.json",
+      "packages",
+      "prompts",
+      "scripts",
+      "src",
+      "tests",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "template",
+    "section": "gems",
+    "name": "Liquid Glass Screens",
+    "note": "Two React Native Expo welcome screens where a refracting Skia glass dome is swiped up into a small button that releases a plume of stickers.",
+    "license": "GPL-3.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "refracting glass dome on the bottom edge that becomes a small glass plus button after a swipe up",
+        "chromatic blue caustic ring gathering at the dome's crown mid-swipe",
+        "sticker plume rising out of the glass button, with stickers distorted through its lens"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/Appllama/liquid-glass-screens/HEAD/docs/images/liquid-glass-showcase-01.png",
+        "https://raw.githubusercontent.com/Appllama/liquid-glass-screens/HEAD/docs/images/liquid-glass-showcase-02.png",
+        "https://github.com/Appllama/liquid-glass-screens#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

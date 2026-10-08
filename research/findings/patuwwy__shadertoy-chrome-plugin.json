@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "repo": "patuwwy/ShaderToy-Chrome-Plugin",
+  "facts": {
+    "found": true,
+    "repo": "patuwwy/ShaderToy-Chrome-Plugin",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:18:38+00:00",
+    "stars": 309,
+    "archived": false,
+    "fork": false,
+    "created": "2016-03-12",
+    "pushed": "2026-10-07",
+    "description": "Web extension for shadertoy.com",
+    "homepage": "https://github.com/patuwwy/ShaderToy-Chrome-Plugin",
+    "topics": [
+      "glsl-shaders",
+      "javascript",
+      "shaders",
+      "shadertoy",
+      "webextension"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE.md",
+      "head": "# License information for Shadertoy-Chrome-Plugin\nMIT License\nCopyright (c) 2016--2018 Patryk Falba and contributors\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR"
+    },
+    "rootFiles": [
+      ".eslintrc",
+      ".github",
+      ".gitignore",
+      ".jshintrc",
+      ".prettierrc",
+      "AGENTS.md",
+      "CHANGELOG.md",
+      "LICENSE.md",
+      "Makefile",
+      "PRIVACY-POLICY.md",
+      "README.md",
+      "app",
+      "build.ps1",
+      "docs",
+      "eslint.config.mjs",
+      "manifests",
+      "screenshots"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "webgl",
+    "name": "ShaderToy unofficial plugin",
+    "note": "Browser extension that adds iTime and iMouse sliders, GPU render timers, a vec3 color picker and export to the Shadertoy editor.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "iTime scrub slider with start/end range and loop toggle under the Shadertoy canvas",
+        "four sliders that simulate the iMouse.xyzw uniform",
+        "per-pass GPU render time overlay on the canvas (Image / Buffer A in ms)",
+        "inline color picker opened from a vec3 literal in the GLSL editor"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/patuwwy/ShaderToy-Chrome-Plugin/master/screenshots/shader-edit.png",
+        "https://raw.githubusercontent.com/patuwwy/ShaderToy-Chrome-Plugin/master/screenshots/mouse.png",
+        "https://raw.githubusercontent.com/patuwwy/ShaderToy-Chrome-Plugin/master/screenshots/color-picker.png",
+        "https://github.com/patuwwy/ShaderToy-Chrome-Plugin#screenshots"
+      ]
+    },
+    "unverified": []
+  }
+}

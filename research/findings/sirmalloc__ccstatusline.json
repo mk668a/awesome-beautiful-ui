@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "repo": "sirmalloc/ccstatusline",
+  "facts": {
+    "found": true,
+    "repo": "sirmalloc/ccstatusline",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:22:45+00:00",
+    "stars": 13223,
+    "archived": false,
+    "fork": false,
+    "created": "2025-08-08",
+    "pushed": "2026-10-06",
+    "description": "🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more.",
+    "homepage": null,
+    "topics": [
+      "ai-tools",
+      "claude-code",
+      "cli",
+      "developer-tools",
+      "git",
+      "powerline",
+      "statusbar",
+      "statusline",
+      "terminal",
+      "themeing"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2025 Matthew Breedlove (https://github.com/sirmalloc)\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".npmignore",
+      ".vscode",
+      "AGENTS.md",
+      "AUTHORS",
+      "CLAUDE.md",
+      "LICENSE",
+      "NOTICE",
+      "README.md",
+      "bun.lock",
+      "configTemplates",
+      "docs",
+      "eslint.config.js",
+      "llms.txt",
+      "package.json",
+      "patches",
+      "remotion",
+      "screenshots",
+      "scripts",
+      "src",
+      "tsconfig.json",
+      "typedoc.json",
+      "vitest.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "ccstatusline",
+    "note": "Status line formatter for Claude Code with Powerline segments that auto-align into columns across multiple lines and a TUI configurator.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Powerline segments auto-aligned into columns across multiple status lines",
+        "Powerline flex mode that right-aligns segments with reversed arrow separators"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/sirmalloc/ccstatusline/main/screenshots/autoAlign.png",
+        "https://raw.githubusercontent.com/sirmalloc/ccstatusline/main/screenshots/powerline-flex.png"
+      ]
+    },
+    "unverified": []
+  }
+}

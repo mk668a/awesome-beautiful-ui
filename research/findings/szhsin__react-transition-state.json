@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "repo": "szhsin/react-transition-state",
+  "facts": {
+    "found": true,
+    "repo": "szhsin/react-transition-state",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:23:13+00:00",
+    "stars": 495,
+    "archived": false,
+    "fork": false,
+    "created": "2021-08-07",
+    "pushed": "2026-10-04",
+    "description": "Zero dependency React transition state machine",
+    "homepage": "https://szhsin.github.io/react-transition-state/",
+    "topics": [
+      "animation",
+      "component",
+      "hook",
+      "react",
+      "state-machine",
+      "transition"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "The MIT License (MIT)\nCopyright (c) 2021 Zheng Song\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".prettierignore",
+      ".prettierrc.yaml",
+      "LICENSE",
+      "README.md",
+      "dist",
+      "eslint.config.mjs",
+      "package-lock.json",
+      "package.json",
+      "rolldown.config.mts",
+      "src",
+      "tsconfig.json",
+      "types",
+      "vitest.config.ts",
+      "website"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "motion",
+    "name": "React-Transition-State",
+    "note": "Dependency-free React hook that drives CSS enter and exit transitions through a seven-status state machine, including mounting and unmounting.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": false,
+    "signature": {
+      "effects": [
+        "preEnter and preExit one-tick statuses so CSS transitions can start from unmounted or display:none",
+        "useTransitionMap hook managing keyed transition states with allowMultiple"
+      ],
+      "evidenceUrls": [
+        "https://github.com/szhsin/react-transition-state#readme",
+        "https://user-images.githubusercontent.com/41896553/142855447-cb8d8730-f8fb-4296-a3db-d1523b0fa2d9.png"
+      ]
+    },
+    "unverified": [
+      "The live demo at https://szhsin.github.io/react-transition-state/ is a client-rendered page that returned only an empty root element without a browser, so the library was not seen running.",
+      "The only README image is a state diagram, not a screenshot or recording; the signature items are API behaviours read from the README, and no visual effect was observed."
+    ]
+  }
+}

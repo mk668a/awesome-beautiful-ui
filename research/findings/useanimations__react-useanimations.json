@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "repo": "useAnimations/react-useanimations",
+  "facts": {
+    "found": true,
+    "repo": "useAnimations/react-useanimations",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:24:12+00:00",
+    "stars": 1248,
+    "archived": false,
+    "fork": false,
+    "created": "2019-10-02",
+    "pushed": "2026-10-06",
+    "description": "React-useanimations is a collection of free animated open source icons for React.js.",
+    "homepage": "http://react.useanimations.com",
+    "topics": [
+      "animation",
+      "lottie",
+      "lottie-animation",
+      "micro-animations",
+      "micro-interactions",
+      "react"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE",
+      "head": "RIGHTS\nAll the free files available in useAnimations are distributed\nunder Creative Commons (CC) Attribution (BY) unless stated otherwise.\nOur resources (animations) can be used for personal and commercial usage\nwithin Web and Mobile Applications.\nYou may modify the resources according to your requirements and use them\nin any or all of your personal or commercial projects. For example,\nyou may include this resource on a website or mobile application\nyou will be designing for a client.\nYou are required to attribute or link to useanimations.com in any of projects.\nuseAnimations (useanimations.com) will not be responsible for any outcome\nthat may occur during the use of our resources."
+    },
+    "rootFiles": [
+      ".babelrc",
+      ".editorconfig",
+      ".eslintignore",
+      ".eslintrc.json",
+      ".gitattributes",
+      ".gitignore",
+      ".prettierrc",
+      ".storybook",
+      ".vscode",
+      "LICENSE",
+      "README.md",
+      "README_v1.md",
+      "docs",
+      "package-lock.json",
+      "package.json",
+      "src",
+      "tsconfig.json",
+      "useanimations-preview.gif"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "component-collection",
+    "section": "motion",
+    "name": "React UseAnimations",
+    "note": "Lottie-based animated icon set for React whose icons play a short state change on click, such as a star filling or a trash lid lifting.",
+    "license": "Custom useAnimations terms: CC BY 4.0 with required attribution to useanimations.com, plus a ban on redistribution or resale of the files",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "line icons that animate between two states on click (star outline fills solid, trash lid lifts, settings sliders shift)",
+        "reverse prop to start an icon in its end state for controlled toggles such as checkbox and radio button",
+        "per-icon imports so only the used Lottie animation files are bundled"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/useAnimations/react-useanimations/master/useanimations-preview.gif",
+        "https://github.com/useAnimations/react-useanimations#readme",
+        "https://react.useanimations.com"
+      ]
+    },
+    "unverified": []
+  }
+}

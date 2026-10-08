@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "repo": "rcaferati/react-awesome-button",
+  "facts": {
+    "found": true,
+    "repo": "rcaferati/react-awesome-button",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:20:30+00:00",
+    "stars": 1342,
+    "archived": false,
+    "fork": false,
+    "created": "2017-04-23",
+    "pushed": "2026-07-11",
+    "description": "React button component. Awesome button is a 3D UI, progress, social and share enabled, animated at 60fps, light weight, performant, production ready react UI button component. 🖥️ 📱 ",
+    "homepage": "https://react-awesome-button.caferati.dev",
+    "topics": [
+      "animated",
+      "animation",
+      "button",
+      "component",
+      "progress",
+      "react",
+      "share",
+      "social"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2017 Rafael Caferati\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".eslintrc.json",
+      ".github",
+      ".gitignore",
+      ".postcssrc.json",
+      ".prettierrc",
+      ".storybook",
+      ".travis.yml",
+      "LICENSE",
+      "README.md",
+      "babelrc.config.json",
+      "jest.config.js",
+      "package-lock.json",
+      "package.json",
+      "setupTests.ts",
+      "src",
+      "theme-builder.js",
+      "tsconfig.build.json",
+      "tsconfig.json",
+      "tsup.config.ts",
+      "webpack.config.js",
+      "webpack.scss.config.js",
+      "webpack.themes.config.js"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "components",
+    "name": "React Awesome Button",
+    "note": "React button with a raised 3D face that presses down on click, plus a progress variant that fills a loading bar and social share variants.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "raised 3D button face with a darker bottom edge that depresses on press",
+        "progress button whose label swaps to a waiting text while a dark bar fills across the face",
+        "ripple ring expanding from the pointer on activation",
+        "live theme customization through CSS custom property sliders"
+      ],
+      "evidenceUrls": [
+        "https://caferati.dev/images/rab.gif",
+        "https://github.com/rcaferati/react-awesome-button#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

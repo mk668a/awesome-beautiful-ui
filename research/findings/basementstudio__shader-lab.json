@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "repo": "basementstudio/shader-lab",
+  "facts": {
+    "found": true,
+    "repo": "basementstudio/shader-lab",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:00:22+00:00",
+    "stars": 698,
+    "archived": false,
+    "fork": false,
+    "created": "2026-03-17",
+    "pushed": "2026-10-01",
+    "description": "A powerful toolkit to create, stack, and animate shaders.",
+    "homepage": "https://eng.basement.studio/tools/shader-lab",
+    "topics": [
+      "creative-coding",
+      "shader-editor",
+      "shaders",
+      "three-js",
+      "tsl",
+      "webgpu"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "file": "LICENSE.md",
+      "head": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n   1. Definitions.\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,"
+    },
+    "rootFiles": [
+      ".biome",
+      ".changeset",
+      ".editorconfig",
+      ".env.example",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".mcp.json",
+      ".tldr",
+      ".tldrignore",
+      ".vscode",
+      ".web-kits",
+      "LICENSE.md",
+      "README.md",
+      "biome.json",
+      "bun.lock",
+      "drizzle.config.ts",
+      "next.config.ts",
+      "package.json",
+      "packages",
+      "postcss.config.mjs",
+      "public",
+      "src",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "webgl",
+    "name": "Shader Lab",
+    "note": "Browser WebGPU editor for stacking and keyframing shader effect layers over video, with a React runtime to embed exports.",
+    "license": "Apache-2.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "layer stack of shader effects (ASCII, dithering, pixel trail, displacement map, progressive blur, bloom) composited over video and text",
+        "blob tracking layer that frames moving regions with CCTV-style shapes, labels and trails",
+        "timeline with keyframes and audio-linked parameters",
+        "exported compositions usable as a React component, a texture or postprocessing"
+      ],
+      "evidenceUrls": [
+        "https://eng.basement.studio/tools/shader-lab",
+        "https://github.com/basementstudio/shader-lab"
+      ]
+    },
+    "unverified": []
+  }
+}

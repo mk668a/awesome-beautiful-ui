@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "repo": "raphaelameaume/fragment",
+  "facts": {
+    "found": true,
+    "repo": "raphaelameaume/fragment",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:20:25+00:00",
+    "stars": 939,
+    "archived": false,
+    "fork": false,
+    "created": "2019-12-09",
+    "pushed": "2026-10-02",
+    "description": "[alpha] A modern toolkit for creative coding",
+    "homepage": "https://fragment.tools",
+    "topics": [
+      "creative-coding",
+      "generative-art",
+      "javascript",
+      "web"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE.md",
+      "head": "MIT License\nCopyright (c) 2022 Raphaël Améaume\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".gitignore",
+      ".npmignore",
+      ".prettierignore",
+      ".prettierrc",
+      "LICENSE.md",
+      "README.md",
+      "bin",
+      "docs",
+      "examples",
+      "package-lock.json",
+      "package.json",
+      "screenshot.jpg",
+      "src",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "webgl",
+    "name": "Fragment",
+    "note": "Local creative coding environment that turns a sketch's exported props into a live control panel beside the canvas, with image and video export.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "GUI control panel generated from a sketch's exported props (sliders, range pairs, color palette, selects)",
+        "split workspace with a canvas monitor next to parameter and export modules",
+        "in-browser video export panel with format, codec, quality and loop count settings"
+      ],
+      "evidenceUrls": [
+        "https://github.com/raphaelameaume/fragment/blob/dev/screenshot.jpg?raw=true",
+        "https://github.com/raphaelameaume/fragment#readme",
+        "https://fragment.tools"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "repo": "thobiasn/tori-cli",
+  "facts": {
+    "found": true,
+    "repo": "thobiasn/tori-cli",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:23:29+00:00",
+    "stars": 318,
+    "archived": false,
+    "fork": false,
+    "created": "2026-02-10",
+    "pushed": "2026-10-08",
+    "description": "Docker server monitoring without the stack. Metrics, logs, and alerts from your terminal. Single binary, zero exposed ports, SSH-only.",
+    "homepage": "https://toricli.sh/",
+    "topics": [
+      "alerting",
+      "cli",
+      "devops",
+      "docker",
+      "docker-monitoring",
+      "golang",
+      "monitoring",
+      "prometheus-alternative",
+      "remote-monitoring",
+      "self-hosted",
+      "server-monitoring",
+      "tui",
+      "vps-monitor"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 thobiasn\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".dockerignore",
+      ".github",
+      ".gitignore",
+      ".goreleaser.yaml",
+      "CLAUDE.md",
+      "LICENSE",
+      "Makefile",
+      "README.md",
+      "SECURITY.md",
+      "cmd",
+      "codecov.yml",
+      "demo",
+      "deploy",
+      "docs",
+      "go.mod",
+      "go.sum",
+      "internal"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "tori",
+    "note": "Docker server monitoring TUI over SSH with braille sparklines, grouped containers, alerts and log tailing.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "braille-dot CPU and memory sparklines in a centered single-column dashboard",
+        "containers grouped by compose project with status dots, health marks and running counts",
+        "alert view pairing firing alerts with their rule expressions",
+        "log tail with colored levels under per-group sparklines and a firing-alert banner",
+        "monitoring over SSH to a Unix socket with no exposed ports"
+      ],
+      "evidenceUrls": [
+        "https://github.com/user-attachments/assets/e3b8c171-f57b-4b1e-99bb-d2541b0125b0",
+        "https://github.com/thobiasn/tori-cli"
+      ]
+    },
+    "unverified": []
+  }
+}

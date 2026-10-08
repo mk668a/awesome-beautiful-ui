@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "repo": "blacknon/lssh",
+  "facts": {
+    "found": true,
+    "repo": "blacknon/lssh",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:00:29+00:00",
+    "stars": 327,
+    "archived": false,
+    "fork": false,
+    "created": "2017-01-02",
+    "pushed": "2026-07-25",
+    "description": "A terminal-native remote access suite for SSH, cloud inventories, provider-backed connectors, parallel commands, mux workspaces, file transfer, and monitoring.",
+    "homepage": null,
+    "topics": [
+      "aws-ssm",
+      "cloud",
+      "devops",
+      "golang",
+      "mux",
+      "port-forwarding",
+      "remote-access",
+      "scp",
+      "sftp",
+      "ssh",
+      "sysadmin",
+      "telnet",
+      "terminal",
+      "tui",
+      "winrm"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE.md",
+      "head": "MIT License\nCopyright (c) 2017 \nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "LICENSE.md",
+      "Makefile",
+      "Makefile_test.go",
+      "README.md",
+      "SECURITY.md",
+      "cli_help_test.go",
+      "cmd",
+      "completion",
+      "demo-telnet-provider",
+      "demo",
+      "docs",
+      "env",
+      "example",
+      "go.mod",
+      "go.sum",
+      "images",
+      "internal",
+      "mise.toml",
+      "package",
+      "provider",
+      "providerapi",
+      "providerutil",
+      "vendor"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "lssh",
+    "note": "SSH client that picks hosts from a filterable list, runs commands in parallel and opens a built-in multi-pane mux across servers.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "built-in SSH mux that opens one pane per selected host, with a host picker as a pane and a status bar showing page, pane and broadcast state",
+        "incremental-filter host picker table with highlighted matches and multi-select",
+        "parallel command output merged into one stream with a colored hostname prefix per line"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/blacknon/lssh/master/images/example_lssh_mux.gif",
+        "https://raw.githubusercontent.com/blacknon/lssh/master/images/example_lssh_mux_command.gif",
+        "https://raw.githubusercontent.com/blacknon/lssh/master/images/example_lssh.gif",
+        "https://raw.githubusercontent.com/blacknon/lssh/master/images/example_lssh_parallel.gif",
+        "https://github.com/blacknon/lssh#examples"
+      ]
+    },
+    "unverified": []
+  }
+}

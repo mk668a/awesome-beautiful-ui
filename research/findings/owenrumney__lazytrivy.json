@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "repo": "owenrumney/lazytrivy",
+  "facts": {
+    "found": true,
+    "repo": "owenrumney/lazytrivy",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:04:18+00:00",
+    "stars": 330,
+    "archived": false,
+    "fork": false,
+    "created": "2022-08-13",
+    "pushed": "2026-09-25",
+    "description": "Vulnerability scanning just got lazier",
+    "homepage": null,
+    "topics": [
+      "aws-security",
+      "docker",
+      "golang",
+      "golang-cli",
+      "misconfigurations",
+      "podman",
+      "scanner",
+      "security-auditing-tool",
+      "security-tools",
+      "staticanalysis",
+      "trivy",
+      "tui",
+      "vulnerability-scanners"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "file": "LICENSE",
+      "head": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n   1. Definitions.\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".golangci.yml",
+      ".goreleaser.yaml",
+      ".vscode",
+      "CODE_OF_CONDUCT.md",
+      "LICENSE",
+      "Makefile",
+      "README.md",
+      "go.mod",
+      "go.sum",
+      "internal",
+      "main.go",
+      "pkg"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "lazytrivy",
+    "note": "Terminal UI wrapper for Trivy that browses image, filesystem and Kubernetes scan results in bordered panes with severity filters.",
+    "license": "Apache-2.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

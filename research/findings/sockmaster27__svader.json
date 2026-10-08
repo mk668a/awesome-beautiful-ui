@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "repo": "sockmaster27/svader",
+  "facts": {
+    "found": true,
+    "repo": "sockmaster27/svader",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:22:50+00:00",
+    "stars": 465,
+    "archived": false,
+    "fork": false,
+    "created": "2024-08-18",
+    "pushed": "2026-10-07",
+    "description": "Create GPU-rendered Svelte components",
+    "homepage": "https://npmjs.com/package/svader",
+    "topics": [
+      "fragment-shader",
+      "javascript",
+      "javascript-library",
+      "shader",
+      "shaders",
+      "svelte",
+      "svelte-component",
+      "svelte-components",
+      "svelte4",
+      "svelte5",
+      "sveltejs",
+      "sveltekit",
+      "typescript",
+      "typescript-library",
+      "web",
+      "webgl",
+      "webgl-shader",
+      "webgl2",
+      "webgpu",
+      "webgpu-shaders"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE.md",
+      "head": "MIT License\nCopyright (c) 2024 Holger Dal Mogensen\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".prettierignore",
+      ".prettierrc",
+      ".vscode",
+      "CONTRIBUTING.md",
+      "LICENSE.md",
+      "README.md",
+      "eslint.config.js",
+      "package-lock.json",
+      "package.json",
+      "packages",
+      "playwright.config.ts",
+      "resources",
+      "tests",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "webgl",
+    "name": "Svader",
+    "note": "Svelte components that render WebGL or WebGPU fragment shaders, with built-in resolution, scale, time and offset parameters.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "fragment shader as a Svelte component with one API for WebGL and WebGPU",
+        "virtual canvas with a shifting cutout to cover areas larger than the hardware canvas limit",
+        "shader-drawn slider with a glowing blob thumb"
+      ],
+      "evidenceUrls": [
+        "https://github.com/sockmaster27/svader#readme",
+        "https://raw.githubusercontent.com/sockmaster27/svader/master/resources/collage.png",
+        "https://svader.vercel.app/"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "repo": "chmouel/lazyworktree",
+  "facts": {
+    "found": true,
+    "repo": "chmouel/lazyworktree",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:00:48+00:00",
+    "stars": 301,
+    "archived": false,
+    "fork": false,
+    "created": "2025-12-28",
+    "pushed": "2026-10-08",
+    "description": "Easy Git worktree management CLI and TUI for the terminal.",
+    "homepage": "https://chmouel.github.io/lazyworktree/",
+    "topics": [
+      "bubbletea",
+      "charmbracelet",
+      "git",
+      "git-worktree",
+      "golang",
+      "lazy",
+      "lazygit",
+      "terminal",
+      "tmux",
+      "tui",
+      "vibecoding",
+      "worktree-manager",
+      "worktrees",
+      "zellij"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "file": "LICENSE",
+      "head": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n   1. Definitions.\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,"
+    },
+    "rootFiles": [
+      ".claude",
+      ".github",
+      ".gitignore",
+      ".golangci.yml",
+      ".goreleaser.yml",
+      ".pre-commit-config.yaml",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "COMPARISON.md",
+      "Casks",
+      "DESIGN.md",
+      "LICENSE",
+      "Makefile",
+      "README.md",
+      "cmd",
+      "config.example.yaml",
+      "docs",
+      "go.mod",
+      "go.sum",
+      "hack",
+      "internal",
+      "lazyworktree.1",
+      "mkdocs.yml",
+      "shell",
+      "website"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "LazyWorktree",
+    "note": "Keyboard-first TUI for Git worktrees with PR and CI status, per-worktree notes, a taskboard and an agent sessions pane.",
+    "license": "Apache-2.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "agent sessions pane listing running and idle AI coding sessions for the selected worktree",
+        "taskboard overlay built from markdown checkbox notes per worktree",
+        "worktree table with inline PR number and CI check status, with a per-check list in the info pane",
+        "grouped command palette with key hints and recently used actions"
+      ],
+      "evidenceUrls": [
+        "https://chmouel.github.io/lazyworktree/assets/screenshot-agent-sessions.png",
+        "https://chmouel.github.io/lazyworktree/assets/screenshot-todolist.png",
+        "https://raw.githubusercontent.com/chmouel/lazyworktree/main/website/assets/screenshot-main.png",
+        "https://chmouel.github.io/lazyworktree/assets/screenshot-palette.png",
+        "https://chmouel.github.io/lazyworktree/"
+      ]
+    },
+    "unverified": []
+  }
+}

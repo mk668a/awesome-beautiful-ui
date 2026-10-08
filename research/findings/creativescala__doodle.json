@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "repo": "creativescala/doodle",
+  "facts": {
+    "found": true,
+    "repo": "creativescala/doodle",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:17:25+00:00",
+    "stars": 349,
+    "archived": false,
+    "fork": false,
+    "created": "2014-12-10",
+    "pushed": "2026-09-07",
+    "description": "Compositional vector graphics in Scala / Scala.JS",
+    "homepage": "https://creativescala.org/doodle/",
+    "topics": [
+      "creative-coding",
+      "hacktoberfest",
+      "scala",
+      "visualization"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "file": "LICENSE.txt",
+      "head": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n   1. Definitions.\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".jvmopts",
+      ".scalafix.conf",
+      ".scalafmt.conf",
+      ".travis.yml",
+      "CHANGELOG.md",
+      "LICENSE.txt",
+      "README.md",
+      "algebra",
+      "build.sbt",
+      "canvas",
+      "core",
+      "docs",
+      "examples",
+      "golden",
+      "image",
+      "interact",
+      "java2d",
+      "package-lock.json",
+      "project",
+      "reactor",
+      "sbt-launch.jar",
+      "sbt.bat",
+      "sbt.sh",
+      "svg",
+      "tailwind.config.js",
+      "turtle"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "gems",
+    "name": "Doodle",
+    "note": "Scala library that builds vector pictures by composing smaller ones with beside, above and on, drawn via Java2D, SVG or Canvas.",
+    "license": "Apache-2.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "pictures built as values by composing smaller pictures with beside/above layout combinators",
+        "one picture description rendered by Java2D, SVG or HTML Canvas backends through algebras"
+      ],
+      "evidenceUrls": [
+        "https://creativescala.org/doodle/",
+        "https://creativescala.org/doodle/chessboard.png",
+        "https://creativescala.org/doodle/concepts/algebras.html",
+        "https://creativescala.org/doodle/reference/suns-old-god.png"
+      ]
+    },
+    "unverified": []
+  }
+}

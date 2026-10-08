@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "repo": "DavidHDev/canvas-ui",
+  "facts": {
+    "found": true,
+    "repo": "DavidHDev/canvas-ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:00:55+00:00",
+    "stars": 4772,
+    "archived": false,
+    "fork": false,
+    "created": "2026-07-16",
+    "pushed": "2026-10-03",
+    "description": "A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla.",
+    "homepage": "https://canvasui.dev/",
+    "topics": [
+      "animation",
+      "canvas",
+      "component-library",
+      "components",
+      "creative-coding",
+      "design-engineering",
+      "frontend",
+      "glsl",
+      "nextjs",
+      "react",
+      "shadcn",
+      "shaders",
+      "svelte",
+      "threejs",
+      "typescript",
+      "ui",
+      "ui-library",
+      "vue",
+      "weggl"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE.md",
+      "head": "# MIT + Commons Clause License Condition v1.0\nCopyright (c) 2026 David Haz\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, and distribute the Software **as part of\nan application, website, or product**, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n## Commons Clause Restriction\nYou may use this Software, including for any commercial purpose, **so long as\nyou do not sell, sublicense, or redistribute the components themselves -"
+    },
+    "rootFiles": [
+      ".env.example",
+      ".github",
+      ".gitignore",
+      "LICENSE.md",
+      "README.md",
+      "components.json",
+      "eslint.config.mjs",
+      "next.config.ts",
+      "package-lock.json",
+      "package.json",
+      "postcss.config.mjs",
+      "public",
+      "scripts",
+      "src",
+      "tsconfig.json",
+      "worker",
+      "wrangler.jsonc"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "component-collection",
+    "section": "webgl",
+    "name": "Canvas UI",
+    "note": "Copy-in components that capture live DOM into a canvas so WebGL or WebGPU shaders can distort the page as fluid, fire or glass.",
+    "license": "MIT + Commons Clause",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "live DOM captured as a shader texture through the HTML-in-canvas API (canvas layoutsubtree, drawElementImage)",
+        "pointer-driven fluid simulation that smears the page content under the cursor",
+        "every effect shipped as both a WebGL (GLSL) and a WebGPU (WGSL) build for six frameworks"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/DavidHDev/canvas-ui/main/.github/readme.gif",
+        "https://canvasui.dev/docs/components/liquid",
+        "https://github.com/DavidHDev/canvas-ui#readme"
+      ]
+    },
+    "unverified": [
+      "Only the Liquid effect was seen, as frames of the README recording; the live site was not viewed running in a browser in this session.",
+      "The other components (Glass, Shatter, Blaze, Force Field and the rest) and the dual WebGL and WebGPU builds are taken from the README and docs text, not observed."
+    ]
+  }
+}

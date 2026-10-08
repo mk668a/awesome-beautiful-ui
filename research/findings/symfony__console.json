@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "repo": "symfony/console",
+  "facts": {
+    "found": true,
+    "repo": "symfony/console",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:23:02+00:00",
+    "stars": 9813,
+    "archived": false,
+    "fork": false,
+    "created": "2011-02-22",
+    "pushed": "2026-10-07",
+    "description": "Eases the creation of beautiful and testable command line interfaces",
+    "homepage": "https://symfony.com/console",
+    "topics": [
+      "cli",
+      "command-line",
+      "component",
+      "console",
+      "php",
+      "symfony",
+      "symfony-component",
+      "terminal"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "Copyright (c) 2004-present Fabien Potencier\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is furnished\nto do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE"
+    },
+    "rootFiles": [
+      ".gitattributes",
+      ".gitignore",
+      "Application.php",
+      "ArgumentResolver",
+      "Attribute",
+      "CHANGELOG.md",
+      "CI",
+      "Color.php",
+      "Command",
+      "CommandChain.php",
+      "CommandLoader",
+      "Completion",
+      "ConsoleBundle.php",
+      "ConsoleEvents.php",
+      "Cursor.php",
+      "DataCollector",
+      "Debug",
+      "DependencyInjection",
+      "Descriptor",
+      "Event",
+      "EventListener",
+      "Exception",
+      "Formatter",
+      "Helper",
+      "Input",
+      "Interaction",
+      "LICENSE",
+      "Logger",
+      "Messenger",
+      "Output",
+      "Question",
+      "README.md",
+      "Resources",
+      "SignalRegistry",
+      "SingleCommandApplication.php",
+      "Style",
+      "Terminal.php",
+      "Terminal",
+      "Tester",
+      "Tests",
+      "composer.json",
+      "phpunit.xml.dist"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "terminal",
+    "name": "Symfony Console",
+    "note": "PHP library for command line output with format-string progress bars, styled tables, result blocks and rewritable output sections.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "progress bar built from a format string with custom placeholders, colored bar segments, message line, elapsed time and memory use",
+        "output sections that let several progress bars or a table redraw independently in the same terminal",
+        "tables with colspan and rowspan cells, box and markdown border styles, and rows appended after render"
+      ],
+      "evidenceUrls": [
+        "https://symfony.com/doc/8.1/_images/progressbar.gif",
+        "https://symfony.com/doc/current/components/console/helpers/progressbar.html",
+        "https://symfony.com/doc/current/components/console/helpers/table.html",
+        "https://symfony.com/doc/current/console/style.html"
+      ]
+    },
+    "unverified": []
+  }
+}

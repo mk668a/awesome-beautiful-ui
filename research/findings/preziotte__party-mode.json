@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "repo": "preziotte/party-mode",
+  "facts": {
+    "found": true,
+    "repo": "preziotte/party-mode",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:19:38+00:00",
+    "stars": 804,
+    "archived": false,
+    "fork": false,
+    "created": "2014-08-18",
+    "pushed": "2026-08-15",
+    "description": "An experimental d3.js music visualizer from 2014. Continued as vizz.fm",
+    "homepage": "https://vizz.fm",
+    "topics": [
+      "art",
+      "audio",
+      "audio-visualizer",
+      "d3",
+      "d3js",
+      "data-visualization",
+      "generative-art",
+      "html5-audio-element",
+      "javascript",
+      "music-visualization",
+      "music-visualizer",
+      "svg",
+      "visualization",
+      "web-audio-api",
+      "winamp-visualization"
+    ],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".gitignore",
+      "CHANGELOG.md",
+      "Gruntfile.js",
+      "README.md",
+      "background.js",
+      "contentscript.js",
+      "css",
+      "favicon.ico",
+      "icomoon",
+      "img",
+      "index.html",
+      "js",
+      "manifest.json",
+      "mp3"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "gems",
+    "name": "Party Mode",
+    "note": "A 2014 browser music visualizer that draws SVG sunbursts, hexbins and a wireframe icosahedron with d3.js from Web Audio data.",
+    "license": "CC BY-NC 3.0 (Creative Commons Attribution-NonCommercial 3.0 Unported, stated in README; no LICENSE file)",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "audio-driven SVG sunburst of radial wedges drawn with d3.js",
+        "wireframe icosahedron rendered in SVG with translucent faces",
+        "hexbin and voronoi visualizer modes fed by Web Audio frequency data",
+        "concentric ring pulse behind the PARTYMODE wordmark"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/preziotte/party-mode/master/img/11.gif",
+        "https://raw.githubusercontent.com/preziotte/party-mode/master/img/12.gif",
+        "https://raw.githubusercontent.com/preziotte/party-mode/master/img/4.gif",
+        "https://raw.githubusercontent.com/preziotte/party-mode/master/img/3.gif",
+        "https://raw.githubusercontent.com/preziotte/party-mode/master/img/1-logo.gif",
+        "https://github.com/preziotte/party-mode#readme",
+        "https://preziotte.com/partymode"
+      ]
+    },
+    "unverified": [
+      "The visualizer was not run live; only single frames of the README GIFs were viewed, so the motion and its reaction to audio are taken from the README text and not observed.",
+      "The voronoi mode is named in the README but was not seen in the frames viewed."
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "repo": "processing/processing4",
+  "facts": {
+    "found": true,
+    "repo": "processing/processing4",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:19:39+00:00",
+    "stars": 514,
+    "archived": false,
+    "fork": false,
+    "created": "2024-08-19",
+    "pushed": "2026-09-25",
+    "description": "Source code for Processing, the software sketchbook and Java-based programming language for students, artists, designers, educators, hobbyists, and creative coders. Includes the core library, and editor (PDE)",
+    "homepage": "https://processing.org",
+    "topics": [
+      "art",
+      "creative-coding",
+      "design",
+      "education",
+      "generative-art",
+      "generative-design",
+      "java",
+      "learning",
+      "processing"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE.md",
+      "head": "Introduction\n====================================================================================================\nWe use GPL v2 for the parts of the project that we've developed ourselves.\nFor the 'core' library, it's LGPL, for everything else, it's GPL.\nOver the course of many years of development, files being moved around,\nand other code being added and removed, the license information has become\nquite a mess. Please help us clean this up so that others are properly\ncredited and licenses are consistently/correctly noted:\nhttps://github.com/processing/processing/issues/224\n<br>\n<br>\nGNU GPL License"
+    },
+    "rootFiles": [
+      ".all-contributorsrc",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".gitmodules",
+      ".idea",
+      "AGENTS.md",
+      "AI_USAGE_POLICY.md",
+      "BUILD.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "CONTRIBUTORS.md",
+      "LICENSE.md",
+      "README.md",
+      "SCHEMA.md",
+      "app",
+      "build.gradle.kts",
+      "build",
+      "buildSrc",
+      "contributors.png",
+      "core",
+      "gradle.properties",
+      "gradle",
+      "gradlew",
+      "gradlew.bat",
+      "java",
+      "libprocessing",
+      "settings.gradle.kts",
+      "utils"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "gems",
+    "name": "Processing",
+    "note": "Software sketchbook and Java-based language where a short sketch with setup() and draw() opens a graphics window when you press Run.",
+    "license": "GPL-2.0 for the editor and other parts, LGPL for the core library, with some bundled third-party code under other licenses (LICENSE.md)",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "sketchbook editor with a single Run button that opens the sketch in a separate display window",
+        "setup()/draw() sketch structure for drawing 2D and 3D graphics in a few lines of code"
+      ],
+      "evidenceUrls": [
+        "https://processing.org/environment",
+        "https://processing.org/static/a52d150cc8cc9b599ab90b5d57d04ce9/d61c2/ide.png"
+      ]
+    },
+    "unverified": []
+  }
+}

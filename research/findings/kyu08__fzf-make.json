@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "repo": "kyu08/fzf-make",
+  "facts": {
+    "found": true,
+    "repo": "kyu08/fzf-make",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:02:13+00:00",
+    "stars": 306,
+    "archived": false,
+    "fork": false,
+    "created": "2023-03-08",
+    "pushed": "2026-09-30",
+    "description": "A command line tool that executes commands using fuzzy finder with preview window for make, npm, pnpm, yarn, just and task.",
+    "homepage": null,
+    "topics": [
+      "cli",
+      "crates-io",
+      "fuzzy-finder",
+      "fzf",
+      "just",
+      "justfile",
+      "make",
+      "makefile",
+      "npm",
+      "pnpm",
+      "ratatui",
+      "rust",
+      "task",
+      "terminal",
+      "tui",
+      "yarn"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2023 Tatsuya Kyushima\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".devcontainer",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".taplo.toml",
+      "CLAUDE.md",
+      "CONTRIBUTING.md",
+      "CREDITS.md",
+      "Cargo.lock",
+      "Cargo.toml",
+      "LICENSE",
+      "Makefile",
+      "README.md",
+      "_typos.toml",
+      "about.hbs",
+      "about.toml",
+      "assets",
+      "deny.toml",
+      "docs",
+      "flake.lock",
+      "flake.nix",
+      "renovate.json",
+      "rust-toolchain.toml",
+      "rustfmt.toml",
+      "src",
+      "static",
+      "test_data"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "fzf-make",
+    "note": "Fuzzy finder TUI for make, npm, pnpm, yarn, just and task that previews the selected target's source before running it.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "syntax-highlighted preview pane that jumps to the selected target's definition line in the Makefile as you fuzzy-filter",
+        "three-pane layout with Targets and History tabs switched by tab key above a search box and key hint bar"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/kyu08/fzf-make/main/static/demo.gif",
+        "https://github.com/kyu08/fzf-make"
+      ]
+    },
+    "unverified": []
+  }
+}

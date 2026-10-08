@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "repo": "lucasmarkes/hairline",
+  "facts": {
+    "found": true,
+    "repo": "lucasmarkes/hairline",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:02:26+00:00",
+    "stars": 1287,
+    "archived": false,
+    "fork": false,
+    "created": "2026-10-01",
+    "pushed": "2026-10-08",
+    "description": "Six isometric line figures that answer the pointer. For React and for anything with a DOM.",
+    "homepage": "https://hairline.lucasmarkes.com",
+    "topics": [
+      "animation",
+      "isometric",
+      "react",
+      "shadcn",
+      "svg",
+      "typescript"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Lucas Marques\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".npmrc",
+      "CHANGELOG.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "apps",
+      "assets",
+      "fixtures",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "registry",
+      "scripts",
+      "skills",
+      "tsconfig.base.json",
+      "turbo.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "gems",
+    "name": "hairline",
+    "note": "Thirty-three isometric SVG line figures that react to the pointer, for React or plain DOM with no dependencies.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "isometric hairline SVG figures that answer the pointer",
+        "tray of cards where the card under the pointer stands up",
+        "field of pillars that rises around the pointer",
+        "conveyor belt whose clock slows on hover with a live rate caption",
+        "turntable of blocks that spins on a flick and settles",
+        "dot matrix painted by the pointer with a phosphor afterglow"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/lucasmarkes/hairline/main/assets/hero.gif",
+        "https://github.com/lucasmarkes/hairline#readme",
+        "https://hairline.lucasmarkes.com"
+      ]
+    },
+    "unverified": []
+  }
+}

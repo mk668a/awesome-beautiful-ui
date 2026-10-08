@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "repo": "engmung/Patternflow",
+  "facts": {
+    "found": true,
+    "repo": "engmung/Patternflow",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:01:10+00:00",
+    "stars": 341,
+    "archived": false,
+    "fork": false,
+    "created": "2026-01-24",
+    "pushed": "2026-10-08",
+    "description": "An open-source LED synthesizer. Play light patterns with your fingertips — and every Patternflow plays every pattern we make.",
+    "homepage": "https://patternflow.work",
+    "topics": [
+      "creative-coding",
+      "esp32",
+      "hub75e",
+      "led-matrix",
+      "open-source-hardware",
+      "react-three-fiber",
+      "simulation",
+      "threejs",
+      "video-synthesizer"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE",
+      "head": "Patternflow is dual-licensed by content type. This file is a pointer so the\nrepository page shows both; the two license texts are next to it.\n  Code  - firmware/, web/, tools/, integrations/            MIT           -> LICENSE-MIT\n  Works - hardware/, docs/, the build guides, and the bundled patterns\n          (web/src/lib/presets/, firmware/patternflow/presets/)\n                                                             CC BY-SA 4.0  -> LICENSE-CC-BY-SA\nAn SPDX-License-Identifier header inside a file is the authority for that file;\nfolders are not license boundaries. Files that cannot carry a header (STL, DXF,\nGerber, images) take the license the nearest README states. Patterns published\nto the Community site are licensed by their authors. The full table, and what\neach license lets you do, is docs/LICENSE-SUMMARY.md."
+    },
+    "rootFiles": [
+      ".editorconfig",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      "AGENTS.md",
+      "AUDIO_GUIDE.md",
+      "BUILD_GUIDE.md",
+      "BUILD_GUIDE_v2.md",
+      "CHANGELOG.md",
+      "CITATION.cff",
+      "CLAUDE.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "FEATURE_GUIDE.md",
+      "LICENSE",
+      "LICENSE-CC-BY-SA",
+      "LICENSE-MIT",
+      "PATTERN_GUIDE.md",
+      "README.md",
+      "SECURITY.md",
+      "SUPPORT.md",
+      "docs",
+      "firmware",
+      "hardware",
+      "integrations",
+      "tools",
+      "web"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "other",
+    "section": "gems",
+    "name": "Patternflow",
+    "note": "Open-source four-knob LED matrix synthesizer with a browser simulator that runs JavaScript patterns on a 3D model of the device.",
+    "license": "MIT (firmware, web, tools, integrations) + CC BY-SA 4.0 (hardware, docs, bundled patterns)",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "live code editor that renders a JavaScript pattern on a glowing 3D LED-matrix model of the device with four knobs",
+        "physical 128x64 LED matrix panel with four knobs showing generative tile patterns",
+        "build map globe with arcs and pins for each community-built unit"
+      ],
+      "evidenceUrls": [
+        "https://patternflow.work/pattern",
+        "https://patternflow.work/",
+        "https://github.com/engmung/Patternflow/blob/main/README.md"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "repo": "vasturiano/react-force-graph",
+  "facts": {
+    "found": true,
+    "repo": "vasturiano/react-force-graph",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:24:21+00:00",
+    "stars": 3318,
+    "archived": false,
+    "fork": false,
+    "created": "2018-03-14",
+    "pushed": "2026-09-29",
+    "description": "React component for 2D, 3D, VR and AR force directed graphs",
+    "homepage": "https://vasturiano.github.io/react-force-graph/example/large-graph/",
+    "topics": [
+      "3d",
+      "augmented-reality",
+      "canvas",
+      "d3-force",
+      "force-directed-graphs",
+      "react",
+      "vr",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2018 Vasco Asturiano\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".babelrc",
+      ".github",
+      ".gitignore",
+      ".npmignore",
+      "LICENSE",
+      "README.md",
+      "_config.yml",
+      "example",
+      "package.json",
+      "rollup.config.dev.js",
+      "rollup.config.js",
+      "src"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "webgl",
+    "name": "react-force-graph",
+    "note": "React components that render force-directed graphs in 2D canvas, 3D WebGL, VR and AR behind one shared interface.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "force-directed graph layout with auto-colored node clusters on a dark canvas",
+        "one component interface across 2D canvas, 3D WebGL, VR and AR renderers",
+        "directional particles travelling along links",
+        "DAG mode constraining the force layout into tree or radial orientations",
+        "bloom post-processing pass on the 3D graph"
+      ],
+      "evidenceUrls": [
+        "https://vasturiano.github.io/react-force-graph/example/preview.png",
+        "https://vasturiano.github.io/react-force-graph/example/large-graph/",
+        "https://github.com/vasturiano/react-force-graph/blob/master/README.md",
+        "https://vasturiano.github.io/react-force-graph/example/tree/",
+        "https://vasturiano.github.io/react-force-graph/example/bloom-effect/"
+      ]
+    },
+    "unverified": []
+  }
+}

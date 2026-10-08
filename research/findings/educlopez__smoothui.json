@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "repo": "educlopez/smoothui",
+  "facts": {
+    "found": true,
+    "repo": "educlopez/smoothui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:00:59+00:00",
+    "stars": 1002,
+    "archived": false,
+    "fork": false,
+    "created": "2024-07-03",
+    "pushed": "2026-10-06",
+    "description": "SmoothUI is a collection of beautifully designed components with smooth animations built with React, Tailwind CSS, Shadcn/ui and Motion",
+    "homepage": "https://smoothui.dev",
+    "topics": [
+      "animation",
+      "components",
+      "framer-motion",
+      "motion",
+      "nextjs",
+      "react",
+      "shadcn",
+      "shadcn-ui",
+      "tailwindcss"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2024 Eduardo Calvo\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".agents",
+      ".autorc",
+      ".claude",
+      ".codegraph",
+      ".cursor",
+      ".eslintrc.json",
+      ".github",
+      ".gitignore",
+      ".gitleaksignore",
+      ".husky",
+      ".opencode",
+      ".release-please-manifest.json",
+      ".ui-craft",
+      ".vscode",
+      "AGENTS.md",
+      "ANIMATION_IMPROVEMENTS.md",
+      "CLAUDE.md",
+      "COMPONENT_BACKLOG.md",
+      "CONTRIBUTING.md",
+      "DEMO_BACKLOG.md",
+      "LICENSE",
+      "MEDIA_AUDIT.md",
+      "README.md",
+      "RELEASING.md",
+      "apps",
+      "biome.jsonc",
+      "docs",
+      "package.json",
+      "packages",
+      "playwright.config.ts",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "release-please-config.json",
+      "scripts",
+      "sdd",
+      "tests",
+      "tsconfig.json",
+      "turbo.json",
+      "vitest.risk.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "SmoothUI",
+    "note": "Animated React components for shadcn/ui, including a conic-gradient Siri orb, WebGL shader transitions and a Time Machine panel stack.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Siri-style orb built from layered conic gradients that reacts to AI state and microphone amplitude",
+        "WebGL SDF blob transition that swaps content under soft-merged circles with noisy edges",
+        "macOS Time Machine style stack of panels receding in 3D perspective",
+        "Dynamic Island style expanding notification pill with spring motion"
+      ],
+      "evidenceUrls": [
+        "https://smoothui.dev/",
+        "https://smoothui.dev/docs/components/siri-orb",
+        "https://smoothui.dev/docs/components/sdf-blob-transition",
+        "https://smoothui.dev/docs/components/time-machine-stack",
+        "https://smoothui.dev/docs/components/dynamic-island"
+      ]
+    },
+    "unverified": []
+  }
+}

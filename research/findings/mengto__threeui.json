@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "repo": "MengTo/threeui",
+  "facts": {
+    "found": true,
+    "repo": "MengTo/threeui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:03:09+00:00",
+    "stars": 6504,
+    "archived": false,
+    "fork": false,
+    "created": "2026-08-21",
+    "pushed": "2026-09-03",
+    "description": "Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+    "homepage": "https://threeui.com",
+    "topics": [
+      "react",
+      "shaders",
+      "threejs",
+      "ui-components",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Meng To\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      "ASSET-LICENSES.md",
+      "FONT-LICENSES.md",
+      "LICENSE",
+      "README.md",
+      "THIRD_PARTY_NOTICES.md",
+      "assets",
+      "index.html",
+      "package-lock.json",
+      "package.json",
+      "packages",
+      "public",
+      "scripts",
+      "src",
+      "tsconfig.json",
+      "tsconfig.lib.json",
+      "vite.config.js",
+      "vite.lib.config.js"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "component-collection",
+    "section": "webgl",
+    "name": "ThreeUI Community",
+    "note": "React catalog of Three.js scenes, shader backgrounds and liquid-metal buttons, each with live controls and copyable source.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "prismatic liquid-metal shader button with a glowing rim",
+        "moss-covered 3D world scene behind a full hero layout (Sylva)"
+      ],
+      "evidenceUrls": [
+        "https://threeui.com/buttons/liquid-metal-button",
+        "https://raw.githubusercontent.com/MengTo/threeui/main/assets/preview.jpg"
+      ]
+    },
+    "unverified": []
+  }
+}

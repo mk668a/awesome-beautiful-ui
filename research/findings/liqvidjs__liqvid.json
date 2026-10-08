@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "repo": "liqvidjs/liqvid",
+  "facts": {
+    "found": true,
+    "repo": "liqvidjs/liqvid",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:17:26+00:00",
+    "stars": 819,
+    "archived": false,
+    "fork": false,
+    "created": "2018-11-09",
+    "pushed": "2026-10-08",
+    "description": "Library for interactive videos in React",
+    "homepage": "https://liqvidjs.org",
+    "topics": [
+      "animation",
+      "javascript",
+      "liqvid",
+      "react",
+      "video"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) Yuri Sulyma\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    "rootFiles": [
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "biome.json",
+      "build.mjs",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "gems",
+    "name": "Liqvid",
+    "note": "React library for videos built from live DOM, so viewers can pause and drag, click or edit what is on screen.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": false,
+    "signature": {
+      "effects": [
+        "videos rendered as live React DOM synced to an audio track, so on-screen elements stay interactive during playback",
+        "replay of recorded CodeMirror keystrokes as timed text and cursor events in an editor the viewer can type in",
+        "draggable elements inside the video via dragHelperReact and data-affords opt-outs from click-to-pause"
+      ],
+      "evidenceUrls": [
+        "https://liqvidjs.org",
+        "https://liqvidjs.org/r/lv-tutorial/",
+        "https://liqvidjs.org/r/lv-tutorial/recordings.js",
+        "https://liqvidjs.org/docs/guide/interactivity"
+      ]
+    },
+    "unverified": [
+      "demoViewed is false: no browser was allowed, and the homepage demo (iframe /r/lv-tutorial/) is a JavaScript-rendered player; no screenshot or recording of Liqvid was found on the site, README or docs (only the logo image was viewed).",
+      "The signature effects were read from page text, docs and the tutorial's source (recordings.js keystroke data, bundle.js strings such as 'Try changing the background color:'), not seen running.",
+      "The Product Hunt gallery images returned for the Liqvid listing showed an unrelated product (BhaiLang), so they were not used as evidence.",
+      "requiresHostedService false is inferred from docs stating Node.js is the only dependency and the tutorial loading liqvid from unpkg; not tested by running it."
+    ]
+  }
+}

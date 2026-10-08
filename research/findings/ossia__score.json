@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "repo": "ossia/score",
+  "facts": {
+    "found": true,
+    "repo": "ossia/score",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:04:18+00:00",
+    "stars": 2070,
+    "archived": false,
+    "fork": false,
+    "created": "2013-10-15",
+    "pushed": "2026-10-08",
+    "description": "ossia score, an interactive sequencer for the intermedia arts",
+    "homepage": "https://ossia.io",
+    "topics": [
+      "art",
+      "creative-coding",
+      "digital-art",
+      "hacktoberfest",
+      "interactive",
+      "intermedia",
+      "media-art",
+      "midi",
+      "open-sound-control",
+      "open-source",
+      "osc",
+      "osc-messages",
+      "qt",
+      "sequencer"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE.txt",
+      "head": "Copyright: ossia.io / all the contributors / LaBRI / SCRIME / Blue Yeti\nossia score use a lot of third-party software - see their licenses in either \nthe submodules of this repository or the about screen of ossia score.\nNot included under the submodules but still used by the runtime are : \n- FFMPEG (used under GPLv3)\n- Qt (used under LGPLv3) and all its dependent libraries - freetype, harfbuzz, libpng, etc.\n- PortAudio (http://www.portaudio.com/license.html)\n- Faust (used under GPLv3)\n- FFTW (used under GPLv3)\n- Lilv / Suil / LV2 libs (https://opensource.org/licenses/isc-license)\n- JACK (used under LGPLv3)\n- SDL 2 (https://www.libsdl.org/license.php)"
+    },
+    "rootFiles": [
+      ".clang-format",
+      ".clang-tidy",
+      ".cninja",
+      ".github",
+      ".gitignore",
+      ".gitmodules",
+      ".well-known",
+      "3rdparty",
+      "AUTHORS",
+      "CMakeLists.txt",
+      "INSTALL.md",
+      "LICENSE.txt",
+      "README.md",
+      "ci",
+      "cmake",
+      "docs",
+      "renovate.json5",
+      "src",
+      "tests",
+      "tools"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "app",
+    "section": "gems",
+    "name": "ossia score",
+    "note": "Desktop sequencer for interactive shows whose timeline holds node patches, automation curves, triggers and conditional branches in one canvas.",
+    "license": "GPL-3.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "timeline score with nested node-graph patches inside timeline boxes",
+        "interactive trigger points and conditional branches drawn as dashed flexible-duration intervals",
+        "inline automation curves, waveforms, piano roll and video strips embedded in the same canvas",
+        "switchable timeline and nodal views of the same processes"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/ossia/score/master/docs/score.png",
+        "https://ossia.io/assets/feature-interaction.gif",
+        "https://ossia.io/assets/feature-nodal.gif",
+        "https://ossia.io"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "repo": "BraydenTW/braydentw.io",
+  "facts": {
+    "found": true,
+    "repo": "BraydenTW/braydentw.io",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:00:31+00:00",
+    "stars": 371,
+    "archived": false,
+    "fork": false,
+    "created": "2022-07-23",
+    "pushed": "2026-07-14",
+    "description": "🔷 My lovely portfolio built with React, NextJS, and TailwindCSS",
+    "homepage": "https://braydentw.io",
+    "topics": [
+      "animation",
+      "nextjs",
+      "personal-website",
+      "portfolio",
+      "react",
+      "tailwindcss",
+      "vercel"
+    ],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".gitignore",
+      "README.md",
+      "components",
+      "data",
+      "next-env.d.ts",
+      "next.config.js",
+      "package.json",
+      "pages",
+      "postcss.config.js",
+      "public",
+      "styles",
+      "tailwind.config.js",
+      "tsconfig.json",
+      "types",
+      "utils",
+      "yarn.lock"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "other",
+    "section": "gems",
+    "name": "braydentw.io",
+    "note": "Personal portfolio site in Next.js and Tailwind with hand-drawn doodle illustrations floating around a dark navy hero.",
+    "license": "No license file; README permits use as inspiration only and asks not to copy directly, and the site footer says all rights reserved",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "hand-drawn cyan doodle SVGs (graffiti lettering, dino, paintbrush, code glyphs) bobbing around the hero headline",
+        "hero scales down from 4x with a fade on page load"
+      ],
+      "evidenceUrls": [
+        "https://braydentw.io",
+        "https://github.com/BraydenTW/braydentw.io/blob/HEAD/styles/main.css",
+        "https://github.com/BraydenTW/braydentw.io/blob/HEAD/components/home/Hero.tsx"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "repo": "AThevon/genjutsu",
+  "facts": {
+    "found": true,
+    "repo": "AThevon/genjutsu",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T16:59:56+00:00",
+    "stars": 428,
+    "archived": false,
+    "fork": false,
+    "created": "2026-03-28",
+    "pushed": "2026-10-05",
+    "description": "Creative coding skills for Claude Code, claude.ai and Cowork. Motion, micro-interactions and design systems across Web (GSAP, Motion, Three.js, CSS), Android (Jetpack Compose) and Apple (SwiftUI). Proposes an interaction thesis you approve before it writes any code. Anti-AI-slop.",
+    "homepage": "https://genjutsu.athevon.dev",
+    "topics": [
+      "agent-skills",
+      "android",
+      "animation",
+      "anti-ai-slop",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "compose-multiplatform",
+      "creative-coding",
+      "design-system",
+      "framer-motion",
+      "gsap",
+      "ios",
+      "jetpack-compose",
+      "motion",
+      "motion-design",
+      "swiftui",
+      "threejs",
+      "ui-ux"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Adrien Thevon\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".claude-plugin",
+      ".github",
+      ".gitignore",
+      "CHANGELOG.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "PLATFORM-CONTRACT.md",
+      "README.md",
+      "assets",
+      "docs",
+      "evals",
+      "package-for-claude-ai.sh",
+      "packaging",
+      "scripts",
+      "skills"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "other",
+    "section": "motion",
+    "name": "genjutsu",
+    "note": "Agent skills for Claude Code that propose an interaction thesis for approval, then write motion and design systems in your stack.",
+    "license": "MIT",
+    "requiresHostedService": true,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "interaction thesis proposed and approved before any code is written",
+        "catalogue of 42 AI-default design tells with a stdlib Python audit reporting each at file:line",
+        "team of agents under one art director building a whole site (bunshin)",
+        "project site hero: pointer lens over a brushed ink glyph revealing its stroke curves and brush parameters"
+      ],
+      "evidenceUrls": [
+        "https://github.com/AThevon/genjutsu#readme",
+        "https://genjutsu.athevon.dev/",
+        "https://genjutsu.athevon.dev/docs/tells",
+        "https://genjutsu.athevon.dev/docs/install",
+        "https://genjutsu.athevon.dev/examples"
+      ]
+    },
+    "unverified": []
+  }
+}

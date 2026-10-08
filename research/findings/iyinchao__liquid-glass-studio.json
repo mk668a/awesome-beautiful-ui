@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "repo": "iyinchao/liquid-glass-studio",
+  "facts": {
+    "found": true,
+    "repo": "iyinchao/liquid-glass-studio",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:01:45+00:00",
+    "stars": 738,
+    "archived": false,
+    "fork": false,
+    "created": "2025-06-20",
+    "pushed": "2026-09-11",
+    "description": "🔮 The Ultimate Apple Liquid Glass UI — Recreated for the Web, powered by WebGL2 & WebGPU",
+    "homepage": "https://liquid-glass-studio.vercel.app/",
+    "topics": [
+      "glsl",
+      "liquid-glass",
+      "liquid-glass-effect",
+      "liquidglass",
+      "react",
+      "shader",
+      "webgl",
+      "webgl2",
+      "webgpu"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2024 Charles Yin\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".editorconfig",
+      ".github",
+      ".gitignore",
+      ".prettierrc.js",
+      "LICENSE",
+      "README-uz.md",
+      "README-zh.md",
+      "README.md",
+      "eslint.config.js",
+      "index.html",
+      "openspec",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "public",
+      "src",
+      "tsconfig.app.json",
+      "tsconfig.json",
+      "tsconfig.node.json",
+      "vite.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "webgl",
+    "name": "Liquid Glass Studio",
+    "note": "Browser playground that renders Apple-style liquid glass shapes with refraction, dispersion and merging blobs, tuned live through sliders.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "liquid glass refraction shader with chromatic dispersion on shape edges",
+        "SDF shapes that merge into one blob",
+        "frosted blur glass over photo and video backgrounds",
+        "live parameter panel for thickness, refraction, Fresnel, glare and shadow"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/iyinchao/liquid-glass-studio/HEAD/.github/assets/title.png",
+        "https://raw.githubusercontent.com/iyinchao/liquid-glass-studio/HEAD/.github/assets/screen-shot-1.png",
+        "https://raw.githubusercontent.com/iyinchao/liquid-glass-studio/HEAD/.github/assets/screen-shot-2.png",
+        "https://raw.githubusercontent.com/iyinchao/liquid-glass-studio/HEAD/.github/assets/screen-shot-3.png"
+      ]
+    },
+    "unverified": []
+  }
+}

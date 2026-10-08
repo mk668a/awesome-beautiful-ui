@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "repo": "ricardodantas/hazelnut",
+  "facts": {
+    "found": true,
+    "repo": "ricardodantas/hazelnut",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:20:52+00:00",
+    "stars": 312,
+    "archived": false,
+    "fork": false,
+    "created": "2026-02-04",
+    "pushed": "2026-09-18",
+    "description": "🌰 Terminal-based automated file organizer inspired by Hazel. Watch folders and organize files with rules.",
+    "homepage": "https://hazelnut.ricardodantas.me/",
+    "topics": [
+      "automation",
+      "file-automation",
+      "file-organizer",
+      "ratatui",
+      "rust",
+      "terminal-app",
+      "tui"
+    ],
+    "license": {
+      "spdx": "GPL-3.0",
+      "file": "LICENSE",
+      "head": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n                            Preamble\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n  The licenses for most software and other practical works are designed\nto take away your freedom to share and change the works.  By contrast,\nthe GNU General Public License is intended to guarantee your freedom to\nshare and change all versions of a program--to make sure it remains free"
+    },
+    "rootFiles": [
+      ".changeset",
+      ".github",
+      ".gitignore",
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "Cargo.lock",
+      "Cargo.toml",
+      "LICENSE",
+      "README.md",
+      "docs",
+      "screenshots",
+      "src",
+      "website"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "Hazelnut",
+    "note": "Terminal file organizer that watches folders and applies TOML rules, with a 15-theme picker showing color swatches per theme.",
+    "license": "GPL-3.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "theme picker overlay listing 15 themes with inline color swatches per theme",
+        "two-tone block-letter logo banner on the dashboard",
+        "Hazel-style folder watch rules managed from a tabbed TUI with a background daemon"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/ricardodantas/hazelnut/main/screenshots/02-theme-picker.png",
+        "https://raw.githubusercontent.com/ricardodantas/hazelnut/main/screenshots/01-dashboard.png",
+        "https://github.com/ricardodantas/hazelnut#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

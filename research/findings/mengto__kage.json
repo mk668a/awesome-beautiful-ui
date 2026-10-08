@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "repo": "MengTo/kage",
+  "facts": {
+    "found": true,
+    "repo": "MengTo/kage",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:02:40+00:00",
+    "stars": 1701,
+    "archived": false,
+    "fork": false,
+    "created": "2026-08-08",
+    "pushed": "2026-08-09",
+    "description": "An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.",
+    "homepage": "https://mengto.github.io/kage/",
+    "topics": [
+      "creative-coding",
+      "generative-art",
+      "interactive-storytelling",
+      "japanese-design",
+      "threejs",
+      "webgl"
+    ],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".gitignore",
+      ".nojekyll",
+      "PROMPT.md",
+      "README.md",
+      "assets",
+      "index.html",
+      "secret-pathways-assets"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "other",
+    "section": "webgl",
+    "name": "Kage",
+    "note": "Single-file Three.js scroll piece that moves a camera through a procedural night temple under a red moon.",
+    "license": "No license granted (no LICENSE file; README states no license is granted for reuse or redistribution of the code or artwork)",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "scroll-driven camera walk through a procedurally built Three.js temple, torii and stone stairs",
+        "vermilion moon with rain, drifting maple leaves and film grain over the live scene",
+        "generated image plates and foreground cutouts (pine, maple branches, lanterns) layered as HTML over the WebGL canvas for collage depth",
+        "oversized KAGE wordmark set inside the 3D scene behind the torii"
+      ],
+      "evidenceUrls": [
+        "https://mengto.github.io/kage/",
+        "https://github.com/MengTo/kage/blob/HEAD/assets/kage-preview.webp",
+        "https://github.com/MengTo/kage#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

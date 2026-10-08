@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "repo": "ingram-projects/animxyz",
+  "facts": {
+    "found": true,
+    "repo": "ingram-projects/animxyz",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:01:28+00:00",
+    "stars": 2498,
+    "archived": false,
+    "fork": false,
+    "created": "2020-05-03",
+    "pushed": "2026-10-08",
+    "description": "The first truly composable CSS animation library. Built for Vue, React, SCSS, and CSS, AnimXYZ will bring your website to life.",
+    "homepage": "https://animxyz.com",
+    "topics": [
+      "animation",
+      "animxyz",
+      "composable-animations",
+      "css",
+      "css-animations",
+      "css-framework",
+      "functional-css",
+      "react",
+      "scss",
+      "vue"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "The MIT License (MIT)\nCopyright (c) 2019-present Ingram Projects\nCopyright (c) 2019-present Miles Ingram, Mattan Ingram\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR"
+    },
+    "rootFiles": [
+      ".browserslistrc",
+      ".changeset",
+      ".claude",
+      ".editorconfig",
+      ".eslintrc.js",
+      ".github",
+      ".gitignore",
+      ".husky",
+      ".npmrc",
+      "CHANGELOG.md",
+      "LICENSE",
+      "README.md",
+      "bili.rootconfig.js",
+      "commitlint.config.js",
+      "examples",
+      "modernization-plan.md",
+      "netlify.toml",
+      "package-lock.json",
+      "package.json",
+      "packages",
+      "site",
+      "tests",
+      "turbo.json",
+      "utils"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "motion",
+    "name": "AnimXYZ",
+    "note": "CSS animation library where words in an xyz attribute, such as fade up big, compose one shared keyframe through CSS variables.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "animations composed from utility words in an xyz attribute (xyz=\"fade up big\")",
+        "single shared @keyframes driven by --xyz-* CSS variables instead of per-animation keyframes",
+        "staggered letter-by-letter entrance where each letter combines different fade, rotate, flip and scale utilities"
+      ],
+      "evidenceUrls": [
+        "https://animxyz.com/",
+        "https://animxyz.com/docs/?tab=examples&example=Example%201#the-basics"
+      ]
+    },
+    "unverified": []
+  }
+}

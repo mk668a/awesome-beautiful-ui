@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "repo": "itshover/itshover",
+  "facts": {
+    "found": true,
+    "repo": "itshover/itshover",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:01:40+00:00",
+    "stars": 2679,
+    "archived": false,
+    "fork": false,
+    "created": "2025-12-29",
+    "pushed": "2026-09-26",
+    "description": "Icons that move with intent",
+    "homepage": "https://itshover.com",
+    "topics": [
+      "animation",
+      "icons",
+      "motion",
+      "shadcn",
+      "shadcn-ui",
+      "svg"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "file": "LICENSE",
+      "head": "Apache License\nVersion 2.0, January 2004\nhttp://www.apache.org/licenses/\nTERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n1. Definitions.\n\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.\n\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.\n\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.\n\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.\n\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.\n\"Object\" form shall mean any form resulting from mechanical tran"
+    },
+    "rootFiles": [
+      ".cursor",
+      ".github",
+      ".gitignore",
+      ".prettierrc.json",
+      "ARCHITECTURE.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "actions",
+      "app",
+      "components.json",
+      "components",
+      "constants.ts",
+      "eslint.config.mjs",
+      "icons",
+      "lib",
+      "models",
+      "next.config.ts",
+      "package-lock.json",
+      "package.json",
+      "postcss.config.mjs",
+      "public",
+      "registry.json",
+      "scripts",
+      "tsconfig.build.json",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "component-collection",
+    "section": "motion",
+    "name": "Its Hover",
+    "note": "Copy-paste React icons whose individual strokes animate on hover with Motion, installable through the shadcn CLI.",
+    "license": "Apache-2.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "per-part hover choreography inside each stroke icon (alarm clock bells shake while the body bobs, menu lines rescale independently)"
+      ],
+      "evidenceUrls": [
+        "https://www.itshover.com/icons"
+      ]
+    },
+    "unverified": []
+  }
+}

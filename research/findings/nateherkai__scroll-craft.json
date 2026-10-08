@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "repo": "nateherkai/scroll-craft",
+  "facts": {
+    "found": true,
+    "repo": "nateherkai/scroll-craft",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:17:25+00:00",
+    "stars": 3001,
+    "archived": false,
+    "fork": false,
+    "created": "2026-08-22",
+    "pushed": "2026-09-30",
+    "description": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
+    "homepage": "https://github.com/nateherkai/scroll-craft",
+    "topics": [
+      "accessibility",
+      "agent-skills",
+      "ai-web-design",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "creative-coding",
+      "design-system",
+      "frontend",
+      "interaction-design",
+      "landing-page",
+      "scroll-animation",
+      "scrollytelling",
+      "typography",
+      "web-design"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Nate Herk\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".claude-plugin",
+      ".env.example",
+      ".gitignore",
+      "EXAMPLES.md",
+      "LICENSE",
+      "README.md",
+      "media",
+      "plugins"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "motion",
+    "name": "scroll-craft",
+    "note": "Agent skill with a small scroll engine for building pinned, video-scrubbed pages, plus a gate that stops each build repeating earlier ones.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "video scrubbed by scroll position (engine seeks currentTime per frame)",
+        "worldflight mode: one fixed stage with crossfaded video legs driven by a spacer",
+        "fingerprint gate requiring each build to differ from earlier ones on 4 of 6 dimensions",
+        "per-act --sc-p scroll progress property for bespoke interactions"
+      ],
+      "evidenceUrls": [
+        "https://github.com/nateherkai/scroll-craft/blob/HEAD/plugins/nateherk-design/skills/scroll-craft/engine/scrollcraft.js",
+        "https://github.com/nateherkai/scroll-craft/blob/HEAD/plugins/nateherk-design/skills/scroll-craft/templates/FINGERPRINTS.md",
+        "https://github.com/nateherkai/scroll-craft/blob/HEAD/media/perkform.webp",
+        "https://github.com/nateherkai/scroll-craft/blob/HEAD/media/ais.webp",
+        "https://github.com/nateherkai/scroll-craft/blob/HEAD/media/nateherk.webp",
+        "https://github.com/nateherkai/scroll-craft/blob/HEAD/README.md"
+      ]
+    },
+    "unverified": [
+      "The signature effects were confirmed in the engine source and README, not seen in motion: only still frames from the three README recordings (media/*.webp) were viewed, and the 50-second walkthrough video and the live example sites were not opened.",
+      "The engine and skill were not run in this session; the README says it has only ever been run on Windows."
+    ]
+  }
+}

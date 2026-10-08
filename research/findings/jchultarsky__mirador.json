@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "repo": "jchultarsky/mirador",
+  "facts": {
+    "found": true,
+    "repo": "jchultarsky/mirador",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:01:59+00:00",
+    "stars": 324,
+    "archived": false,
+    "fork": false,
+    "created": "2026-07-25",
+    "pushed": "2026-10-08",
+    "description": "An opinionated personal dashboard for your terminal — world clocks, calendar and agenda, weather, tasks, notes, markets and live system metrics in a tab you leave open all day. Rust + ratatui.",
+    "homepage": "https://crates.io/crates/mirador",
+    "topics": [
+      "cli",
+      "command-line-tool",
+      "crossterm",
+      "dashboard",
+      "notes",
+      "productivity",
+      "ratatui",
+      "rust",
+      "system-monitor",
+      "task-management",
+      "terminal",
+      "terminal-dashboard",
+      "todo",
+      "tui",
+      "weather"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Julian Chultarsky\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".editorconfig",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      "CHANGELOG.md",
+      "CLAUDE.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "Cargo.lock",
+      "Cargo.toml",
+      "LICENSE",
+      "README.md",
+      "SECURITY.md",
+      "assets",
+      "deny.toml",
+      "docs",
+      "rustfmt.toml",
+      "src"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "mirador",
+    "note": "Terminal dashboard of clock, calendar, tasks, notes and system panels that dims all but the focused one and rearranges by keyboard.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "single lit focused panel with its key hints set into the bottom border while every other panel is dimmed",
+        "keyboard arrange mode that moves live panels between rows and reflows the grid",
+        "block-numeral clock panel that collapses to a one-line time when its row shrinks"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/jchultarsky/mirador/main/docs/demo.gif",
+        "https://github.com/jchultarsky/mirador#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

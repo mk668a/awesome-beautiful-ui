@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "repo": "openrndr/openrndr",
+  "facts": {
+    "found": true,
+    "repo": "openrndr/openrndr",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:18:13+00:00",
+    "stars": 981,
+    "archived": false,
+    "fork": false,
+    "created": "2018-02-20",
+    "pushed": "2026-10-04",
+    "description": "OPENRNDR. A Kotlin/JVM library for creative coding, real-time and interactive graphics",
+    "homepage": "http://openrndr.org",
+    "topics": [
+      "creative-coding",
+      "graphics",
+      "jvm",
+      "kotlin",
+      "shaders",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE",
+      "head": "Copyright (c) 2018, Edwin Jakobs, RNDR\nAll rights reserved.\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "Module.md",
+      "README.md",
+      "build-logic",
+      "build.gradle",
+      "data",
+      "dokka",
+      "gradle.properties",
+      "gradle",
+      "gradlew",
+      "gradlew.bat",
+      "kotlin-js-store",
+      "openrndr-animatable",
+      "openrndr-application",
+      "openrndr-binpack",
+      "openrndr-color",
+      "openrndr-common-demo",
+      "openrndr-core",
+      "openrndr-dds",
+      "openrndr-demos",
+      "openrndr-dependency-catalog",
+      "openrndr-draw",
+      "openrndr-event",
+      "openrndr-extensions",
+      "openrndr-filter",
+      "openrndr-gl-common",
+      "openrndr-js",
+      "openrndr-jvm",
+      "openrndr-kartifex",
+      "openrndr-ktessellation",
+      "openrndr-math",
+      "openrndr-module-catalog",
+      "openrndr-nullgl",
+      "openrndr-platform",
+      "openrndr-shape",
+      "openrndr-utils",
+      "openrndr-web-demo",
+      "settings.gradle.kts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "webgl",
+    "name": "OPENRNDR",
+    "note": "Kotlin creative coding framework where GLSL shade style snippets restyle any drawn primitive, with contour and shape geometry tools.",
+    "license": "BSD-2-Clause (FreeBSD variant with the views-and-conclusions disclaimer, i.e. BSD-2-Clause-Views)",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "shade styles: GLSL fragment and vertex snippets injected into the drawer's templated shaders to restyle fill and stroke",
+        "compound builder for boolean union, difference and intersection of 2D shapes",
+        "contour offsetting and rectified contours for evenly spaced motion along curves",
+        "filter post-processing applied to color buffers"
+      ],
+      "evidenceUrls": [
+        "https://guide.openrndr.org/drawing/shadeStyles.html",
+        "https://guide.openrndr.org/media/shadestyles-example-001-thumb.jpg",
+        "https://guide.openrndr.org/drawing/curvesAndShapes.html",
+        "https://guide.openrndr.org/media/shapes-contour-rectified-001-thumb.jpg",
+        "https://guide.openrndr.org/drawing/filtersAndPostProcessing.html",
+        "https://guide.openrndr.org/media/filters-002.jpg"
+      ]
+    },
+    "unverified": []
+  }
+}

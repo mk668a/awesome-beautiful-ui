@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "repo": "bas3line/ascii",
+  "facts": {
+    "found": true,
+    "repo": "bas3line/ascii",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:00:19+00:00",
+    "stars": 551,
+    "archived": false,
+    "fork": false,
+    "created": "2026-10-07",
+    "pushed": "2026-10-08",
+    "description": "Animated ascii art for web pages, in TypeScript: React, Next.js, Astro, or one HTML tag",
+    "homepage": "https://ascii.rest",
+    "topics": [
+      "animation",
+      "ascii",
+      "ascii-art",
+      "astro",
+      "nextjs",
+      "react",
+      "typescript",
+      "web-components"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 bas3line (https://github.com/bas3line)\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "SECURITY.md",
+      "package-lock.json",
+      "package.json",
+      "scripts",
+      "site",
+      "src",
+      "tsconfig.build.json",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "gems",
+    "name": "ascii.rest",
+    "note": "Animated ASCII art pieces, from a spinning shaded donut to full-colour dot scenes, for React, Astro or one HTML tag.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "3D shapes such as a lit donut and torus knot rotating as shaded ASCII characters in a <pre>",
+        "full-colour landscape scenes drawn as grids of varying-size dots",
+        "language and distro logos as ASCII with animated SVG variants for READMEs"
+      ],
+      "evidenceUrls": [
+        "https://ascii.rest/donut/",
+        "https://ascii.rest/og/night-coast.png",
+        "https://ascii.rest/og/torus-knot.png",
+        "https://ascii.rest/svg/rust.svg"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "repo": "s010s/prehistoric-animal-museum",
+  "facts": {
+    "found": true,
+    "repo": "s010s/prehistoric-animal-museum",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:21:19+00:00",
+    "stars": 1098,
+    "archived": false,
+    "fork": false,
+    "created": "2026-08-04",
+    "pushed": "2026-10-07",
+    "description": "A free, open-source bilingual 3D museum where young children and their grown-ups explore prehistoric animals across land, sea, and sky.",
+    "homepage": "https://leon-made-this.work/museum/en/",
+    "topics": [
+      "dinosaurs",
+      "education",
+      "kids",
+      "multilingual",
+      "museum",
+      "paleontology",
+      "react",
+      "threejs",
+      "typescript",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "AGPL-3.0",
+      "file": "LICENSE",
+      "head": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n                            Preamble\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.\n  The licenses for most software and other practical works are designed\nto take away your freedom to share and change the works.  By contrast,\nour General Public Licenses are intended to guarantee your freedom to"
+    },
+    "rootFiles": [
+      ".agents",
+      ".env.example",
+      ".github",
+      ".gitignore",
+      ".nvmrc",
+      "ANIMAL_AUTHORING_GUIDE.md",
+      "BRAND_POLICY.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "LICENSES",
+      "LICENSING.md",
+      "README.md",
+      "README.zh-CN.md",
+      "THIRD_PARTY_NOTICES.md",
+      "assets",
+      "docs",
+      "e2e",
+      "eslint.config.js",
+      "functions",
+      "index.html",
+      "package-lock.json",
+      "package.json",
+      "playwright.config.ts",
+      "playwright.readme-screenshots.config.ts",
+      "playwright.review.config.ts",
+      "playwright.scale-encounter-gpu.config.ts",
+      "public",
+      "review-e2e",
+      "scripts",
+      "server.mjs",
+      "src",
+      "tests",
+      "tools",
+      "tsconfig.app.json",
+      "tsconfig.json",
+      "tsconfig.node.json",
+      "vite.config.ts",
+      "vitest.config.ts",
+      "workers"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "app",
+    "section": "webgl",
+    "name": "Prehistoric Animal Museum",
+    "note": "Bilingual 3D museum for young children where each prehistoric animal turns and zooms in front of a painted habitat backdrop.",
+    "license": "AGPL-3.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "orbitable 3D animal model staged over a painted sea, land or sky habitat backdrop",
+        "\"Compare with me\" mode that scales a child avatar against the animal from an entered height"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/s010s/prehistoric-animal-museum/HEAD/docs/images/museum-land-stegosaurus.jpg",
+        "https://raw.githubusercontent.com/s010s/prehistoric-animal-museum/HEAD/docs/images/museum-sea-mosasaurus.jpg",
+        "https://leon-made-this.work/museum/en/",
+        "https://github.com/s010s/prehistoric-animal-museum#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

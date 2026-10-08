@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "repo": "pulkitxm/claude-directory",
+  "facts": {
+    "found": true,
+    "repo": "pulkitxm/claude-directory",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:20:17+00:00",
+    "stars": 577,
+    "archived": false,
+    "fork": false,
+    "created": "2026-06-10",
+    "pushed": "2026-10-05",
+    "description": "Open-source AI interfaces built with Claude (Fable 5) including hero sections, GLSL shaders, design systems, animations, 3D components  and and landing pages,  in React, Tailwind, and Three.js. Plug them into your AI agent and ship faster.",
+    "homepage": "https://pulkit.page/claude-directory",
+    "topics": [
+      "ai-generated",
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "design-system",
+      "frontend",
+      "generative-ui",
+      "glsl-shaders",
+      "hero-section",
+      "landing-page",
+      "react",
+      "tailwindcss",
+      "templates",
+      "threejs",
+      "ui-components",
+      "ui-design",
+      "vibe-coding",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Pulkit\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".claude",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".nojekyll",
+      "3d-games",
+      "LICENSE",
+      "Makefile",
+      "README.md",
+      "animations-loaders",
+      "apple-icon.png",
+      "apple-touch-icon.png",
+      "biome.json",
+      "components-ui",
+      "favicon-16x16.png",
+      "favicon-32x32.png",
+      "favicon-48x48.png",
+      "favicon.ico",
+      "favicon.png",
+      "favicon.svg",
+      "favicon",
+      "hero-sections",
+      "icon.svg",
+      "icons",
+      "landing-pages",
+      "manifest.json",
+      "manifest.webmanifest",
+      "opencode.json",
+      "portfolios",
+      "posters.json",
+      "project-dates.json",
+      "scripts",
+      "shaders",
+      "templates",
+      "ui-design"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "claude-directory",
+    "note": "Gallery of about 550 Claude-generated web UI experiments, each folder shipping its source, the originating prompt and a recorded demo.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "every project folder ships its originating prompt.md next to a demo.mp4 recording",
+        "card stream that turns photos into ASCII text as they cross a glowing scan line",
+        "volumetric ray-marched stained-glass shader with switchable light regimes",
+        "Three.js particle torus knot behind hero type"
+      ],
+      "evidenceUrls": [
+        "https://github.com/pulkitxm/claude-directory/tree/HEAD/shaders/cathedral-raymarch-shader",
+        "https://raw.githubusercontent.com/pulkitxm/claude-directory/HEAD/components-ui/scanner-card-stream/poster.jpg",
+        "https://raw.githubusercontent.com/pulkitxm/claude-directory/HEAD/shaders/cathedral-raymarch-shader/poster.jpg",
+        "https://raw.githubusercontent.com/pulkitxm/claude-directory/HEAD/hero-sections/woven-light-hero/poster.jpg"
+      ]
+    },
+    "unverified": [
+      "The live directory site was not seen: https://pulkit.page/claude-directory and https://www.pulkit.page/claude-directory both returned HTTP 404, so the gallery browsing UI is unobserved.",
+      "Only still poster frames of four projects were viewed; motion and pointer interaction of the effects are taken from the README descriptions.",
+      "The project count of about 550 is the sum of the README category headings (41+98+12+2+14+15+34+84+250), not a count of folders."
+    ]
+  }
+}

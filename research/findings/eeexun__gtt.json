@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "repo": "eeeXun/gtt",
+  "facts": {
+    "found": true,
+    "repo": "eeeXun/gtt",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:01:01+00:00",
+    "stars": 306,
+    "archived": false,
+    "fork": false,
+    "created": "2022-10-24",
+    "pushed": "2026-09-25",
+    "description": "Google Translate TUI (Originally). Currently supports Apertium, Bing, DeepL, DeepLX, Google, LibreTranslate, Reverso.",
+    "homepage": null,
+    "topics": [
+      "apertium",
+      "bing",
+      "deepl",
+      "deeplx",
+      "google",
+      "libretranslate",
+      "reverso",
+      "translator",
+      "tui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2023 eeeXun\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "build",
+      "config.go",
+      "example",
+      "go.mod",
+      "go.sum",
+      "internal",
+      "key.go",
+      "main.go",
+      "ui.go",
+      "utils.go"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "gtt",
+    "note": "Terminal translator with side by side source and target panes plus definition and part of speech panes, backed by seven translation engines.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "four-pane terminal translator: source and target text above, definition/example and part-of-speech panes below"
+      ],
+      "evidenceUrls": [
+        "https://github.com/eeeXun/gtt/assets/58657914/3841c2bf-62f7-434a-9e77-91c3748c5675",
+        "https://github.com/eeeXun/gtt#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

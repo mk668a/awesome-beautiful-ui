@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "repo": "pgrundev/pgterm",
+  "facts": {
+    "found": true,
+    "repo": "pgrundev/pgterm",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:19:04+00:00",
+    "stars": 331,
+    "archived": false,
+    "fork": false,
+    "created": "2026-08-27",
+    "pushed": "2026-10-03",
+    "description": "Modern Postgres Terminal",
+    "homepage": "https://pgterm.dev",
+    "topics": [
+      "postgres",
+      "postgresql",
+      "postgresql-database",
+      "terminal",
+      "tui"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE",
+      "head": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n   Copyright 2026 pgrun.dev\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n       http://www.apache.org/licenses/LICENSE-2.0\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".nojekyll",
+      "Cargo.lock",
+      "Cargo.toml",
+      "LICENSE",
+      "README.md",
+      "demo",
+      "docs",
+      "install.ps1",
+      "install.sh",
+      "packaging",
+      "src",
+      "tests"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "pgterm",
+    "note": "Rust terminal UI that watches several Postgres databases from one sidebar, with health gauges, pgbot diagnostics, SQL and a data browser.",
+    "license": "Apache-2.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": false,
+    "signature": {
+      "effects": [
+        "multi-database sidebar that checks every database in the background and badges the one needing attention",
+        "overview of stat tiles and block-character gauges rendered from pgbot's JSON diagnostics",
+        "sidebar collapses to a tab strip below 100 columns"
+      ],
+      "evidenceUrls": [
+        "https://github.com/pgrundev/pgterm/blob/main/README.md"
+      ]
+    },
+    "unverified": [
+      "The UI was not seen running and no screenshot or recording was viewed: the repository tree (78 entries) contains no image or recording files, the README shows only a text mockup in a code block, and pgterm.dev is a JavaScript-rendered bundle that could not be rendered without a browser.",
+      "The signature effects are taken from the README's text mockup and prose, not from an observed run or image.",
+      "requiresHostedService is false based on the README, which says pgbot and pgrun are local binaries found on PATH; pgbot itself was not inspected."
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "repo": "pgplex/pgtui",
+  "facts": {
+    "found": true,
+    "repo": "pgplex/pgtui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:18:56+00:00",
+    "stars": 305,
+    "archived": false,
+    "fork": false,
+    "created": "2025-12-01",
+    "pushed": "2026-08-14",
+    "description": "A simple terminal UI for PostgreSQL, written in Go with Bubble Tea",
+    "homepage": null,
+    "topics": [
+      "cli",
+      "database",
+      "go",
+      "postgresql",
+      "terminal",
+      "tui"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "file": "LICENSE",
+      "head": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n   1. Definitions.\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".golangci.yaml",
+      ".goreleaser.yml",
+      "CLAUDE.md",
+      "LICENSE",
+      "Makefile",
+      "README.md",
+      "assets",
+      "cmd",
+      "config",
+      "docs",
+      "go.mod",
+      "go.sum",
+      "internal"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "pgtui",
+    "note": "Terminal client for PostgreSQL with a schema tree, tabbed table views, a JSONB tree viewer and a Ctrl+K command palette.",
+    "license": "Apache-2.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "JSONB tree viewer overlay with type-colored values and a live JSON path readout for the selected key",
+        "Ctrl+K command palette overlay searching commands, tables and query history with >, @ and # modes",
+        "lazygit-style layout: explorer tree of schemas and tables beside tabbed Data/Columns/Constraints/Indexes views with a key-hint footer"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/pgplex/pgtui/main/assets/jsonb.gif",
+        "https://raw.githubusercontent.com/pgplex/pgtui/main/assets/command-palette.gif",
+        "https://raw.githubusercontent.com/pgplex/pgtui/main/assets/demo.gif"
+      ]
+    },
+    "unverified": []
+  }
+}

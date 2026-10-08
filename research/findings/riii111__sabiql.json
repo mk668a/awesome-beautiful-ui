@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "repo": "riii111/sabiql",
+  "facts": {
+    "found": true,
+    "repo": "riii111/sabiql",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:20:55+00:00",
+    "stars": 317,
+    "archived": false,
+    "fork": false,
+    "created": "2025-12-27",
+    "pushed": "2026-10-03",
+    "description": "Fast, safe-by-design, Vim-first TUI for PostgreSQL, MySQL, and SQLite, built in Rust.",
+    "homepage": null,
+    "topics": [
+      "mysql",
+      "postgresql",
+      "ratatui-rs",
+      "rust-lang",
+      "sqlite",
+      "tui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2025 riii111\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".cargo",
+      ".coderabbit.yaml",
+      ".config",
+      ".envrc",
+      ".github",
+      ".gitignore",
+      "Cargo.lock",
+      "Cargo.toml",
+      "LICENSE",
+      "README.md",
+      "clippy.toml",
+      "compose.mysql-tls.yml",
+      "compose.yml",
+      "docs",
+      "flake.lock",
+      "flake.nix",
+      "install.sh",
+      "lefthook.yml",
+      "rust-toolchain.toml",
+      "rustfmt.toml",
+      "scripts",
+      "src"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "sabiql",
+    "note": "Vim-keyed terminal client for PostgreSQL, MySQL and SQLite that shows a diff, the SQL and a risk level before applying an edit.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "confirm dialog before a cell edit showing risk level, value diff and SQL preview",
+        "key hint footer that changes with the focused pane and mode",
+        "SQL editor modal with table name completion popup over the dimmed panes",
+        "focus mode that expands the result grid to the full screen",
+        "ER diagram of foreign keys rendered with Graphviz and opened in the browser"
+      ],
+      "evidenceUrls": [
+        "https://github.com/user-attachments/assets/06e1900d-b044-4f29-a2a8-7d7bab5bd3a1",
+        "https://github.com/user-attachments/assets/745ab18f-915c-4017-81a6-465c5c5ee11c",
+        "https://github.com/riii111/sabiql#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

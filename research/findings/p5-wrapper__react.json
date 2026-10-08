@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "repo": "P5-wrapper/react",
+  "facts": {
+    "found": true,
+    "repo": "P5-wrapper/react",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:18:17+00:00",
+    "stars": 565,
+    "archived": false,
+    "fork": false,
+    "created": "2016-12-21",
+    "pushed": "2026-10-01",
+    "description": "A wrapper component that allows you to utilise P5 sketches within React apps.",
+    "homepage": "https://p5-wrapper.github.io/react/",
+    "topics": [
+      "animation",
+      "component",
+      "creative-coding",
+      "graphics-programming",
+      "javascript",
+      "p5",
+      "p5js",
+      "react",
+      "sketches",
+      "typescript"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2016 P5 wrapper\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "LICENSE",
+      "README.md",
+      "config",
+      "demo",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "src",
+      "tests",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "webgl",
+    "name": "@P5-wrapper/react",
+    "note": "React component that mounts a p5.js sketch as a canvas and passes props into the sketch.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": false,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The demo at https://p5-wrapper.github.io/react/ renders its sketches client-side into an empty #app div; without a browser I saw only the static heading and footer, not the running sketches.",
+      "The README has no screenshots or recordings, only a socialify banner image, so no visual of the output was seen in this session.",
+      "The demo sketch names (box, plane, torus, capture, record) come from the demo/sketches file listing; their source and rendered output were not inspected."
+    ]
+  }
+}

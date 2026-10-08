@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "repo": "tlipinski/rura",
+  "facts": {
+    "found": true,
+    "repo": "tlipinski/rura",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:23:40+00:00",
+    "stars": 337,
+    "archived": false,
+    "fork": false,
+    "created": "2026-05-05",
+    "pushed": "2026-09-29",
+    "description": "Terminal UI for building shell pipelines",
+    "homepage": null,
+    "topics": [
+      "cli",
+      "pipeline",
+      "shell",
+      "terminal",
+      "tui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 tlipinski\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      "CHANGELOG.md",
+      "Cargo.lock",
+      "Cargo.toml",
+      "LICENSE",
+      "README.md",
+      "build.rs",
+      "dist-workspace.toml",
+      "rura.svg",
+      "src"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "Rura",
+    "note": "Terminal UI for building a shell pipeline step by step, with the output shown above the command line and a diff mode between runs.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "diff mode that colors removed and added output lines red and green in place as the pipeline is edited",
+        "pipeline command line with the stage output rendered above it and pipe and quote syntax highlighting",
+        "inline error panel showing the failing stage's exit code and stderr under the last good output"
+      ],
+      "evidenceUrls": [
+        "https://vhs.charm.sh/vhs-3LJycZIMoAJjLqwmpboLdp.gif",
+        "https://vhs.charm.sh/vhs-1Fv1rbJ2qMfPYx21lF5tDG.gif",
+        "https://github.com/tlipinski/rura#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

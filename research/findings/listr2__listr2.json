@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "repo": "listr2/listr2",
+  "facts": {
+    "found": true,
+    "repo": "listr2/listr2",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:02:14+00:00",
+    "stars": 691,
+    "archived": false,
+    "fork": false,
+    "created": "2020-02-27",
+    "pushed": "2026-10-07",
+    "description": "NodeJS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive.",
+    "homepage": null,
+    "topics": [
+      "cli",
+      "console",
+      "listr",
+      "loading",
+      "nodejs",
+      "nodejs-modules",
+      "npm",
+      "progress",
+      "task",
+      "tasklist",
+      "term",
+      "terminal",
+      "typescript"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "The MIT License (MIT)\nCopyright (c) Cenk Kilic <cenk@kilic.dev> (https://srcs.kilic.dev)\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".editorconfig",
+      ".eslintignore",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".gitlab-ci.yml",
+      ".multi-releaserc.json",
+      ".nvmrc",
+      ".prettierignore",
+      ".prettierrc.mjs",
+      ".rgignore",
+      ".vscode",
+      "LICENSE",
+      "README.md",
+      "docs",
+      "eslint.config.mjs",
+      "examples",
+      "hk.pkl",
+      "mise.toml",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "read-terminal-snapshots.sh",
+      "release.config.js",
+      "renovate.json",
+      "tsconfig.json",
+      "tsdown.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "terminal",
+    "name": "listr2",
+    "note": "Node.js task list renderer that redraws a nested tree of concurrent tasks in place with spinners and status icons.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "nested task tree redrawn in place with per-task spinners for concurrent subtasks",
+        "subtasks collapse into the parent line once the parent completes",
+        "per-state icons: check for done, down arrow with [SKIPPED] for skipped, red cross for failed, square for pending",
+        "live task output shown as an indented line under the running task and as a bottom bar line"
+      ],
+      "evidenceUrls": [
+        "https://media.githubusercontent.com/media/listr2/listr2/master/examples/renderer-default.gif",
+        "https://github.com/listr2/listr2"
+      ]
+    },
+    "unverified": []
+  }
+}

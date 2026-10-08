@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "repo": "Cyxuan0311/PNANA",
+  "facts": {
+    "found": true,
+    "repo": "Cyxuan0311/PNANA",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:00:55+00:00",
+    "stars": 327,
+    "archived": false,
+    "fork": false,
+    "created": "2025-12-28",
+    "pushed": "2026-10-08",
+    "description": "PNANA is a modern terminal text editor built with FTXUI, inspired by Nano, Micro, and Sublime Text. It offers an intuitive UI, familiar shortcuts, and robust editing capabilities.",
+    "homepage": null,
+    "topics": [
+      "cpp17",
+      "editor",
+      "ftxui",
+      "ide",
+      "nano",
+      "terminal-ui",
+      "tui",
+      "vscode"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2025 Frames\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".clang-format",
+      ".clang-tidy",
+      ".github",
+      ".gitignore",
+      "CHANGELOG.md",
+      "CMakeLists.txt",
+      "LICENSE",
+      "QUICKSTART.md",
+      "README.md",
+      "README_CN.md",
+      "RELEASE.md",
+      "build.sh",
+      "cmake",
+      "config",
+      "docs",
+      "example",
+      "go.mod",
+      "go.sum",
+      "go",
+      "include",
+      "plugins",
+      "python",
+      "resources",
+      "scripts",
+      "src",
+      "tests",
+      "third-party"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "pnana",
+    "note": "Terminal text editor built on FTXUI with a command palette, fuzzy file finder with preview pane, split views and in-editor image preview.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "in-editor image preview rendered as colored character cells",
+        "fuzzy file finder popup with match highlighting and a live file preview pane",
+        "history diff popup comparing saved versions of a file",
+        "welcome screen with a multicolor ASCII-art logo shown in several styles",
+        "TUI configuration file picker listing other terminal tools' config paths"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/Cyxuan0311/PNANA/HEAD/resources/demo.gif",
+        "https://github.com/Cyxuan0311/PNANA#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

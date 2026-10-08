@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "repo": "yetidevworks/drydock",
+  "facts": {
+    "found": true,
+    "repo": "yetidevworks/drydock",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:24:51+00:00",
+    "stars": 310,
+    "archived": false,
+    "fork": false,
+    "created": "2026-07-30",
+    "pushed": "2026-10-06",
+    "description": "What's uncommitted, unpushed, and unreleased across every repo you own. A live TUI dashboard for a fleet of git repos.",
+    "homepage": "https://yetidevworks.com/drydock",
+    "topics": [
+      "cli",
+      "dashboard",
+      "developer-tools",
+      "git",
+      "monorepo",
+      "ratatui",
+      "release-management",
+      "rust",
+      "terminal",
+      "tui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Andy Miller\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      "CHANGELOG.md",
+      "Cargo.lock",
+      "Cargo.toml",
+      "LICENSE",
+      "Makefile",
+      "README.md",
+      "crates",
+      "screenshot.png"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "terminal",
+    "name": "drydock",
+    "note": "Terminal dashboard that shows uncommitted, unpushed and unreleased work across hundreds of git repos in one colour-coded table.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "one-screen fleet table where colour alone carries each repo's state (yellow dirty, cyan unpushed, magenta unreleased, clean rows dimmed)",
+        "release state tracked as its own axis with a +TAG column counting commits past the last tag",
+        "header tally of dirty, unpushed and unreleased repos across the whole fleet with a live scan indicator"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/yetidevworks/drydock/HEAD/screenshot.png",
+        "https://github.com/yetidevworks/drydock#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

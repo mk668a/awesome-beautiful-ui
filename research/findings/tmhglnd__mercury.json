@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "repo": "tmhglnd/mercury",
+  "facts": {
+    "found": true,
+    "repo": "tmhglnd/mercury",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:23:57+00:00",
+    "stars": 378,
+    "archived": false,
+    "fork": false,
+    "created": "2019-11-19",
+    "pushed": "2026-08-23",
+    "description": "A human-made, free/open, beginner-friendly, minimal and human-readable language for the live coding of algorithmic electronic music performances",
+    "homepage": "https://mercury-playground.cc",
+    "topics": [
+      "algorithmic-composition",
+      "creative-coding",
+      "human-readable-language",
+      "language",
+      "live-coding",
+      "livecoding",
+      "mercury",
+      "mercury-environment",
+      "osc",
+      "performance",
+      "sequencing",
+      "sounds",
+      "visuals"
+    ],
+    "license": {
+      "spdx": "GPL-3.0",
+      "file": "LICENSE",
+      "head": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n                            Preamble\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n  The licenses for most software and other practical works are designed\nto take away your freedom to share and change the works.  By contrast,\nthe GNU General Public License is intended to guarantee your freedom to\nshare and change all versions of a program--to make sure it remains free"
+    },
+    "rootFiles": [
+      ".gitignore",
+      ".gitmodules",
+      "LICENSE",
+      "README.md",
+      "docs",
+      "examples-basic",
+      "examples",
+      "grammar",
+      "media",
+      "mercury_ide"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "gems",
+    "name": "Mercury",
+    "note": "Live coding language for electronic music in Max whose 30-line editor is drawn as large text over full-screen 3D visuals.",
+    "license": "GPL-3.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "code editor rendered as large monospace text directly over full-screen 3D visuals",
+        "editor capped at 30 numbered lines so all code stays visible to the audience",
+        "cursor line marked with >> in the gutter and a <== arrow at the caret"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/tmhglnd/mercury/master/media/mercury-screenshot2.png",
+        "https://raw.githubusercontent.com/tmhglnd/mercury/master/media/mercury-live.png",
+        "https://github.com/tmhglnd/mercury#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

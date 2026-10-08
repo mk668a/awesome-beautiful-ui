@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "repo": "geosigno/simpleParallax.js",
+  "facts": {
+    "found": true,
+    "repo": "geosigno/simpleParallax.js",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:01:15+00:00",
+    "stars": 2158,
+    "archived": false,
+    "fork": false,
+    "created": "2017-11-09",
+    "pushed": "2026-07-14",
+    "description": "Easy Parallax Effect for React & JavaScript",
+    "homepage": "https://simpleparallax.com",
+    "topics": [
+      "animation",
+      "image",
+      "javacript",
+      "parallax",
+      "react",
+      "scroll",
+      "simple",
+      "ui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2024 Geoffrey Signorato\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".DS_Store",
+      ".claude",
+      ".github",
+      ".gitignore",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "biome.jsonc",
+      "bun.lock",
+      "lefthook.yml",
+      "package.json",
+      "playground",
+      "src",
+      "tsconfig.json",
+      "vite.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "motion",
+    "name": "simpleParallax.js",
+    "note": "Scroll parallax for plain img and video tags in React or vanilla JS, with orientation, scale and delay settings.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "scroll parallax applied directly to img and video tags by translating a scaled image inside an overflow-hidden wrapper",
+        "configurable parallax orientation, scale, delay and overflow mode"
+      ],
+      "evidenceUrls": [
+        "https://simpleparallax.com/",
+        "https://github.com/geosigno/simpleParallax.js#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

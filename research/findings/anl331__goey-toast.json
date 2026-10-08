@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "repo": "anl331/goey-toast",
+  "facts": {
+    "found": true,
+    "repo": "anl331/goey-toast",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T16:59:57+00:00",
+    "stars": 1333,
+    "archived": false,
+    "fork": false,
+    "created": "2026-02-14",
+    "pushed": "2026-09-05",
+    "description": "A gooey, morphing toast component built on Sonner with Framer Motion animations",
+    "homepage": "https://goey-toast.vercel.app",
+    "topics": [
+      "animation",
+      "blob",
+      "component",
+      "framer-motion",
+      "gooey",
+      "morph",
+      "nextjs",
+      "notification",
+      "react",
+      "sonner",
+      "toast",
+      "typescript",
+      "ui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".gitignore",
+      "CHANGELOG.md",
+      "LICENSE",
+      "README.md",
+      "bin",
+      "demo",
+      "package-lock.json",
+      "package.json",
+      "skills",
+      "src",
+      "tsconfig.json",
+      "tsup.config.ts",
+      "vercel.json",
+      "vitest.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "gems",
+    "name": "gooey-toast",
+    "note": "React toast whose title pill and description body are drawn as one blob that morphs between pill and expanded shapes.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "title pill and description body fused into one blob outline with a concave joint",
+        "pill to blob morph as the toast expands",
+        "promise toast morphing in place from a loading pill to an expanded result"
+      ],
+      "evidenceUrls": [
+        "https://goey-toast.vercel.app/"
+      ]
+    },
+    "unverified": []
+  }
+}

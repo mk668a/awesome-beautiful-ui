@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "repo": "shader-park/shader-park-core",
+  "facts": {
+    "found": true,
+    "repo": "shader-park/shader-park-core",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:22:18+00:00",
+    "stars": 825,
+    "archived": false,
+    "fork": false,
+    "created": "2019-06-17",
+    "pushed": "2026-10-05",
+    "description": "A JavaScript library for creating real-time 2D and 3D shaders. JS -> Shader. https://shaderpark.com/  https://twitter.com/shaderpark",
+    "homepage": "https://shaderpark.com/",
+    "topics": [
+      "computer-graphics",
+      "creative-coding",
+      "glsl",
+      "gpu",
+      "graphics-programming",
+      "live-coding",
+      "p5js",
+      "processing",
+      "raymarching",
+      "raymarching-distance-fields",
+      "real-time",
+      "rendering",
+      "sdf",
+      "shader",
+      "shader-park",
+      "shaders",
+      "shadertoy",
+      "signed-distance-field",
+      "web",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2023 shader-park\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".babelrc",
+      ".github",
+      ".gitignore",
+      ".prettierignore",
+      "LICENSE",
+      "README.md",
+      "converters",
+      "examples",
+      "generators",
+      "glsl",
+      "index.js",
+      "out",
+      "package-lock.json",
+      "package.json",
+      "rollup.config.js",
+      "shader-park-syntax.txt",
+      "targets",
+      "test"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "webgl",
+    "name": "Shader Park",
+    "note": "JavaScript library that compiles short sculpting scripts into raymarched signed distance field shaders for three.js, p5, Hydra and TouchDesigner.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "JavaScript sculpting code compiled to raymarched SDF GLSL shaders",
+        "noise-displaced shapes via expand() driven by space and time",
+        "mirrored and displaced coordinate space to repeat one primitive into a folding structure",
+        "one sculpture exported to three.js, p5, Hydra, TouchDesigner and raw SDF meshing targets"
+      ],
+      "evidenceUrls": [
+        "https://i.imgur.com/okVONOu.gif",
+        "https://i.imgur.com/dFI9g12.gif",
+        "https://shader-park-docs.netlify.app/references-js/",
+        "https://github.com/shader-park/shader-park-core/blob/main/index.js"
+      ]
+    },
+    "unverified": []
+  }
+}

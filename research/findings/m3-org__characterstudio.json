@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "repo": "M3-org/CharacterStudio",
+  "facts": {
+    "found": true,
+    "repo": "M3-org/CharacterStudio",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:02:27+00:00",
+    "stars": 351,
+    "archived": false,
+    "fork": false,
+    "created": "2023-09-29",
+    "pushed": "2026-08-11",
+    "description": "Open source web based custom VRM avatar creation platform",
+    "homepage": "https://studio.m3org.com/",
+    "topics": [
+      "3d",
+      "avatars",
+      "blender",
+      "ethereum",
+      "generator",
+      "gltf",
+      "optimization",
+      "react",
+      "threejs",
+      "vrm",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2022 Atlas Foundation\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".env",
+      ".env.example",
+      ".eslintignore",
+      ".eslintrc.json",
+      ".github",
+      ".gitignore",
+      ".prettierignore",
+      ".prettierrc.json",
+      ".vscode",
+      "CLAUDE.md",
+      "LICENSE",
+      "README.md",
+      "cert.pem",
+      "docs",
+      "index.html",
+      "key.pem",
+      "package-lock.json",
+      "package.json",
+      "public",
+      "src",
+      "tests",
+      "vite.config.js",
+      "vitest.config.js"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "app",
+    "section": "webgl",
+    "name": "Character Studio",
+    "note": "Browser studio for assembling VRM avatars from swappable trait slots on a live three.js model, with glb and VRM export.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "point-and-click VRM avatar assembly from swappable trait slots on a live 3D model",
+        "per-trait culling layers with cull distance sliders that hide faces under clothing"
+      ],
+      "evidenceUrls": [
+        "https://studio.m3org.com/",
+        "https://github.com/M3-org/CharacterStudio/assets/32600939/fad3002f-78cd-4cd2-8eae-0c1663a86d25"
+      ]
+    },
+    "unverified": []
+  }
+}

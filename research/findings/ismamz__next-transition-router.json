@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "repo": "ismamz/next-transition-router",
+  "facts": {
+    "found": true,
+    "repo": "ismamz/next-transition-router",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:01:28+00:00",
+    "stars": 366,
+    "archived": false,
+    "fork": false,
+    "created": "2024-08-05",
+    "pushed": "2026-10-07",
+    "description": "Easily add animated transitions between pages using Next.js App Router and your favorite animation library.",
+    "homepage": "https://next-transition-router.vercel.app",
+    "topics": [
+      "animation",
+      "app-router",
+      "framer-motion",
+      "gsap",
+      "nextjs",
+      "page-transitions",
+      "page-transitions-next",
+      "react",
+      "router-transitions",
+      "transitions",
+      "view-transitions"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2024 Ismael Martínez\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".gitignore",
+      ".npmignore",
+      ".vscode",
+      "LICENSE",
+      "README.md",
+      "example",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "src",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "motion",
+    "name": "next-transition-router",
+    "note": "Leave and enter callbacks for the Next.js App Router that hold navigation until your GSAP or CSS page transition finishes.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "leave/enter callbacks that hold App Router navigation until a custom animation calls next",
+        "two-layer staggered full-screen wipe between pages in the GSAP demo",
+        "live transition stage readout (none, leaving, entering) exposed to the page"
+      ],
+      "evidenceUrls": [
+        "https://next-transition-router.vercel.app",
+        "https://next-transition-router.vercel.app/demo",
+        "https://github.com/ismamz/next-transition-router/blob/main/example/app/providers.tsx",
+        "https://github.com/ismamz/next-transition-router#readme"
+      ]
+    },
+    "unverified": []
+  }
+}

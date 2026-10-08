@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "repo": "polygonjs/polygonjs",
+  "facts": {
+    "found": true,
+    "repo": "polygonjs/polygonjs",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:19:21+00:00",
+    "stars": 818,
+    "archived": false,
+    "fork": false,
+    "created": "2019-12-30",
+    "pushed": "2026-08-08",
+    "description": "node-based WebGL design tool",
+    "homepage": "https://polygonjs.com",
+    "topics": [
+      "3d",
+      "3d-engine",
+      "animation",
+      "computer-graphics",
+      "creative-coding",
+      "geometry-processing",
+      "glsl",
+      "javascript",
+      "nocode",
+      "node-based",
+      "procedural",
+      "procedural-generation",
+      "rendering",
+      "tech-art",
+      "threejs",
+      "visual-programming",
+      "webgl",
+      "webgl-library"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "The MIT License\nCopyright (c) 2019-2023 Guillaume Fradin\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,"
+    },
+    "rootFiles": [
+      ".eslintignore",
+      ".eslintrc.js",
+      ".gitignore",
+      ".npmignore",
+      ".prettierignore",
+      ".prettierrc.json",
+      ".vscode",
+      ".yarn",
+      ".yarnrc.yml",
+      "CHANGELOG.md",
+      "LICENSE",
+      "README.md",
+      "config",
+      "examples",
+      "index.html",
+      "package.json",
+      "public",
+      "src",
+      "tests",
+      "tsconfig.json",
+      "vite.config.mjs",
+      "yarn.lock"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "webgl",
+    "name": "Polygonjs",
+    "note": "Node-based 3D engine on three.js where geometry, shaders, materials and interactions are built as connected node graphs.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "3D scene defined as node graphs split into contexts (SOP procedural modelling, GL shader, MAT, POST, ANIM, AUDIO, JS actor nodes)",
+        "actor node graph wiring hover events to object rotation and instrument notes"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/polygonjs/polygonjs-assets/master/demo/media/demo.003.jpg?v=1",
+        "https://github.com/polygonjs/polygonjs#readme"
+      ]
+    },
+    "unverified": [
+      "Only one static README screenshot was viewed (the editor at polygonjs.com/demo with a 3D viewport and a node graph); nothing was seen running.",
+      "The node editor in that screenshot is not in this repository: src/ holds only core, engine, modules and types, and the editor ships as the separate npm package polygonjs-editor, whose source and license were not checked.",
+      "The LICENSE file is MIT (commit 2023-10-16 'revert license to MIT'), but package.json still declares 'PolyForm Shield'; which one governs the published npm package was not confirmed.",
+      "The README says v1 is in maintenance mode and superseded by Polygon v2; polygonjs.com and its docs now describe Polygon 2.0.64, a paid product, so the homepage and live demo no longer show this repository's code.",
+      "requiresHostedService false is inferred from the README (npm install, local editor, direct three.js access), not from running it."
+    ]
+  }
+}

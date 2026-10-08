@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "repo": "nolangz/pixel2motion",
+  "facts": {
+    "found": true,
+    "repo": "nolangz/pixel2motion",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:18:04+00:00",
+    "stars": 2401,
+    "archived": false,
+    "fork": false,
+    "created": "2026-06-12",
+    "pushed": "2026-08-21",
+    "description": "AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motion QA evidence.",
+    "homepage": "https://nolangz.github.io/pixel2motion/",
+    "topics": [
+      "ai-animation",
+      "ai-design-tools",
+      "animated-logo",
+      "brand-motion",
+      "claude-skill",
+      "codex-skill",
+      "creative-coding",
+      "generative-ai",
+      "html-animation",
+      "logo-animation",
+      "logo-design",
+      "logo-motion",
+      "logo-reveal",
+      "motion-design",
+      "pixel-to-svg",
+      "raster-to-svg",
+      "svg",
+      "svg-animation",
+      "svg-motion",
+      "vector-animation"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Nolan Lai\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".gitattributes",
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "SKILL.md",
+      "agents",
+      "docs",
+      "references",
+      "scripts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "tool",
+    "section": "motion",
+    "name": "Pixel2Motion",
+    "note": "Agent skill that refits a raster logo into minimal smooth SVG and choreographs a logo reveal as standalone HTML with replay and speed controls.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "raster logo refit into minimal smooth SVG with teal overlay strips comparing the vector against the source",
+        "logo reveal choreographed part by part (mark draws on, dot pops in, wordmark types out) landing on the verified static vector",
+        "showcase HTML with atomic motion studies (hover, pulse, arc, press), animation-principle chips, and replay, slow motion and speed controls",
+        "side-by-side Claude and GPT motion studies of the same source logo"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/nolangz/pixel2motion/main/docs/gifs/claude-cuerecord.gif",
+        "https://raw.githubusercontent.com/nolangz/pixel2motion/main/docs/process/cuerecord-overlay-progress-strip.png",
+        "https://raw.githubusercontent.com/nolangz/pixel2motion/main/docs/preview.png",
+        "https://nolangz.github.io/pixel2motion/",
+        "https://github.com/nolangz/pixel2motion/blob/main/SKILL.md"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "repo": "rive-app/rive-react",
+  "facts": {
+    "found": true,
+    "repo": "rive-app/rive-react",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:21:08+00:00",
+    "stars": 1168,
+    "archived": false,
+    "fork": false,
+    "created": "2021-06-04",
+    "pushed": "2026-09-30",
+    "description": "React runtime for Rive",
+    "homepage": "https://rive.app/docs/runtimes/react/react",
+    "topics": [
+      "animation",
+      "react"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2021 Rive\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".eslintrc.js",
+      ".github",
+      ".gitignore",
+      ".prettierrc",
+      ".release-it.json",
+      "CHANGELOG.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "examples",
+      "jest.config.js",
+      "npm",
+      "package-lock.json",
+      "package.json",
+      "scripts",
+      "setupTests.ts",
+      "src",
+      "test",
+      "tsconfig.json",
+      "tsconfig.test.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "motion",
+    "name": "Rive React",
+    "note": "React components and hooks that render Rive .riv files, with control of state machines and data-bound view model properties.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "interactive vector animations driven by Rive state machines from a .riv file",
+        "React hooks that read and set data-bound view model properties (number, string, color, trigger, list) of a running animation"
+      ],
+      "evidenceUrls": [
+        "https://rive.app/docs/runtimes/react/react",
+        "https://rive.app/docs/images/runtimes/quick-start.gif",
+        "https://github.com/rive-app/rive-react/tree/main/src/hooks"
+      ]
+    },
+    "unverified": []
+  }
+}

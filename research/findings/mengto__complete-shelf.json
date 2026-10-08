@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "repo": "MengTo/complete-shelf",
+  "facts": {
+    "found": true,
+    "repo": "MengTo/complete-shelf",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T17:02:36+00:00",
+    "stars": 699,
+    "archived": false,
+    "fork": false,
+    "created": "2026-08-01",
+    "pushed": "2026-08-15",
+    "description": "An original single-file Three.js library of seven interactive clothbound hardcovers.",
+    "homepage": "https://mengto.github.io/complete-shelf/",
+    "topics": [
+      "book-design",
+      "creative-coding",
+      "github-pages",
+      "interactive-design",
+      "threejs",
+      "webgl"
+    ],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".gitignore",
+      "PROMPT.md",
+      "README.md",
+      "assets",
+      "index.html"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "other",
+    "section": "webgl",
+    "name": "The Complete Shelf",
+    "note": "Single-file Three.js shelf of seven clothbound hardcovers that can be pulled out, orbited and paged through.",
+    "license": "none",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "3D shelf of clothbound hardcover books with cloth texture and foil cover artwork"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/MengTo/complete-shelf/HEAD/assets/complete-shelf-preview.jpg"
+      ]
+    },
+    "unverified": [
+      "Only the README preview screenshot of the shelf view was seen; the live demo at https://mengto.github.io/complete-shelf/ returned HTTP 200 but could not be viewed running because the shared browser was switched to other tabs by parallel sessions.",
+      "The detail view, orbit controls, hover-to-crack-open, drag-to-turn curved pages, per-book recoloring and generated audio are taken from the README text and were not observed.",
+      "No license file exists in the repository root and the README and index.html contain no license or copyright wording, so the project has no stated license.",
+      "requiresHostedService false is inferred from the README, which says there is no backend and only pinned Three.js modules and the Inter font are loaded from the network."
+    ]
+  }
+}
