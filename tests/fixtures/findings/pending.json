@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "repo": "example/pending",
+  "facts": {
+    "found": true,
+    "repo": "example/pending",
+    "fork": false,
+    "archived": false,
+    "stars": 100,
+    "pushed": "2026-10-01",
+    "license": {
+      "spdx": "MIT"
+    }
+  },
+  "research": {
+    "status": "pending"
+  }
+}

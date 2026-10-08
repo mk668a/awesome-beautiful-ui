@@ -23,7 +23,7 @@ You do not need to check activity yourself. The build script sorts entries into 
 3. Regenerate the README and commit both files:
 
    ```sh
-   GITHUB_TOKEN=$(gh auth token) node scripts/build.mjs
+   python3 scripts/build.py
    ```
 
 Do not edit the generated part of `README.md` by hand. It is overwritten on the next run.

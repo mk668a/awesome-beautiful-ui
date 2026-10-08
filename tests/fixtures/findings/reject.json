@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "repo": "example/reject",
+  "facts": {
+    "found": true,
+    "repo": "example/reject",
+    "fork": false,
+    "archived": false,
+    "stars": 100,
+    "pushed": "2026-10-01",
+    "license": {
+      "spdx": "MIT"
+    }
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "app",
+    "section": "motion",
+    "name": "Animated Digits",
+    "note": "Animated digits with smooth transitions.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "per-digit rolling transitions"
+      ],
+      "evidenceUrls": [
+        "https://example.org/demo"
+      ]
+    },
+    "unverified": []
+  }
+}

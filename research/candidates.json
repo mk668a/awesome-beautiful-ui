@@ -1,0 +1,2348 @@
+{
+  "generatedAt": "2026-10-08T15:13:22+00:00",
+  "qualifiers": [
+    "pushed:>2026-07-09",
+    "stars:>=300",
+    "archived:false",
+    "fork:false"
+  ],
+  "queryIds": [
+    "react-animation",
+    "text-animation",
+    "animated-components",
+    "shadcn-animation",
+    "design-engineers",
+    "shaders",
+    "creative-coding",
+    "generative-art",
+    "react-webgl",
+    "tui",
+    "beautiful-cli",
+    "web-components"
+  ],
+  "candidates": [
+    {
+      "repo": "sxyazi/yazi",
+      "stars": 42691,
+      "created": "2023-07-08",
+      "pushed": "2026-10-05",
+      "license": "MIT",
+      "topics": [
+        "android",
+        "asyncio",
+        "cli",
+        "command-line",
+        "concurrency",
+        "cross-platform",
+        "developer-tools",
+        "file-explorer",
+        "file-manager",
+        "filesystem",
+        "linux",
+        "macos",
+        "neovim",
+        "productivity",
+        "rust",
+        "terminal",
+        "tui",
+        "vim",
+        "windows"
+      ],
+      "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "GraphiteEditor/Graphite",
+      "stars": 27502,
+      "created": "2020-04-26",
+      "pushed": "2026-10-08",
+      "license": "Apache-2.0",
+      "topics": [
+        "2d-graphics",
+        "animation",
+        "art",
+        "creative-coding",
+        "design",
+        "graphic-design",
+        "graphics",
+        "graphics-editor",
+        "image-manipulation",
+        "image-processing",
+        "motion-design",
+        "motion-graphics",
+        "node-graph",
+        "photo-editor",
+        "procedural",
+        "procedural-drawing",
+        "procedural-generation",
+        "svg-editor",
+        "vector-graphics"
+      ],
+      "description": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "yorukot/superfile",
+      "stars": 23745,
+      "created": "2024-03-19",
+      "pushed": "2026-10-05",
+      "license": "MIT",
+      "topics": [
+        "bubbletea",
+        "cli",
+        "file-manager",
+        "filemanager",
+        "filesystem",
+        "golang",
+        "hacktoberfest",
+        "linux-app",
+        "terminal-app",
+        "terminal-based",
+        "tui"
+      ],
+      "description": "Pretty fancy and modern terminal file manager",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "pranshuparmar/witr",
+      "stars": 22629,
+      "created": "2025-12-20",
+      "pushed": "2026-10-04",
+      "license": "Apache-2.0",
+      "topics": [
+        "cli",
+        "containers",
+        "devops",
+        "docker",
+        "freebsd",
+        "go",
+        "golang",
+        "incident-response",
+        "kubernetes",
+        "linux",
+        "macos",
+        "monitoring",
+        "observability",
+        "process-management",
+        "sysadmin",
+        "systemd",
+        "terminal",
+        "troubleshooting",
+        "tui",
+        "windows"
+      ],
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. ",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "jarun/nnn",
+      "stars": 22056,
+      "created": "2016-08-20",
+      "pushed": "2026-10-07",
+      "license": "BSD-2-Clause",
+      "topics": [
+        "android",
+        "batch-rename",
+        "c",
+        "cli",
+        "command-line",
+        "developer-tools",
+        "disk-usage",
+        "file-manager",
+        "file-preview",
+        "file-search",
+        "filesystem",
+        "launcher",
+        "multi-platform",
+        "ncurses",
+        "productivity",
+        "raspberry-pi",
+        "terminal",
+        "tui",
+        "vim",
+        "wsl"
+      ],
+      "description": "n³ The unorthodox terminal file manager",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "allinurl/goaccess",
+      "stars": 21010,
+      "created": "2013-07-14",
+      "pushed": "2026-10-01",
+      "license": "MIT",
+      "topics": [
+        "analytics",
+        "apache",
+        "c",
+        "caddy",
+        "cli",
+        "command-line",
+        "dashboard",
+        "data-analysis",
+        "gdpr",
+        "goaccess",
+        "google-analytics",
+        "monitoring",
+        "ncurses",
+        "nginx",
+        "privacy",
+        "real-time",
+        "terminal",
+        "tui",
+        "web-analytics",
+        "webserver"
+      ],
+      "description": "GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser.",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "antonmedv/fx",
+      "stars": 20654,
+      "created": "2018-01-25",
+      "pushed": "2026-10-08",
+      "license": "MIT",
+      "topics": [
+        "cli",
+        "command-line",
+        "json",
+        "tui"
+      ],
+      "description": "Terminal JSON viewer & processor",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "wtfutil/wtf",
+      "stars": 17115,
+      "created": "2018-03-29",
+      "pushed": "2026-09-30",
+      "license": "MPL-2.0",
+      "topics": [
+        "cui",
+        "dashboard",
+        "devops",
+        "go",
+        "golang",
+        "hacktoberfest",
+        "terminal",
+        "tui",
+        "wtf",
+        "wtfutil"
+      ],
+      "description": "The personal information dashboard for your terminal",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "ClementTsang/bottom",
+      "stars": 14090,
+      "created": "2019-08-28",
+      "pushed": "2026-10-04",
+      "license": "MIT",
+      "topics": [
+        "bottom",
+        "btm",
+        "cli",
+        "cross-platform",
+        "monitoring",
+        "rust",
+        "terminal",
+        "top",
+        "tui"
+      ],
+      "description": "Yet another cross-platform graphical process/system monitor.",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "anomalyco/opentui",
+      "stars": 13494,
+      "created": "2025-07-21",
+      "pushed": "2026-10-08",
+      "license": "MIT",
+      "topics": [
+        "opencode",
+        "opentui",
+        "tui"
+      ],
+      "description": "OpenTUI is a library to build terminal user interfaces (TUI)",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "jonas/tig",
+      "stars": 13357,
+      "created": "2009-03-01",
+      "pushed": "2026-09-19",
+      "license": "GPL-2.0",
+      "topics": [
+        "c",
+        "git",
+        "ncurses",
+        "tui"
+      ],
+      "description": "Text-mode interface for git",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "sirmalloc/ccstatusline",
+      "stars": 13225,
+      "created": "2025-08-08",
+      "pushed": "2026-10-06",
+      "license": "MIT",
+      "topics": [
+        "ai-tools",
+        "claude-code",
+        "cli",
+        "developer-tools",
+        "git",
+        "powerline",
+        "statusbar",
+        "statusline",
+        "terminal",
+        "themeing"
+      ],
+      "description": "🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more.",
+      "queryIds": [
+        "beautiful-cli"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "dlvhdr/gh-dash",
+      "stars": 12606,
+      "created": "2021-10-14",
+      "pushed": "2026-09-22",
+      "license": "MIT",
+      "topics": [
+        "bubbles",
+        "bubbletea",
+        "cli",
+        "cobra",
+        "gh-extension",
+        "github",
+        "glamour",
+        "go",
+        "golang",
+        "lipgloss",
+        "terminal",
+        "tui"
+      ],
+      "description": "A rich terminal UI for GitHub that doesn't break your flow.",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "darrenburns/posting",
+      "stars": 12493,
+      "created": "2024-05-26",
+      "pushed": "2026-10-05",
+      "license": "Apache-2.0",
+      "topics": [
+        "automation",
+        "cli",
+        "developer-tools",
+        "http",
+        "python",
+        "rest",
+        "rest-api",
+        "rest-client",
+        "ssh",
+        "terminal",
+        "textual",
+        "tui"
+      ],
+      "description": "The modern API client that lives in your terminal.",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "tui-cs/Terminal.Gui",
+      "stars": 11255,
+      "created": "2017-12-11",
+      "pushed": "2026-10-05",
+      "license": "MIT",
+      "topics": [
+        "console",
+        "console-application",
+        "cross-platform",
+        "csharp",
+        "curses",
+        "dotnet",
+        "terminal",
+        "terminal-based",
+        "terminal-ui",
+        "tui"
+      ],
+      "description": "Cross Platform Terminal UI toolkit for .NET",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "modelcontextprotocol/inspector",
+      "stars": 11040,
+      "created": "2024-10-03",
+      "pushed": "2026-10-08",
+      "license": "NOASSERTION",
+      "topics": [
+        "cli",
+        "debug",
+        "mcp",
+        "tool",
+        "tui",
+        "web"
+      ],
+      "description": "Visual testing tool for MCP servers",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "ArthurSonzogni/FTXUI",
+      "stars": 10775,
+      "created": "2019-01-27",
+      "pushed": "2026-10-07",
+      "license": "MIT",
+      "topics": [
+        "arthursonzogni",
+        "ascii",
+        "ascii-art",
+        "cpp",
+        "curse",
+        "simple",
+        "terminal",
+        "terminal-based",
+        "tui",
+        "ui",
+        "user-interface",
+        "xterm"
+      ],
+      "description": ":computer: C++ Functional Terminal User Interface. :heart:",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "tstack/lnav",
+      "stars": 10726,
+      "created": "2009-09-14",
+      "pushed": "2026-10-06",
+      "license": "BSD-2-Clause",
+      "topics": [
+        "command-line-tool",
+        "less",
+        "log-analysis",
+        "log-monitor",
+        "log-viewer",
+        "log-visualization",
+        "logging",
+        "more",
+        "pager",
+        "tail",
+        "terminal",
+        "terminal-pager",
+        "tui"
+      ],
+      "description": "Log file navigator",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "hatoo/oha",
+      "stars": 10582,
+      "created": "2020-03-02",
+      "pushed": "2026-10-04",
+      "license": "MIT",
+      "topics": [
+        "benchmark",
+        "cli",
+        "command-line",
+        "http",
+        "http2",
+        "load-generator",
+        "load-testing",
+        "rust",
+        "tui"
+      ],
+      "description": "Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation.",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "openframeworks/openFrameworks",
+      "stars": 10437,
+      "created": "2009-10-21",
+      "pushed": "2026-10-05",
+      "license": "NOASSERTION",
+      "topics": [
+        "android",
+        "audio",
+        "computer-vision",
+        "creative-coding",
+        "emscripten",
+        "graphics",
+        "ios",
+        "linux",
+        "opencv",
+        "openframeworks",
+        "opengl",
+        "osx",
+        "raspberry-pi",
+        "video",
+        "windows"
+      ],
+      "description": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++.",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "Kuberwastaken/claurst",
+      "stars": 10316,
+      "created": "2026-03-31",
+      "pushed": "2026-09-02",
+      "license": "GPL-3.0",
+      "topics": [
+        "claude",
+        "claude-code",
+        "claurst",
+        "cli",
+        "codex",
+        "gemini",
+        "rust",
+        "tui"
+      ],
+      "description": "Agentic Coding for Builders who Ship",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "symfony/console",
+      "stars": 9814,
+      "created": "2011-02-22",
+      "pushed": "2026-10-07",
+      "license": "MIT",
+      "topics": [
+        "cli",
+        "command-line",
+        "component",
+        "console",
+        "php",
+        "symfony",
+        "symfony-component",
+        "terminal"
+      ],
+      "description": "Eases the creation of beautiful and testable command line interfaces",
+      "queryIds": [
+        "beautiful-cli"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "modem-dev/hunk",
+      "stars": 9539,
+      "created": "2026-03-17",
+      "pushed": "2026-10-07",
+      "license": "MIT",
+      "topics": [
+        "agents",
+        "cli",
+        "code-review",
+        "diff",
+        "git",
+        "jj",
+        "jujutsu",
+        "sapling",
+        "terminal",
+        "tui"
+      ],
+      "description": "Review-first terminal diff viewer for agentic coders",
+      "queryIds": [
+        "tui"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "ibelick/ui-skills",
+      "stars": 9504,
+      "created": "2026-01-07",
+      "pushed": "2026-10-07",
+      "license": "MIT",
+      "topics": [
+        "skills",
+        "ui-skills"
+      ],
+      "description": "Skills for Design Engineers",
+      "queryIds": [
+        "design-engineers"
+      ],
+      "suggestedSection": "components"
+    },
+    {
+      "repo": "visgl/react-map-gl",
+      "stars": 8504,
+      "created": "2015-10-08",
+      "pushed": "2026-09-03",
+      "license": "NOASSERTION",
+      "topics": [
+        "data-visualization",
+        "map",
+        "mapbox-gl",
+        "mapbox-gl-js",
+        "react",
+        "uber",
+        "webgl"
+      ],
+      "description": "React friendly API wrapper around MapboxGL JS",
+      "queryIds": [
+        "react-webgl"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "barvian/number-flow",
+      "stars": 7735,
+      "created": "2024-07-15",
+      "pushed": "2026-09-20",
+      "license": "MIT",
+      "topics": [
+        "accessible",
+        "animation",
+        "odometer",
+        "react",
+        "svelte",
+        "vue"
+      ],
+      "description": "An animated number component for React, Vue, Svelte, and TS/JS.",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "MengTo/threeui",
+      "stars": 6503,
+      "created": "2026-08-21",
+      "pushed": "2026-09-03",
+      "license": "MIT",
+      "topics": [
+        "react",
+        "shaders",
+        "threejs",
+        "ui-components",
+        "webgl"
+      ],
+      "description": "Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+      "queryIds": [
+        "react-webgl"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "css-doodle/css-doodle",
+      "stars": 6056,
+      "created": "2017-02-14",
+      "pushed": "2026-10-08",
+      "license": "MIT",
+      "topics": [
+        "creative-coding",
+        "css",
+        "css-doodle",
+        "generative",
+        "generative-art",
+        "patterns",
+        "visual-art",
+        "web-component"
+      ],
+      "description": "A web component for visual art and creative coding",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "williamngan/pts",
+      "stars": 5349,
+      "created": "2017-03-24",
+      "pushed": "2026-10-03",
+      "license": "Apache-2.0",
+      "topics": [
+        "art",
+        "canvas",
+        "creative-coding",
+        "design",
+        "generative",
+        "generative-art",
+        "graphic-design",
+        "graphics",
+        "linear-algebra",
+        "pts",
+        "sound",
+        "svg",
+        "typescript",
+        "vector",
+        "visualization"
+      ],
+      "description": "A library for visualization and creative-coding",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "DavidHDev/canvas-ui",
+      "stars": 4772,
+      "created": "2026-07-16",
+      "pushed": "2026-10-03",
+      "license": "NOASSERTION",
+      "topics": [
+        "animation",
+        "canvas",
+        "component-library",
+        "components",
+        "creative-coding",
+        "design-engineering",
+        "frontend",
+        "glsl",
+        "nextjs",
+        "react",
+        "shadcn",
+        "shaders",
+        "svelte",
+        "threejs",
+        "typescript",
+        "ui",
+        "ui-library",
+        "vue",
+        "weggl"
+      ],
+      "description": "A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla.",
+      "queryIds": [
+        "react-animation",
+        "creative-coding"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "vasturiano/react-force-graph",
+      "stars": 3318,
+      "created": "2018-03-14",
+      "pushed": "2026-09-29",
+      "license": "MIT",
+      "topics": [
+        "3d",
+        "augmented-reality",
+        "canvas",
+        "d3-force",
+        "force-directed-graphs",
+        "react",
+        "vr",
+        "webgl"
+      ],
+      "description": "React component for 2D, 3D, VR and AR force directed graphs",
+      "queryIds": [
+        "react-webgl"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "shader-effects-inc/shaders",
+      "stars": 3274,
+      "created": "2026-09-29",
+      "pushed": "2026-10-07",
+      "license": "MIT",
+      "topics": [
+        "cli",
+        "javascript",
+        "mcp",
+        "react",
+        "shaders",
+        "solid",
+        "svelte",
+        "vue",
+        "webgpu-shaders"
+      ],
+      "description": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer",
+      "queryIds": [
+        "shaders"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "gkurt/tegaki",
+      "stars": 3130,
+      "created": "2026-03-28",
+      "pushed": "2026-10-06",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "calligraphy",
+        "cursive",
+        "font",
+        "handwriting",
+        "react",
+        "stroke-order",
+        "text-animation"
+      ],
+      "description": "Handwriting animation for the web. Supports any font or text.",
+      "queryIds": [
+        "react-animation",
+        "text-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "nateherkai/scroll-craft",
+      "stars": 2999,
+      "created": "2026-08-22",
+      "pushed": "2026-09-30",
+      "license": "MIT",
+      "topics": [
+        "accessibility",
+        "agent-skills",
+        "ai-web-design",
+        "anthropic",
+        "claude-code",
+        "claude-code-plugin",
+        "creative-coding",
+        "design-system",
+        "frontend",
+        "interaction-design",
+        "landing-page",
+        "scroll-animation",
+        "scrollytelling",
+        "typography",
+        "web-design"
+      ],
+      "description": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "jscottsmith/react-scroll-parallax",
+      "stars": 2986,
+      "created": "2017-03-14",
+      "pushed": "2026-09-10",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "banner",
+        "component",
+        "effects",
+        "hooks",
+        "parallax",
+        "react",
+        "scroll"
+      ],
+      "description": "🔮  React hooks and components to create parallax scroll effects for banners, images or any other DOM elements.",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "codse/animata",
+      "stars": 2858,
+      "created": "2024-06-10",
+      "pushed": "2026-09-14",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "css-animations",
+        "hacktober",
+        "hacktoberfest",
+        "hacktoberfest-accepted",
+        "interaction",
+        "nextjs",
+        "react",
+        "tailwindcss"
+      ],
+      "description": "Bring your site to life with easy to use animation & interaction code. Copy. Paste. Animate. ",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "guillermolg00/morphicons",
+      "stars": 2811,
+      "created": "2026-08-01",
+      "pushed": "2026-10-06",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "icons",
+        "morphing",
+        "react",
+        "svg",
+        "typescript"
+      ],
+      "description": "Any icon morphs into any other — universal morphing for stroke-based icons with spring physics. Zero dependencies, ~7 KB gzip.",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "itshover/itshover",
+      "stars": 2679,
+      "created": "2025-12-29",
+      "pushed": "2026-09-26",
+      "license": "Apache-2.0",
+      "topics": [
+        "animation",
+        "icons",
+        "motion",
+        "shadcn",
+        "shadcn-ui",
+        "svg"
+      ],
+      "description": "Icons that move with intent",
+      "queryIds": [
+        "shadcn-animation"
+      ],
+      "suggestedSection": "components"
+    },
+    {
+      "repo": "margelo/react-native-graph",
+      "stars": 2631,
+      "created": "2022-04-29",
+      "pushed": "2026-09-17",
+      "license": "MIT",
+      "topics": [
+        "android",
+        "animated",
+        "animation",
+        "beautiful",
+        "chart",
+        "charts",
+        "crypto",
+        "graph",
+        "graphs",
+        "ios",
+        "library",
+        "linegraph",
+        "performance",
+        "react",
+        "react-native",
+        "skia",
+        "stock",
+        "svg",
+        "wallet"
+      ],
+      "description": "📈 Beautiful, high-performance Graphs and Charts for React Native built with Skia",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "ingram-projects/animxyz",
+      "stars": 2498,
+      "created": "2020-05-03",
+      "pushed": "2026-10-08",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "animxyz",
+        "composable-animations",
+        "css",
+        "css-animations",
+        "css-framework",
+        "functional-css",
+        "react",
+        "scss",
+        "vue"
+      ],
+      "description": "The first truly composable CSS animation library. Built for Vue, React, SCSS, and CSS, AnimXYZ will bring your website to life.",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "nolangz/pixel2motion",
+      "stars": 2401,
+      "created": "2026-06-12",
+      "pushed": "2026-08-21",
+      "license": "MIT",
+      "topics": [
+        "ai-animation",
+        "ai-design-tools",
+        "animated-logo",
+        "brand-motion",
+        "claude-skill",
+        "codex-skill",
+        "creative-coding",
+        "generative-ai",
+        "html-animation",
+        "logo-animation",
+        "logo-design",
+        "logo-motion",
+        "logo-reveal",
+        "motion-design",
+        "pixel-to-svg",
+        "raster-to-svg",
+        "svg",
+        "svg-animation",
+        "svg-motion",
+        "vector-animation"
+      ],
+      "description": "AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motion QA evidence.",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "geosigno/simpleParallax.js",
+      "stars": 2158,
+      "created": "2017-11-09",
+      "pushed": "2026-07-14",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "image",
+        "javacript",
+        "parallax",
+        "react",
+        "scroll",
+        "simple",
+        "ui"
+      ],
+      "description": "Easy Parallax Effect for React & JavaScript",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "ossia/score",
+      "stars": 2070,
+      "created": "2013-10-15",
+      "pushed": "2026-10-08",
+      "license": "NOASSERTION",
+      "topics": [
+        "art",
+        "creative-coding",
+        "digital-art",
+        "hacktoberfest",
+        "interactive",
+        "intermedia",
+        "media-art",
+        "midi",
+        "open-sound-control",
+        "open-source",
+        "osc",
+        "osc-messages",
+        "qt",
+        "sequencer"
+      ],
+      "description": "ossia score, an interactive sequencer for the intermedia arts",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "MengTo/kage",
+      "stars": 1701,
+      "created": "2026-08-08",
+      "pushed": "2026-08-09",
+      "license": null,
+      "topics": [
+        "creative-coding",
+        "generative-art",
+        "interactive-storytelling",
+        "japanese-design",
+        "threejs",
+        "webgl"
+      ],
+      "description": "An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "ccbrown/iocraft",
+      "stars": 1558,
+      "created": "2024-09-02",
+      "pushed": "2026-10-07",
+      "license": "Apache-2.0",
+      "topics": [
+        "cli",
+        "iocraft",
+        "logs",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "description": "A Rust crate for beautiful, artisanally crafted CLIs, TUIs, and text-based IO.",
+      "queryIds": [
+        "beautiful-cli"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "pmndrs/react-postprocessing",
+      "stars": 1395,
+      "created": "2020-05-07",
+      "pushed": "2026-09-27",
+      "license": "MIT",
+      "topics": [
+        "3d",
+        "postprocessing",
+        "react",
+        "react-postprocessing",
+        "react-three-fiber",
+        "threejs",
+        "webgl"
+      ],
+      "description": "📬  Postprocessing for react-three-fiber",
+      "queryIds": [
+        "react-webgl"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "pthom/imgui_bundle",
+      "stars": 1373,
+      "created": "2022-07-05",
+      "pushed": "2026-10-08",
+      "license": "MIT",
+      "topics": [
+        "cpp",
+        "creative-coding",
+        "imgui",
+        "immediate-gui",
+        "jupyter-notebook",
+        "python3",
+        "research-and-development"
+      ],
+      "description": "Interactive Python & C++ apps for desktop, mobile, and web - powered by Dear ImGui. Stop fighting GUI frameworks. Start building.",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "rcaferati/react-awesome-button",
+      "stars": 1342,
+      "created": "2017-04-23",
+      "pushed": "2026-07-11",
+      "license": "MIT",
+      "topics": [
+        "animated",
+        "animation",
+        "button",
+        "component",
+        "progress",
+        "react",
+        "share",
+        "social"
+      ],
+      "description": "React button component. Awesome button is a 3D UI, progress, social and share enabled, animated at 60fps, light weight, performant, production ready react UI button component. 🖥️ 📱 ",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "anl331/goey-toast",
+      "stars": 1333,
+      "created": "2026-02-14",
+      "pushed": "2026-09-05",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "blob",
+        "component",
+        "framer-motion",
+        "gooey",
+        "morph",
+        "nextjs",
+        "notification",
+        "react",
+        "sonner",
+        "toast",
+        "typescript",
+        "ui"
+      ],
+      "description": "A gooey, morphing toast component built on Sonner with Framer Motion animations",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "Naresh-Khatri/3d-portfolio",
+      "stars": 1307,
+      "created": "2024-05-07",
+      "pushed": "2026-09-30",
+      "license": null,
+      "topics": [
+        "3d",
+        "animation",
+        "developer-portfolio",
+        "framer-motion",
+        "gsap",
+        "interactive",
+        "motion",
+        "nextjs",
+        "personal-website",
+        "portfolio",
+        "portfolio-template",
+        "portfolio-website",
+        "react",
+        "shadcn",
+        "spline",
+        "tailwindcss",
+        "threejs-alternative",
+        "typescript"
+      ],
+      "description": "Interactive 3D developer portfolio with a keyboard where every keycap is a skill. Built with Next.js, React, TypeScript, GSAP & Motion. Free to use!",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "lucasmarkes/hairline",
+      "stars": 1280,
+      "created": "2026-10-01",
+      "pushed": "2026-10-08",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "isometric",
+        "react",
+        "shadcn",
+        "svg",
+        "typescript"
+      ],
+      "description": "Six isometric line figures that answer the pointer. For React and for anything with a DOM.",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "useAnimations/react-useanimations",
+      "stars": 1248,
+      "created": "2019-10-02",
+      "pushed": "2026-10-06",
+      "license": "NOASSERTION",
+      "topics": [
+        "animation",
+        "lottie",
+        "lottie-animation",
+        "micro-animations",
+        "micro-interactions",
+        "react"
+      ],
+      "description": "React-useanimations is a collection of free animated open source icons for React.js.",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "rive-app/rive-react",
+      "stars": 1168,
+      "created": "2021-06-04",
+      "pushed": "2026-09-30",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "react"
+      ],
+      "description": "React runtime for Rive",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "fand/vfx-js",
+      "stars": 1149,
+      "created": "2019-12-14",
+      "pushed": "2026-09-10",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "animations",
+        "creative-coding",
+        "frontend",
+        "frontend-web",
+        "glsl",
+        "image-effect",
+        "image-effects",
+        "javascript",
+        "post-processing",
+        "react",
+        "shader",
+        "shaders",
+        "typescript",
+        "video-effect",
+        "video-effects",
+        "visual-effect",
+        "visual-effects",
+        "web-development",
+        "webgl"
+      ],
+      "description": "WebGL effects made easy.",
+      "queryIds": [
+        "react-animation",
+        "shaders",
+        "creative-coding",
+        "react-webgl"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "s010s/prehistoric-animal-museum",
+      "stars": 1098,
+      "created": "2026-08-04",
+      "pushed": "2026-10-07",
+      "license": "AGPL-3.0",
+      "topics": [
+        "dinosaurs",
+        "education",
+        "kids",
+        "multilingual",
+        "museum",
+        "paleontology",
+        "react",
+        "threejs",
+        "typescript",
+        "webgl"
+      ],
+      "description": "A free, open-source bilingual 3D museum where young children and their grown-ups explore prehistoric animals across land, sea, and sky.",
+      "queryIds": [
+        "react-webgl"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "stipsan/react-spring-bottom-sheet",
+      "stars": 1066,
+      "created": "2020-11-25",
+      "pushed": "2026-10-07",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "bottom-drawer",
+        "bottom-sheet",
+        "bottomsheet",
+        "dialog",
+        "drag-drop",
+        "draggableview",
+        "drawer",
+        "gesture-control",
+        "modal",
+        "overlay",
+        "popup",
+        "react",
+        "react-spring",
+        "sheet",
+        "tailwind-css",
+        "ux"
+      ],
+      "description": "Accessible ♿️, Delightful ✨, & Fast 🚀",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "agiwhitelist/auteur",
+      "stars": 1033,
+      "created": "2026-07-11",
+      "pushed": "2026-08-06",
+      "license": "MIT",
+      "topics": [
+        "agent-skills",
+        "anti-slop",
+        "claude-code",
+        "claude-code-skills",
+        "creative-coding",
+        "generative-art",
+        "gsap",
+        "landing-page",
+        "threejs",
+        "web-design",
+        "webgl"
+      ],
+      "description": "The Claude Code skill that directs a website like a film. Commit-sheet, generated assets, build, and an executable anti-slop linter that gates every ship.",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "yamada-ui/yamada-ui",
+      "stars": 1027,
+      "created": "2022-10-06",
+      "pushed": "2026-10-08",
+      "license": "MIT",
+      "topics": [
+        "a11y",
+        "animation",
+        "animation-css",
+        "dark-mode",
+        "emotion",
+        "framer-motion",
+        "react",
+        "responsive-design",
+        "ui",
+        "ui-components",
+        "ui-design",
+        "ui-library",
+        "uikit",
+        "yamada-ui"
+      ],
+      "description": "React UI components of the Yamada, by the Yamada, for the Yamada built with React and Emotion.",
+      "queryIds": [
+        "react-animation",
+        "animated-components"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "educlopez/smoothui",
+      "stars": 1002,
+      "created": "2024-07-03",
+      "pushed": "2026-10-06",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "components",
+        "framer-motion",
+        "motion",
+        "nextjs",
+        "react",
+        "shadcn",
+        "shadcn-ui",
+        "tailwindcss"
+      ],
+      "description": "SmoothUI is a collection of beautifully designed components with smooth animations built with React, Tailwind CSS, Shadcn/ui and Motion",
+      "queryIds": [
+        "react-animation",
+        "shadcn-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "meursyphus/ssgoi",
+      "stars": 993,
+      "created": "2023-11-17",
+      "pushed": "2026-10-07",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "nextjs",
+        "page-animation",
+        "react",
+        "svelte",
+        "sveltekit",
+        "view-transitions"
+      ],
+      "description": "animated page transition for major ssr frameworks and browsers, including Safari",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "openrndr/openrndr",
+      "stars": 981,
+      "created": "2018-02-20",
+      "pushed": "2026-10-04",
+      "license": "NOASSERTION",
+      "topics": [
+        "creative-coding",
+        "graphics",
+        "jvm",
+        "kotlin",
+        "shaders",
+        "webgl"
+      ],
+      "description": "OPENRNDR. A Kotlin/JVM library for creative coding, real-time and interactive graphics",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "Gamote/lottie-react",
+      "stars": 969,
+      "created": "2020-03-30",
+      "pushed": "2026-09-07",
+      "license": "MIT",
+      "topics": [
+        "after-effects",
+        "animation",
+        "lottie",
+        "lottie-react",
+        "lottie-web",
+        "react",
+        "react-component",
+        "react-hooks",
+        "typescript"
+      ],
+      "description": "Lottie animations in React: one component for the easy path, the whole engine when you need control.",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "raphaelameaume/fragment",
+      "stars": 939,
+      "created": "2019-12-09",
+      "pushed": "2026-10-02",
+      "license": "MIT",
+      "topics": [
+        "creative-coding",
+        "generative-art",
+        "javascript",
+        "web"
+      ],
+      "description": "[alpha] A modern toolkit for creative coding",
+      "queryIds": [
+        "creative-coding",
+        "generative-art"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "pthom/hello_imgui",
+      "stars": 918,
+      "created": "2020-06-07",
+      "pushed": "2026-10-08",
+      "license": "MIT",
+      "topics": [
+        "android",
+        "cpp",
+        "creative-coding",
+        "cross-platform",
+        "emscripten",
+        "gui",
+        "hello-world",
+        "imgui",
+        "immediate-gui",
+        "ios",
+        "linux",
+        "metal",
+        "mobile",
+        "opengl",
+        "osx",
+        "research",
+        "windows"
+      ],
+      "description": "Dear ImGui apps made simple: desktop, mobile, and web from one codebase. Minimal code. Maximally readable.",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "LottieFiles/dotlottie-web",
+      "stars": 892,
+      "created": "2023-10-20",
+      "pushed": "2026-10-07",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "animation-library",
+        "canvas",
+        "dotlottie",
+        "javascript",
+        "lottie",
+        "lottie-animation",
+        "lottie-player",
+        "motion-graphics",
+        "react",
+        "solidjs",
+        "svelte",
+        "thorvg",
+        "typescript",
+        "vue",
+        "wasm",
+        "web-components",
+        "webassembly",
+        "webgl",
+        "webgpu"
+      ],
+      "description": "High-performance Lottie & dotLottie web player powered by Rust + WASM, with React, Vue, Svelte, Solid & Web Components.",
+      "queryIds": [
+        "react-animation",
+        "react-webgl"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "0xjuanma/golazo",
+      "stars": 868,
+      "created": "2025-12-12",
+      "pushed": "2026-09-07",
+      "license": "MIT",
+      "topics": [
+        "bubbletea",
+        "charmbracelet",
+        "cli",
+        "football",
+        "football-data",
+        "go",
+        "golang",
+        "interactive",
+        "soccer",
+        "sports",
+        "terminal",
+        "tui",
+        "worldcup",
+        "worldcup2026"
+      ],
+      "description": "The beautiful game in your terminal. Minimal TUI app to keep up with live & recent football/soccer matches written in Go.",
+      "queryIds": [
+        "beautiful-cli"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "alexgreensh/anidoodle",
+      "stars": 856,
+      "created": "2026-09-22",
+      "pushed": "2026-10-05",
+      "license": "Apache-2.0",
+      "topics": [
+        "agent-skills",
+        "animation",
+        "canvas",
+        "claude-code",
+        "claude-plugin",
+        "claude-skills",
+        "codex-plugin",
+        "creative-code",
+        "creative-coding",
+        "creative-tools",
+        "deterministic",
+        "generative-art",
+        "hand-drawn",
+        "illustration",
+        "launch-video",
+        "motion-design",
+        "motion-graphics",
+        "plugin",
+        "procedural-generation",
+        "skill"
+      ],
+      "description": "Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "shader-park/shader-park-core",
+      "stars": 825,
+      "created": "2019-06-17",
+      "pushed": "2026-10-05",
+      "license": "MIT",
+      "topics": [
+        "computer-graphics",
+        "creative-coding",
+        "glsl",
+        "gpu",
+        "graphics-programming",
+        "live-coding",
+        "p5js",
+        "processing",
+        "raymarching",
+        "raymarching-distance-fields",
+        "real-time",
+        "rendering",
+        "sdf",
+        "shader",
+        "shader-park",
+        "shaders",
+        "shadertoy",
+        "signed-distance-field",
+        "web",
+        "webgl"
+      ],
+      "description": "A JavaScript library for creating real-time 2D and 3D shaders. JS -> Shader. https://shaderpark.com/  https://twitter.com/shaderpark",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "ddoemonn/interior",
+      "stars": 823,
+      "created": "2026-07-30",
+      "pushed": "2026-09-10",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "micro-interactions",
+        "motion",
+        "react",
+        "ui-components"
+      ],
+      "description": "micro-interactions for react, built for the half-second after a click",
+      "queryIds": [
+        "react-animation",
+        "animated-components"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "liqvidjs/liqvid",
+      "stars": 819,
+      "created": "2018-11-09",
+      "pushed": "2026-10-08",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "javascript",
+        "liqvid",
+        "react",
+        "video"
+      ],
+      "description": "Library for interactive videos in React",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "polygonjs/polygonjs",
+      "stars": 818,
+      "created": "2019-12-30",
+      "pushed": "2026-08-08",
+      "license": "MIT",
+      "topics": [
+        "3d",
+        "3d-engine",
+        "animation",
+        "computer-graphics",
+        "creative-coding",
+        "geometry-processing",
+        "glsl",
+        "javascript",
+        "nocode",
+        "node-based",
+        "procedural",
+        "procedural-generation",
+        "rendering",
+        "tech-art",
+        "threejs",
+        "visual-programming",
+        "webgl",
+        "webgl-library"
+      ],
+      "description": "node-based WebGL design tool",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "preziotte/party-mode",
+      "stars": 804,
+      "created": "2014-08-18",
+      "pushed": "2026-08-15",
+      "license": null,
+      "topics": [
+        "art",
+        "audio",
+        "audio-visualizer",
+        "d3",
+        "d3js",
+        "data-visualization",
+        "generative-art",
+        "html5-audio-element",
+        "javascript",
+        "music-visualization",
+        "music-visualizer",
+        "svg",
+        "visualization",
+        "web-audio-api",
+        "winamp-visualization"
+      ],
+      "description": "An experimental d3.js music visualizer from 2014. Continued as vizz.fm",
+      "queryIds": [
+        "generative-art"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "iyinchao/liquid-glass-studio",
+      "stars": 738,
+      "created": "2025-06-20",
+      "pushed": "2026-09-11",
+      "license": "MIT",
+      "topics": [
+        "glsl",
+        "liquid-glass",
+        "liquid-glass-effect",
+        "liquidglass",
+        "react",
+        "shader",
+        "webgl",
+        "webgl2",
+        "webgpu"
+      ],
+      "description": "🔮 The Ultimate Apple Liquid Glass UI — Recreated for the Web, powered by WebGL2 & WebGPU",
+      "queryIds": [
+        "react-webgl"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "MengTo/complete-shelf",
+      "stars": 699,
+      "created": "2026-08-01",
+      "pushed": "2026-08-15",
+      "license": null,
+      "topics": [
+        "book-design",
+        "creative-coding",
+        "github-pages",
+        "interactive-design",
+        "threejs",
+        "webgl"
+      ],
+      "description": "An original single-file Three.js library of seven interactive clothbound hardcovers.",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "basementstudio/shader-lab",
+      "stars": 698,
+      "created": "2026-03-17",
+      "pushed": "2026-10-01",
+      "license": "Apache-2.0",
+      "topics": [
+        "creative-coding",
+        "shader-editor",
+        "shaders",
+        "three-js",
+        "tsl",
+        "webgpu"
+      ],
+      "description": "A powerful toolkit to create, stack, and animate shaders.",
+      "queryIds": [
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "listr2/listr2",
+      "stars": 691,
+      "created": "2020-02-27",
+      "pushed": "2026-10-07",
+      "license": "MIT",
+      "topics": [
+        "cli",
+        "console",
+        "listr",
+        "loading",
+        "nodejs",
+        "nodejs-modules",
+        "npm",
+        "progress",
+        "task",
+        "tasklist",
+        "term",
+        "terminal",
+        "typescript"
+      ],
+      "description": "NodeJS Task List derived from the best! Create beautiful CLI interfaces via easy and logical to implement task lists that feel alive and interactive.",
+      "queryIds": [
+        "beautiful-cli"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "asdfghj1237890/mini-macau",
+      "stars": 636,
+      "created": "2026-04-16",
+      "pushed": "2026-10-08",
+      "license": "MIT",
+      "topics": [
+        "3d-visualization",
+        "aviation",
+        "bus",
+        "ferry",
+        "i18n",
+        "lrt",
+        "macau",
+        "maplibre",
+        "openstreetmap",
+        "react",
+        "real-time",
+        "simulation",
+        "tailwindcss",
+        "transit",
+        "typescript",
+        "vite",
+        "webgl"
+      ],
+      "description": "Trilingual 3D visualization of Macau's public transit and aviation — LRT, buses, ferries, and MFM airport flights with schedule-driven simulation",
+      "queryIds": [
+        "react-webgl"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "mmmerl/shader-doodle",
+      "stars": 588,
+      "created": "2019-04-11",
+      "pushed": "2026-09-15",
+      "license": "MIT",
+      "topics": [
+        "canvas",
+        "creative-coding",
+        "fragment-shader",
+        "glsl",
+        "glsl-sandbox",
+        "html-canvas",
+        "javascript",
+        "pixel-shader",
+        "shader-playback",
+        "shaders",
+        "shadertoy",
+        "texture",
+        "uniform",
+        "vertex-shaders",
+        "webgl"
+      ],
+      "description": "A friendly web-component for writing and rendering shaders.",
+      "queryIds": [
+        "shaders",
+        "creative-coding"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "pulkitxm/claude-directory",
+      "stars": 577,
+      "created": "2026-06-10",
+      "pushed": "2026-10-05",
+      "license": "MIT",
+      "topics": [
+        "ai-generated",
+        "anthropic",
+        "claude",
+        "claude-ai",
+        "design-system",
+        "frontend",
+        "generative-ui",
+        "glsl-shaders",
+        "hero-section",
+        "landing-page",
+        "react",
+        "tailwindcss",
+        "templates",
+        "threejs",
+        "ui-components",
+        "ui-design",
+        "vibe-coding",
+        "webgl"
+      ],
+      "description": "Open-source AI interfaces built with Claude (Fable 5) including hero sections, GLSL shaders, design systems, animations, 3D components  and and landing pages,  in React, Tailwind, and Three.js. Plug them into your AI agent and ship faster.",
+      "queryIds": [
+        "react-webgl"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "AmitDigga/fabric-video-editor",
+      "stars": 574,
+      "created": "2023-07-14",
+      "pushed": "2026-08-30",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "canvas",
+        "fabricjs",
+        "mobx",
+        "nextjs",
+        "react",
+        "tailwindcss",
+        "typescript",
+        "video-editing",
+        "video-editing-software",
+        "video-editor"
+      ],
+      "description": "Video editor that runs in the browser: timeline, text, image, video and audio layers, animations, filters, export with sound. Fabric.js + React + Next.js.",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "P5-wrapper/react",
+      "stars": 565,
+      "created": "2016-12-21",
+      "pushed": "2026-10-01",
+      "license": "MIT",
+      "topics": [
+        "animation",
+        "component",
+        "creative-coding",
+        "graphics-programming",
+        "javascript",
+        "p5",
+        "p5js",
+        "react",
+        "sketches",
+        "typescript"
+      ],
+      "description": "A wrapper component that allows you to utilise P5 sketches within React apps.",
+      "queryIds": [
+        "react-animation",
+        "creative-coding"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "playcanvas/react",
+      "stars": 537,
+      "created": "2024-10-11",
+      "pushed": "2026-09-28",
+      "license": "MIT",
+      "topics": [
+        "3d",
+        "gaussian",
+        "react",
+        "splats",
+        "webgl",
+        "webgpu"
+      ],
+      "description": "Build 3D apps with React",
+      "queryIds": [
+        "react-webgl"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "sanidhyy/space-portfolio",
+      "stars": 536,
+      "created": "2024-01-10",
+      "pushed": "2026-10-08",
+      "license": "MIT",
+      "topics": [
+        "3d",
+        "3d-portfolio",
+        "animation",
+        "css",
+        "framer-motion",
+        "galaxy",
+        "html",
+        "javascript",
+        "js",
+        "motion",
+        "next",
+        "nextjs",
+        "portfolio",
+        "react",
+        "space",
+        "stars",
+        "tailwind",
+        "tailwindcss",
+        "ts",
+        "typescript"
+      ],
+      "description": "Welcome to my full stack Next.js 14 space portfolio.",
+      "queryIds": [
+        "react-animation"
+      ],
+      "suggestedSection": "motion"
+    },
+    {
+      "repo": "sockmaster27/svader",
+      "stars": 465,
+      "created": "2024-08-18",
+      "pushed": "2026-10-07",
+      "license": "MIT",
+      "topics": [
+        "fragment-shader",
+        "javascript",
+        "javascript-library",
+        "shader",
+        "shaders",
+        "svelte",
+        "svelte-component",
+        "svelte-components",
+        "svelte4",
+        "svelte5",
+        "sveltejs",
+        "sveltekit",
+        "typescript",
+        "typescript-library",
+        "web",
+        "webgl",
+        "webgl-shader",
+        "webgl2",
+        "webgpu",
+        "webgpu-shaders"
+      ],
+      "description": "Create GPU-rendered Svelte components",
+      "queryIds": [
+        "shaders"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "ITomPoland/portfolio-itom",
+      "stars": 426,
+      "created": "2025-12-27",
+      "pushed": "2026-09-08",
+      "license": "MIT",
+      "topics": [
+        "3d-website",
+        "frontend-development",
+        "gsap",
+        "interactive-design",
+        "portfolio",
+        "r3f",
+        "react",
+        "threejs",
+        "vite",
+        "webgl"
+      ],
+      "description": "An immersive, interactive 3D Web Developer portfolio built by Tomasz 'ITom' Szmajda using React Three Fiber, GSAP, and advanced WebGL rendering architecture.",
+      "queryIds": [
+        "react-webgl"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "muhammedaksam/waha-tui",
+      "stars": 405,
+      "created": "2025-12-17",
+      "pushed": "2026-10-02",
+      "license": "MIT",
+      "topics": [
+        "chat",
+        "cli",
+        "messaging",
+        "opentui",
+        "terminal",
+        "tui",
+        "waha",
+        "whatsapp"
+      ],
+      "description": "A beautiful Terminal User Interface for WhatsApp using WAHA (WhatsApp HTTP API). Manage your WhatsApp sessions, chats, and messages directly from your terminal with an intuitive TUI powered by OpenTUI.",
+      "queryIds": [
+        "beautiful-cli"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "winsznx/bull-rush",
+      "stars": 352,
+      "created": "2026-06-25",
+      "pushed": "2026-07-20",
+      "license": "MIT",
+      "topics": [
+        "3d",
+        "crypto",
+        "endless-runner",
+        "game",
+        "hono",
+        "memecoin",
+        "react",
+        "react-three-fiber",
+        "redis",
+        "solana",
+        "threejs",
+        "typescript",
+        "vite",
+        "web-game",
+        "webgl"
+      ],
+      "description": "🐂 BULL RUSH — a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game + Hono/Redis API + dynamic X share cards. Play → trybullrush.xyz",
+      "queryIds": [
+        "react-webgl"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "M3-org/CharacterStudio",
+      "stars": 351,
+      "created": "2023-09-29",
+      "pushed": "2026-08-11",
+      "license": "MIT",
+      "topics": [
+        "3d",
+        "avatars",
+        "blender",
+        "ethereum",
+        "generator",
+        "gltf",
+        "optimization",
+        "react",
+        "threejs",
+        "vrm",
+        "webgl"
+      ],
+      "description": "Open source web based custom VRM avatar creation platform",
+      "queryIds": [
+        "react-webgl"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "sakitam-fdd/ol3Echarts",
+      "stars": 333,
+      "created": "2017-02-14",
+      "pushed": "2026-09-11",
+      "license": "NOASSERTION",
+      "topics": [
+        "canvas",
+        "echarts",
+        "gis",
+        "karma",
+        "map",
+        "openlayers",
+        "react",
+        "rollup",
+        "webgl",
+        "webpack"
+      ],
+      "description": ":earth_asia: :bar_chart: ol3Echarts | a openlayers extension to echarts",
+      "queryIds": [
+        "react-webgl"
+      ],
+      "suggestedSection": "webgl"
+    },
+    {
+      "repo": "Andarius/piou",
+      "stars": 315,
+      "created": "2021-12-10",
+      "pushed": "2026-10-02",
+      "license": "MIT",
+      "topics": [
+        "cli",
+        "commad-line",
+        "python",
+        "shell",
+        "terminal",
+        "tui",
+        "typehints"
+      ],
+      "description": "A CLI tool to build beautiful rich text command-line interfaces with type validation.",
+      "queryIds": [
+        "beautiful-cli"
+      ],
+      "suggestedSection": "terminal"
+    },
+    {
+      "repo": "Appllama/liquid-glass-screens",
+      "stars": 311,
+      "created": "2026-09-05",
+      "pushed": "2026-09-05",
+      "license": "GPL-3.0",
+      "topics": [
+        "animation",
+        "expo",
+        "expo-router",
+        "glassmorphism",
+        "ios",
+        "liquid-glass",
+        "mobile-development",
+        "mobile-ui",
+        "onboarding",
+        "react",
+        "react-native",
+        "react-native-animation",
+        "react-native-gesture-handler",
+        "react-native-reanimated",
+        "react-native-skia",
+        "react-native-ui",
+        "shaders",
+        "skia",
+        "typescript",
+        "ui-components"
+      ],
+      "description": "Explore liquid-glass welcome screens with floating stickers and interactive swipe animations.",
+      "queryIds": [
+        "animated-components"
+      ],
+      "suggestedSection": "components"
+    },
+    {
+      "repo": "patuwwy/ShaderToy-Chrome-Plugin",
+      "stars": 309,
+      "created": "2016-03-12",
+      "pushed": "2026-10-07",
+      "license": "NOASSERTION",
+      "topics": [
+        "glsl-shaders",
+        "javascript",
+        "shaders",
+        "shadertoy",
+        "webextension"
+      ],
+      "description": "Web extension for shadertoy.com",
+      "queryIds": [
+        "shaders"
+      ],
+      "suggestedSection": "webgl"
+    }
+  ]
+}

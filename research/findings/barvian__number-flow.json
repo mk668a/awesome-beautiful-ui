@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "repo": "barvian/number-flow",
+  "facts": {
+    "found": true,
+    "repo": "barvian/number-flow",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T15:13:59+00:00",
+    "stars": 7735,
+    "archived": false,
+    "fork": false,
+    "created": "2024-07-15",
+    "pushed": "2026-09-20",
+    "description": "An animated number component for React, Vue, Svelte, and TS/JS.",
+    "homepage": "https://number-flow.barvian.me",
+    "topics": [
+      "accessible",
+      "animation",
+      "odometer",
+      "react",
+      "svelte",
+      "vue"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE.md",
+      "head": "MIT License\nCopyright (c) 2024 Maxwell Barvian\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".changeset",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".npmrc",
+      ".prettierignore",
+      ".vscode",
+      "LICENSE.md",
+      "README.md",
+      "lib",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "prettier.config.js",
+      "site",
+      "test-suites",
+      "tsconfig.build.json",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "motion",
+    "name": "NumberFlow",
+    "note": "Animated number component for React, Vue, Svelte and plain JS that spins each digit to its new value, with Intl formatting.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "per-digit odometer spin when the value changes",
+        "trend prop that forces digits to roll always up or always down",
+        "continuous plugin that makes digits pass through in-between numbers",
+        "NumberFlowGroup that syncs layout transitions between adjacent numbers",
+        "digits prop with per-position limits so 59 wraps to 00 in time displays"
+      ],
+      "evidenceUrls": [
+        "https://number-flow.barvian.me/",
+        "https://github.com/barvian/number-flow"
+      ]
+    },
+    "unverified": [
+      "The homepage demo was loaded in a browser and seen rendering a number with a Shuffle button, but only as a still screenshot; the digit spin itself was not watched in motion.",
+      "The effects listed are taken from the documentation text on the homepage, not from frame-by-frame observation.",
+      "The README video (user-attachments asset) was not played.",
+      "requiresHostedService is false based on the docs describing it as a dependency-free npm component; no install was run."
+    ]
+  }
+}

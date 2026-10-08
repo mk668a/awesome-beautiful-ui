@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "repo": "css-doodle/css-doodle",
+  "facts": {
+    "found": true,
+    "repo": "css-doodle/css-doodle",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T15:13:59+00:00",
+    "stars": 6056,
+    "archived": false,
+    "fork": false,
+    "created": "2017-02-14",
+    "pushed": "2026-10-08",
+    "description": "A web component for visual art and creative coding",
+    "homepage": "https://css-doodle.com",
+    "topics": [
+      "creative-coding",
+      "css",
+      "css-doodle",
+      "generative",
+      "generative-art",
+      "patterns",
+      "visual-art",
+      "web-component"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "(MIT License)\nCopyright (c) 2017-present Yuan Chuan <yuanchuan23@gmail.com>\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      "CODE_OF_CONDUCT.md",
+      "LICENSE",
+      "Makefile",
+      "README.md",
+      "build",
+      "changelog",
+      "docs",
+      "package.json",
+      "src",
+      "test"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "gems",
+    "name": "css-doodle",
+    "note": "A web component that draws generative patterns by applying CSS rules, randomness and math to a grid of cells.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "generative patterns from CSS rules applied to a grid of cells via @grid",
+        "random and indexed value pickers inside CSS (@r, @p, @pn, @n)",
+        "SVG written in nested CSS syntax via @svg",
+        "pattern DSL compiled to a GPU shader via @pattern",
+        "clip-path shapes generated from math equations via @shape"
+      ],
+      "evidenceUrls": [
+        "https://github.com/css-doodle/css-doodle/blob/HEAD/docs/images/hero.png",
+        "https://github.com/css-doodle/css-doodle/blob/HEAD/docs/images/example.png",
+        "https://css-doodle.com"
+      ]
+    },
+    "unverified": [
+      "The live site could not be opened in a browser (navigation aborted); demoViewed rests on the two README screenshots (hero.png and example.png), which I viewed as static images.",
+      "The @svg, @pattern (GPU shader) and @shape effects were read from the text of css-doodle.com via a text fetch, not seen rendered.",
+      "The animation in the hero doodle (blinking eyes via @keyframes) is in the linked code but was only seen as a still image.",
+      "requiresHostedService false is inferred from it being an npm-distributed web component; I did not install or run it.",
+      "Section gems is a judgment call; at about 6k stars it may not count as lesser-known."
+    ]
+  }
+}

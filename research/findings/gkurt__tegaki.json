@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "repo": "gkurt/tegaki",
+  "facts": {
+    "found": true,
+    "repo": "gkurt/tegaki",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T15:14:00+00:00",
+    "stars": 3130,
+    "archived": false,
+    "fork": false,
+    "created": "2026-03-28",
+    "pushed": "2026-10-06",
+    "description": "Handwriting animation for the web. Supports any font or text.",
+    "homepage": "https://tegaki.ink",
+    "topics": [
+      "animation",
+      "calligraphy",
+      "cursive",
+      "font",
+      "handwriting",
+      "react",
+      "stroke-order",
+      "text-animation"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Gokhan Kurt\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".agents",
+      ".claude",
+      ".editorconfig",
+      ".github",
+      ".gitignore",
+      ".husky",
+      ".tegami",
+      ".vscode",
+      "AGENTS.md",
+      "CHANGELOG.md",
+      "CLAUDE.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "biome.jsonc",
+      "bun.lock",
+      "bunfig.toml",
+      "e2e",
+      "examples",
+      "media",
+      "package.json",
+      "packages",
+      "scripts",
+      "skills-lock.json",
+      "tegaki.code-workspace",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "library",
+    "section": "motion",
+    "name": "Tegaki",
+    "note": "Turns any font into handwriting that draws itself stroke by stroke, with bindings for React, Vue, Svelte, Solid and Astro.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "stroke-by-stroke handwriting animation generated from any font",
+        "strokes drawn along the glyph centerline at true width instead of tracing outlines",
+        "pressure-based stroke width with taper, glow and wobble plugins",
+        "CLI that writes a self-drawing looping SVG from a line of text",
+        "CJK stroke order taken from KanjiVG and Make Me a Hanzi"
+      ],
+      "evidenceUrls": [
+        "https://raw.githubusercontent.com/gkurt/tegaki/main/media/hello-world.svg",
+        "https://tegaki.ink",
+        "https://tegaki.ink/studio/",
+        "https://github.com/gkurt/tegaki"
+      ]
+    },
+    "unverified": [
+      "The only animation seen running was the README's hello-world.svg, caught mid-draw in one screenshot (\"Written b\" partly written in a script font); it was a single frame, so the stroke order and timing were not watched from start to finish.",
+      "The Tegaki Studio page loaded and showed its controls (Glow, Wobble, Pressure width, Taper, Stroke gradient) but stayed on \"Generating strokes...\" and never rendered text in this session.",
+      "The tegaki.ink homepage could not be opened in the browser (navigation aborted); its content was read as text only, so centerline drawing, the plugins, CJK stroke order sources, scroll-driven and streaming playback are taken from the site's and README's descriptions, not observed.",
+      "requiresHostedService is false by inference from the README (npm package with bundled fonts and a local CLI); the package was not installed or run."
+    ]
+  }
+}

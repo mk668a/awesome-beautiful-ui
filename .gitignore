@@ -4,3 +4,10 @@ node_modules/
 # local-only working docs
 PLAN.md
 CLAUDE.md
+__pycache__/
+
+# Derived from findings and rules; regenerate before use.
+research/verdicts.json
+
+# Built by scripts/pages.py; deployed from CI.
+site/

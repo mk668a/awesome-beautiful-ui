@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "verdicts": ["reject", "needs-research", "quiet", "include"],
+  "rules": [
+    { "id": "found", "stage": "facts", "field": "facts.found", "op": "eq", "value": true, "onFail": "reject", "reason": "The repository does not exist or is private." },
+    { "id": "not-fork", "stage": "facts", "field": "facts.fork", "op": "eq", "value": false, "onFail": "reject", "reason": "Forks are not listed. List the original." },
+    { "id": "min-stars", "stage": "facts", "field": "facts.stars", "op": "gte", "value": 50, "onFail": "reject", "reason": "Fewer than 50 stars." },
+
+    { "id": "researched", "stage": "facts", "field": "research.status", "op": "eq", "value": "done", "onFail": "needs-research", "reason": "Research is not finished." },
+
+    { "id": "kind", "stage": "research", "field": "research.kind", "op": "in", "value": ["library", "component-collection", "tool"], "onFail": "reject", "reason": "Not a library, component collection or tool (for example an app, a list, a template or a course)." },
+    { "id": "runs-locally", "stage": "research", "field": "research.requiresHostedService", "op": "eq", "value": false, "onFail": "reject", "reason": "Needs a hosted service or paid API to run." },
+    { "id": "not-generic", "stage": "research", "field": "research.genericCollection", "op": "eq", "value": false, "onFail": "reject", "reason": "A generic component collection with nothing of its own." },
+    { "id": "signature", "stage": "research", "field": "research.signature.effects", "op": "minLength", "value": 1, "onFail": "reject", "reason": "No distinctive effect or idea was recorded." },
+
+    { "id": "demo-viewed", "stage": "research", "field": "research.demoViewed", "op": "eq", "value": true, "onFail": "needs-research", "reason": "Nobody has looked at the thing itself yet." },
+    { "id": "signature-evidence", "stage": "research", "field": "research.signature.evidenceUrls", "op": "httpUrls", "value": 1, "onFail": "needs-research", "reason": "At least one valid HTTP(S) evidence URL is required." },
+    { "id": "section", "stage": "research", "field": "research.section", "op": "in", "value": ["gems", "motion", "components", "webgl", "terminal", "widgets"], "onFail": "needs-research", "reason": "Section is missing or unknown." },
+    { "id": "name", "stage": "research", "field": "research.name", "op": "nonEmpty", "onFail": "needs-research", "reason": "Display name is missing." },
+    { "id": "note", "stage": "research", "field": "research.note", "op": "matches", "value": "[^—\\r\\n]{9,159}\\.", "onFail": "needs-research", "reason": "Note must be 10 to 160 characters, end with a period and contain no em dash or newline." },
+    { "id": "license", "stage": "research", "field": "research.license", "op": "knownLicense", "value": ["unknown", "NOASSERTION", "none", "null", "N/A", "license: see repo"], "onFail": "needs-research", "reason": "License is unresolved." },
+    { "id": "research-date", "stage": "research", "field": "research.researchedAt", "op": "date", "onFail": "needs-research", "reason": "A valid research date is required." },
+    { "id": "verified", "stage": "research", "field": "research.unverified", "op": "eq", "value": [], "onFail": "needs-research", "reason": "Resolve the recorded unverified observations before inclusion." },
+
+    { "id": "not-archived", "stage": "facts", "field": "facts.archived", "op": "eq", "value": false, "onFail": "quiet", "reason": "Archived." },
+    { "id": "active", "stage": "facts", "field": "facts.pushed", "op": "withinMonths", "value": 3, "onFail": "quiet", "reason": "No push in the last 3 months." }
+  ]
+}

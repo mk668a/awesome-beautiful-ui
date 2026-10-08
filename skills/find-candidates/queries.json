@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "filters": {
+    "pushedWithinMonths": 3,
+    "minStars": 300,
+    "archived": false,
+    "fork": false
+  },
+  "perQuery": 30,
+  "order": "asc",
+  "exclude": {
+    "namePattern": "^awesome[-_]|[-_]awesome$",
+    "topics": ["awesome", "awesome-list", "stable-diffusion", "llm", "ai-agents", "ai-agent", "coding-agent", "boilerplate", "starter-kit", "template"]
+  },
+  "queries": [
+    { "id": "react-animation", "section": "motion", "q": "topic:animation topic:react" },
+    { "id": "text-animation", "section": "motion", "q": "topic:text-animation" },
+    { "id": "animated-components", "section": "components", "q": "topic:ui-components topic:animation" },
+    { "id": "shadcn-animation", "section": "components", "q": "topic:shadcn-ui topic:animation" },
+    { "id": "design-engineers", "section": "components", "q": "\"design engineers\" in:description" },
+    { "id": "shaders", "section": "webgl", "q": "topic:shaders topic:javascript" },
+    { "id": "creative-coding", "section": "webgl", "q": "topic:creative-coding" },
+    { "id": "generative-art", "section": "webgl", "q": "topic:generative-art topic:javascript" },
+    { "id": "react-webgl", "section": "webgl", "q": "topic:webgl topic:react" },
+    { "id": "tui", "section": "terminal", "q": "topic:tui" },
+    { "id": "beautiful-cli", "section": "terminal", "q": "topic:terminal topic:cli beautiful in:description" },
+    { "id": "web-components", "section": "widgets", "q": "topic:web-components beautiful in:description" }
+  ]
+}

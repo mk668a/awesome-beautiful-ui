@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "repo": "GraphiteEditor/Graphite",
+  "facts": {
+    "found": true,
+    "repo": "GraphiteEditor/Graphite",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-08T15:14:00+00:00",
+    "stars": 27502,
+    "archived": false,
+    "fork": false,
+    "created": "2020-04-26",
+    "pushed": "2026-10-08",
+    "description": "Community-built comprehensive 2D content creation appplication for graphic design, digital art, and interactive real-time motion graphics powered by a node-based procedural graphics engine",
+    "homepage": "https://graphite.art",
+    "topics": [
+      "2d-graphics",
+      "animation",
+      "art",
+      "creative-coding",
+      "design",
+      "graphic-design",
+      "graphics",
+      "graphics-editor",
+      "image-manipulation",
+      "image-processing",
+      "motion-design",
+      "motion-graphics",
+      "node-graph",
+      "photo-editor",
+      "procedural",
+      "procedural-drawing",
+      "procedural-generation",
+      "svg-editor",
+      "vector-graphics"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "file": "LICENSE-APACHE",
+      "head": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n   1. Definitions.\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,"
+    },
+    "rootFiles": [
+      ".branding",
+      ".cargo",
+      ".devcontainer",
+      ".editorconfig",
+      ".envrc",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".nix",
+      ".nvmrc",
+      ".prettierrc",
+      ".vscode",
+      "Cargo.lock",
+      "Cargo.toml",
+      "LICENSE-APACHE",
+      "LICENSE-MIT",
+      "README.md",
+      "about.toml",
+      "demo-artwork",
+      "deny.toml",
+      "desktop",
+      "document",
+      "editor",
+      "flake.lock",
+      "flake.nix",
+      "frontend",
+      "libraries",
+      "node-graph",
+      "proc-macros",
+      "rustfmt.toml",
+      "tools",
+      "website"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "app",
+    "section": "gems",
+    "name": "Graphite",
+    "note": "Browser-based 2D vector and raster editor where layers are backed by a node graph, so every edit stays an adjustable parameter.",
+    "license": "Apache-2.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "layer panel backed by a node graph, with each layer's nodes (Repeat, Fill, Circle) exposed as editable parameters in the Properties panel",
+        "procedural dot pattern built from stacked Repeat nodes on a single circle",
+        "Mandelbrot fractal filled with a domain-warped noise pattern through a gradient map, generated procedurally"
+      ],
+      "evidenceUrls": [
+        "https://github.com/user-attachments/assets/decb7011-18c2-4c68-82af-d1fa5064244a",
+        "https://github.com/user-attachments/assets/9e023997-185b-4f43-a724-797d308d9e7b",
+        "https://graphite.art"
+      ]
+    },
+    "unverified": [
+      "The live editor at editor.graphite.art was not opened: the browser tool failed to connect. demoViewed is true on the basis of two README screenshots of the editor that were downloaded and viewed.",
+      "The node graph view itself was not seen; the screenshots show only the Node Graph button and node parameters in the Properties panel. That layers are backed by a node graph comes from the README and website text.",
+      "requiresHostedService is false based on the website's statement that it runs locally with no server; this was not tested.",
+      "The repository also has a LICENSE-MIT file, which was not read; the license may be dual MIT/Apache-2.0 rather than Apache-2.0 alone.",
+      "The section is a loose fit: the project is a full editor application with 27k stars, not a lesser-known project, and none of the sections is for apps.",
+      "The README video and the third screenshot (magazine spread) were not viewed."
+    ]
+  }
+}

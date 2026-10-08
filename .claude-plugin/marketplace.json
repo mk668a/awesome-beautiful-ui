@@ -1,0 +1,14 @@
+{
+  "name": "awesome-beautiful-ui-local",
+  "description": "Skills for gathering and checking the information behind the Awesome Beautiful UI list: searching GitHub from a query file, researching each candidate into a JSON finding, judging findings against a rule file, and auditing existing entries.",
+  "owner": {
+    "name": "mk668a"
+  },
+  "plugins": [
+    {
+      "name": "awesome-beautiful-ui",
+      "source": "./",
+      "description": "Skills for gathering and checking the information behind the Awesome Beautiful UI list: searching GitHub from a query file, researching each candidate into a JSON finding, judging findings against a rule file, and auditing existing entries."
+    }
+  ]
+}
