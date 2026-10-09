@@ -65,6 +65,11 @@ class InlineTests(unittest.TestCase):
         self.assertEqual(out.count("<li>"), 2)
         self.assertEqual(r.assets, ["assets/screenshots/x__lenis/1.webp", "assets/screenshots/x__lenis/2.webp"])
 
+    def test_viewer_is_added_only_with_screenshots(self):
+        shot = '- [A](https://a.example) text<br>\n  <img src="./assets/screenshots/a__b/1.webp" width="24%" alt="A screenshot 1">\n'
+        self.assertIn('<dialog class="viewer"', pages.build("# T\n\n" + shot)[0])
+        self.assertNotIn("<dialog", pages.build("# T\n\ntext\n")[0])
+
     def test_other_html_is_still_escaped(self):
         self.assertEqual(render("a <script>x</script>"), "<p>a &lt;script&gt;x&lt;/script&gt;</p>")
 

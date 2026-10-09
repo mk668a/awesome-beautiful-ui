@@ -356,11 +356,65 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
 img { max-width: 100%; height: auto; }
 a.shot { display: inline-block; width: calc(25% - .4rem); margin: .4rem .15rem .6rem 0; vertical-align: top; }
 a.shot img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 6px; border: 1px solid var(--tag); }
+dialog.viewer { border: 0; padding: 0; background: none; max-width: 96vw; max-height: 96vh; overflow: visible; }
+dialog.viewer::backdrop { background: rgba(0, 0, 0, .82); }
+dialog.viewer img { display: block; width: min(92vw, 1100px, 140.8vh); height: auto; border-radius: 8px; }
+dialog.viewer p { margin: .6rem 0 0; text-align: center; color: #e8e4dc; font-size: .9rem; }
+dialog.viewer button { position: fixed; top: 50%; transform: translateY(-50%); width: 2.75rem; height: 2.75rem; border: 0; border-radius: 50%; background: rgba(255, 255, 255, .16); color: #fff; font: inherit; font-size: 1.3rem; cursor: pointer; }
+dialog.viewer button:hover { background: rgba(255, 255, 255, .3); }
+dialog.viewer button[hidden] { display: none; }
+dialog.viewer .prev { left: 12px; }
+dialog.viewer .next { right: 12px; }
+dialog.viewer .close { top: 12px; right: 12px; transform: none; }
 em { color: var(--muted); }
 .top { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 2rem; font-size: .9rem; color: var(--muted); }
 .top a { color: inherit; }
 footer { margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--line); font-size: .85rem; color: var(--muted); }
 """
+
+# Opens a screenshot in a dialog. Without scripting the link still opens the image.
+SCRIPT = """
+(function () {
+  var viewer = document.querySelector("dialog.viewer");
+  if (!viewer || !viewer.showModal) return;
+  var image = viewer.querySelector("img"), caption = viewer.querySelector("p");
+  var prev = viewer.querySelector(".prev"), next = viewer.querySelector(".next");
+  var shots = [], at = 0;
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    image.src = shots[at].href;
+    image.alt = shots[at].firstElementChild.alt;
+    caption.textContent = image.alt.replace(/ screenshot \\d+$/, "") + "  " + (at + 1) + " / " + shots.length;
+    prev.hidden = next.hidden = shots.length < 2;
+  }
+  document.addEventListener("click", function (event) {
+    var shot = event.target.closest && event.target.closest("a.shot");
+    if (!shot || event.metaKey || event.ctrlKey || event.shiftKey || event.button) return;
+    event.preventDefault();
+    shots = Array.prototype.slice.call(shot.parentNode.querySelectorAll("a.shot"));
+    show(shots.indexOf(shot));
+    viewer.showModal();
+  });
+  prev.addEventListener("click", function () { show(at - 1); });
+  next.addEventListener("click", function () { show(at + 1); });
+  viewer.querySelector(".close").addEventListener("click", function () { viewer.close(); });
+  viewer.addEventListener("click", function (event) { if (event.target === viewer) viewer.close(); });
+  viewer.addEventListener("keydown", function (event) {
+    if (event.key === "ArrowLeft") show(at - 1);
+    if (event.key === "ArrowRight") show(at + 1);
+  });
+})();
+"""
+
+VIEWER = """<dialog class="viewer" aria-label="Screenshot">
+<img src="data:," alt="">
+<p></p>
+<button class="prev" type="button" aria-label="Previous screenshot">&#8249;</button>
+<button class="next" type="button" aria-label="Next screenshot">&#8250;</button>
+<button class="close" type="button" aria-label="Close">&#215;</button>
+</dialog>
+<script>%s</script>
+""" % SCRIPT.strip()
 
 PAGE = """<!doctype html>
 <html lang="en">
@@ -378,7 +432,7 @@ PAGE = """<!doctype html>
 {body}
 <footer>{footer}</footer>
 </main>
-</body>
+{viewer}</body>
 </html>
 """
 
@@ -401,6 +455,7 @@ def build(markdown, repo=None, branch="main"):
     page = PAGE.format(
         title=html.escape(title), description=html.escape(description, quote=True),
         style=STYLE.strip(), nav=nav, body=body, footer=footer,
+        viewer=VIEWER if 'class="shot"' in body else "",
     )
     return page, r.assets
 
