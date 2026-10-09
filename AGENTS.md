@@ -22,7 +22,7 @@ Check `git status` before editing and preserve existing work. Never print or com
 
 The root `plugin.json` is the canonical [Agent Plugins 1.0](https://agent-plugins.org/specification) manifest, used by Codex. Claude Code uses the generated `.claude-plugin/plugin.json` compatibility manifest. Both share `skills/`; do not duplicate implementations. The two marketplace catalogs are client-specific distribution files.
 
-After changing metadata, run `python3 scripts/sync_plugin.py`. Keep the README installation instructions and skill descriptions aligned with the implementation.
+After changing metadata, run `python3 scripts/sync_plugin.py`. Keep the installation instructions in `MAINTAINING.md` and the skill descriptions aligned with the implementation. The README is for readers of the list; maintainer documentation goes in `MAINTAINING.md`.
 
 ## Verification
 
