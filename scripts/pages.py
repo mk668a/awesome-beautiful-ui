@@ -328,7 +328,7 @@ body {
   margin: 0; background: var(--bg); color: var(--fg);
   font: 17px/1.6 ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
 }
-main { max-width: 46rem; margin: 0 auto; padding: 3rem 16px 5rem; }
+main { max-width: 46rem; margin: 0 auto; padding: 3rem 16px 5rem; overflow-wrap: break-word; }
 h1, h2, h3, h4 { line-height: 1.2; letter-spacing: -0.01em; }
 h1 { font-size: 2.4rem; margin: 0 0 .5rem; }
 h2 { font-size: 1.5rem; margin: 3rem 0 1rem; padding-top: 1rem; border-top: 1px solid var(--line); }
@@ -347,7 +347,7 @@ code, pre { font: .88em/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monos
 code { background: var(--code-bg); padding: .1em .35em; border-radius: 4px; }
 pre { background: var(--code-bg); padding: .9rem 1rem; border-radius: 8px; overflow-x: auto; }
 pre code { background: none; padding: 0; font-size: 1em; }
-li > code { font-size: .78em; background: var(--tag); color: var(--muted); white-space: nowrap; }
+li > code { display: inline-block; max-width: 100%; font-size: .78em; background: var(--tag); color: var(--muted); vertical-align: baseline; }
 li > a:first-child { font-weight: 600; }
 table { width: 100%; border-collapse: collapse; font-size: .92em; display: block; overflow-x: auto; }
 th, td { text-align: left; vertical-align: top; padding: .5rem .6rem; border-bottom: 1px solid var(--line); }

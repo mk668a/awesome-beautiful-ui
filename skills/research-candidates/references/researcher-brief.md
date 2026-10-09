@@ -24,7 +24,7 @@ Edit only the `research` block of `{file}`. Leave `facts` alone.
 | `section` | `gems`, `motion`, `components`, `webgl`, `terminal` or `widgets`. `gems` is for lesser-known projects whose appeal is one clearly distinctive thing |
 | `name` | Display name as the project writes it |
 | `note` | One sentence, 10 to 160 characters, ending with a period, saying what it is or what is distinctive. Plain words, no superlatives from the project's tagline, no em dash |
-| `license` | What the license actually is. If `facts.license.spdx` is a real identifier, repeat it. If it is `NOASSERTION` or `null`, read `facts.license.head` or find the license in the repository and describe it, for example `MIT + Commons Clause`. Write `unknown` if you cannot tell |
+| `license` | What the license actually is. If `facts.license.spdx` is a real identifier, repeat it. If it is `NOASSERTION` or `null`, read `facts.license.head` or find the license in the repository and describe it in a few words, for example `MIT + Commons Clause`; it is printed as a tag in the list. Write `unknown` if you cannot tell |
 | `requiresHostedService` | `true` if it cannot render or run without the project's own hosted service or a paid API |
 | `genericCollection` | `true` if it is a collection of ordinary components with nothing you would recognize as its own |
 | `demoViewed` | `true` only if you saw it running, or saw screenshots or recordings of it, in this session |
