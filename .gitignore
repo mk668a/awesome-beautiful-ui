@@ -11,3 +11,6 @@ research/verdicts.json
 
 # Built by scripts/pages.py; deployed from CI.
 site/
+
+# Browser-tool captures and logs left by research sessions
+.playwright-mcp/
