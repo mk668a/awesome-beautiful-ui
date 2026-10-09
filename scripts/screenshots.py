@@ -6,11 +6,14 @@ Usage: python3 scripts/screenshots.py [--only owner/name ...] [--force]
 Each entry has a directory assets/screenshots/<owner>__<name>/ holding
 sources.json and the captures 1.webp to 4.webp. sources.json is a list of up
 to four items, each a page or image URL, or {"url": ..., "y": pixels} to
-capture a page scrolled down. A missing sources.json is detected once: the
+capture a page scrolled down. An animated GIF is captured 60% of the way
+through, or at {"url": ..., "t": fraction} from 0 to 1. A missing sources.json is detected once: the
 repository homepage and the first README images. Edit it to pick better views,
 then rerun with --only.
 
-Needs Google Chrome or Chromium, and cwebp. Only one browser runs at a time. scripts/build.py adds the images that exist to an entry.
+Needs Google Chrome or Chromium, and cwebp. GIF frames need ffmpeg and ffprobe;
+without them a GIF shows its first frame. Only one browser runs at a time.
+scripts/build.py adds the images that exist to an entry.
 """
 
 import argparse
@@ -35,6 +38,7 @@ MAX_SHOTS = 4
 WIDTH, HEIGHT = 1280, 800  # browser viewport
 OUT_WIDTH, OUT_HEIGHT = 640, 400  # stored size
 MAX_Y = 6000
+GIF_AT = 0.6  # default position in an animated GIF, as a fraction of its length
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36"
 
 CHROME_PATHS = [
@@ -139,26 +143,53 @@ def detect_sources(entry, token):
 
 
 def read_sources(repo):
-    """The entry's sources as (url, y) pairs, or None when sources.json is missing."""
+    """The entry's sources as (url, y, t) tuples, or None when sources.json is missing."""
     path = entry_dir(repo) / "sources.json"
     if not path.exists():
         return None
     out = []
     for item in json.loads(path.read_text(encoding="utf-8"))[:MAX_SHOTS]:
-        url, y = (item, 0) if isinstance(item, str) else (item["url"], int(item.get("y", 0)))
-        if not url.startswith(("http://", "https://")) or not 0 <= y <= MAX_Y:
+        item_ = {"url": item} if isinstance(item, str) else item
+        url, y, t = item_["url"], int(item_.get("y", 0)), float(item_.get("t", GIF_AT))
+        if not url.startswith(("http://", "https://")) or not 0 <= y <= MAX_Y or not 0 <= t <= 1:
             sys.exit("%s: bad source %r" % (path, item))
-        out.append((url, y))
+        out.append((url, y, t))
     return out
 
 
-def is_image(url):
+def image_type(url):
+    """The content type of url when it is an image, else an empty string."""
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urllib.request.urlopen(req, timeout=30) as res:
-            return res.headers.get_content_type().startswith("image/")
+            kind = res.headers.get_content_type()
+            return kind if kind.startswith("image/") else ""
     except (urllib.error.URLError, OSError, ValueError):
+        return ""
+
+
+def gif_frame(url, t, png, tmp):
+    """Write the frame at fraction t of an animated GIF to png, centered on the viewport."""
+    gif = Path(tmp) / "source.gif"
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(req, timeout=120) as res:
+            gif.write_bytes(res.read())
+        probe = subprocess.run(
+            ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(gif)],
+            capture_output=True, text=True, timeout=120,
+        )
+        seconds = float(probe.stdout.strip() or 0) * t
+        fit = ("scale='min(%d,iw)':'min(%d,ih)':force_original_aspect_ratio=decrease,"
+               "pad=%d:%d:(ow-iw)/2:(oh-ih)/2:color=0x0d1117" % (WIDTH, HEIGHT, WIDTH, HEIGHT))
+        # Seeking after -i decodes from the start, so the frame is fully composed.
+        subprocess.run(
+            ["ffmpeg", "-v", "error", "-y", "-i", str(gif), "-ss", "%.3f" % seconds, "-frames:v", "1", "-vf", fit, str(png)],
+            capture_output=True, timeout=300,
+        )
+    except (urllib.error.URLError, OSError, ValueError, subprocess.TimeoutExpired):
         return False
+    return png.exists() and png.stat().st_size > 0
 
 
 def browser_shot(chrome, target, png, height, profile):
@@ -205,17 +236,19 @@ def _browser_shot(chrome, target, png, height, profile):
         proc.wait()
 
 
-def capture(chrome, url, y, out):
+def capture(chrome, url, y, t, out):
     """Screenshot url, scrolled down by y pixels, into out. Returns an error string or None."""
     with tempfile.TemporaryDirectory() as tmp:
         target = url
-        if is_image(url):
+        png = Path(tmp) / "shot.png"
+        kind = image_type(url)
+        if kind:
             wrapper = Path(tmp) / "image.html"
             wrapper.write_text(WRAPPER % url.replace('"', "%22"), encoding="utf-8")
             target, y = wrapper.as_uri(), 0
-        png = Path(tmp) / "shot.png"
+        framed = kind == "image/gif" and shutil.which("ffmpeg") and shutil.which("ffprobe") and gif_frame(url, t, png, tmp)
         # A scrolled view is a taller window cropped to its last screen.
-        if not browser_shot(chrome, target, png, HEIGHT + y, Path(tmp) / "profile"):
+        if not framed and not browser_shot(chrome, target, png, HEIGHT + y, Path(tmp) / "profile"):
             return "no screenshot produced"
         out.parent.mkdir(parents=True, exist_ok=True)
         done = subprocess.run(
@@ -257,8 +290,8 @@ def main():
                 (entry_dir(e["repo"]) / "sources.json").write_text(json.dumps(urls, indent=2) + "\n", encoding="utf-8")
 
     def run(job):
-        repo, n, (url, y) = job
-        return repo, n, url, capture(chrome, url, y, entry_dir(repo) / ("%d.webp" % n))
+        repo, n, (url, y, t) = job
+        return repo, n, url, capture(chrome, url, y, t, entry_dir(repo) / ("%d.webp" % n))
 
     jobs = []
     for e in todo:
