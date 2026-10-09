@@ -34,7 +34,7 @@ The three tags are the star count, the license, and the month of the last push. 
 - [Quiet classics](#quiet-classics)
 
 <!-- LIST:START -->
-_Last refreshed 2026-10-09. 66 active, 20 quiet._
+_Last refreshed 2026-10-09. 137 active, 20 quiet._
 
 ## Hidden gems
 
@@ -60,8 +60,15 @@ Lesser known, each with one effect or idea that is clearly its own.
   <img src="./assets/screenshots/kokonut-labs__kokonutui/1.webp" width="24%" alt="Kokonut UI screenshot 1"> <img src="./assets/screenshots/kokonut-labs__kokonutui/2.webp" width="24%" alt="Kokonut UI screenshot 2"> <img src="./assets/screenshots/kokonut-labs__kokonutui/3.webp" width="24%" alt="Kokonut UI screenshot 3"> <img src="./assets/screenshots/kokonut-labs__kokonutui/4.webp" width="24%" alt="Kokonut UI screenshot 4">
 - [Cally](https://github.com/WickyNilliams/cally) - Small, feature-rich calendar built as framework-agnostic web components. `★ 1.7k` `MIT` `2026-07`<br>
   <img src="./assets/screenshots/wickynilliams__cally/1.webp" width="24%" alt="Cally screenshot 1"> <img src="./assets/screenshots/wickynilliams__cally/2.webp" width="24%" alt="Cally screenshot 2"> <img src="./assets/screenshots/wickynilliams__cally/3.webp" width="24%" alt="Cally screenshot 3"> <img src="./assets/screenshots/wickynilliams__cally/4.webp" width="24%" alt="Cally screenshot 4">
+- [gooey-toast](https://github.com/anl331/goey-toast) - React toast whose title pill and description body are drawn as one blob that morphs between pill and expanded shapes. `★ 1.3k` `MIT` `2026-09`
+- [hairline](https://github.com/lucasmarkes/hairline) - Thirty-three isometric SVG line figures that react to the pointer, for React or plain DOM with no dependencies. `★ 1.3k` `MIT` `2026-10`
 - [slot-text](https://github.com/danielwh2/slot-text) - Slot-machine text roll with zero dependencies, for vanilla JS, React and Vue. `★ 1.0k` `MIT` `2026-09`<br>
   <img src="./assets/screenshots/danielwh2__slot-text/1.webp" width="24%" alt="slot-text screenshot 1">
+- [ascii.rest](https://github.com/bas3line/ascii) - Animated ASCII art pieces, from a spinning shaded donut to full-colour dot scenes, for React, Astro or one HTML tag. `★ 601` `MIT` `2026-10`
+- [Processing](https://github.com/processing/processing4) - Software sketchbook and Java-based language where a short sketch with setup() and draw() opens a graphics window when you press Run. `★ 514` `GPL-2.0 for the editor and other parts, LGPL for the core library, with some bundled third-party code under other licenses (LICENSE.md) ⚠` `2026-09`
+- [Mercury](https://github.com/tmhglnd/mercury) - Live coding language for electronic music in Max whose 30-line editor is drawn as large text over full-screen 3D visuals. `★ 378` `GPL-3.0 ⚠` `2026-08`
+- [Doodle](https://github.com/creativescala/doodle) - Scala library that builds vector pictures by composing smaller ones with beside, above and on, drawn via Java2D, SVG or Canvas. `★ 349` `Apache-2.0` `2026-09`
+- [ol3Echarts](https://github.com/sakitam-fdd/ol3Echarts) - Overlays Apache ECharts series such as migration lines and scatter points on an OpenLayers map, keeping view and coordinates in sync. `★ 333` `MIT` `2026-09`
 - [ditherer](https://github.com/gyng/ditherer) - Browser dithering lab with retro CRT and VHS filters, glitch art and audio-reactive visuals. `★ 95` `MIT` `2026-09`<br>
   <img src="./assets/screenshots/gyng__ditherer/1.webp" width="24%" alt="ditherer screenshot 1"> <img src="./assets/screenshots/gyng__ditherer/2.webp" width="24%" alt="ditherer screenshot 2"> <img src="./assets/screenshots/gyng__ditherer/3.webp" width="24%" alt="ditherer screenshot 3"> <img src="./assets/screenshots/gyng__ditherer/4.webp" width="24%" alt="ditherer screenshot 4">
 
@@ -77,6 +84,20 @@ Lesser known, each with one effect or idea that is clearly its own.
   <img src="./assets/screenshots/darkroomengineering__lenis/1.webp" width="24%" alt="Lenis screenshot 1"> <img src="./assets/screenshots/darkroomengineering__lenis/2.webp" width="24%" alt="Lenis screenshot 2"> <img src="./assets/screenshots/darkroomengineering__lenis/3.webp" width="24%" alt="Lenis screenshot 3"> <img src="./assets/screenshots/darkroomengineering__lenis/4.webp" width="24%" alt="Lenis screenshot 4">
 - [AutoAnimate](https://github.com/formkit/auto-animate) - Zero-config, drop-in transitions when elements are added, removed or moved. `★ 14k` `MIT` `2026-07`<br>
   <img src="./assets/screenshots/formkit__auto-animate/1.webp" width="24%" alt="AutoAnimate screenshot 1"> <img src="./assets/screenshots/formkit__auto-animate/2.webp" width="24%" alt="AutoAnimate screenshot 2">
+- [Its Hover](https://github.com/itshover/itshover) - Copy-paste React icons whose individual strokes animate on hover with Motion, installable through the shadcn CLI. `★ 2.7k` `Apache-2.0` `2026-09`
+- [react-native-graph](https://github.com/margelo/react-native-graph) - Skia line graph for React Native that morphs between data ranges and dims the line ahead of your finger while you scrub. `★ 2.6k` `MIT` `2026-09`
+- [AnimXYZ](https://github.com/ingram-projects/animxyz) - CSS animation library where words in an xyz attribute, such as fade up big, compose one shared keyframe through CSS variables. `★ 2.5k` `MIT` `2026-10`
+- [Pixel2Motion](https://github.com/nolangz/pixel2motion) - Agent skill that refits a raster logo into minimal smooth SVG and choreographs a logo reveal as standalone HTML with replay and speed controls. `★ 2.4k` `MIT` `2026-08`
+- [simpleParallax.js](https://github.com/geosigno/simpleParallax.js) - Scroll parallax for plain img and video tags in React or vanilla JS, with orientation, scale and delay settings. `★ 2.2k` `MIT` `2026-07`
+- [React UseAnimations](https://github.com/useAnimations/react-useanimations) - Lottie-based animated icon set for React whose icons play a short state change on click, such as a star filling or a trash lid lifting. `★ 1.2k` `Custom useAnimations terms: CC BY 4.0 with required attribution to useanimations.com, plus a ban on redistribution or resale of the files ⚠` `2026-10`
+- [Rive React](https://github.com/rive-app/rive-react) - React components and hooks that render Rive .riv files, with control of state machines and data-bound view model properties. `★ 1.2k` `MIT` `2026-09`
+- [SSGOI](https://github.com/meursyphus/ssgoi) - Page transition library that gives web apps native-style drill, sheet, zoom and film navigation using the Web Animations API. `★ 993` `MIT` `2026-10`
+- [lottie-react](https://github.com/Gamote/lottie-react) - React component and hook for Lottie animations, with scroll-scrubbed playback and a ready-made transport control bar. `★ 969` `MIT` `2026-09`
+- [dotLottie Web](https://github.com/LottieFiles/dotlottie-web) - Lottie and dotLottie player with a Rust and WASM core, switchable Software, WebGL and WebGPU renderers, and themes and color slots editable at runtime. `★ 892` `MIT` `2026-10`
+- [anidoodle](https://github.com/alexgreensh/anidoodle) - Agent skill and Node engine that draws illustrations and animations in 31 hand-made styles from deterministic code, each able to film itself being drawn. `★ 859` `Apache-2.0` `2026-10`
+- [Remotion Bits](https://github.com/av/remotion-bits) - Copy-paste animation components for Remotion videos, including text reveals, particle systems and 3D camera scenes. `★ 487` `MIT (declared in package.json and on npm; no LICENSE file in the repository) ⚠` `2026-09`
+- [next-transition-router](https://github.com/ismamz/next-transition-router) - Leave and enter callbacks for the Next.js App Router that hold navigation until your GSAP or CSS page transition finishes. `★ 367` `MIT` `2026-10`
+- [React Native Animation Samples](https://github.com/Aashu-Dubey/react-native-animation-samples) - Five gesture-driven React Native samples: a scrubbable toolbar, a fanning color swatch, a magnifying icon grid, a bezier rope and an animated text caret. `★ 356` `MIT` `2026-08`
 
 ## Components and design systems
 
@@ -100,6 +121,10 @@ Lesser known, each with one effect or idea that is clearly its own.
   <img src="./assets/screenshots/htmlstreamofficial__preline/1.webp" width="24%" alt="Preline UI screenshot 1"> <img src="./assets/screenshots/htmlstreamofficial__preline/2.webp" width="24%" alt="Preline UI screenshot 2"> <img src="./assets/screenshots/htmlstreamofficial__preline/3.webp" width="24%" alt="Preline UI screenshot 3"> <img src="./assets/screenshots/htmlstreamofficial__preline/4.webp" width="24%" alt="Preline UI screenshot 4">
 - [Ark UI](https://github.com/chakra-ui/ark) - Unstyled, accessible components for React, Vue, Solid and Svelte. `★ 5.4k` `MIT` `2026-10`<br>
   <img src="./assets/screenshots/chakra-ui__ark/1.webp" width="24%" alt="Ark UI screenshot 1"> <img src="./assets/screenshots/chakra-ui__ark/2.webp" width="24%" alt="Ark UI screenshot 2"> <img src="./assets/screenshots/chakra-ui__ark/3.webp" width="24%" alt="Ark UI screenshot 3"> <img src="./assets/screenshots/chakra-ui__ark/4.webp" width="24%" alt="Ark UI screenshot 4">
+- [Dear ImGui Bundle](https://github.com/pthom/imgui_bundle) - Dear ImGui packaged with plotting, node editor and image tools for C++ and Python, with a demo explorer that shows each demo's source. `★ 1.4k` `MIT` `2026-10`
+- [React Awesome Button](https://github.com/rcaferati/react-awesome-button) - React button with a raised 3D face that presses down on click, plus a progress variant that fills a loading bar and social share variants. `★ 1.3k` `MIT` `2026-07`
+- [SmoothUI](https://github.com/educlopez/smoothui) - Animated React components for shadcn/ui, including a conic-gradient Siri orb, WebGL shader transitions and a Time Machine panel stack. `★ 1.0k` `MIT` `2026-10`
+- [interior[.]dev](https://github.com/ddoemonn/interior) - Copy-in React micro-interactions, each a headless hook plus a styled example, such as a slider with detents and a hold-to-confirm button. `★ 824` `MIT` `2026-09`
 
 ## WebGL and creative coding
 
@@ -113,10 +138,24 @@ Lesser known, each with one effect or idea that is clearly its own.
   <img src="./assets/screenshots/pmndrs__drei/1.webp" width="24%" alt="drei screenshot 1"> <img src="./assets/screenshots/pmndrs__drei/2.webp" width="24%" alt="drei screenshot 2"> <img src="./assets/screenshots/pmndrs__drei/3.webp" width="24%" alt="drei screenshot 3"> <img src="./assets/screenshots/pmndrs__drei/4.webp" width="24%" alt="drei screenshot 4">
 - [tsParticles](https://github.com/tsparticles/tsparticles) - Particles, confetti and fireworks. `★ 9.0k` `MIT` `2026-10`<br>
   <img src="./assets/screenshots/tsparticles__tsparticles/1.webp" width="24%" alt="tsParticles screenshot 1"> <img src="./assets/screenshots/tsparticles__tsparticles/2.webp" width="24%" alt="tsParticles screenshot 2"> <img src="./assets/screenshots/tsparticles__tsparticles/3.webp" width="24%" alt="tsParticles screenshot 3"> <img src="./assets/screenshots/tsparticles__tsparticles/4.webp" width="24%" alt="tsParticles screenshot 4">
+- [react-map-gl](https://github.com/visgl/react-map-gl) - React components that wrap Mapbox GL JS or MapLibre GL JS so the map camera, layers, markers and controls are driven by props. `★ 8.5k` `MIT, with a BSD-style notice for code taken from Mapbox GL JS ⚠` `2026-09`
 - [nannou](https://github.com/nannou-org/nannou) - Creative coding framework for Rust. `★ 6.8k` `license: see repo ⚠` `2026-07`<br>
   <img src="./assets/screenshots/nannou-org__nannou/1.webp" width="24%" alt="nannou screenshot 1"> <img src="./assets/screenshots/nannou-org__nannou/2.webp" width="24%" alt="nannou screenshot 2"> <img src="./assets/screenshots/nannou-org__nannou/3.webp" width="24%" alt="nannou screenshot 3"> <img src="./assets/screenshots/nannou-org__nannou/4.webp" width="24%" alt="nannou screenshot 4">
+- [ThreeUI Community](https://github.com/MengTo/threeui) - React catalog of Three.js scenes, shader backgrounds and liquid-metal buttons, each with live controls and copyable source. `★ 6.5k` `MIT` `2026-09`
+- [Shaders](https://github.com/shader-effects-inc/shaders) - About 200 WebGPU effects as nestable layer components for React, Vue, Svelte, Solid and plain JS, from liquid metal to cursor trails. `★ 3.4k` `MIT` `2026-10`
+- [react-force-graph](https://github.com/vasturiano/react-force-graph) - React components that render force-directed graphs in 2D canvas, 3D WebGL, VR and AR behind one shared interface. `★ 3.3k` `MIT` `2026-09`
 - [gl-react](https://github.com/gre/gl-react) - Write and compose WebGL shaders as React components. `★ 3.0k` `MIT` `2026-10`<br>
   <img src="./assets/screenshots/gre__gl-react/1.webp" width="24%" alt="gl-react screenshot 1"> <img src="./assets/screenshots/gre__gl-react/2.webp" width="24%" alt="gl-react screenshot 2"> <img src="./assets/screenshots/gre__gl-react/3.webp" width="24%" alt="gl-react screenshot 3"> <img src="./assets/screenshots/gre__gl-react/4.webp" width="24%" alt="gl-react screenshot 4">
+- [react-postprocessing](https://github.com/pmndrs/react-postprocessing) - Postprocessing effects for react-three-fiber, declared as JSX children of an EffectComposer that merges them into one pass. `★ 1.4k` `MIT` `2026-09`
+- [VFX-JS](https://github.com/fand/vfx-js) - Attaches WebGL shader effects such as glitch, RGB shift and rainbow directly to ordinary img, video, div and canvas elements. `★ 1.1k` `MIT` `2026-09`
+- [OPENRNDR](https://github.com/openrndr/openrndr) - Kotlin creative coding framework where GLSL shade style snippets restyle any drawn primitive, with contour and shape geometry tools. `★ 981` `BSD-2-Clause (FreeBSD variant with the views-and-conclusions disclaimer, i.e. BSD-2-Clause-Views) ⚠` `2026-10`
+- [Fragment](https://github.com/raphaelameaume/fragment) - Local creative coding environment that turns a sketch's exported props into a live control panel beside the canvas, with image and video export. `★ 939` `MIT` `2026-10`
+- [Shader Park](https://github.com/shader-park/shader-park-core) - JavaScript library that compiles short sculpting scripts into raymarched signed distance field shaders for three.js, p5, Hydra and TouchDesigner. `★ 825` `MIT` `2026-10`
+- [Liquid Glass Studio](https://github.com/iyinchao/liquid-glass-studio) - Browser playground that renders Apple-style liquid glass shapes with refraction, dispersion and merging blobs, tuned live through sliders. `★ 738` `MIT` `2026-09`
+- [Shader Lab](https://github.com/basementstudio/shader-lab) - Browser WebGPU editor for stacking and keyframing shader effect layers over video, with a React runtime to embed exports. `★ 699` `Apache-2.0` `2026-10`
+- [<shader-doodle />](https://github.com/mmmerl/shader-doodle) - Web component that renders a GLSL fragment shader written inline in HTML, with Shadertoy-style uniforms and image, video, webcam and audio inputs. `★ 588` `MIT` `2026-09`
+- [Svader](https://github.com/sockmaster27/svader) - Svelte components that render WebGL or WebGPU fragment shaders, with built-in resolution, scale, time and offset parameters. `★ 465` `MIT` `2026-10`
+- [ShaderToy unofficial plugin](https://github.com/patuwwy/ShaderToy-Chrome-Plugin) - Browser extension that adds iTime and iMouse sliders, GPU render timers, a vec3 color picker and export to the Shadertoy editor. `★ 309` `MIT` `2026-10`
 
 ## Terminal and TUI
 
@@ -156,14 +195,46 @@ Lesser known, each with one effect or idea that is clearly its own.
   <img src="./assets/screenshots/gitui-org__gitui/1.webp" width="24%" alt="gitui screenshot 1"> <img src="./assets/screenshots/gitui-org__gitui/2.webp" width="24%" alt="gitui screenshot 2"> <img src="./assets/screenshots/gitui-org__gitui/3.webp" width="24%" alt="gitui screenshot 3"> <img src="./assets/screenshots/gitui-org__gitui/4.webp" width="24%" alt="gitui screenshot 4">
 - [VHS](https://github.com/charmbracelet/vhs) - Records terminal sessions as GIFs from a script. `★ 21k` `MIT` `2026-10`<br>
   <img src="./assets/screenshots/charmbracelet__vhs/1.webp" width="24%" alt="VHS screenshot 1"> <img src="./assets/screenshots/charmbracelet__vhs/2.webp" width="24%" alt="VHS screenshot 2"> <img src="./assets/screenshots/charmbracelet__vhs/3.webp" width="24%" alt="VHS screenshot 3"> <img src="./assets/screenshots/charmbracelet__vhs/4.webp" width="24%" alt="VHS screenshot 4">
+- [ccstatusline](https://github.com/sirmalloc/ccstatusline) - Status line formatter for Claude Code with Powerline segments that auto-align into columns across multiple lines and a TUI configurator. `★ 13k` `MIT` `2026-10`
 - [gping](https://github.com/orf/gping) - Ping, but with a graph. `★ 13k` `MIT` `2026-10`<br>
   <img src="./assets/screenshots/orf__gping/1.webp" width="24%" alt="gping screenshot 1"> <img src="./assets/screenshots/orf__gping/2.webp" width="24%" alt="gping screenshot 2"> <img src="./assets/screenshots/orf__gping/3.webp" width="24%" alt="gping screenshot 3"> <img src="./assets/screenshots/orf__gping/4.webp" width="24%" alt="gping screenshot 4">
 - [onefetch](https://github.com/o2sh/onefetch) - Git repository summary in the terminal. `★ 12k` `MIT` `2026-10`<br>
   <img src="./assets/screenshots/o2sh__onefetch/1.webp" width="24%" alt="onefetch screenshot 1"> <img src="./assets/screenshots/o2sh__onefetch/2.webp" width="24%" alt="onefetch screenshot 2"> <img src="./assets/screenshots/o2sh__onefetch/3.webp" width="24%" alt="onefetch screenshot 3"> <img src="./assets/screenshots/o2sh__onefetch/4.webp" width="24%" alt="onefetch screenshot 4">
 - [Lip Gloss](https://github.com/charmbracelet/lipgloss) - Style definitions for terminal layouts. `★ 12k` `MIT` `2026-10`<br>
   <img src="./assets/screenshots/charmbracelet__lipgloss/1.webp" width="24%" alt="Lip Gloss screenshot 1"> <img src="./assets/screenshots/charmbracelet__lipgloss/2.webp" width="24%" alt="Lip Gloss screenshot 2"> <img src="./assets/screenshots/charmbracelet__lipgloss/3.webp" width="24%" alt="Lip Gloss screenshot 3"> <img src="./assets/screenshots/charmbracelet__lipgloss/4.webp" width="24%" alt="Lip Gloss screenshot 4">
+- [Symfony Console](https://github.com/symfony/console) - PHP library for command line output with format-string progress bars, styled tables, result blocks and rewritable output sections. `★ 9.8k` `MIT` `2026-10`
 - [Clack](https://github.com/bombshell-dev/clack) - Building blocks for beautiful command-line prompts. `★ 8.1k` `MIT` `2026-10`<br>
   <img src="./assets/screenshots/bombshell-dev__clack/1.webp" width="24%" alt="Clack screenshot 1"> <img src="./assets/screenshots/bombshell-dev__clack/2.webp" width="24%" alt="Clack screenshot 2">
+- [iocraft](https://github.com/ccbrown/iocraft) - Rust crate for terminal UIs and styled text output, declared React-style with an element! macro, hooks and flexbox layout. `★ 1.6k` `Apache-2.0` `2026-10`
+- [Golazo](https://github.com/0xjuanma/golazo) - Terminal football tracker with a block-digit scoreboard and a two-sided, minute-by-minute event timeline for each match. `★ 868` `MIT` `2026-09`
+- [listr2](https://github.com/listr2/listr2) - Node.js task list renderer that redraws a nested tree of concurrent tasks in place with spinners and status icons. `★ 691` `MIT` `2026-10`
+- [WAHA TUI](https://github.com/muhammedaksam/waha-tui) - Terminal WhatsApp client with a WhatsApp Web style two-pane layout, message bubbles with quoted replies, and QR code pairing drawn in the terminal. `★ 405` `MIT` `2026-10`
+- [wifitui](https://github.com/shazow/wifitui) - Terminal Wi-Fi manager for NetworkManager with gradient-colored signal strength, fuzzy filtering and QR code network sharing. `★ 343` `MIT` `2026-09`
+- [ProteinView](https://github.com/001TMF/ProteinView) - Terminal viewer for PDB/mmCIF molecular structures that draws 3D cartoon ribbons in braille or Kitty/Sixel pixel graphics. `★ 337` `MIT` `2026-07`
+- [Rura](https://github.com/tlipinski/rura) - Terminal UI for building a shell pipeline step by step, with the output shown above the command line and a diff mode between runs. `★ 337` `MIT` `2026-09`
+- [HexPatch](https://github.com/Etto48/HexPatch) - Terminal hex editor that disassembles binaries and lets you type assembly to patch them, showing the resulting bytes as you write. `★ 336` `AGPL-3.0 ⚠` `2026-08`
+- [lssh](https://github.com/blacknon/lssh) - SSH client that picks hosts from a filterable list, runs commands in parallel and opens a built-in multi-pane mux across servers. `★ 327` `MIT` `2026-07`
+- [pnana](https://github.com/Cyxuan0311/PNANA) - Terminal text editor built on FTXUI with a command palette, fuzzy file finder with preview pane, split views and in-editor image preview. `★ 327` `MIT` `2026-10`
+- [TermDOM](https://github.com/bikeshaving/termdom) - Renders real HTML, CSS and DOM nodes to terminal cells, so TUIs are written like web pages and repaint on mutation. `★ 326` `MIT` `2026-10`
+- [mirador](https://github.com/jchultarsky/mirador) - Terminal dashboard of clock, calendar, tasks, notes and system panels that dims all but the focused one and rearranges by keyboard. `★ 324` `MIT` `2026-10`
+- [shiki](https://github.com/sazardev/shiki) - Terminal note-taking app with a three-pane Miller-column browser, rendered Markdown preview, and git branch and commit controls per notebook. `★ 324` `MIT` `2026-10`
+- [tori](https://github.com/thobiasn/tori-cli) - Docker server monitoring TUI over SSH with braille sparklines, grouped containers, alerts and log tailing. `★ 318` `MIT` `2026-10`
+- [sabiql](https://github.com/riii111/sabiql) - Vim-keyed terminal client for PostgreSQL, MySQL and SQLite that shows a diff, the SQL and a risk level before applying an edit. `★ 317` `MIT` `2026-10`
+- [dtui](https://github.com/Troels51/dtui) - Terminal browser for D-Bus services with an object tree and a method call form that checks typed arguments. `★ 317` `MIT` `2026-08`
+- [Pensar Apex](https://github.com/pensarai/apex) - Terminal app for AI agent penetration testing, with a green ASCII density-shaded banner over a centered command prompt. `★ 316` `Apache-2.0` `2026-10`
+- [Piou](https://github.com/Andarius/piou) - Python CLI library whose typed commands also run as a slash-command TUI with live suggestions and argument hints. `★ 315` `MIT` `2026-10`
+- [ratatui-hypertile](https://github.com/nikolic-milos/ratatui-hypertile) - Hyprland-style BSP tiling for Ratatui apps, with animated pane moves, mouse-dragged split borders and a plugin palette. `★ 314` `MIT` `2026-10`
+- [ec](https://github.com/chojs23/ec) - Terminal Git conflict resolver with ours, result and theirs panes, a live preview of the pending resolution, and a split or unified diff viewer. `★ 313` `MIT` `2026-09`
+- [Hazelnut](https://github.com/ricardodantas/hazelnut) - Terminal file organizer that watches folders and applies TOML rules, with a 15-theme picker showing color swatches per theme. `★ 312` `GPL-3.0 ⚠` `2026-09`
+- [drydock](https://github.com/yetidevworks/drydock) - Terminal dashboard that shows uncommitted, unpushed and unreleased work across hundreds of git repos in one colour-coded table. `★ 310` `MIT` `2026-10`
+- [mandown](https://github.com/Titor8115/mandown) - Terminal Markdown pager in C that lays documents out like man pages, with indented sections and a status line. `★ 307` `GPL-3.0 ⚠` `2026-08`
+- [cli-chess](https://github.com/trb346/cli-chess) - Terminal chess client with a colored Unicode board, playable offline against Fairy-Stockfish or online through Lichess, including watching Lichess TV. `★ 307` `GPL-3.0 ⚠` `2026-09`
+- [gtt](https://github.com/eeeXun/gtt) - Terminal translator with side by side source and target panes plus definition and part of speech panes, backed by seven translation engines. `★ 306` `MIT` `2026-09`
+- [fzf-make](https://github.com/kyu08/fzf-make) - Fuzzy finder TUI for make, npm, pnpm, yarn, just and task that previews the selected target's source before running it. `★ 306` `MIT` `2026-09`
+- [pgtui](https://github.com/pgplex/pgtui) - Terminal client for PostgreSQL with a schema tree, tabbed table views, a JSONB tree viewer and a Ctrl+K command palette. `★ 305` `Apache-2.0` `2026-08`
+- [OSTT](https://github.com/kristoferlund/ostt) - Terminal voice-to-text popup that draws a live mirrored waveform while recording, then pastes the transcript. `★ 303` `MIT` `2026-10`
+- [aerc](https://github.com/rjarry/aerc) - Terminal email client that composes mail in an embedded editor tab, tmux-style, with vim-like keybindings and ex commands. `★ 302` `MIT` `2026-09`
+- [LazyWorktree](https://github.com/chmouel/lazyworktree) - Keyboard-first TUI for Git worktrees with PR and CI status, per-worktree notes, a taskboard and an agent sessions pane. `★ 301` `Apache-2.0` `2026-10`
 
 ## Widgets and building blocks
 
