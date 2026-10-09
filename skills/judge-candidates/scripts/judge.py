@@ -74,6 +74,7 @@ def valid_input(value, rule, as_of):
 OPS = {
     "eq": lambda v, x: type(v) is type(x) and v == x,
     "in": lambda v, x: v in x,
+    "notIn": lambda v, x: v.casefold() not in {s.casefold() for s in x},
     "gte": lambda v, x: isinstance(v, (int, float)) and not isinstance(v, bool) and v >= x,
     "minLength": lambda v, x: string_list(v) and len(v) >= x,
     "nonEmpty": lambda v, x: isinstance(v, str) and bool(v.strip()),

@@ -5,6 +5,7 @@
     { "id": "found", "stage": "facts", "field": "facts.found", "op": "eq", "value": true, "onFail": "reject", "reason": "The repository does not exist or is private." },
     { "id": "not-fork", "stage": "facts", "field": "facts.fork", "op": "eq", "value": false, "onFail": "reject", "reason": "Forks are not listed. List the original." },
     { "id": "min-stars", "stage": "facts", "field": "facts.stars", "op": "gte", "value": 50, "onFail": "reject", "reason": "Fewer than 50 stars." },
+    { "id": "on-topic", "stage": "facts", "field": "facts.repo", "op": "notIn", "value": ["pensarai/apex", "symfony/console", "blacknon/lssh"], "onFail": "reject", "reason": "Excluded by the maintainer: its appeal is not its UI." },
 
     { "id": "researched", "stage": "facts", "field": "research.status", "op": "eq", "value": "done", "onFail": "needs-research", "reason": "Research is not finished." },
 

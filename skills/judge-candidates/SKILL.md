@@ -34,7 +34,9 @@ Each rule is one line: a `field` of the finding, an `op`, a `value`, the verdict
 
 Before evaluating a rule, missing or malformed values produce `needs-research` for that rule rather than its rejection verdict. Confirmed disqualifiers still take precedence. Evidence must contain nonempty strings and valid HTTP(S) URLs. Unresolved licenses and nonempty `unverified` arrays prevent inclusion.
 
-Available ops: `eq`, `in`, `gte`, `minLength`, `nonEmpty`, `matches` (full regular-expression match), `knownLicense`, `httpUrls`, `date`, and `withinMonths` (a date no older than N months).
+Available ops: `eq`, `in`, `notIn` (case-insensitive), `gte`, `minLength`, `nonEmpty`, `matches` (full regular-expression match), `knownLicense`, `httpUrls`, `date`, and `withinMonths` (a date no older than N months).
+
+The `on-topic` rule lists repositories the maintainer keeps out although they pass every other rule. Add a repository there to exclude it; `--apply` does not remove an entry already in `list.json`.
 
 The `active` rule is also read by `scripts/build.py`, so the three-month window is defined in one place.
 

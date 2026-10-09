@@ -71,6 +71,14 @@ class JudgeTests(unittest.TestCase):
         f["research"]["demoViewed"] = False
         self.assertEqual(self.verdict(f)[0], "reject")
 
+    def test_maintainer_exclusion_rejects_any_case(self):
+        excluded = next(r for r in self.config["rules"] if r["id"] == "on-topic")["value"][0]
+        f = fixture()
+        f["facts"]["repo"] = excluded.upper()
+        verdict, failed = self.verdict(f)
+        self.assertEqual(verdict, "reject")
+        self.assertEqual([r["id"] for r in failed], ["on-topic"])
+
     def test_unknown_license_needs_research(self):
         for license_name in (None, "", " unknown ", "NOASSERTION", "none", "N/A"):
             with self.subTest(license=license_name):
