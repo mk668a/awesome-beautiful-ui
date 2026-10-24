@@ -34,11 +34,10 @@
       ],
       "evidenceUrls": [
         "https://ui.wensity.com/blocks/hero-sections/hero-section-with-black-hole",
-        "https://ui.wensity.com/"
+        "https://ui.wensity.com/",
+        "https://ui.wensity.com/components/siri-orb"
       ]
     },
-    "unverified": [
-      "The Siri Orb was only described in the site text and not seen rendered."
-    ]
+    "unverified": []
   }
 }
