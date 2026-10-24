@@ -1,6 +1,6 @@
 ---
 name: judge-candidates
-description: Use after research-candidates, or when asked which researched repositories get into the Awesome Beautiful UI list, why one was rejected, or to change the inclusion rules. Runs a script that applies rules.json to the finding files and writes research/verdicts.json. The verdict comes from the script, never from the agent. Third step of find, research, judge.
+description: Use after research-candidates, or when asked which researched repositories or sites get into the Awesome Beautiful UI list, why one was rejected, or to change the inclusion rules. Runs a script that applies rules.json to the finding files and writes research/verdicts.json. The verdict comes from the script, never from the agent. Third step of find, research, judge.
 license: MIT
 compatibility: Run from a checkout of awesome-beautiful-ui. Needs Python 3.9+. No network access.
 ---
@@ -30,7 +30,7 @@ When several rules fail, the most severe verdict wins, in the order of the `verd
 
 ## The rules are defined in rules.json
 
-Each rule is one line: a `field` of the finding, an `op`, a `value`, the verdict `onFail`, and a `reason`. Rules with `"stage": "research"` are skipped until the finding's research is marked done, so an unresearched repository gets `needs-research` and not a false `reject`.
+Each rule is one line: a `field` of the finding, an `op`, a `value`, the verdict `onFail`, and a `reason`. A rule with `"appliesTo": "repo"` or `"site"` is applied only to that kind of finding; one without applies to both. Rules with `"stage": "research"` are skipped until the finding's research is marked done, so an unresearched repository gets `needs-research` and not a false `reject`.
 
 Before evaluating a rule, missing or malformed values produce `needs-research` for that rule rather than its rejection verdict. Confirmed disqualifiers still take precedence. Evidence must contain nonempty strings and valid HTTP(S) URLs. Unresolved licenses and nonempty `unverified` arrays prevent inclusion.
 
@@ -38,7 +38,9 @@ Available ops: `eq`, `in`, `notIn` (case-insensitive), `gte`, `minLength`, `nonE
 
 The `on-topic` rule lists repositories the maintainer keeps out although they pass every other rule. Add a repository there to exclude it; `--apply` does not remove an entry already in `list.json`.
 
-The `active` rule is also read by `scripts/build.py`, so the three-month window is defined in one place.
+The `active` and `site-active` rules are also read by `scripts/build.py`, so the three-month windows are defined in one place.
+
+A site passes when its source is not public (otherwise the repository is researched instead), it is `free` or `freemium`, and its last update is confirmed with evidence. It goes in the "Not open source" section.
 
 ## Adding the result to the list
 

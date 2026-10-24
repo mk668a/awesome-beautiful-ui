@@ -18,6 +18,7 @@ AS_OF = date(2026, 10, 9)
 SCRIPTS = {
     "judge": "skills/judge-candidates/scripts/judge.py",
     "search": "skills/find-candidates/scripts/search.py",
+    "sites": "skills/find-candidates/scripts/sites.py",
     "collect": "skills/research-candidates/scripts/collect_facts.py",
     "audit": "skills/audit-list/scripts/audit.py",
     "build": "scripts/build.py",
@@ -50,7 +51,7 @@ class JudgeTests(unittest.TestCase):
 
     def test_fixture_verdicts(self):
         for name, expected in (("include", "include"), ("quiet", "quiet"),
-                               ("reject", "reject"), ("pending", "needs-research")):
+                               ("reject", "reject"), ("pending", "needs-research"), ("site", "include")):
             with self.subTest(name=name):
                 self.assertEqual(self.verdict(fixture(name))[0], expected)
 
@@ -152,12 +153,143 @@ class JudgeTests(unittest.TestCase):
             for _ in range(2):
                 result = subprocess.run(command, capture_output=True, text=True)
                 self.assertEqual(result.returncode, 0, result.stderr)
-                self.assertEqual({e["repo"] for e in json.loads(target.read_text())},
-                                 {"example/include", "example/quiet"})
+                self.assertEqual({e.get("repo") or e["url"] for e in json.loads(target.read_text())},
+                                 {"example/include", "example/quiet", "https://example.com"})
             self.assertEqual(json.loads(out.read_text())["asOf"], "2026-10-09")
 
 
+    def test_site_rules(self):
+        cases = (
+            ("pricing", "paid", "reject"),
+            ("pricing", None, "needs-research"),
+            ("openSource", True, "reject"),
+            ("openSource", None, "needs-research"),
+            ("lastUpdated", "2026-07-08", "quiet"),
+            ("lastUpdated", "2026-07-09", "include"),
+            ("lastUpdated", None, "needs-research"),
+            ("lastUpdatedEvidence", [], "needs-research"),
+            ("kind", "app", "reject"),
+            ("genericCollection", True, "reject"),
+        )
+        for field, value, expected in cases:
+            with self.subTest(field=field, value=value):
+                f = fixture("site")
+                f["research"][field] = value
+                self.assertEqual(self.verdict(f)[0], expected)
+
+    def test_site_skips_repository_rules(self):
+        verdict, failed = self.verdict(fixture("site"))
+        self.assertEqual((verdict, failed), ("include", []))
+        f = fixture()
+        f["research"]["pricing"] = "paid"
+        self.assertEqual(self.verdict(f)[0], "include")
+
+    def test_site_needs_a_valid_url(self):
+        f = fixture("site")
+        f["facts"]["url"] = "example.com"
+        self.assertEqual(self.verdict(f)[0], "needs-research")
+
+    def test_site_entry_goes_to_closed_section(self):
+        self.assertEqual(self.judge.entry_for(fixture("site")), {
+            "section": "closed", "url": "https://example.com", "name": "Example Kit",
+            "note": "Animated components with a particle black hole cursor.",
+            "pricing": "freemium", "updated": "2026-10-01"})
+
+
 class RuntimeTests(unittest.TestCase):
+    def test_sites_records_candidates_and_checks_canaries(self):
+        sites = load("sites")
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            write_json(tmp / "queries.json", {"webCanaries": ["https://www.canary.dev/"], "queries": [
+                {"id": "framer", "section": "components", "web": ["free framer components"]},
+                {"id": "tui", "section": "terminal", "q": "topic:tui"}]})
+            write_json(tmp / "list.json", [{"url": "https://listed.dev"}])
+            write_json(tmp / "findings/site__seen.dev.json", {"url": "https://seen.dev", "facts": {"url": "https://seen.dev"}})
+            common = ["--queries", str(tmp / "queries.json"), "--list", str(tmp / "list.json"),
+                      "--findings", str(tmp / "findings"), "--out", str(tmp / "sites.json")]
+
+            def run(*argv):
+                out = io.StringIO()
+                with patch.object(sys, "argv", ["sites", *argv, *common]), contextlib.redirect_stdout(out), \
+                        contextlib.redirect_stderr(io.StringIO()):
+                    try:
+                        sites.main()
+                        code = 0
+                    except SystemExit as exit:
+                        code = exit.code
+                return code, out.getvalue()
+
+            self.assertEqual(run("start"), (0, "framer\tfree framer components\n"))
+            self.assertEqual(run("check")[0], 1)
+            code, out = run("add", "--query", "framer", "https://www.new.dev/?ref=x", "https://listed.dev/",
+                            "https://seen.dev", "https://github.com/a/b", "https://canary.dev")
+            self.assertEqual([line.split("\t")[0] for line in out.splitlines()], ["new", "known", "known", "skip", "new"])
+            data = json.loads((tmp / "sites.json").read_text())
+            self.assertEqual([c["url"] for c in data["candidates"]], ["https://new.dev", "https://canary.dev"])
+            self.assertEqual(run("check"), (0, "ok\thttps://canary.dev\tframer\n"))
+            self.assertEqual(run("add", "--query", "tui", "https://x.dev")[0], 2)
+
+    def test_collect_site_reads_page_metadata(self):
+        collect = load("collect")
+        self.assertEqual(collect.site_url("http://WWW.Example.com/kit/?a=1"), "https://example.com/kit")
+        self.assertEqual(collect.site_slug("https://www.example.com/kit/"), "site__example.com_kit")
+
+        class Response(io.BytesIO):
+            status = 200
+            def geturl(self):
+                return "https://www.example.com/"
+            def __enter__(self):
+                return self
+            def __exit__(self, *exc):
+                return False
+
+        page = (b'<html><head><title> Example\n Kit </title><meta name="description" content="Free components.">'
+                b'<meta property="og:description" content="ignored"></head></html>')
+        with patch.object(collect.urllib.request, "urlopen", return_value=Response(page)):
+            facts, intro = collect.collect_site("https://www.example.com/")
+        self.assertEqual((facts["found"], facts["url"], facts["title"], intro),
+                         (True, "https://example.com", "Example Kit", "Free components."))
+        error = urllib.error.HTTPError("https://example.com", 404, "gone", {}, None)
+        with patch.object(collect.urllib.request, "urlopen", side_effect=error):
+            facts, intro = collect.collect_site("https://example.com")
+        self.assertEqual((facts["found"], facts["status"], intro), (False, 404, None))
+        error = urllib.error.HTTPError("https://example.com", 429, "slow down", {}, None)
+        with patch.object(collect.urllib.request, "urlopen", side_effect=error):
+            self.assertIsNone(collect.collect_site("https://example.com")[0]["found"])
+        with patch.object(collect.urllib.request, "urlopen", side_effect=urllib.error.URLError("no DNS")):
+            facts, intro = collect.collect_site("https://example.com")
+        self.assertEqual((facts["found"], facts["error"]), (None, "no DNS"))
+
+    def test_build_lists_sites_without_github(self):
+        build = load("build")
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            recent = date.today().isoformat()
+            entries = [
+                {"section": "closed", "url": "https://old.dev", "name": "Old", "note": "Old kit.", "pricing": "free", "updated": "2020-01-01"},
+                {"section": "closed", "url": "https://kit.dev", "name": "Kit", "note": "A kit.", "pricing": "freemium", "updated": recent},
+            ]
+            write_json(tmp / "list.json", entries)
+            write_json(tmp / "skills/judge-candidates/rules.json", {"rules": [{"id": "active", "value": 3}, {"id": "site-active", "value": 3}]})
+            (tmp / "README.md").write_text("<!-- LIST:START -->\n<!-- LIST:END -->\n")
+            with patch.object(build, "ROOT", tmp), patch.object(build, "_token", side_effect=AssertionError("token")), \
+                    patch.object(sys, "argv", ["build"]), contextlib.redirect_stdout(io.StringIO()):
+                build.main()
+            text = (tmp / "README.md").read_text()
+            self.assertIn("## Not open source", text)
+            self.assertIn("- [Kit](https://kit.dev) - A kit. `freemium` `updated %s`" % recent[:7], text)
+            self.assertLess(text.index("## Not open source"), text.index("## Quiet classics"))
+            self.assertGreater(text.index("[Old]"), text.index("## Quiet classics"))
+            for bad in ({"section": "motion", "url": "https://kit.dev", "name": "K", "note": "n.", "pricing": "free", "updated": recent},
+                        {"section": "closed", "repo": "a/b", "name": "K", "note": "n."},
+                        {"section": "closed", "url": "https://kit.dev", "name": "K", "note": "n."}):
+                with self.subTest(entry=bad):
+                    write_json(tmp / "list.json", [bad])
+                    with patch.object(build, "ROOT", tmp), patch.object(sys, "argv", ["build"]), \
+                            self.assertRaises(SystemExit):
+                        build.main()
+
     def test_github_404_is_missing_but_other_errors_stop(self):
         for name in ("search", "collect", "audit", "build"):
             module = load(name)

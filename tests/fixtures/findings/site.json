@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "url": "https://example.com",
+  "facts": {
+    "found": true,
+    "url": "https://example.com",
+    "finalUrl": "https://www.example.com/",
+    "status": 200,
+    "title": "Example Kit",
+    "description": "Free animated components."
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-09",
+    "kind": "component-collection",
+    "name": "Example Kit",
+    "note": "Animated components with a particle black hole cursor.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-01",
+    "lastUpdatedEvidence": [
+      "https://example.com/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "particle black hole that follows the cursor"
+      ],
+      "evidenceUrls": [
+        "https://example.com/components/black-hole"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -4,13 +4,13 @@ For people who maintain the list or run its research harness. To suggest an entr
 
 ## Building the list
 
-Everything between the list markers in [`README.md`](./README.md) is generated. The curated part lives in [`list.json`](./list.json): the repository, a display name, a section and a one-line note.
+Everything between the list markers in [`README.md`](./README.md) is generated. The curated part lives in [`list.json`](./list.json): the repository, a display name, a section and a one-line note. A product whose source is not public has a `url` instead of a `repo`, the section `closed`, its `pricing` and the `updated` date its research confirmed.
 
 ```sh
 python3 scripts/build.py
 ```
 
-The script needs Python 3.9 or newer, no packages to install, and a GitHub token: it reads `GITHUB_TOKEN`, or asks the `gh` CLI if you are logged in. For each entry it fetches the current stars, license and last push, sorts each section by stars, and moves anything archived or without a push in three months to Quiet classics. If development resumes, the next run moves it back. Repositories returning 404 are skipped with a warning and remain in `list.json` for audit; other API errors stop the build.
+The script needs Python 3.9 or newer, no packages to install, and a GitHub token: it reads `GITHUB_TOKEN`, or asks the `gh` CLI if you are logged in. For each entry it fetches the current stars, license and last push, sorts each section by stars, and moves anything archived or without a push in three months to Quiet classics. If development resumes, the next run moves it back. Repositories returning 404 are skipped with a warning and remain in `list.json` for audit; other API errors stop the build. Sites are not fetched by the build: `audit-list` checks that they answer and that their `updated` date is recent.
 
 Screenshots are captured separately with `python3 scripts/screenshots.py`; the build adds the ones that exist under `assets/screenshots/`. The site is built from the README by `python3 scripts/pages.py` and deployed by the Pages workflow.
 
@@ -20,8 +20,8 @@ This repository is also an [Agent Plugins 1.0](https://agent-plugins.org) plugin
 
 | Step | Skill | What it does | Defined in | Result |
 |---|---|---|---|---|
-| 1 | `find-candidates` | Searches GitHub for active projects not yet listed | [`queries.json`](./skills/find-candidates/queries.json) | `research/candidates.json` |
-| 2 | `research-candidates` | One subagent per repository records what it is and what is distinctive | [`researcher-brief.md`](./skills/research-candidates/references/researcher-brief.md) | `research/findings/*.json` |
+| 1 | `find-candidates` | Searches GitHub, and the web along the same axes, for active projects not yet listed | [`queries.json`](./skills/find-candidates/queries.json) | `research/candidates.json`, `research/site-candidates.json` |
+| 2 | `research-candidates` | One subagent per repository or site records what it is and what is distinctive | [`researcher-brief.md`](./skills/research-candidates/references/researcher-brief.md), [`site-researcher-brief.md`](./skills/research-candidates/references/site-researcher-brief.md) | `research/findings/*.json` |
 | 3 | `judge-candidates` | A script applies the inclusion rules to the findings | [`rules.json`](./skills/judge-candidates/rules.json) | `research/verdicts.json` |
 |  | `audit-list` | Finds entries that moved, were archived or deleted, or have an unresolved license |  | printed |
 

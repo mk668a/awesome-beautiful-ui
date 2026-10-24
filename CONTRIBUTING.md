@@ -2,7 +2,7 @@
 
 ## What gets in
 
-- **It is open source and on GitHub.** The list is refreshed from the GitHub API.
+- **It is open source and on GitHub, or it is free to use.** Repositories are refreshed from the GitHub API. Free or freemium products whose source is closed go in their own section.
 - **It has something of its own.** Say in one line what that is: a specific effect, an idea, or a level of polish that sets it apart. "A collection of components" is not enough.
 - **It runs on the user's own machine.** No required hosted service to render the UI.
 
@@ -19,6 +19,12 @@ You do not need to check activity yourself. The build script sorts entries into 
    `section` is one of `gems`, `motion`, `components`, `webgl`, `terminal`, `widgets`. Use `gems` for lesser-known projects with one clearly distinctive effect or idea.
 
 2. If GitHub cannot identify the license (the entry shows `license: see repo`), read the license file and add a `"license"` field with what it says.
+
+   For a product whose source is not public, give its site instead of a repository, with `pricing` (`free` or `freemium`) and the date of the newest update you could see on the site:
+
+   ```json
+   { "section": "closed", "url": "https://example.com", "name": "Display Name", "note": "One line that ends with a period.", "pricing": "free", "updated": "2026-10-20" }
+   ```
 
 3. Regenerate the README and commit both files:
 

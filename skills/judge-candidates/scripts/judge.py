@@ -86,14 +86,33 @@ OPS = {
 }
 
 
+def finding_type(finding):
+    """"site" for a product website found outside GitHub, otherwise "repo"."""
+    return "site" if "url" in finding or "url" in (finding.get("facts") or {}) else "repo"
+
+
+def finding_id(finding):
+    if finding_type(finding) == "site":
+        return get(finding, "facts.url") or finding.get("url")
+    return get(finding, "facts.repo") or finding.get("repo")
+
+
 def judge(finding, rules, verdicts, as_of=None):
     as_of = as_of or date.today()
     researched = get(finding, "research.status") == "done"
     failed = []
-    repo = get(finding, "facts.repo")
-    if not isinstance(repo, str) or not re.fullmatch(r"[\w.-]+/[\w.-]+", repo, flags=re.ASCII):
-        failed.append({"id": "repo", "onFail": "needs-research", "reason": "Missing or invalid facts.repo."})
+    kind = finding_type(finding)
+    if kind == "site":
+        url = get(finding, "facts.url")
+        if not isinstance(url, str) or not http_url(url):
+            failed.append({"id": "url", "onFail": "needs-research", "reason": "Missing or invalid facts.url."})
+    else:
+        repo = get(finding, "facts.repo")
+        if not isinstance(repo, str) or not re.fullmatch(r"[\w.-]+/[\w.-]+", repo, flags=re.ASCII):
+            failed.append({"id": "repo", "onFail": "needs-research", "reason": "Missing or invalid facts.repo."})
     for r in rules:
+        if r.get("appliesTo", kind) != kind:
+            continue
         if r["stage"] == "research" and not researched:
             continue
         value = get(finding, r["field"])
@@ -114,6 +133,9 @@ def judge(finding, rules, verdicts, as_of=None):
 
 def entry_for(finding):
     facts, research = finding["facts"], finding["research"]
+    if finding_type(finding) == "site":
+        return {"section": "closed", "url": facts["url"], "name": research["name"], "note": research["note"],
+                "pricing": research["pricing"], "updated": research["lastUpdated"]}
     entry = {"section": research["section"], "repo": facts["repo"], "name": research["name"], "note": research["note"]}
     spdx = get(finding, "facts.license.spdx")
     unresolved = not spdx or spdx == "NOASSERTION"
@@ -139,13 +161,15 @@ def main():
             sys.exit('rule %s: unknown op "%s"' % (r["id"], r["op"]))
         if r["onFail"] not in verdicts:
             sys.exit('rule %s: unknown verdict "%s"' % (r["id"], r["onFail"]))
+        if r.get("appliesTo", "repo") not in ("repo", "site"):
+            sys.exit('rule %s: unknown appliesTo "%s"' % (r["id"], r["appliesTo"]))
 
     results = []
     for path in sorted(Path(args.findings).glob("*.json")):
         finding = json.loads(path.read_text(encoding="utf-8"))
         verdict, failed = judge(finding, rules, verdicts, args.as_of)
         results.append({
-            "repo": get(finding, "facts.repo") or get(finding, "repo") or path.stem,
+            "id": finding_id(finding) or path.stem,
             "verdict": verdict,
             "failed": failed,
             "entry": entry_for(finding) if verdict in ("include", "quiet") else None,
@@ -164,20 +188,21 @@ def main():
     )
 
     for r in results:
-        print("\t".join([r["verdict"], str(r["repo"]), ",".join(f["id"] for f in r["failed"]) or "-"]))
+        print("\t".join([r["verdict"], str(r["id"]), ",".join(f["id"] for f in r["failed"]) or "-"]))
     counts = ", ".join("%d %s" % (sum(r["verdict"] == v for r in results), v) for v in verdicts)
     print("%d judged: %s. Written to %s" % (len(results), counts, args.out), file=sys.stderr)
 
     if args.apply:
         list_path = Path(args.list)
         entries = json.loads(list_path.read_text(encoding="utf-8"))
-        listed = {e["repo"].lower() for e in entries}
+        key = lambda e: (e.get("repo") or e.get("url")).lower()
+        listed = {key(e) for e in entries}
         added = []
         for result in results:
             entry = result["entry"]
-            if entry and entry["repo"].lower() not in listed:
+            if entry and key(entry) not in listed:
                 added.append(entry)
-                listed.add(entry["repo"].lower())
+                listed.add(key(entry))
         rows = ["  { %s }" % json.dumps(e, ensure_ascii=False)[1:-1] for e in entries + added]
         list_path.write_text("[\n" + ",\n".join(rows) + "\n]\n", encoding="utf-8")
         print("%d entries added to %s. Run python3 scripts/build.py to regenerate the README." % (len(added), list_path), file=sys.stderr)

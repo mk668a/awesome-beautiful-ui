@@ -5,8 +5,8 @@ This repository curates distinctive UI projects and provides a research harness.
 ## Files and responsibilities
 
 - `list.json` is the curated source. Generate the README list with `python3 scripts/build.py`; do not edit between its list markers.
-- `skills/find-candidates/queries.json` controls discovery. Existing entries and repositories in `research/findings/` are excluded; searches default to ascending stars.
-- `research/findings/*.json` stores script-owned `facts` and researcher-owned `research`. Follow `skills/research-candidates/references/researcher-brief.md` when researching.
+- `skills/find-candidates/queries.json` controls discovery. Existing entries and repositories in `research/findings/` are excluded; searches default to ascending stars. Its `web` phrases find products outside GitHub along the same axes, recorded with `sites.py`; a missed `webCanaries` site means the phrases need fixing, not the canary.
+- `research/findings/*.json` stores script-owned `facts` and researcher-owned `research`, keyed by `repo` or, for a product outside GitHub, by `url`. Follow `skills/research-candidates/references/researcher-brief.md`, or `site-researcher-brief.md` for a site, when researching.
 - `skills/judge-candidates/rules.json` controls inclusion. `judge.py` validates observations before applying these rules. Correct the inputs or rules and rerun; do not hand-edit verdicts.
 - `research/verdicts.json` is an ignored output. Regenerate it before use; `--as-of YYYY-MM-DD` fixes the evaluation date for reproducible verdicts.
 

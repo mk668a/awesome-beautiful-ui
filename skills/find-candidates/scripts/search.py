@@ -82,9 +82,10 @@ def main():
     if args.min_stars is not None:
         filters["minStars"] = args.min_stars
 
-    queries = [q for q in config["queries"] if not args.only or q["id"] in args.only]
+    # Queries with only "web" phrases are run by an agent through scripts/sites.py.
+    queries = [q for q in config["queries"] if "q" in q and (not args.only or q["id"] in args.only)]
     if not queries:
-        sys.exit("No query matches --only %s" % ", ".join(args.only))
+        sys.exit("No GitHub query matches --only %s" % ", ".join(args.only))
 
     flag = lambda value: "true" if value else "false"
     qualifiers = [

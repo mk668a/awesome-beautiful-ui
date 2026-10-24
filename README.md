@@ -2,7 +2,7 @@
 
 # Awesome Beautiful UI
 
-> Open source UI that is beautiful and still being maintained.
+> Beautiful UI that is still being maintained. Open source first, with a separate section for free products whose source is closed.
 
 **Browse it as a site: [mk668a.github.io/awesome-beautiful-ui](https://mk668a.github.io/awesome-beautiful-ui/)**
 
@@ -15,6 +15,8 @@ This list covers the web (components, motion, WebGL), the terminal, and the smal
 
 Projects that fail rule 1 but are too good to forget are kept under [Quiet classics](#quiet-classics).
 
+Free or freemium products whose source is not public follow the same two rules and are listed apart, under [Not open source](#not-open-source). Their activity is the last update a researcher confirmed on the site, since there is no push to read.
+
 ## How to read an entry
 
 ```md
@@ -22,6 +24,8 @@ Projects that fail rule 1 but are too good to forget are kept under [Quiet class
 ```
 
 The three tags are the star count, the license, and the month of the last push. A ⚠ after the license means it is not a plain permissive license (copyleft, a custom license, or one GitHub could not identify), so read it before you fork or ship.
+
+Entries under Not open source have two tags instead: `free` or `freemium`, and the month of the last update confirmed on the site.
 
 ## Contents
 
@@ -31,6 +35,7 @@ The three tags are the star count, the license, and the month of the last push. 
 - [WebGL and creative coding](#webgl-and-creative-coding)
 - [Terminal and TUI](#terminal-and-tui)
 - [Widgets and building blocks](#widgets-and-building-blocks)
+- [Not open source](#not-open-source)
 - [Quiet classics](#quiet-classics)
 
 <!-- LIST:START -->
@@ -372,7 +377,7 @@ No push in the last 3 months, or archived. Many of these are simply finished. Th
 
 ## How the list stays current
 
-The list above is generated. The curated part is [`list.json`](./list.json); stars, licenses and last-push dates are read from the GitHub API on every build, and anything archived or without a push in three months moves to Quiet classics. If development resumes, the next build moves it back.
+The list above is generated. The curated part is [`list.json`](./list.json); stars, licenses and last-push dates are read from the GitHub API on every build, and anything archived or without a push in three months moves to Quiet classics. If development resumes, the next build moves it back. Entries outside GitHub keep the update date recorded at their last research, and move to Quiet classics when that date is more than three months old until they are researched again.
 
 ## Contributing
 

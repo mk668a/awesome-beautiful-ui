@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """Captures up to four screenshots per list.json entry into assets/screenshots/.
 
-Usage: python3 scripts/screenshots.py [--only owner/name ...] [--force]
+Usage: python3 scripts/screenshots.py [--only owner/name|url ...] [--force]
 
-Each entry has a directory assets/screenshots/<owner>__<name>/ holding
+Each entry has a directory assets/screenshots/<owner>__<name>/ (site__<host>
+for a url entry) holding
 sources.json and the captures 1.webp to 4.webp. sources.json is a list of up
 to four items, each a page or image URL, or {"url": ..., "y": pixels} to
 capture a page scrolled down. An animated GIF is captured 60% of the way
 through, or at {"url": ..., "t": fraction} from 0 to 1. A missing sources.json is detected once: the
-repository homepage and the first README images. Edit it to pick better views,
+repository homepage and the first README images, or the site itself. Edit it to pick better views,
 then rerun with --only.
 
 Needs Google Chrome or Chromium, and cwebp. GIF frames need ffmpeg and ffprobe;
@@ -31,6 +32,7 @@ import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 SHOTS = ROOT / "assets" / "screenshots"
@@ -61,17 +63,27 @@ img{max-width:100%%;max-height:100%%;object-fit:contain}</style>
 <img src="%s">"""
 
 
-def slug(repo):
-    return repo.lower().replace("/", "__")
+def key(entry):
+    """The repository, or the URL of an entry outside GitHub."""
+    return entry.get("repo") or entry["url"]
 
 
-def entry_dir(repo):
-    return SHOTS / slug(repo)
+def slug(name):
+    """Directory name for a repository or a site URL, shared with scripts/build.py."""
+    if name.startswith(("http://", "https://")):
+        parts = urlsplit(name)
+        host = parts.hostname[4:] if parts.hostname.startswith("www.") else parts.hostname
+        return "site__" + re.sub(r"[^a-z0-9.]+", "_", (host + parts.path).lower()).strip("_")
+    return name.lower().replace("/", "__")
 
 
-def shots(repo):
+def entry_dir(name):
+    return SHOTS / slug(name)
+
+
+def shots(name):
     """Existing captures of an entry, in order."""
-    paths = [entry_dir(repo) / ("%d.webp" % n) for n in range(1, MAX_SHOTS + 1)]
+    paths = [entry_dir(name) / ("%d.webp" % n) for n in range(1, MAX_SHOTS + 1)]
     return [p for p in paths if p.exists()]
 
 
@@ -128,6 +140,8 @@ def readme_images(repo, token):
 
 def detect_sources(entry, token):
     """Up to four URLs to capture for an entry. Empty when nothing usable was found."""
+    if entry.get("url"):
+        return [entry["url"]]
     data = gh("/repos/" + entry["repo"], token)
     if data is None:
         return []
@@ -263,7 +277,7 @@ def capture(chrome, url, y, t, out):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--only", action="append", default=[], metavar="owner/name", help="capture just this entry; repeatable")
+    parser.add_argument("--only", action="append", default=[], metavar="owner/name|url", help="capture just this entry; repeatable")
     parser.add_argument("--force", action="store_true", help="recapture entries that already have screenshots")
     args = parser.parse_args()
 
@@ -272,22 +286,22 @@ def main():
     chrome = find_chrome()
     entries = json.loads((ROOT / "list.json").read_text(encoding="utf-8"))
     only = {r.lower() for r in args.only}
-    unknown = only - {e["repo"].lower() for e in entries}
+    unknown = only - {key(e).lower() for e in entries}
     if unknown:
         sys.exit("not in list.json: %s" % ", ".join(sorted(unknown)))
 
     todo = [
         e for e in entries
-        if (e["repo"].lower() in only if only else True)
-        and (args.force or bool(only) or not shots(e["repo"]))
+        if (key(e).lower() in only if only else True)
+        and (args.force or bool(only) or not shots(key(e)))
     ]
-    missing = [e for e in todo if read_sources(e["repo"]) is None]
+    missing = [e for e in todo if read_sources(key(e)) is None]
     if missing:
-        token = _token()
+        token = _token() if any(e.get("repo") for e in missing) else None
         with ThreadPoolExecutor(max_workers=8) as pool:
             for e, urls in zip(missing, pool.map(lambda e: detect_sources(e, token), missing)):
-                entry_dir(e["repo"]).mkdir(parents=True, exist_ok=True)
-                (entry_dir(e["repo"]) / "sources.json").write_text(json.dumps(urls, indent=2) + "\n", encoding="utf-8")
+                entry_dir(key(e)).mkdir(parents=True, exist_ok=True)
+                (entry_dir(key(e)) / "sources.json").write_text(json.dumps(urls, indent=2) + "\n", encoding="utf-8")
 
     def run(job):
         repo, n, (url, y, t) = job
@@ -295,12 +309,12 @@ def main():
 
     jobs = []
     for e in todo:
-        sources = read_sources(e["repo"])
+        sources = read_sources(key(e))
         if not sources:
-            print("FAIL\t%s\tno sources; add some to %s" % (e["repo"], (entry_dir(e["repo"]) / "sources.json").relative_to(ROOT)))
-        for stale in shots(e["repo"])[len(sources):]:
+            print("FAIL\t%s\tno sources; add some to %s" % (key(e), (entry_dir(key(e)) / "sources.json").relative_to(ROOT)))
+        for stale in shots(key(e))[len(sources):]:
             stale.unlink()
-        jobs += [(e["repo"], n, source) for n, source in enumerate(sources, 1)]
+        jobs += [(key(e), n, source) for n, source in enumerate(sources, 1)]
 
     failed = 0
     with ThreadPoolExecutor(max_workers=4) as pool:

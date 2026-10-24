@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Regenerates the list in README.md from list.json and live GitHub data.
 
+Entries with a "url" instead of a "repo" are products outside GitHub. They are
+not fetched: their activity is the "updated" date a researcher confirmed.
+
 Usage: python3 scripts/build.py
 """
 
@@ -8,6 +11,7 @@ import argparse
 import html
 import json
 import os
+import re
 import subprocess
 import sys
 import urllib.error
@@ -15,6 +19,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 START = "<!-- LIST:START -->"
@@ -27,6 +32,9 @@ SECTIONS = [
     ("webgl", "WebGL and creative coding", None),
     ("terminal", "Terminal and TUI", None),
     ("widgets", "Widgets and building blocks", None),
+    ("closed", "Not open source",
+     "Free or freemium products whose source is not public. Activity is the last update a researcher "
+     "confirmed on the site, not a GitHub push."),
 ]
 
 PERMISSIVE = {
@@ -88,17 +96,29 @@ def license_tag(entry, data):
     return spdx if spdx in PERMISSIVE else spdx + " ⚠"
 
 
-def screenshots(repo):
+def slug(entry):
+    """Directory name for an entry, shared with scripts/screenshots.py."""
+    if entry.get("url"):
+        parts = urlsplit(entry["url"])
+        host = parts.hostname[4:] if parts.hostname.startswith("www.") else parts.hostname
+        return "site__" + re.sub(r"[^a-z0-9.]+", "_", (host + parts.path).lower()).strip("_")
+    return entry["repo"].lower().replace("/", "__")
+
+
+def screenshots(entry):
     """README-relative paths of an entry's captures, written by scripts/screenshots.py."""
-    folder = ROOT / "assets" / "screenshots" / repo.lower().replace("/", "__")
+    folder = ROOT / "assets" / "screenshots" / slug(entry)
     return [p.relative_to(ROOT).as_posix() for p in sorted(folder.glob("[1-9].webp"))]
 
 
 def line(e):
-    text = "- [%s](https://github.com/%s) - %s `★ %s` `%s` `%s`" % (
-        e["name"], e["full_name"], e["note"], stars(e["stars"]), e["license_tag"], e["pushed"][:7],
-    )
-    shots = screenshots(e["repo"])
+    if e.get("url"):
+        text = "- [%s](%s) - %s `%s` `updated %s`" % (e["name"], e["url"], e["note"], e["pricing"], e["updated"][:7])
+    else:
+        text = "- [%s](https://github.com/%s) - %s `★ %s` `%s` `%s`" % (
+            e["name"], e["full_name"], e["note"], stars(e["stars"]), e["license_tag"], e["pushed"][:7],
+        )
+    shots = screenshots(e)
     if not shots:
         return text
     # Four to a row. Markdown image syntax cannot set a width, so these are HTML.
@@ -115,17 +135,28 @@ def main():
     entries = json.loads((ROOT / "list.json").read_text(encoding="utf-8"))
     known = {section for section, _, _ in SECTIONS}
     for e in entries:
+        name = e.get("repo") or e.get("url")
         if e["section"] not in known:
-            sys.exit('%s: unknown section "%s"' % (e["repo"], e["section"]))
+            sys.exit('%s: unknown section "%s"' % (name, e["section"]))
+        if bool(e.get("repo")) == bool(e.get("url")):
+            sys.exit("%s: give exactly one of repo and url" % name)
+        if (e["section"] == "closed") != bool(e.get("url")):
+            sys.exit('%s: section "closed" is for url entries, and url entries go only there' % name)
+        if e.get("url") and not (e.get("pricing") and e.get("updated")):
+            sys.exit("%s: url entries need pricing and updated" % name)
 
-    # The activity window is defined once, with the other inclusion rules.
+    # The activity windows are defined once, with the other inclusion rules.
     rules = json.loads((ROOT / "skills/judge-candidates/rules.json").read_text(encoding="utf-8"))["rules"]
     quiet_after = next(r["value"] for r in rules if r["id"] == "active")
     cutoff = months_ago(quiet_after).isoformat()
+    site_quiet_after = next((r["value"] for r in rules if r["id"] == "site-active"), quiet_after)
+    site_cutoff = months_ago(site_quiet_after).isoformat()
 
-    token = _token()
+    token = _token() if any(e.get("repo") for e in entries) else None
 
     def resolve(entry):
+        if entry.get("url"):
+            return dict(entry, stars=None, quiet=entry["updated"] < site_cutoff)
         data = gh("/repos/" + entry["repo"], token)
         if data is None:
             print("warning: %s: not found; skipped (kept in list.json)" % entry["repo"], file=sys.stderr)
@@ -146,9 +177,11 @@ def main():
 
     skipped = sum(e is None for e in resolved)
     resolved = [e for e in resolved if e is not None]
+    # Sites have no stars: newest confirmed update first, after every repository.
+    resolved.sort(key=lambda e: e.get("updated", ""), reverse=True)
     active = [e for e in resolved if not e["quiet"]]
     quiet = [e for e in resolved if e["quiet"]]
-    by_stars = lambda e: -e["stars"]
+    by_stars = lambda e: (e["stars"] is None, -(e["stars"] or 0))
 
     out = ["_Last refreshed %s. %d active, %d quiet._" % (date.today().isoformat(), len(active), len(quiet)), ""]
     if skipped:
