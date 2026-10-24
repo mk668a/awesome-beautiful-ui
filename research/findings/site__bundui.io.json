@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "url": "https://bundui.io",
+  "facts": {
+    "found": true,
+    "url": "https://bundui.io",
+    "finalUrl": "https://bundui.io",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:46+00:00",
+    "title": "Bundui: Tailwind CSS & shadcn/ui components, UI blocks, examples and more.",
+    "description": "Tailwind is a carefully curated collection of 200+ handcrafted UI components built with CSS, React, and shadcn/ui.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Bundui",
+    "note": "Tailwind and shadcn/ui components, marketing and e-commerce blocks, and a few Motion text effects.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2025-10-04",
+    "lastUpdatedEvidence": [
+      "https://github.com/bundui/components"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://bundui.io",
+        "https://bundui.io/motion"
+      ]
+    },
+    "unverified": [
+      "The component source is public at https://github.com/bundui/components (MIT, 407 stars, last commit 2025-10-04); the candidate should be researched as that repository instead of the site.",
+      "Pricing free is inferred from the block pages showing no purchase or unlock text; the site also links a separate paid Shadcn UI Kit."
+    ]
+  }
+}

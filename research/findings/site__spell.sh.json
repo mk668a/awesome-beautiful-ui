@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://spell.sh",
+  "facts": {
+    "found": true,
+    "url": "https://spell.sh",
+    "finalUrl": "https://spell.sh",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:04+00:00",
+    "title": "Spell UIGitHubGitHubXDiscord",
+    "description": "Beautiful, sophisticated UI components designed for modern React and Tailwind CSS applications.",
+    "keywords": "React,Tailwind CSS,Motion,Landing Page,Components,Next.js"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Spell UI",
+    "note": "Free copy-paste React and Tailwind components with detailed pieces like a 3D perspective book, exploding input and light rays.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-10",
+    "lastUpdatedEvidence": [
+      "https://github.com/xxtomm/spell-ui/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Perspective Book 3D book with hover animation",
+        "Exploding Input",
+        "Light Rays background",
+        "Spotify Card"
+      ],
+      "evidenceUrls": [
+        "https://spell.sh/",
+        "https://spell.sh/docs/perspective-book"
+      ]
+    },
+    "unverified": [
+      "The component source is public at github.com/xxtomm/spell-ui (MIT); that repository has not been researched as a repository candidate yet."
+    ]
+  }
+}

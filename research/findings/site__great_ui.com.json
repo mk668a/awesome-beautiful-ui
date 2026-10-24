@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "url": "https://great-ui.com",
+  "facts": {
+    "found": true,
+    "url": "https://great-ui.com",
+    "finalUrl": "https://www.great-ui.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:55+00:00",
+    "title": "Great UI - Accessible React & Tailwind Components",
+    "description": "A curated collection of beautiful, copy-paste React components built with TypeScript, Tailwind CSS, and Framer Motion. Craft premium interfaces instantly.",
+    "keywords": "React components,Tailwind CSS,UI library,Design system,Accessible React UI,Next.js UI components,Copy paste React components,Motion components,shadcn compatible,React组件库,Tailwind CSS组件,前端UI框架,无障碍React组件,Next.js组件,即拷即用组件,React动画组件,动态排版组件,网页过渡动画,WebGL着色器组件,shadcn UI扩展,componentes React,biblioteca UI Tailwind CSS,diseño web accesible,copiar y pegar componentes React,animaciones React,Next.js componentes UI,transiciones de página React,efectos de texto cinético,interfaz de usuario moderna,componentes shadcn compatibles,composants React,bibliothèque UI Tailwind CSS,système de conception React,composants React accessibles,copier coller composants React,animations React Nextjs,transitions de page web,shaders WebGL React,interface utilisateur réactive,مكونات React,مكتبة واجهة المستخدم,مكونات Tailwind CSS,تصميم واجهات الويب,مكونات Next.js,انتقالات الصفحات في React,مكونات ويب مفتوحة المصدر,مكتبة واجهات برمجية سهلة الوصول,مكونات جاهزة للنسخ واللصق,Reactコンポーネント,Tailwind CSSコンポーネント,UIライブラリ,アクセシブルUI,Next.js UIコンポーネント,コピペReactコンポーネント,ページトランジションReact,キネティックタイポグラフィ,WebGLシェーダーReact,shadcn互換コンポーネント"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Great UI",
+    "note": "Copy-paste React and Motion components with many page and theme transitions, pixel-dithered canvas wipes and a pixel-to-ASCII image.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-23",
+    "lastUpdatedEvidence": [
+      "https://github.com/Saurabh-2607/GreatUI/commit/6aaac11272b39164b92e9cccc5ec3bacbe412386",
+      "https://www.great-ui.com/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Pixel to ASCII image that pixelates and turns into ASCII art on hover",
+        "Pixel Swipe page transition and text animation with pixel-dithered noise edges drawn on canvas",
+        "Radial Gooey Menu using an SVG gooey filter with spring mouse tracking",
+        "Venetian blinds, sine wave, curtain and interlocking page transitions"
+      ],
+      "evidenceUrls": [
+        "https://www.great-ui.com/",
+        "https://www.great-ui.com/changelog"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository Saurabh-2607/GreatUI (277 stars, license reported by GitHub as NOASSERTION); this site research has not yet been redone as a repository research of Saurabh-2607/GreatUI.",
+      "Only the Pixel to ASCII preview was seen in a screenshot; the transitions and gooey menu are taken from changelog descriptions."
+    ]
+  }
+}

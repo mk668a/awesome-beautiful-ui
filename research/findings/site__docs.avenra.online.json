@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://docs.avenra.online",
+  "facts": {
+    "found": true,
+    "url": "https://docs.avenra.online",
+    "finalUrl": "https://docs.avenra.online",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:57+00:00",
+    "title": "Home | Avenra Docs",
+    "description": "A multi-product knowledge base for the entire Avenra stack.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "name": "Avenra Liquid Glass",
+    "note": "Zero-dependency library that renders glass buttons, sliders and switches with Snell's-law SVG refraction and spring physics.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-06-14",
+    "lastUpdatedEvidence": [
+      "https://github.com/DevSam7t3/liquid-glass/releases"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "SVG displacement-map refraction computed from Snell's law to imitate light bending through a glass bezel",
+        "Liquid glass toggle switch, slider and button driven by damped spring physics"
+      ],
+      "evidenceUrls": [
+        "https://docs.avenra.online/docs/liquid-glass/getting-started",
+        "https://docs.avenra.online/docs/liquid-glass/components/switch"
+      ]
+    },
+    "unverified": [
+      "The component source is public at github.com/DevSam7t3/liquid-glass (MIT); that repository has not been researched in place of this site yet.",
+      "The demo was seen only as a static headless screenshot of the Liquid Switch preview, so the refraction and spring motion were not observed moving."
+    ]
+  }
+}

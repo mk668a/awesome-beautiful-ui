@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://uvcanvas.com",
+  "facts": {
+    "found": true,
+    "url": "https://uvcanvas.com",
+    "finalUrl": "https://uvcanvas.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:04+00:00",
+    "title": "UVCanvas",
+    "description": "UVCanvas",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "name": "UVCanvas",
+    "note": "React library of WebGL shader canvases for animated gradient backgrounds, several adapted from Shadertoy and Stripe.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2025-03-28",
+    "lastUpdatedEvidence": [
+      "https://github.com/latentcat/uvcanvas/commits"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Drop-in shader canvas components such as Lumiflex, Zenitho, Novatrix and Velustro rendering animated gradients"
+      ],
+      "evidenceUrls": [
+        "https://uvcanvas.com/",
+        "https://uvcanvas.com/docs/components/lumiflex"
+      ]
+    },
+    "unverified": [
+      "The source is public at github.com/latentcat/uvcanvas (no license file detected); that repository has not been researched in place of this site yet.",
+      "Most shaders are credited on the site as forks from Shadertoy, Stripe or an ogl example, so the effects are adapted rather than original.",
+      "The site changelog lists versions without dates; the date is the Release 0.3.0 commit in the repository."
+    ]
+  }
+}

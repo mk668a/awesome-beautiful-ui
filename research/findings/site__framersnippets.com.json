@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "url": "https://framersnippets.com",
+  "facts": {
+    "found": true,
+    "url": "https://framersnippets.com",
+    "finalUrl": "https://framersnippets.framer.website/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:00+00:00",
+    "title": "Framer Snippets — Ship Faster with Top Framer Components",
+    "description": "Ship sites faster with top Framer Snippets, components, plugins and overrides. Discover the best free and paid Framer Components. Copy paste to your canvas.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Framer Snippets",
+    "note": "Copy-paste Framer code components such as a hand-drawn text highlighter, AR model viewer and CMS sliders, some free and some sold individually.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-01-17",
+    "lastUpdatedEvidence": [
+      "https://framersnippets.framer.website/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Text Highlighter with hand-drawn marks and underlines on chosen words",
+        "AR Model Viewer component",
+        "SVG Uploader"
+      ],
+      "evidenceUrls": [
+        "https://framersnippets.framer.website/",
+        "https://framersnippets.framer.website/components/text-highlighter"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "url": "https://color4bg.com",
+  "facts": {
+    "found": true,
+    "url": "https://color4bg.com",
+    "finalUrl": "https://www.color4bg.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:05+00:00",
+    "title": "Best colorful abstract background generator - Color4Bg",
+    "description": "Generate dynamic, customizable colorful abstract backgrounds. Unlock the power of amazing looping backgrounds in seconds. Export as PNG, video, or JavaScript",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "tool",
+    "name": "Color4Bg",
+    "note": "Generator of looping abstract animated backgrounds with palette, seed and blur controls, exported as PNG, WebM or JavaScript.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-01-17",
+    "lastUpdatedEvidence": [
+      "https://github.com/winterx/color4bg.js/commits"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Aesthetic Fluid animated gradient background with seed and blur scale controls",
+        "Looping background export to WebM video or a JavaScript snippet"
+      ],
+      "evidenceUrls": [
+        "https://www.color4bg.com/en/generator/fluid-vivid-red-colorful-background",
+        "https://www.color4bg.com/"
+      ]
+    },
+    "unverified": [
+      "The background generators are public in github.com/winterx/color4bg.js (MIT); research that repository instead of this site."
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://reactbits.dev",
+  "facts": {
+    "found": true,
+    "url": "https://reactbits.dev",
+    "finalUrl": "https://reactbits.dev",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:43+00:00",
+    "title": "React Bits — Free Animated React Components",
+    "description": "Free, open source React components for animated text, backgrounds, interactive cards and micro interactions. Explore live demos and copy the source.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "React Bits",
+    "note": "Large set of animated React text effects, backgrounds and cursors with live customizers, plus a paid Pro tier.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-19",
+    "lastUpdatedEvidence": [
+      "https://github.com/DavidHDev/react-bits/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Split Flap Text, a mechanical departure board that clacks through phrases",
+        "Live per-component customizer panels",
+        "Electric Border, Laser Flow and Ghost Cursor effects"
+      ],
+      "evidenceUrls": [
+        "https://reactbits.dev/text-animations/split-flap-text",
+        "https://reactbits.dev/get-started/changelog"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository github.com/DavidHDev/react-bits; research that repository instead of this site. GitHub reports its license as NOASSERTION.",
+      "Electric Border, Laser Flow and Ghost Cursor were seen only as sidebar names; their WebGL previews did not render in headless Chrome."
+    ]
+  }
+}

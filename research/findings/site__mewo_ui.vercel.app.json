@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://mewo-ui.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://mewo-ui.vercel.app",
+    "finalUrl": "https://mewo-ui.vercel.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:02+00:00",
+    "title": "mewo — animated components for React",
+    "description": "An open-source shadcn registry of animated React components and sections, powered by Motion and GSAP.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "mewo",
+    "note": "Small shadcn registry of 19 animated React components and sections built with Motion or GSAP, plus a background studio.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-23",
+    "lastUpdatedEvidence": [
+      "https://github.com/xmustafa5/mewo-ui/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Venom effect",
+        "Scroll Portal section",
+        "Background Studio"
+      ],
+      "evidenceUrls": [
+        "https://mewo-ui.vercel.app"
+      ]
+    },
+    "unverified": [
+      "The components' source is public in the GitHub repository xmustafa5/mewo-ui, linked from the site; that repository has not yet been researched in place of this site.",
+      "The signature effects were seen only as names on the homepage list; the components page returned 404 and I did not watch them running."
+    ]
+  }
+}

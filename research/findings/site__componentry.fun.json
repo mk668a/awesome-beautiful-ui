@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://componentry.fun",
+  "facts": {
+    "found": true,
+    "url": "https://componentry.fun",
+    "finalUrl": "https://componentry.dev/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:01+00:00",
+    "title": "Componentry — Beautiful Animated UI Components for React",
+    "description": "Beautiful, animated React UI components with styling and motion already handled. Built with Tailwind CSS, TypeScript, and Framer Motion.",
+    "keywords": "Componentry,Componentry UI,componentry.dev,UI component library,React components,React UI library,UI components,component library,Tailwind CSS components,TypeScript components,Framer Motion,Next.js components,animated components,copy paste components,free UI components,open source components,modern UI,web components,frontend components,design system,React developer,frontend developer,shadcn alternative,radix ui,beautiful UI,premium components,handcrafted components"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Componentry",
+    "note": "Animated React components installed through the shadcn CLI, with WebGL, dithering and particle effects.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-12",
+    "lastUpdatedEvidence": [
+      "https://github.com/harshjdhv/componentry/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Dither gradient hero background",
+        "Liquid Glass Carousel seen through a WebGL lens with chromatic rim",
+        "Cursor-driven particle typography that disperses and reassembles",
+        "Image Ripple Effect with WebGL cursor ripples"
+      ],
+      "evidenceUrls": [
+        "https://componentry.dev/",
+        "https://componentry.dev/docs"
+      ]
+    },
+    "unverified": [
+      "Source is public at github.com/harshjdhv/componentry (MIT, 617 stars); research that repository instead of this site."
+    ]
+  }
+}

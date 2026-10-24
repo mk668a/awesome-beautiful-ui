@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "url": "https://ui.iandefined.com",
+  "facts": {
+    "found": true,
+    "url": "https://ui.iandefined.com",
+    "finalUrl": "https://ui.iandefined.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:01+00:00",
+    "title": "Thoughtful Component Registry for Product Engineers | iandefined/ui",
+    "description": "Thoughtful components for product engineers.",
+    "keywords": "shadcn, shadcn registry, component registry, shadcn components, tanstack start, tailwindcss, npx shadcn add"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "iandefined/ui",
+    "note": "shadcn registry of product components, hooks and utilities such as a data table, OTP input and a deterministic dither avatar.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-09-21",
+    "lastUpdatedEvidence": [
+      "https://github.com/iandefined/ui",
+      "https://ui.iandefined.com/sitemap.xml"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Deterministic dither avatar generated from a username"
+      ],
+      "evidenceUrls": [
+        "https://ui.iandefined.com/"
+      ]
+    },
+    "unverified": [
+      "The components are in the public repository iandefined/ui (MIT, 5 stars, last commit 2026-09-21); that repository has not been researched yet."
+    ]
+  }
+}

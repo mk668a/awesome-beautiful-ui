@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://axiom-ui-pink.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://axiom-ui-pink.vercel.app",
+    "finalUrl": "https://axiom-ui-pink.vercel.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:40+00:00",
+    "title": "Axiom Lab",
+    "description": "Premium physics-driven components",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Axiom UI",
+    "note": "Experimental React kit of tactile 3D buttons and toggles rendered with React Three Fiber and spring physics.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-05-15",
+    "lastUpdatedEvidence": [
+      "https://github.com/Jayden-Collins/axiom-ui-showcase/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": false,
+    "signature": {
+      "effects": [
+        "3D physical button with adjustable travel distance, built with React Three Fiber and React Spring",
+        "3D toggle loaded from .glb models"
+      ],
+      "evidenceUrls": [
+        "https://axiom-ui-pink.vercel.app/docs",
+        "https://github.com/Jayden-Collins/axiom-ui-showcase"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository github.com/Jayden-Collins/axiom-ui-showcase; research that repository instead of this site.",
+      "The homepage 3D scene stayed on 'Rendering scene...' in headless Chrome, so the demo was not seen running; the effects are taken from the docs and README text."
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "url": "https://systaliko-ui.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://systaliko-ui.vercel.app",
+    "finalUrl": "https://systaliko-ui.vercel.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:57+00:00",
+    "title": "Systaliko UI — React UI Blocks, Templates & Components",
+    "description": "Free React UI blocks, e-commerce components, and full-page templates. Copy-paste or install via Shadcn CLI. Built with TypeScript, Tailwind CSS, and Motion.",
+    "keywords": "shadcn registry,react ui blocks,react ui templates,animated react components,framer motion components,next.js ui blocks,next.js templates,tailwind ui components,copy paste react,shadcn components,free react templates,typescript ui components,scroll animation react,react ecommerce components,product carousel react,react bento grid,image zoom react,infinite scroll react,freelance react developer,custom react components"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Systaliko UI",
+    "note": "Free shadcn registry of React blocks, e-commerce components and full-page templates animated with Motion.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-08-31",
+    "lastUpdatedEvidence": [
+      "https://systaliko-ui.vercel.app/changelog",
+      "https://github.com/YoucefBnm/Systaliko-UI/commit/ed82dae1ed03605ceea1415f92a45399eb76b111"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The component source is in the public repository YoucefBnm/Systaliko-UI (MIT, 36 stars); this site research has not yet been redone as a repository research of YoucefBnm/Systaliko-UI."
+    ]
+  }
+}

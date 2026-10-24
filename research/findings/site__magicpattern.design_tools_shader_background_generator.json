@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://magicpattern.design/tools/shader-background-generator",
+  "facts": {
+    "found": true,
+    "url": "https://magicpattern.design/tools/shader-background-generator",
+    "finalUrl": "https://www.magicpattern.design/tools/shader-background-generator",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:48+00:00",
+    "title": "Shader Gradient Background Generator - Animated WebGL Gradients & Video Export | MagicPattern",
+    "description": "Online shader gradient background generator. Create liquid, silk, streaked and grainy WebGL gradients with wave distortion and retro dithering, then export high-res images or looping MP4/WebM videos for websites and branding.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "tool",
+    "name": "Shader Gradient Background Generator",
+    "note": "Browser editor for WebGL shader gradients with mesh waves, distortion, dithering and grain, exported as image or looping video.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-07-08",
+    "lastUpdatedEvidence": [
+      "https://www.magicpattern.design/changelog#shader-background-video-mode",
+      "https://www.magicpattern.design/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "WebGL shader gradient with mesh-wave frequency, sharpness, amplitude and warp distortion controls",
+        "Retro Bayer dithering and film grain filters on the gradient",
+        "Video mode with keyframes and timeline exporting looping MP4/WebM"
+      ],
+      "evidenceUrls": [
+        "https://www.magicpattern.design/tools/shader-background-generator",
+        "https://www.magicpattern.design/changelog#shader-background-video-mode"
+      ]
+    },
+    "unverified": [
+      "Freemium is inferred from the tool page calling itself free while MagicPattern's pricing page sells Basic ($10) and Pro ($20) plans; which export features need a plan was not checked."
+    ]
+  }
+}

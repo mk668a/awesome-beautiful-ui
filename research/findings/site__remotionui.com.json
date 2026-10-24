@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "url": "https://remotionui.com",
+  "facts": {
+    "found": true,
+    "url": "https://remotionui.com",
+    "finalUrl": "https://remotionui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:05+00:00",
+    "title": "RemotionUI – Production-ready motion for Remotion. Source you own",
+    "description": "Production-ready motion for Remotion. Source you own. Remotion compositions and motion components. Install social clips, captions, and scenes with the CLI. Source you own, frame by frame.",
+    "keywords": "Remotion,Remotion components,Remotion component library,Remotion captions,shadcn for Remotion,Remotion compositions,Remotion social clip,Remotion CLI,programmatic video,React video,motion graphics,video CLI,source-owned components"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "RemotionUI",
+    "note": "A shadcn-style registry of over 200 Remotion video components, such as captions, transitions, charts and scenes, installed as source by CLI.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-23",
+    "lastUpdatedEvidence": [
+      "https://github.com/riaz37/remotion-ui/commits/main",
+      "https://remotionui.com/blog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Karaoke Captions with an active-word underline that fills word by word",
+        "Grid Pixelate Wipe transition",
+        "Audiogram scene",
+        "IK rig rebuilt as a plotting SCARA arm"
+      ],
+      "evidenceUrls": [
+        "https://remotionui.com/docs/components/karaoke-captions",
+        "https://remotionui.com",
+        "https://github.com/riaz37/remotion-ui/commits/main"
+      ]
+    },
+    "unverified": [
+      "The component source is public in the MIT repository riaz37/remotion-ui (linked from the site); that repository has not yet been researched as its own candidate.",
+      "Only Karaoke Captions was seen rendered; the Grid Pixelate Wipe, Audiogram and SCARA arm entries come from component links and a commit message."
+    ]
+  }
+}

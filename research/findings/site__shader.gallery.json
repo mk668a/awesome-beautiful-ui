@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "url": "https://shader.gallery",
+  "facts": {
+    "found": true,
+    "url": "https://shader.gallery",
+    "finalUrl": "https://shader.gallery",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:56+00:00",
+    "title": "shader.gallery — backgrounds that glow in the dark",
+    "description": "201 WebGL background shaders that move like light: dark, alive, and re-themeable across 30 palettes in real time. MIT, no build step, no dependencies.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "name": "shader.gallery",
+    "note": "MIT collection of 201 dark, glowing WebGL background shaders that recolour live across 30 palettes, with web component and framework wrappers.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-09-09",
+    "lastUpdatedEvidence": [
+      "https://github.com/shader-gallery/shaders/commit/4e8d4cb27bfdd662c4b8515eb83334ece40eea10"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "201 fragment-shader backgrounds in 33 families (Molten, Aura, Moire, Filament, Glitch, Veil and others)",
+        "Live re-theming of every shader across 30 palettes without reload",
+        "Evolve mode that breeds shader parameters and Mashup that blends two shaders",
+        "Shared post-FX pass with film grain, chromatic aberration and vignette"
+      ],
+      "evidenceUrls": [
+        "https://shader.gallery/",
+        "https://shader.gallery/about/",
+        "https://shader.gallery/faq/"
+      ]
+    },
+    "unverified": [
+      "The shader source is in the public repository shader-gallery/shaders (MIT, 0 stars), with the runtime in shader-gallery/runtime; this site research has not yet been redone as a repository research of shader-gallery/shaders.",
+      "Evolve and Mashup were not opened; they are described on the home, about and FAQ pages."
+    ]
+  }
+}

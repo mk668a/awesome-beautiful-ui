@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "url": "https://shadersbypaper.framer.ai",
+  "facts": {
+    "found": true,
+    "url": "https://shadersbypaper.framer.ai",
+    "finalUrl": "https://shadersbypaper.framer.ai",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:08+00:00",
+    "title": "Framer × AI: design with an agent",
+    "description": "An agent that designs alongside you on the Framer canvas. You bring the idea and keep steering while it builds the real layout.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "other",
+    "name": "Framer x Paper Shaders",
+    "note": "A Framer-built landing page that uses a fluted glass shader over a blurred image in its hero.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Fluted glass refraction shader over a blurred photo in the hero"
+      ],
+      "evidenceUrls": [
+        "https://shadersbypaper.framer.ai"
+      ]
+    },
+    "unverified": [
+      "That the hero effect comes from Paper Shaders is inferred from the page title; the shaders are public in github.com/paper-design/shaders (Apache-2.0), which should be researched instead of this page.",
+      "The page shows no date, so lastUpdated is unknown.",
+      "Whether this page is a remixable Framer template or a one-off demo was not established."
+    ]
+  }
+}

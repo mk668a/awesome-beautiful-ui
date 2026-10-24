@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "url": "https://framepad.co",
+  "facts": {
+    "found": true,
+    "url": "https://framepad.co",
+    "finalUrl": "https://www.framepad.co/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:57+00:00",
+    "title": "Framepad - Framer UI Kit & Design System",
+    "description": "Framepad helps you build and ship sites faster with a huge collection of adaptable components and layouts.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Framepad",
+    "note": "Framer UI kit and design system with 450+ components and 200+ website layouts, sold as a one-time license.",
+    "openSource": false,
+    "pricing": "paid",
+    "lastUpdated": "2026-06-17",
+    "lastUpdatedEvidence": [
+      "https://www.framepad.co/"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://www.framepad.co/",
+        "https://www.framepad.co/pricing"
+      ]
+    },
+    "unverified": [
+      "No changelog was found; lastUpdated is the Framer publish timestamp (Jun 17, 2026) in the homepage source, which shows a site publish rather than a dated kit release."
+    ]
+  }
+}

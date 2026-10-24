@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "url": "https://framer.university",
+  "facts": {
+    "found": true,
+    "url": "https://framer.university",
+    "finalUrl": "https://framer.university",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:24+00:00",
+    "title": "#1 Place to Learn Framer — Framer University",
+    "description": "Learn Framer with Framer University! Access expert-led Framer tutorials and resources to help you create stunning websites with zero code. Find everything you need to get started with Framer, like guides, pre-designed components and elements.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "course",
+    "name": "Framer University",
+    "note": "Framer video course plus a library of copyable Framer components, animations and site rebuilds by Nandi.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-09-10",
+    "lastUpdatedEvidence": [
+      "https://framer.university/blog/this-is-the-best-free-alternative-for-framer-forms",
+      "https://framer.university/resources/featured"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Shader Button component in Framer",
+        "Blinds Text Reveal",
+        "Chained-variant heart like button animation",
+        "Apple Vision Pro scroll animation rebuild"
+      ],
+      "evidenceUrls": [
+        "https://framer.university/resources/featured",
+        "https://framer.university/resources/heart-like-button-animation-in-framer",
+        "https://framer.university/"
+      ]
+    },
+    "unverified": [
+      "The paid course enrollment page says enrollment has closed, so the course price was not seen.",
+      "Resources appear free to copy (Copy component / Remix project buttons) but whether some require the paid course was not checked."
+    ]
+  }
+}

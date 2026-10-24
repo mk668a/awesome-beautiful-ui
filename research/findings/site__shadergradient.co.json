@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://shadergradient.co",
+  "facts": {
+    "found": true,
+    "url": "https://shadergradient.co",
+    "finalUrl": "https://shadergradient.co",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:03+00:00",
+    "title": "Shader Gradient",
+    "description": "Create beautiful moving gradients on Framer, Figma and React",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "tool",
+    "name": "ShaderGradient",
+    "note": "Editor for animated, grainy 3D shader gradients, offered as a web customizer, Figma and Framer plugins and a React component.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-09-23",
+    "lastUpdatedEvidence": [
+      "https://github.com/ruucm/shadergradient/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Grainy noise-displaced 3D gradient planes and spheres",
+        "Gradient settings encoded in a shareable customizer URL"
+      ],
+      "evidenceUrls": [
+        "https://shadergradient.co",
+        "https://shadergradient.co/customize"
+      ]
+    },
+    "unverified": [
+      "The components' source is public in the GitHub repository ruucm/shadergradient, linked from the site; that repository has not yet been researched in place of this site.",
+      "Pricing is inferred: no prices were shown, and I could not confirm the Framer and Figma plugins are free."
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "url": "https://uniquel.io",
+  "facts": {
+    "found": true,
+    "url": "https://uniquel.io",
+    "finalUrl": "https://uniquel.io",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:44+00:00",
+    "title": "Uniquel | UI library for SaaS businessesMountain landscape on the iPhone Duo external display",
+    "description": "Professionally designed components, templates, and blocks for SaaS businesses.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Uniquel",
+    "note": "React and Tailwind components, blocks and landing page templates for SaaS sites, with a paid all-access plan.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://uniquel.io/components/animation"
+      ]
+    },
+    "unverified": [
+      "No changelog or dated component release was found; the newest dated item is a blog post dated September 12 without a year, and sitemap lastmod values are all the build time.",
+      "Pricing is from the $79 all-access page and 'Free account required' labels on component pages; which components need payment was not checked individually."
+    ]
+  }
+}

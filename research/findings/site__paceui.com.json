@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://paceui.com",
+  "facts": {
+    "found": true,
+    "url": "https://paceui.com",
+    "finalUrl": "https://paceui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:08+00:00",
+    "title": "Animated React Blocks for Next.js & TanStack Start - PaceUI",
+    "description": "Animated React components for Next.js & TanStack Start. Built with Motion and shadcn. Clean code you own. Pay once, lifetime updates",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "PaceUI",
+    "note": "Motion and shadcn based React blocks, crafts and templates for Next.js and TanStack Start, mostly sold under a lifetime license.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-15",
+    "lastUpdatedEvidence": [
+      "https://paceui.com/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Avatar Flight avatar group interaction",
+        "Voice Record pill",
+        "Starfield Card"
+      ],
+      "evidenceUrls": [
+        "https://paceui.com/crafts",
+        "https://paceui.com/"
+      ]
+    },
+    "unverified": [
+      "The craft screenshots were static captures, so the motion of Avatar Flight, Voice Record and Starfield Card was not seen; the effects are named from the site's titles."
+    ]
+  }
+}

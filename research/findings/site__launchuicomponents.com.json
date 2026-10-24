@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "url": "https://launchuicomponents.com",
+  "facts": {
+    "found": true,
+    "url": "https://launchuicomponents.com",
+    "finalUrl": "https://www.launchuicomponents.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:00+00:00",
+    "title": "Launch UI",
+    "description": "Carefully crafted components and templates built with React, Shadcn/ui and Tailwind that will help your product stand out from the crowd.",
+    "keywords": "Landing page template,Components,Shadcn,Next.js,React,Tailwind CSS,Radix UI"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Launch UI",
+    "note": "Landing page blocks and templates for React, shadcn/ui and Tailwind with a live theme switcher for color, radius and grid lines.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-09-04",
+    "lastUpdatedEvidence": [
+      "https://www.launchuicomponents.com/",
+      "https://github.com/launch-ui/launch-ui"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Floating theme toolbar that shuffles color theme, border radius, light or dark mode and background line grid across the whole page",
+        "Hero mockup of tilted app screens lit by a colored radial glow"
+      ],
+      "evidenceUrls": [
+        "https://www.launchuicomponents.com/"
+      ]
+    },
+    "unverified": [
+      "The free part of the source is public at github.com/launch-ui/launch-ui (MIT); that repository has not been researched in place of this site yet. Pro blocks and templates ($99 one-time) are not in it."
+    ]
+  }
+}

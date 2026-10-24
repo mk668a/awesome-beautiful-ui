@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "url": "https://facadeui.dev",
+  "facts": {
+    "found": true,
+    "url": "https://facadeui.dev",
+    "finalUrl": "https://facadeui.dev",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:54+00:00",
+    "title": "Facade UI — sections for marketing websites",
+    "description": "Sections and page templates for marketing websites: heroes, feature grids, pricing tables, FAQs and footers. Free and open source. Install them with the shadcn CLI.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Facade UI",
+    "note": "Free shadcn CLI registry of marketing website sections and page templates: heroes, feature grids, pricing tables, FAQs and footers.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-11",
+    "lastUpdatedEvidence": [
+      "https://github.com/facade-ui/facade-ui/commit/27a9c535de34230e6b50a99f8e35a29fdd635e09"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The component source is in the public repository facade-ui/facade-ui (MIT, 0 stars); this site research has not yet been redone as a repository research of facade-ui/facade-ui."
+    ]
+  }
+}

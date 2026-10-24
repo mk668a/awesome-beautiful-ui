@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "url": "https://svg-ui.com",
+  "facts": {
+    "found": null,
+    "url": "https://svg-ui.com",
+    "finalUrl": null,
+    "status": null,
+    "fetchedAt": "2026-10-24T04:45:48+00:00",
+    "error": "[Errno 8] nodename nor servname provided, or not known"
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": "2026-10-24",
+    "kind": null,
+    "name": null,
+    "note": null,
+    "openSource": null,
+    "pricing": null,
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": null,
+    "demoViewed": false,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "https://svg-ui.com did not resolve (DNS: nodename nor servname provided) in collect_facts.py twice and in the browser on 2026-10-24, so nothing about the product could be observed.",
+      "gh search repos 'svg-ui' found no repository linked to svg-ui.com, so openSource is unknown."
+    ]
+  }
+}

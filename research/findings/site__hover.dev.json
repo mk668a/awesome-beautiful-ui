@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "url": "https://hover.dev",
+  "facts": {
+    "found": true,
+    "url": "https://hover.dev",
+    "finalUrl": "https://www.hover.dev/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:25+00:00",
+    "title": "Animated UI Components and Templates for React and TailwindCSS | Hover.dev",
+    "description": "Prebuilt UI components and templates to make your next project addicting for your users. Less time on interactions, more time building products.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Hover.dev",
+    "note": "Animated React and Tailwind components and templates to copy and paste, with a paid lifetime Pro tier.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Wet Paint Button that drips paint on hover",
+        "Encrypt Button that scrambles its label"
+      ],
+      "evidenceUrls": [
+        "https://www.hover.dev/"
+      ]
+    },
+    "unverified": [
+      "No dated change was found: the site footer says © 2024 and has no changelog, so lastUpdated is empty."
+    ]
+  }
+}

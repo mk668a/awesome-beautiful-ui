@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "url": "https://ui.rechesoares.com",
+  "facts": {
+    "found": null,
+    "url": "https://ui.rechesoares.com",
+    "finalUrl": null,
+    "status": null,
+    "fetchedAt": "2026-10-24T04:45:56+00:00",
+    "error": "[Errno 8] nodename nor servname provided, or not known"
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": "2026-10-24",
+    "kind": null,
+    "name": null,
+    "note": null,
+    "openSource": null,
+    "pricing": null,
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": null,
+    "demoViewed": false,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "ui.rechesoares.com does not resolve in DNS (checked twice with collect_facts.py); the site could not be opened, so every field is unknown.",
+      "A GitHub search for rechesoares returned no repositories."
+    ]
+  }
+}

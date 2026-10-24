@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://remocn.dev",
+  "facts": {
+    "found": true,
+    "url": "https://remocn.dev",
+    "finalUrl": "https://remocn.dev",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:42+00:00",
+    "title": "Remocn - Make a product demo video with your AI agentGitHubGitHubXThreads",
+    "description": "Describe your product, get a demo video. Ready-made animations, transitions and app-screen sims your coding agent can use. No video editor, no motion designer.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Remocn",
+    "note": "shadcn-style registry of Remotion animations, transitions, shaders and app-screen sims for making product videos in code.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-23",
+    "lastUpdatedEvidence": [
+      "https://remocn.dev/changelog",
+      "https://github.com/Remocn/remocn/commit/7aebcbe6514ed9e54e3a4a6786f83f8425a4a9af"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Shader Text Reveal using an OpenShaders hero material",
+        "Type Fossil contour-layer text imprint",
+        "Iris Wipe and Venetian Blinds graphic-cut transitions"
+      ],
+      "evidenceUrls": [
+        "https://remocn.dev/docs/typography",
+        "https://remocn.dev/changelog"
+      ]
+    },
+    "unverified": [
+      "The source is public at github.com/Remocn/remocn (MIT); research that repository instead.",
+      "The transitions were read from the changelog text, not seen playing."
+    ]
+  }
+}

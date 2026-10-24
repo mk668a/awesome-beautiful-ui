@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://noisedeck.app",
+  "facts": {
+    "found": true,
+    "url": "https://noisedeck.app",
+    "finalUrl": "https://noisedeck.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:01+00:00",
+    "title": null,
+    "description": null,
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "app",
+    "name": "Noisedeck",
+    "note": "Browser-based shader video synthesizer where you chain generator and filter effects or write programs in a DSL and export video.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-24",
+    "lastUpdatedEvidence": [
+      "https://github.com/noisefactorllc/noisemaker/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Chained shader effect pipeline (perlin to adjust) with per-parameter controls rendering live to a canvas",
+        "Programmable DSL for composing shader programs"
+      ],
+      "evidenceUrls": [
+        "https://noisedeck.app/",
+        "https://noisedeck.app/about/"
+      ]
+    },
+    "unverified": [
+      "The shader engine noisemaker is public at github.com/noisefactorllc/noisemaker (MIT) and the about page mentions an open source core; no public repository for the Noisedeck app itself was found.",
+      "lastUpdated is the newest commit to the noisemaker engine repository; it was not confirmed that this change is deployed in the app."
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "url": "https://relume.io",
+  "facts": {
+    "found": true,
+    "url": "https://relume.io",
+    "finalUrl": "https://www.relume.ai/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:00+00:00",
+    "title": "Relume — AI Website Builder for Marketing Websites",
+    "description": "Relume's AI website builder: build on the components behind 2M+ websites, publish in Relume or export to Webflow, Figma & React. Free to start.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "app",
+    "name": "Relume",
+    "note": "AI website builder for marketing sites that generates sitemaps, wireframes and designs from a component library and exports to Webflow, Figma and React.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-20",
+    "lastUpdatedEvidence": [
+      "https://www.relume.ai/whats-new"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://www.relume.ai/"
+      ]
+    },
+    "unverified": [
+      "The demo seen was the homepage with product screenshots; the builder itself was not run because it needs an account."
+    ]
+  }
+}

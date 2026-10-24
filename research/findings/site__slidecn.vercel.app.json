@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://slidecn.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://slidecn.vercel.app",
+    "finalUrl": "https://slidecn.vercel.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:43+00:00",
+    "title": "slidecn - Beautiful presentations, made simple",
+    "description": "Beautiful presentation components, made simple. Built on reveal.js. Works with shadcn/ui.",
+    "keywords": "presentation,reveal.js,slides,slide deck,shadcn,component registry,react components,next.js,npx shadcn add"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "slidecn",
+    "note": "shadcn registry of reveal.js presentation slides, themes and ready-made decks for React.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-06-17",
+    "lastUpdatedEvidence": [
+      "https://github.com/shadcn-labs/slidecn/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Slide components installed through the shadcn CLI on top of reveal.js",
+        "Auto Animate Pair and Stack Reveal slide transitions",
+        "Pitch Deck and Tech Talk deck blocks"
+      ],
+      "evidenceUrls": [
+        "https://slidecn.vercel.app/",
+        "https://slidecn.vercel.app/docs/components"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository github.com/shadcn-labs/slidecn; research that repository instead of this site."
+    ]
+  }
+}

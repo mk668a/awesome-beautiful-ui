@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://microkit.co",
+  "facts": {
+    "found": true,
+    "url": "https://microkit.co",
+    "finalUrl": "https://microkit.co",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:08+00:00",
+    "title": "MicroKit UI - Copy-paste React & CSS microinteractions",
+    "description": "54 free copy-paste microinteractions for React, CSS and Tailwind — animated buttons, hover effects, tabs and inputs. No package to install, MIT licensed.",
+    "keywords": "copy paste microinteractions,css hover effects,tailwind micro animations,react button hover animation,css button animation,animated button component react,microinteractions library,copy paste react components,tailwind hover effects,animated tabs react,css sliding underline tabs,animated input focus css,free ui interactions"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "MicroKit UI",
+    "note": "54 copy-paste microinteractions for React and CSS, such as hold-to-delete, fuse undo and cursor edge glow buttons.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-20",
+    "lastUpdatedEvidence": [
+      "https://github.com/henriquegpb/microkit/commits"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Cursor Edge Glow Button",
+        "Hold to Delete Button",
+        "Fuse Undo Button",
+        "Scrub Number Field"
+      ],
+      "evidenceUrls": [
+        "https://microkit.co/"
+      ]
+    },
+    "unverified": [
+      "The component source is public in github.com/henriquegpb/microkit (MIT); research that repository instead of this site."
+    ]
+  }
+}

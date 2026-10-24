@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://awwwardedui.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://awwwardedui.vercel.app",
+    "finalUrl": "https://awwwardedui.vercel.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:21+00:00",
+    "title": "AwwwardWinning UI",
+    "description": "A curated registry of production-ready creative components and motion effects for React.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "AwwwardWinning UI",
+    "note": "A small shadcn registry of creative React pieces, mostly self-contained WebGL shader backgrounds with cursor effects.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-08-10",
+    "lastUpdatedEvidence": [
+      "https://github.com/SimonAmable/awwwardedui/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Imposter Syndrome Shader: interactive sky with clouds, sun, moon, rain and aurora weather states",
+        "Smoke and caustics WebGL backgrounds with cursor interaction",
+        "Shadertoy-style cloudscape background"
+      ],
+      "evidenceUrls": [
+        "https://awwwardedui.vercel.app/components"
+      ]
+    },
+    "unverified": [
+      "The component source is public at github.com/SimonAmable/awwwardedui (no license file reported by the GitHub API); that repository has not yet been researched as a repo candidate.",
+      "Only 5 components are listed, and the 2026-08-10 date is the latest commit seen in that repository, not a dated release on the site."
+    ]
+  }
+}

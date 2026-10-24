@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://ui.unlumen.com",
+  "facts": {
+    "found": true,
+    "url": "https://ui.unlumen.com",
+    "finalUrl": "https://ui.unlumen.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:04+00:00",
+    "title": "unlumen UI – Beautifully Designed React Components",
+    "description": "A curated registry of beautifully designed React components built with TypeScript, Tailwind CSS and Motion. Install with the shadcn CLI, customize freely, and ship production-ready interfaces faster.",
+    "keywords": "unlumen UI,Unlumen,React components,TypeScript,Tailwind CSS,Framer Motion,shadcn registry,shadcn CLI,UI components,Design system,Open-source UI"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "unlumen UI",
+    "note": "React and shadcn registry of motion components and primitives built with Tailwind and Motion, with open free items and paid Pro ones.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-08-01",
+    "lastUpdatedEvidence": [
+      "https://github.com/leovvx/unlumen-ui-docs",
+      "https://ui.unlumen.com/docs/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Stacked Feature Cards that fan in 3D",
+        "Gooey SVG Filter and Cursor Image Trail components"
+      ],
+      "evidenceUrls": [
+        "https://ui.unlumen.com/components"
+      ]
+    },
+    "unverified": [
+      "Free components and docs are public in leovvx/unlumen-ui-docs (MIT, 74 stars, last commit 2026-08-01); that repository has not yet been researched as a repository entry.",
+      "Pro is 119 USD one-time or 69 USD per year; Pro components are not in the public repository.",
+      "Gooey SVG Filter and Cursor Image Trail were seen only as names in the component list, not running."
+    ]
+  }
+}

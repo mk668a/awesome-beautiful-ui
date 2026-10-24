@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://neat.firecms.co",
+  "facts": {
+    "found": true,
+    "url": "https://neat.firecms.co",
+    "finalUrl": "https://neat.rebase.pro/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:47+00:00",
+    "title": "Gradient Generator – Free Animated 3D Gradient Backgrounds | NEAT",
+    "description": "Free gradient generator for animated backgrounds. Design a moving 3D gradient with 25 presets and live preview, then export to code, PNG or MP4.",
+    "keywords": "neat, gradient generator, 3D gradients, animated gradients, background generator, hero background, CSS gradients, web design tool, gradient animation, WebGL, react gradient"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "name": "NEAT",
+    "note": "WebGL animated 3D gradient background library with a browser editor that exports code, PNG or MP4.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-06",
+    "lastUpdatedEvidence": [
+      "https://github.com/firecmsco/neat/commit/8633f351b1774197b7cc3409ca8d69ff21dc6818"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Animated 3D mesh gradient on plane, sphere, torus, cylinder or ribbon shapes",
+        "Iridescence, prism edges, bloom and film grain post-processing",
+        "Image color extractor for gradient palettes"
+      ],
+      "evidenceUrls": [
+        "https://neat.rebase.pro/"
+      ]
+    },
+    "unverified": [
+      "The source is public at github.com/FireCMSco/neat under MIT + Commons Clause; research that repository instead.",
+      "Pricing is freemium per the repository's PRODUCT.md: free with a NEAT watermark, or a one-off licence key removes it."
+    ]
+  }
+}

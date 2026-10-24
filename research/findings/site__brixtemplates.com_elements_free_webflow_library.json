@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "url": "https://brixtemplates.com/elements-free-webflow-library",
+  "facts": {
+    "found": true,
+    "url": "https://brixtemplates.com/elements-free-webflow-library",
+    "finalUrl": "https://brixtemplates.com/elements-free-webflow-library/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:55+00:00",
+    "title": "The ultimate Webflow Library | Elements by BRIX Templates",
+    "description": "Presenting Elements by BRIX Templates, our free Webflow Library with 200+ components you can start using today and save dozens of hours of Webflow development.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Elements by BRIX Templates",
+    "note": "Free Webflow library of 200+ cloneable marketing sections such as heroes, headers, footers and pricing cards.",
+    "openSource": false,
+    "pricing": "free",
+    "lastUpdated": "2022-11-09",
+    "lastUpdatedEvidence": [
+      "https://elements-library.webflow.io/template-pages/changelog",
+      "https://webflow.com/libraries/detail/elements-webflow-library"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

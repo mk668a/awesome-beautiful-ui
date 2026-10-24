@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "url": "https://10015.io",
+  "facts": {
+    "found": true,
+    "url": "https://10015.io",
+    "finalUrl": "https://10015.io",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:46+00:00",
+    "title": "All Online Tools in One Box | 10015 Tools",
+    "description": "All online tools you need in one box for free. Build anything online with “all-in-one toolbox”. All tools are easy-to-use, blazing fast & free.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "tool",
+    "name": "10015 Tools",
+    "note": "Free web toolbox bundling text, image, PDF, CSS, color and social mockup generators in one site.",
+    "openSource": false,
+    "pricing": "free",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "No dated changelog or release entry was found; the homepage marks PDF Editor as NEW without a date, so lastUpdated is left empty.",
+      "No GitHub link was found on the site; openSource false is based on that absence, not on a repository search."
+    ]
+  }
+}

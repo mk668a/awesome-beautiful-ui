@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://shaders.com",
+  "facts": {
+    "found": true,
+    "url": "https://shaders.com",
+    "finalUrl": "https://shaders.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:36+00:00",
+    "title": "Shaders: Open-source WebGPU shader components & free design editor",
+    "description": "Open-source (MIT) WebGPU shader components for Vue, React, Svelte, Solid & JS, plus a free design editor to compose and export them.",
+    "keywords": "shaders, webgpu, webgl, open source, mit, creative effects, frontend, component library, vue, react, svelte, solid, design engineer"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "name": "Shaders",
+    "note": "MIT-licensed WebGPU shader components for React, Vue, Svelte, Solid and JS with a free visual design editor and paid Pro shaders.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-21",
+    "lastUpdatedEvidence": [
+      "https://shaders.com/updates",
+      "https://github.com/shader-effects-inc/shaders"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Layered gradient and light-leak shader backgrounds composed in a browser design editor and exported as framework components",
+        "Prismatic light-ray shader hero on the Pro page"
+      ],
+      "evidenceUrls": [
+        "https://shaders.com",
+        "https://shaders.com/pro"
+      ]
+    },
+    "unverified": [
+      "The engine and components are public in shader-effects-inc/shaders (MIT, 5,377 stars, release v4.0.5 on 2026-10-21); that repository has not yet been researched as a repository entry.",
+      "Pro is 10 USD per month billed annually for 1,000+ pro shaders, which stay outside the open repository."
+    ]
+  }
+}

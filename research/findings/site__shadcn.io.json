@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "url": "https://shadcn.io",
+  "facts": {
+    "found": true,
+    "url": "https://shadcn.io",
+    "finalUrl": "https://www.shadcn.io/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:48+00:00",
+    "title": "shadcn/ui Blocks, Components & Templates for AI Agents | shadcn.ioCodexCodex",
+    "description": "6,231 blocks, 14 templates and 175 components for React, Vue, Svelte and Solid. Ask your agent, and it installs them in your theme.",
+    "keywords": "shadcn,shadcn/ui,shadcn blocks,shadcn templates,shadcn components,react components,accessible components,base ui,radix ui,react aria,ark ui,shadcn vue,shadcn svelte,shadcn solid,tailwind components,ui library"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "shadcn.io",
+    "note": "Independent shadcn/ui block, template and component library for React, Vue, Svelte and Solid with an MCP server for agents.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-05-13",
+    "lastUpdatedEvidence": [
+      "https://www.shadcn.io/changelog"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://www.shadcn.io",
+        "https://www.shadcn.io/pricing"
+      ]
+    },
+    "unverified": [
+      "The GitHub org shadcnio has react-shadcn-components, which holds only a README of links to shadcn.io, and a 0-star ui repo that appears to be a shadcn/ui copy; openSource false is based on not finding the library's own source there.",
+      "The pricing page lists animated buttons, text effects and WebGPU shaders, but those were not opened and seen running."
+    ]
+  }
+}

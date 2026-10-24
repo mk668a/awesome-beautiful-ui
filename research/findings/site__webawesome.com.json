@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "url": "https://webawesome.com",
+  "facts": {
+    "found": true,
+    "url": "https://webawesome.com",
+    "finalUrl": "https://webawesome.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:09+00:00",
+    "title": "Web Awesome",
+    "description": "Build better with Web Awesome, the biggest open source library of meticulously designed, highly customizable, and framework-agnostic UI components.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "name": "Web Awesome",
+    "note": "Framework-agnostic web components with themes and CSS utilities from the Font Awesome team, successor to Shoelace.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-09-24",
+    "lastUpdatedEvidence": [
+      "https://webawesome.com/docs/resources/changelog"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://webawesome.com/",
+        "https://webawesome.com/docs/components"
+      ]
+    },
+    "unverified": [
+      "The core component source is public in github.com/shoelace-style/webawesome (MIT); research that repository instead of this site."
+    ]
+  }
+}

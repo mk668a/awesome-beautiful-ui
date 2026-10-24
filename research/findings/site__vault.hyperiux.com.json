@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://vault.hyperiux.com",
+  "facts": {
+    "found": true,
+    "url": "https://vault.hyperiux.com",
+    "finalUrl": "https://vault.hyperiux.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:05+00:00",
+    "title": "Hyperiux Vault - React & Next.js Interaction Effects.",
+    "description": "Start with 80+ free source-first effects. Upgrade to Pro for 170+ effects.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Hyperiux Vault",
+    "note": "Scroll, cursor, text, transition and WebGL effects for React and Next.js installed as source files by a CLI, with a free tier and Pro plans.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-23",
+    "lastUpdatedEvidence": [
+      "https://github.com/Hyperiux-Immersion-Labs/hyperiux-components/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Scroll Distortion",
+        "Pixel Text Fill",
+        "Spider Particles Background in Three.js",
+        "Split Canvas effect installed by the Hyperiux CLI"
+      ],
+      "evidenceUrls": [
+        "https://vault.hyperiux.com/",
+        "https://vault.hyperiux.com/effects"
+      ]
+    },
+    "unverified": [
+      "The free effects are public at github.com/Hyperiux-Immersion-Labs/hyperiux-components (MIT on the repository, the description says MPL 2.0 free effects); the Pro effects are not public and that repository has not been researched yet."
+    ]
+  }
+}

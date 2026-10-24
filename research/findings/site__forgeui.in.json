@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://forgeui.in",
+  "facts": {
+    "found": true,
+    "url": "https://forgeui.in",
+    "finalUrl": "https://forgeui.in",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:22+00:00",
+    "title": "ForgeUI | React & Tailwind UI Components, Blocks & TemplatesTailwindCSS",
+    "description": "ForgeUI is a React and Tailwind UI library: animated components, marketing blocks, illustrations, and copy-paste templates. shadcn-compatible, free and Pro.",
+    "keywords": "ForgeUI Pro,ForgeUI,Premium UI Library,React Components,Tailwind CSS Components,Next.js,Animated Components,UI Templates,Frontend,Design System,Aman Shakya,ForgeUI by Aman,Copy Paste Components,Frontend Engineer Tools,Professional UI Kit,Premium React UI,React UI Kit,Paid UI Components,Modern UI Templates,Tailwind UI Pro,Reusable React Components,Accessible UI Kit,Customizable UI Components,Next.js Component Library,Frontend Developer Tools,Minimal UI Kit,Clean React UI,Framer Motion UI,ForgeUI Pro Templates"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Forge UI",
+    "note": "React and Tailwind components with animated SaaS product illustrations and named WebGL noise backgrounds, plus paid Pro blocks and templates.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-08-27",
+    "lastUpdatedEvidence": [
+      "https://forgeui.in/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Animated product illustration components such as Export Reactor and Notify System",
+        "Named WebGL noise backgrounds such as Noctylis (layered simplex noise with drifting warp)",
+        "Animated Form that types and checks off account fields"
+      ],
+      "evidenceUrls": [
+        "https://forgeui.in/",
+        "https://forgeui.in/components/noctylis",
+        "https://forgeui.in/components/animated-form"
+      ]
+    },
+    "unverified": [
+      "The free components are public at github.com/AmanShakya0018/forgeui (209 stars) under a custom all-rights-reserved license that forbids redistribution; that repository has not yet been researched as a repo candidate.",
+      "The 2026-08-27 changelog entry concerns the Pro catalog; the public repository was last pushed 2026-07-20."
+    ]
+  }
+}

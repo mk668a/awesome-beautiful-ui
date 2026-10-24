@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://vue-bits.dev",
+  "facts": {
+    "found": true,
+    "url": "https://vue-bits.dev",
+    "finalUrl": "https://vue-bits.dev",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:05+00:00",
+    "title": "Vue Bits - Animated UI Components For Vue",
+    "description": "An open source collection of high quality, animated, interactive & fully customizable Vue components for building stunning, memorable user interfaces.",
+    "keywords": "Vue, Vue tutorials, Vue tips, Vue best practices, Vue development, Vue guides, Vue articles, Vue ecosystem, JavaScript, frontend development, VueJS, UI Library, Component Library, Vue Components, Vue Animations"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Vue Bits",
+    "note": "Vue 3 counterpart of React Bits with 200+ animated backgrounds, text effects and components, many rendered with WebGL.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-19",
+    "lastUpdatedEvidence": [
+      "https://github.com/DavidHDev/vue-bits/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "ColorBends background",
+        "Ballpit",
+        "Metallic Paint",
+        "Splash Cursor",
+        "Balatro background"
+      ],
+      "evidenceUrls": [
+        "https://vue-bits.dev"
+      ]
+    },
+    "unverified": [
+      "The components' source is public in the GitHub repository DavidHDev/vue-bits, linked from the site; that repository has not yet been researched in place of this site.",
+      "Only ColorBends was seen running on the homepage; the other effects were seen as names."
+    ]
+  }
+}

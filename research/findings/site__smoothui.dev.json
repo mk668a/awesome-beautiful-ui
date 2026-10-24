@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "url": "https://smoothui.dev",
+  "facts": {
+    "found": true,
+    "url": "https://smoothui.dev",
+    "finalUrl": "https://smoothui.dev",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:01+00:00",
+    "title": "SmoothUI - Animated React Components for shadcn/ui | Motion & TailwindGitHubGitHubGitHubshadcn/ui logoX (Twitter)GitHubshadcn/ui logo",
+    "description": "Animated React components with smooth Motion animations. Drop-in shadcn/ui compatible, fully customizable with Tailwind CSS.",
+    "keywords": "react components,tailwindcss ui,motion animations,framer motion,shadcn/ui,shadcn ui components,react ui library,customizable components,animated ui components,dark mode components,shadcn alternative"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "SmoothUI",
+    "note": "Animated React primitives, components, blocks and templates for shadcn/ui built with Motion and Tailwind CSS.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-14",
+    "lastUpdatedEvidence": [
+      "https://smoothui.dev/docs/guides/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Agent Avatar: pixel-mosaic generated avatars",
+        "Hero that switches between live Landing, Dashboard and Experiment templates over a halftone mountain backdrop"
+      ],
+      "evidenceUrls": [
+        "https://smoothui.dev/",
+        "https://smoothui.dev/docs/components"
+      ]
+    },
+    "unverified": [
+      "The components are in the public repository educlopez/smoothui (MIT, about 1,000 stars, last commit 2026-10-22); that repository has not been researched yet."
+    ]
+  }
+}

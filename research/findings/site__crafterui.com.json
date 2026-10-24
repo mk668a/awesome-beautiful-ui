@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://crafterui.com",
+  "facts": {
+    "found": true,
+    "url": "https://crafterui.com",
+    "finalUrl": "https://www.crafterui.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:21+00:00",
+    "title": "crafterui - Less is more",
+    "description": "A collection of Open Source motion and interaction components that you can customize, extend, and build on. React + Tailwind, on the shadcn registry - copy the source or install with the shadcn CLI.",
+    "keywords": "crafterui,crafterui,shadcn,react components,tailwind,ui,motion,animation"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "crafterui",
+    "note": "Open source React and Tailwind motion components on the shadcn registry, such as pixel-dissolving 3D image carousels and gooey dials.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-08-19",
+    "lastUpdatedEvidence": [
+      "https://github.com/SriSomanaath/crafterui/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Dither helix carousel: images orbit in 3D and dissolve into pixel dither at the edges",
+        "Liquid metal gooey surfaces (Mercury Dial, Mercury Menu, Molten Ring Carousel)",
+        "Corridor carousel"
+      ],
+      "evidenceUrls": [
+        "https://www.crafterui.com/components",
+        "https://www.crafterui.com/components/dither-helix-carousel",
+        "https://www.crafterui.com/components/mercury-dial"
+      ]
+    },
+    "unverified": [
+      "The component source is public at github.com/SriSomanaath/crafterui (MIT, 4 stars); that repository has not yet been researched as a repo candidate.",
+      "The Mercury Dial screenshot showed only its idle button, so the gooey effect was named from the site's category text, not seen animating."
+    ]
+  }
+}

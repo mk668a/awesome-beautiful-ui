@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://viberdy.dev",
+  "facts": {
+    "found": true,
+    "url": "https://viberdy.dev",
+    "finalUrl": "https://viberdy.dev",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:49+00:00",
+    "title": "viberdy.dev: React Components & UI Prompts for Vibe Coding",
+    "description": "Premium React + Tailwind components, templates and UI prompts for vibe coding, in 18 design styles. Free to start, one-line shadcn install.",
+    "keywords": "React components,Tailwind CSS components,animated React components,shadcn components,shadcn registry,UI components for vibe coding,vibe coding,UI prompts,landing page sections,React hero sections,React text animation,animated backgrounds,Next.js templates,glassmorphism,liquid glass,bento grid,neobrutalism"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "viberdy.dev",
+    "note": "React and Tailwind components grouped into 18 style kits such as Liquid Chrome and Hi-Vis, released as dated drops.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-23",
+    "lastUpdatedEvidence": [
+      "https://viberdy.dev/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Particle galaxy field hero with a glass keycap in 3D space",
+        "Raymarched liquid metal field with selectable finishes (Mercury, Gold, Cobalt)",
+        "Style kits released as themed drops, e.g. Hi-Vis and Attention"
+      ],
+      "evidenceUrls": [
+        "https://viberdy.dev",
+        "https://viberdy.dev/changelog"
+      ]
+    },
+    "unverified": [
+      "The free components' source is public at https://github.com/viberdy-dev/ui (174 components, MIT with Commons Clause, last commit 2026-10-16); the candidate should be researched as that repository instead of the site.",
+      "The liquid metal field was seen only as text and code on the homepage, not rendered."
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "url": "https://dev.stacklyui.in",
+  "facts": {
+    "found": true,
+    "url": "https://dev.stacklyui.in",
+    "finalUrl": "https://dev.stacklyui.in",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:14+00:00",
+    "title": "StacklyUI — Animated React components that ship",
+    "description": "A beautifully animated, accessible React component library. Copy-paste or install — built on Tailwind and Motion, tuned for light and dark.",
+    "keywords": "react,component library,tailwind,motion,framer motion,animated components,ui library,stacklyui"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "StacklyUI",
+    "note": "Animated React components on Radix, Tailwind and Motion, themed from four OKLCH tokens and installed through a shadcn registry.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-09-28",
+    "lastUpdatedEvidence": [
+      "https://github.com/soumyajiitt/stacklyui/commits/main"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The component source is public in the MIT repository soumyajiitt/stacklyui (linked from the site); that repository has not yet been researched as its own candidate."
+    ]
+  }
+}

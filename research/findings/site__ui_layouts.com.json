@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://ui-layouts.com",
+  "facts": {
+    "found": true,
+    "url": "https://ui-layouts.com",
+    "finalUrl": "https://www.ui-layouts.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:01+00:00",
+    "title": "Ui-Layouts | Your Frontend Universe",
+    "description": "Beautifully designed React + Next.js + TailwindCSS components. 60+ ready-to-use, accessible, and customizable UI pieces — open source and free.",
+    "keywords": "Next.js,React,Tailwind CSS,Framer Motion,motion/react,gsap,lenis react,react scroll animation,web animation,UI components,open source components,copy paste components,modern UI design,design engineer,frontend developer tools,image mousetrail,spotlight effect,tabs component,image reveal animation,sparkles effect,shadcn components,shadcn ui,threejs ui-layouts,react three fiber,r3f,3D UI components,UI layouts,component library,react ui kit,tailwind ui kit,react animations,scroll animations,parallax scrolling,sticky scroll,timeline animation,masonry grid,animated cards,product cards,carousel component,slider component,drawer component,sidebar component,header component,footer component,responsive layouts,dashboard ui,portfolio ui,landing page components,interactive components,css effects,react gsap animations,three.js effects"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "UI Layouts",
+    "note": "React and Tailwind components and effects to copy, including a Mac genie effect, liquid glass and R3F blobs, with paid Pro blocks.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-08-22",
+    "lastUpdatedEvidence": [
+      "https://github.com/ui-layouts/uilayouts/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Mac-Genie minimize effect",
+        "Liquid-Glass effect",
+        "Image Mousetrail",
+        "Image Ripple Effect"
+      ],
+      "evidenceUrls": [
+        "https://www.ui-layouts.com/components"
+      ]
+    },
+    "unverified": [
+      "Source is public at github.com/ui-layouts/uilayouts (MIT, 3816 stars); research that repository instead of this site."
+    ]
+  }
+}

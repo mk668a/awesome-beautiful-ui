@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://osmo.supply",
+  "facts": {
+    "found": true,
+    "url": "https://osmo.supply",
+    "finalUrl": "https://www.osmo.supply/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:00+00:00",
+    "title": "Osmo Supply - Dev Toolkit Built to Flex",
+    "description": "Unlock the Osmo Vault packed with Webflow & HTML resources. Get exclusive access to the elements, techniques and code behind award-winning work. The toolkit for creative developers.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Osmo",
+    "note": "Membership vault of Webflow and HTML resources, easings, icons and a page transition course from award-winning creative developers.",
+    "openSource": false,
+    "pricing": "paid",
+    "lastUpdated": "2026-10-21",
+    "lastUpdatedEvidence": [
+      "https://www.osmo.supply/updates"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Number Odometer rolling digit counter",
+        "Progressive Blur visual effect",
+        "Animated Grid Overlay column guide",
+        "Product hotspot modal"
+      ],
+      "evidenceUrls": [
+        "https://www.osmo.supply/",
+        "https://www.osmo.supply/resource/progressive-blur"
+      ]
+    },
+    "unverified": [
+      "Membership is about 20 EUR per month according to the site description; a demo vault of 20 resources is offered free after a newsletter sign-up, which was not tried.",
+      "Effects were seen as homepage card previews and a resource preview frame, not as running code."
+    ]
+  }
+}

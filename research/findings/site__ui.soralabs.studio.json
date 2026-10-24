@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "url": "https://ui.soralabs.studio",
+  "facts": {
+    "found": true,
+    "url": "https://ui.soralabs.studio",
+    "finalUrl": "https://ui.soralabs.studio",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:04+00:00",
+    "title": "Sora UI – Animated React Components for shadcn/uiSora UISora UI IconGitHubGitHubXXCommunityCommunityDotDotDotDotDotDotDotDotArrowDivider leftDivider rightMintlify1PasswordNeonDivider bottomToggleToggleToggleGitHubGitHubXXCommunityCommunity",
+    "description": "Copy-paste animated React components built with Motion, Tailwind CSS & GSAP. Free, shadcn/ui-compatible — install any primitive via the CLI in seconds.",
+    "keywords": "Sora UI,React,TypeScript,Tailwind CSS,Motion,GSAP,Animated UI components,UI library,shadcn CLI"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Sora UI",
+    "note": "Free animated React components and motion primitives on Base UI or Radix, partly derived from Animate UI.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-09-17",
+    "lastUpdatedEvidence": [
+      "https://ui.soralabs.studio/docs/changelog"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The components' source is public in the GitHub repository SoraLabsOSS/ui, linked from the site; that repository has not yet been researched in place of this site.",
+      "I viewed the homepage and the motion component list, not each component running."
+    ]
+  }
+}

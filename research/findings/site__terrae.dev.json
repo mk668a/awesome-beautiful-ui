@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "url": "https://terrae.dev",
+  "facts": {
+    "found": true,
+    "url": "https://terrae.dev",
+    "finalUrl": "https://www.terrae.dev/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:04+00:00",
+    "title": "terrae - Composable map components for React",
+    "description": "A collection of beautifully designed, animated, accessible, and customizable map components. Built on Mapbox GL and MapLibre GL. Styled with Tailwind CSS. Works with shadcn/ui.",
+    "keywords": "react map,next.js map,mapbox,mapbox gl,map components,shadcn map,tailwind map,react map library,typescript map,interactive maps,map markers,map controls"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "terrae",
+    "note": "Composable React map components on Mapbox and MapLibre, with animated weather and disaster overlays such as cyclones.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-04-03",
+    "lastUpdatedEvidence": [
+      "https://www.terrae.dev/docs/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Cyclone tracking overlay",
+        "MapVolcano eruption phases",
+        "MapMeteor impact with fiery trail",
+        "MapLightning branching strikes",
+        "MapTsunami wave effect"
+      ],
+      "evidenceUrls": [
+        "https://www.terrae.dev",
+        "https://www.terrae.dev/docs/changelog"
+      ]
+    },
+    "unverified": [
+      "The components' source is public in the GitHub repository alamenai/terrae, linked from the site; that repository has not yet been researched in place of this site.",
+      "Only the cyclone overlay was seen on screen; the other effects are described in the changelog."
+    ]
+  }
+}

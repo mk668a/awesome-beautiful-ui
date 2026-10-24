@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://ui.soralabs.io.vn",
+  "facts": {
+    "found": true,
+    "url": "https://ui.soralabs.io.vn",
+    "finalUrl": "https://ui.soralabs.studio/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:57+00:00",
+    "title": "Sora UI – Animated React Components for shadcn/uiSora UISora UI IconGitHubGitHubXXCommunityCommunityDotDotDotDotDotDotDotDotArrowDivider leftDivider rightMintlify1PasswordNeonDivider bottomToggleToggleToggleGitHubGitHubXXCommunityCommunity",
+    "description": "Copy-paste animated React components built with Motion, Tailwind CSS & GSAP. Free, shadcn/ui-compatible — install any primitive via the CLI in seconds.",
+    "keywords": "Sora UI,React,TypeScript,Tailwind CSS,Motion,GSAP,Animated UI components,UI library,shadcn CLI"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Sora UI",
+    "note": "Free shadcn registry of Motion and GSAP animated React primitives, animated icons and full-page catalog showcases.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-21",
+    "lastUpdatedEvidence": [
+      "https://github.com/SoraLabsOSS/ui/commit/3144df9458460fdbac2b9f0818ba6483d98b3b7f",
+      "https://ui.soralabs.studio/docs/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Tilt Slide Transition: editorial page transition with tilted scaling exit, diagonal clip-path entrance and SplitText reveals via the View Transition API",
+        "Cursor Trail Reveal that leaves a trail of images behind the cursor",
+        "Scroll Chapters with a scroll position snapped to fixed steps"
+      ],
+      "evidenceUrls": [
+        "https://ui.soralabs.studio/catalog",
+        "https://ui.soralabs.studio/docs/changelog"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository SoraLabsOSS/ui (MIT for original code per its LICENSE, 12 stars); this site research has not yet been redone as a repository research of SoraLabsOSS/ui.",
+      "The Tilt Slide Transition was not seen running; it is described in the changelog. The site now redirects from ui.soralabs.io.vn to ui.soralabs.studio."
+    ]
+  }
+}

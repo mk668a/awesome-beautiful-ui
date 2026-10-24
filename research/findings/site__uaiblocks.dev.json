@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://uaiblocks.dev",
+  "facts": {
+    "found": true,
+    "url": "https://uaiblocks.dev",
+    "finalUrl": "https://uaiblocks.dev",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:19+00:00",
+    "title": "Uai — Components that feel finished.",
+    "description": "112 shadcn components and blocks with real motion and micro-interactions built in. Copy them with the CLI and own every line.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Uai",
+    "note": "shadcn components and blocks with built-in motion, including AI agent UIs and Brazil-specific Pix and boleto payments.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-23",
+    "lastUpdatedEvidence": [
+      "https://github.com/victor-teles/uai"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Agent Run and Thinking activity disclosures for AI flows",
+        "Pix payment with QR code and expiry countdown",
+        "Voice Input with live waveform"
+      ],
+      "evidenceUrls": [
+        "https://uaiblocks.dev",
+        "https://uaiblocks.dev/components/agent-run"
+      ]
+    },
+    "unverified": [
+      "The source is in the public repository victor-teles/uai (MIT); research that repository instead.",
+      "The screenshot showed the overview page with the demo scene mostly blank in its first frame; the effects are named from the page text and the latest commits."
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://ui.shadcn.com",
+  "facts": {
+    "found": true,
+    "url": "https://ui.shadcn.com",
+    "finalUrl": "https://ui.shadcn.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:43:57+00:00",
+    "title": "shadcn/ui - The Foundation for your Design System",
+    "description": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
+    "keywords": "Next.js,React,Tailwind CSS,Components,shadcn"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "name": "shadcn/ui",
+    "note": "Accessible React components you copy into your own codebase through a CLI and registry, the base of many collections.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-23",
+    "lastUpdatedEvidence": [
+      "https://github.com/shadcn-ui/ui/commit/e55b60b1014cccfb9ac62f97e0d20b5b649f4a54",
+      "https://ui.shadcn.com/docs/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Copy-into-your-repo distribution through the shadcn CLI and an open registry format"
+      ],
+      "evidenceUrls": [
+        "https://ui.shadcn.com",
+        "https://ui.shadcn.com/docs/changelog"
+      ]
+    },
+    "unverified": [
+      "The source is in the public repository shadcn-ui/ui (MIT); that repository has not been researched yet.",
+      "The visual components themselves are ordinary; the listed signature is a distribution idea, not a visual effect."
+    ]
+  }
+}

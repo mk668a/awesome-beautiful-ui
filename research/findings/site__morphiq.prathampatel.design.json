@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://morphiq.prathampatel.design",
+  "facts": {
+    "found": true,
+    "url": "https://morphiq.prathampatel.design",
+    "finalUrl": "https://morphiq.prathampatel.design",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:19+00:00",
+    "title": "Morphiq — Interfaces that move.",
+    "description": "28 interactive React components — optics, raster, type, mechanics and motion. Each is driven by a model, not a keyframe, and installs as source.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Morphiq",
+    "note": "28 React effects driven by physical models, such as spring-chain headlines and SDF refractive glass, installed as source.",
+    "openSource": false,
+    "pricing": "free",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Elastic Headline: letters as a mass-spring chain you can grab and pull",
+        "Prism Glass refractive lens with spectral dispersion from signed distance fields",
+        "Bitmap Image dithering by ordered Bayer or error diffusion",
+        "Ferrofluid Nav whose active pill necks and flows between items"
+      ],
+      "evidenceUrls": [
+        "https://morphiq.prathampatel.design/",
+        "https://morphiq.prathampatel.design/components/elastic-headline",
+        "https://morphiq.prathampatel.design/docs/introduction"
+      ]
+    },
+    "unverified": [
+      "The site says MIT and links github.com/prathamhpatel/morphiq, but that repository returned 404 on 2026-10-24, so openSource is false until a public repository is found.",
+      "Several components are marked NEW but no date appears anywhere on the site, so lastUpdated is empty."
+    ]
+  }
+}

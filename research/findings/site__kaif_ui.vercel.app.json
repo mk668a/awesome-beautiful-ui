@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "url": "https://kaif-ui.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://kaif-ui.vercel.app",
+    "finalUrl": "https://kaif-ui.vercel.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:42+00:00",
+    "title": "Kaif UI - Build Beautiful Interfaces at Lightning Speed",
+    "description": "Explore a vast library of beautifully crafted, animated components. Save development time, enhance user experience, and build visually stunning interfaces at lightning speed.",
+    "keywords": "Kaif UI,React component library,ShadCN UI,Framer Motion,UI components,Web development,Frontend library,Animated components"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Kaif UI",
+    "note": "Animated React and Framer Motion components and blocks, with paid website templates.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2024-11-24",
+    "lastUpdatedEvidence": [
+      "https://github.com/MuhammadKaifNazeer/kaif-ui/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Emogi Nav, a navigation bar made of emoji",
+        "Pendulum, a swinging glowing bob on a string"
+      ],
+      "evidenceUrls": [
+        "https://kaif-ui.vercel.app/components"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository github.com/MuhammadKaifNazeer/kaif-ui; research that repository instead of this site. GitHub reports its license as NOASSERTION."
+    ]
+  }
+}

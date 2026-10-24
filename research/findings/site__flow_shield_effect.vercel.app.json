@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "url": "https://flow-shield-effect.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://flow-shield-effect.vercel.app",
+    "finalUrl": "https://flow-shield-effect.vercel.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:01+00:00",
+    "title": "3D Playground",
+    "description": "Unity-style 3D playground built with R3F",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "other",
+    "name": "Shield VFX",
+    "note": "Real-time hexagonal force shield shader in React Three Fiber with hit detection and live Leva controls.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-05-22",
+    "lastUpdatedEvidence": [
+      "https://github.com/cortiz2894/flow-shield-effect/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Hexagon-cell force shield with fresnel rim glow and flow noise",
+        "Impact rings with damage percentage on hit",
+        "Noise-edged reveal of the shield"
+      ],
+      "evidenceUrls": [
+        "https://flow-shield-effect.vercel.app/"
+      ]
+    },
+    "unverified": [
+      "Source is public at github.com/cortiz2894/flow-shield-effect (179 stars, no license file reported); research that repository instead of this site."
+    ]
+  }
+}

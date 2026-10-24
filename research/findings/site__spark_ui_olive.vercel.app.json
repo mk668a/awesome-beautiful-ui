@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://spark-ui-olive.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://spark-ui-olive.vercel.app",
+    "finalUrl": "https://spark-ui-olive.vercel.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:03+00:00",
+    "title": "Spark UI | Components that make interfaces feel alive.",
+    "description": "A focused collection of signature React components with expressive motion and distinctive interactions.",
+    "keywords": "React components,Signature UI components,shadcn registry,Tailwind CSS,Framer Motion,Design engineering,Accessible components"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Spark UI",
+    "note": "Small shadcn registry of expressive React components such as a draggable pet cat, a Dynamic Island and a mechanical keyboard.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-07-18",
+    "lastUpdatedEvidence": [
+      "https://spark-ui-olive.vercel.app/blog",
+      "https://spark-ui-olive.vercel.app/blog/accounts-profiles-and-badges"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Interactive Pets: a draggable cat that reacts to clicks and is fed by tapping a bone",
+        "Dynamic Island: an iPhone-style pill that morphs between compact and expanded content",
+        "Mechanical Keyboard component with a typing test on the home page"
+      ],
+      "evidenceUrls": [
+        "https://spark-ui-olive.vercel.app/",
+        "https://spark-ui-olive.vercel.app/docs/components/interactive-pets",
+        "https://spark-ui-olive.vercel.app/docs/components/dynamic-island"
+      ]
+    },
+    "unverified": [
+      "The source is public at github.com/codeweb-dev/spark-ui (MIT); that repository has not been researched in place of this site yet."
+    ]
+  }
+}

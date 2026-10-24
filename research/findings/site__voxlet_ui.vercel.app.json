@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://voxlet-ui.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://voxlet-ui.vercel.app",
+    "finalUrl": "https://ui.voxletstudio.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:45+00:00",
+    "title": "Voxlet UI - The Best Animated React & Tailwind Components for Fast Web Development",
+    "description": "Voxlet UI is a modern component library offering high-quality, customizable UI components, blocks, and templates for developers and designers. Build sleek, responsive, and scalable websites effortlessly.",
+    "keywords": "Voxlet UI,UI Components,React UI Kit,Tailwind Components,Next.js UI Library,Frontend Development,Website Blocks,UI Templates,Reusable Components,Modern Web Design,Open Source UI,Design System,Web App UI,Component Library,Best React Components,Voxlet UI components,React UI library,Next.js Tailwind UI,Best UI components,Frontend UI kit,Modern web design,React Tailwind components,Web development templates,Open source UI library,Vercel Next.js components"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Voxlet UI",
+    "note": "Animated React components and blocks such as a cursor-following magic wand and a Matter.js gravity tag cloud.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2025-08-25",
+    "lastUpdatedEvidence": [
+      "https://github.com/voxletlabs/voxlet-ui/commit/86bc69f67542acbc585eaeda305112646b607769"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Magic Wand: a floating wand follows the cursor and reveals images inside tiles",
+        "Gravity Box: a physics tag cloud built on Matter.js",
+        "Space Box with stars and shooting stars on hover",
+        "MacBook Keyboard interactive component"
+      ],
+      "evidenceUrls": [
+        "https://ui.voxletstudio.com/components"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository voxletlabs/voxlet-ui (license reported as NOASSERTION by GitHub); that repository has not been researched yet.",
+      "The site now lives at https://ui.voxletstudio.com/ (redirect from voxlet-ui.vercel.app)."
+    ]
+  }
+}

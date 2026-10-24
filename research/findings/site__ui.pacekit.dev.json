@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://ui.pacekit.dev",
+  "facts": {
+    "found": true,
+    "url": "https://ui.pacekit.dev",
+    "finalUrl": "https://paceui.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:09+00:00",
+    "title": "Animated React Blocks for Next.js & TanStack Start - PaceUI",
+    "description": "Animated React components for Next.js & TanStack Start. Built with Motion and shadcn. Clean code you own. Pay once, lifetime updates",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "PaceUI",
+    "note": "Animated React blocks, components, motion crafts and templates for Next.js and TanStack Start, built on Motion and shadcn.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-15",
+    "lastUpdatedEvidence": [
+      "https://paceui.com/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Avatar Flight craft",
+        "Voice Record craft",
+        "Starfield Card",
+        "Destination Queue"
+      ],
+      "evidenceUrls": [
+        "https://paceui.com/crafts"
+      ]
+    },
+    "unverified": [
+      "ui.pacekit.dev redirects to paceui.com.",
+      "The craft names were seen in static screenshots; their motion was not observed running."
+    ]
+  }
+}

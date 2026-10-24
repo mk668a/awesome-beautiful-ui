@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "url": "https://weavesilk.com",
+  "facts": {
+    "found": true,
+    "url": "https://weavesilk.com",
+    "finalUrl": "https://weavesilk.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:29+00:00",
+    "title": "Silk – Interactive Generative Art",
+    "description": "Create beautiful flowing art with Silk.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "app",
+    "name": "Silk",
+    "note": "Browser toy where dragging the pointer paints glowing, flowing silk strands with mirror and rotational symmetry and ambient sound.",
+    "openSource": false,
+    "pricing": "free",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Pointer-drawn luminous silk strands mirrored with rotational symmetry and spiral options"
+      ],
+      "evidenceUrls": [
+        "https://weavesilk.com"
+      ]
+    },
+    "unverified": [
+      "No dated change was found on the site; it shows an undated note that the author is working on a new Silk, so lastUpdated is left empty.",
+      "No official source repository was found; GitHub repositories named weavesilk are third-party forks or ports."
+    ]
+  }
+}

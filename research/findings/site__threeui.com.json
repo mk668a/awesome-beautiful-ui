@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://threeui.com",
+  "facts": {
+    "found": true,
+    "url": "https://threeui.com",
+    "finalUrl": "https://threeui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:43:58+00:00",
+    "title": "Three.js Components, Templates & Interactive Shaders | ThreeUI",
+    "description": "Browse copy-ready Three.js components, complete website templates, WebGL backgrounds, hero sections, UI effects, and source-backed variants.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "ThreeUI",
+    "note": "Catalog of Three.js scenes, WebGL backgrounds, shader buttons and full 3D landing pages, with free community items and paid Pro templates.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-09-01",
+    "lastUpdatedEvidence": [
+      "https://github.com/MengTo/threeui"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Full 3D landing pages such as AURAL headphones and Kage temple scene",
+        "Dark Souls Holo Card hero",
+        "Liquid Metal and shader buttons"
+      ],
+      "evidenceUrls": [
+        "https://threeui.com/browse?sort=recent"
+      ]
+    },
+    "unverified": [
+      "Community component source is public in MengTo/threeui (MIT, 6,813 stars, last commit 2026-09-01); that repository has not yet been researched as a repository entry.",
+      "Pro templates cost 299 USD lifetime or 199 USD per year according to the pricing page markup; Pro sources are not in the public repository.",
+      "Items were seen as gallery thumbnails, not running scenes."
+    ]
+  }
+}

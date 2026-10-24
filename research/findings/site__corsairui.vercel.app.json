@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "url": "https://corsairui.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://corsairui.vercel.app",
+    "finalUrl": "https://corsairui.vercel.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:16+00:00",
+    "title": "Corsair UI · React components for shadcn/ui and Tailwind CSS",
+    "description": "Open-source React components, motion effects and page blocks for shadcn/ui and Tailwind CSS 3.4 and 4. Accessible, built on Radix, installed as source code with the shadcn CLI.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Corsair UI",
+    "note": "shadcn registry of Radix-based React components, motion effects and page blocks, shown through a nautical-themed site.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-23",
+    "lastUpdatedEvidence": [
+      "https://github.com/KevinGirelli/corsair-ui"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://corsairui.vercel.app"
+      ]
+    },
+    "unverified": [
+      "The source is in the public repository KevinGirelli/corsair-ui (MIT); research that repository instead.",
+      "The compass and voyage theme belongs to the landing page; the components seen (button, input, badge, card, form fields) are ordinary shadcn-style pieces, so genericCollection is a judgement from the homepage only."
+    ]
+  }
+}

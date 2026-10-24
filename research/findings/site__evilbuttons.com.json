@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "url": "https://evilbuttons.com",
+  "facts": {
+    "found": true,
+    "url": "https://evilbuttons.com",
+    "finalUrl": "https://www.evilbuttons.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:03+00:00",
+    "title": "Evil Buttons — Animated shadcn/ui components with Motion",
+    "description": "A shadcn/ui registry of animated buttons built With an Evil Touch. Live previews, copy-paste docs, and one-command CLI installs.",
+    "keywords": "evil buttons,shadcn ui,shadcn registry,react buttons,animated buttons,motion react,framer motion components,tailwind css components,ui components,react component library,copy paste components,interactive buttons"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Evil Buttons",
+    "note": "A shadcn registry of mischievous animated buttons: hold, slide to detonate, doubt, troll, glitch and dither.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-19",
+    "lastUpdatedEvidence": [
+      "https://github.com/radiumcoders/Evil-Buttons/commit/f768125bc7db98f2bc757efa1ea0f6d34ffa1430"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "SlideToDetonate and DoubtButton style buttons that resist or question the click",
+        "MinecraftButton with pixel-textured stone styling",
+        "DitherButton with an animated 4x4 ordered-dither wave background and knockout label",
+        "AshBurstButton that disintegrates on delete"
+      ],
+      "evidenceUrls": [
+        "https://www.evilbuttons.com/",
+        "https://www.evilbuttons.com/docs",
+        "https://www.evilbuttons.com/docs/dither-button"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository radiumcoders/Evil-Buttons (Apache-2.0); that repository has not been researched yet.",
+      "The newest dated change found is a README commit on 2026-10-19; no dated component release was seen."
+    ]
+  }
+}

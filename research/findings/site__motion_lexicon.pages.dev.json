@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://motion-lexicon.pages.dev",
+  "facts": {
+    "found": true,
+    "url": "https://motion-lexicon.pages.dev",
+    "finalUrl": "https://motion-lexicon.pages.dev/zh/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:22+00:00",
+    "title": "100 个可直接复制的 React 动效组件 — Motion Lexicon",
+    "description": "为产品界面、媒体叙事和空间视觉准备的完整实现。",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Motion Lexicon",
+    "note": "100 copy-ready React motion components organized by motion feeling and product job, with runtime cost labels and an agent skill.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-08-19",
+    "lastUpdatedEvidence": [
+      "https://github.com/Ryan-yang125/motion-lexicon/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Dither reveal card: a pixel-dither threshold advances so the image develops with texture",
+        "Components tagged by scene (product mono, editorial warm, spatial dark) and runtime cost",
+        "Agent UI motion set such as thinking trace, tool call stack and multi-agent handoff"
+      ],
+      "evidenceUrls": [
+        "https://motion-lexicon.pages.dev/en/",
+        "https://motion-lexicon.pages.dev/en/components/dither-reveal-card/"
+      ]
+    },
+    "unverified": [
+      "The source is public at github.com/Ryan-yang125/motion-lexicon (MIT, 50 stars); that repository has not yet been researched as a repo candidate.",
+      "The 2026-08-19 date is the v6 release commit; the repository shows a later push on 2026-10-21 whose content was not inspected."
+    ]
+  }
+}

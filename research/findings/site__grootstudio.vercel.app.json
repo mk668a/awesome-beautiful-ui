@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "url": "https://grootstudio.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://grootstudio.vercel.app",
+    "finalUrl": "https://grootstudio.dev/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:02+00:00",
+    "title": "Groot Studio - UI Component Library",
+    "description": "High-performing, SEO optimised UI components and blocks designed for modern developers. Built with Next.js, TypeScript, Tailwind CSS, Motion & Radix UI.",
+    "keywords": "ui components,react components,nextjs,tailwind css,radix ui,typescript,shadcn,ui blocks,web development,design system"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Groot Studio",
+    "note": "Next.js and Motion library of buttons, text animations, backgrounds and blocks, plus a SaaS landing page template.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-09-25",
+    "lastUpdatedEvidence": [
+      "https://github.com/Subhadipjana95/Groot-Studio/commits/main",
+      "https://grootstudio.dev/changelog"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The components' source is public in the GitHub repository Subhadipjana95/Groot-Studio, linked from the site; that repository has not yet been researched in place of this site.",
+      "Pricing is inferred: components and templates showed no prices and the refund policy covers only sponsorships."
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://ui.wensity.com",
+  "facts": {
+    "found": true,
+    "url": "https://ui.wensity.com",
+    "finalUrl": "https://ui.wensity.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:09+00:00",
+    "title": "Wensity UI | Premium React and Next.js Components and Blocks",
+    "description": "Free and premium React and Next.js components, UI primitives, blocks and templates for Tailwind CSS, plus an animated background studio and free design tools.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Wensity UI",
+    "note": "Animated React and Tailwind components and blocks, including WebGL heroes like a black hole and a Siri orb, plus a background studio.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-23",
+    "lastUpdatedEvidence": [
+      "https://github.com/wensity/registry/commits"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Black Hole Hero WebGL accretion disk with a photon ring",
+        "Morphing Photo Arc hero",
+        "Infinite Image Collage",
+        "Siri Orb WebGL sphere with a prism ribbon"
+      ],
+      "evidenceUrls": [
+        "https://ui.wensity.com/blocks/hero-sections/hero-section-with-black-hole",
+        "https://ui.wensity.com/"
+      ]
+    },
+    "unverified": [
+      "The Siri Orb was only described in the site text and not seen rendered."
+    ]
+  }
+}

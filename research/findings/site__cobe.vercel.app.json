@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "url": "https://cobe.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://cobe.vercel.app",
+    "finalUrl": "https://cobe.vercel.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:01+00:00",
+    "title": "COBE",
+    "description": "The 5KB WebGL globe",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "name": "COBE",
+    "note": "A 5KB WebGL library that renders a dotted, rotating globe with city markers, labels and arcs.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-09-22",
+    "lastUpdatedEvidence": [
+      "https://github.com/shuding/cobe/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Dotted WebGL globe in about 5KB",
+        "Arcs drawn between marker locations on the globe",
+        "Labels, satellites and stickers attached to the globe in the v2 demos"
+      ],
+      "evidenceUrls": [
+        "https://cobe.vercel.app"
+      ]
+    },
+    "unverified": [
+      "The components' source is public in the GitHub repository shuding/cobe, linked from the site; that repository has not yet been researched in place of this site."
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "url": "https://ui.phucbm.com",
+  "facts": {
+    "found": null,
+    "url": "https://ui.phucbm.com",
+    "finalUrl": null,
+    "status": null,
+    "fetchedAt": "2026-10-24T04:47:04+00:00",
+    "error": "[Errno 8] nodename nor servname provided, or not known"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "ui/phucbm",
+    "note": "Small set of GSAP-animated React components, including Awwwards-inspired text and image effects.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2025-11-18",
+    "lastUpdatedEvidence": [
+      "https://github.com/phucbm/ui.phucbm.com/commits"
+    ],
+    "genericCollection": false,
+    "demoViewed": false,
+    "signature": {
+      "effects": [
+        "Text Flower: a wheel of text lines orbiting a central anchor, inspired by Suno's about page",
+        "Draw SVG path animation using GSAP DrawSVGPlugin"
+      ],
+      "evidenceUrls": [
+        "https://github.com/phucbm/ui.phucbm.com"
+      ]
+    },
+    "unverified": [
+      "ui.phucbm.com does not resolve in DNS (collect_facts.py failed twice), so the site could not be opened.",
+      "The source is public at github.com/phucbm/ui.phucbm.com, which is archived with a notice that the project moved to phucbm.com; that repository has not been researched in place of this site yet, and phucbm.com shows no component library.",
+      "The demo was not seen running; only a README screenshot of the documentation index was viewed, and the effects are known from component descriptions.",
+      "The date is the newest non-archival commit (docs: update, 2025-11-18); later commits only add the deprecation notice."
+    ]
+  }
+}

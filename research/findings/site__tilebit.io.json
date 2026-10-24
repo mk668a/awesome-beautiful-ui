@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "url": "https://tilebit.io",
+  "facts": {
+    "found": true,
+    "url": "https://tilebit.io",
+    "finalUrl": "https://www.tilebit.io/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:09+00:00",
+    "title": "Tilebit - Component & Inspiration Library",
+    "description": "Tilebit is a lightweight component and inspiration library. Find 500+ components built for Webflow, Figma, and Framer. Find 1000+ inspirations linked to our wireframe kit.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Tilebit",
+    "note": "500+ wireframe-style website sections to copy into Figma, Framer or Webflow, plus an inspiration library.",
+    "openSource": false,
+    "pricing": "paid",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://www.tilebit.io/",
+        "https://www.tilebit.io/all-components"
+      ]
+    },
+    "unverified": [
+      "No dated change was found: the site mentions a v2.0 launch and 300 components coming this summer without dates, and the sitemap and pages carry no usable date."
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://badtz-ui.com",
+  "facts": {
+    "found": true,
+    "url": "https://badtz-ui.com",
+    "finalUrl": "https://www.badtz-ui.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:39+00:00",
+    "title": "UI library for React developers. - BadtzUI",
+    "description": "An open-source React UI library with production-ready animations. Weekly updates. Built with React, Tailwind, TypeScript & JavaScript.",
+    "keywords": "Next.js,React,Tailwind CSS,Components,Blocks,Templates"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "BadtzUI",
+    "note": "Animated React and Tailwind components for shadcn projects, including WebGL shader effects and a paid Pro tier of blocks.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-02-26",
+    "lastUpdatedEvidence": [
+      "https://github.com/badtzx0/badtz-ui/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Cloud Orbit: tool icons orbiting a central avatar",
+        "Pixel Distorsion: mouse-driven pixel distortion shader on images",
+        "Animated Keyboard with RGB variant"
+      ],
+      "evidenceUrls": [
+        "https://www.badtz-ui.com/docs/components/cloud-orbit",
+        "https://www.badtz-ui.com/docs/shaders/pixel-distorsion",
+        "https://github.com/badtzx0/badtz-ui"
+      ]
+    },
+    "unverified": [
+      "The components' source is public at github.com/badtzx0/badtz-ui (MIT with an additional restriction clause); research that repository instead.",
+      "The Pixel Distorsion shader preview did not render in the headless screenshot; only its description and the repository file names were seen."
+    ]
+  }
+}

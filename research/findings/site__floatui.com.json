@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "url": "https://floatui.com",
+  "facts": {
+    "found": true,
+    "url": "https://floatui.com",
+    "finalUrl": "https://floatui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:07+00:00",
+    "title": "Float UI - Free open source Tailwind UI components & Templates",
+    "description": "Beautiful and responsive website templates and UI components for React, Vue, Svelte, HTML with Tailwind CSS.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Float UI",
+    "note": "Free Tailwind CSS marketing sections and templates in HTML, React, Vue and Svelte variants.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2025-03-23",
+    "lastUpdatedEvidence": [
+      "https://github.com/MarsX-dev/floatui/commits"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://floatui.com/",
+        "https://floatui.com/components"
+      ]
+    },
+    "unverified": [
+      "The component source is public in github.com/MarsX-dev/floatui; research that repository instead of this site."
+    ]
+  }
+}

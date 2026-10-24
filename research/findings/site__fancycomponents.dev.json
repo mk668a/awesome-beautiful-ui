@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "url": "https://fancycomponents.dev",
+  "facts": {
+    "found": true,
+    "url": "https://fancycomponents.dev",
+    "finalUrl": "https://www.fancycomponents.dev/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:01+00:00",
+    "title": "Fancy Components",
+    "description": "Ready to use, fancy React components to make the web fun again. Free & Open Source.",
+    "keywords": "React,Typescript,Tailwind CSS,Microinteractions,Motion,Creative developers"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Fancy Components",
+    "note": "React and Motion collection that recreates playful effects seen on award-winning sites, from variable-font hovers to physics.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-03-14",
+    "lastUpdatedEvidence": [
+      "https://github.com/danielpetho/fancy/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Variable Font Cursor Proximity",
+        "Gravity and Cursor Attractor physics",
+        "Gooey and Pixelate SVG filters",
+        "Marquee Along SVG Path",
+        "Screensaver bouncing block"
+      ],
+      "evidenceUrls": [
+        "https://www.fancycomponents.dev",
+        "https://www.fancycomponents.dev/docs/introduction"
+      ]
+    },
+    "unverified": [
+      "The components' source is public in the GitHub repository danielpetho/fancy, linked from the site; that repository has not yet been researched in place of this site.",
+      "The effects other than the homepage cards were seen as names in the docs sidebar, not watched running."
+    ]
+  }
+}

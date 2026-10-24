@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "url": "https://nyxbui.design",
+  "facts": {
+    "found": null,
+    "url": "https://nyxbui.design",
+    "finalUrl": null,
+    "status": null,
+    "fetchedAt": "2026-10-24T04:45:56+00:00",
+    "error": "[Errno 8] nodename nor servname provided, or not known"
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": "2026-10-24",
+    "kind": null,
+    "name": "Nyxb UI",
+    "note": null,
+    "openSource": null,
+    "pricing": null,
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": null,
+    "demoViewed": false,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "nyxbui.design does not resolve in DNS (checked twice with collect_facts.py); the site could not be opened, so kind, pricing, dates and signature are unknown.",
+      "A GitHub search found only third-party starters (e.g. FrediLehmann/starter-nyxbui) and nyxb/portfolio; no public component source repository was found for Nyxb UI."
+    ]
+  }
+}

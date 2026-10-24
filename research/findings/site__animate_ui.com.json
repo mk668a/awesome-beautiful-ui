@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "url": "https://animate-ui.com",
+  "facts": {
+    "found": true,
+    "url": "https://animate-ui.com",
+    "finalUrl": "https://animate-ui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:01+00:00",
+    "title": "Animate UI - Animated primitives for React",
+    "description": "Animated drop-in primitives for Radix UI, Base UI and React Aria, built with Motion. Swap the import and your shadcn/ui components animate.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Animate UI",
+    "note": "Animated drop-in primitives for Radix UI, Base UI and React Aria built with Motion, plus animated backgrounds, text effects and icons.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-23",
+    "lastUpdatedEvidence": [
+      "https://animate-ui.com/docs/changelog",
+      "https://github.com/imskyleen/animate-ui"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Gravity Stars background where particles drift and attract to the pointer",
+        "Liquid button fill effect",
+        "Swap-the-import animated variants of Radix, Base UI and React Aria primitives"
+      ],
+      "evidenceUrls": [
+        "https://animate-ui.com/docs/backgrounds/gravity-stars",
+        "https://animate-ui.com/docs/primitives/animate-ui/liquid-button",
+        "https://animate-ui.com"
+      ]
+    },
+    "unverified": [
+      "The component source is public in imskyleen/animate-ui (4,600 stars, pushed 2026-10-23, license reported as NOASSERTION); that repository has not yet been researched as a repository entry.",
+      "The Liquid button page was loaded but its animation was not observed in a screenshot."
+    ]
+  }
+}

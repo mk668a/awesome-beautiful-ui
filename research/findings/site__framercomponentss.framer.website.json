@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "url": "https://framercomponentss.framer.website",
+  "facts": {
+    "found": true,
+    "url": "https://framercomponentss.framer.website",
+    "finalUrl": "https://framercomponentss.framer.website",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:22+00:00",
+    "title": "Powerful Framer component library",
+    "description": "Find the best free Framer resources for your next project, highly interactive and customizable Framer components, code overrides, remixes, and more.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Framer Components",
+    "note": "A handful of free Framer code components, mostly scroll-reveal text and typing animations, copied onto the canvas by link.",
+    "openSource": false,
+    "pricing": "free",
+    "lastUpdated": "2025-02-20",
+    "lastUpdatedEvidence": [
+      "https://framercomponentss.framer.website/resources/scroll-reveal-image",
+      "https://framercomponentss.framer.website/resources/scroll-reveal-words"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

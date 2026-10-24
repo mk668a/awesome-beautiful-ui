@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "url": "https://everythingframer.com",
+  "facts": {
+    "found": true,
+    "url": "https://everythingframer.com",
+    "finalUrl": "https://everythingframer.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:47+00:00",
+    "title": "Goodspeed I Framer Templates I Premium Framer Templates",
+    "description": "Get premium Framer templates and launch your new business site today",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "template",
+    "name": "Everything Framer",
+    "note": "Store of paid Framer website templates plus a few no-code Framer components and overrides, by Goodspeed.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "Blog posts are dated only 'Mar 24' with no year and the footer says (c) 2024, so no reliable lastUpdated date was found.",
+      "Templates are listed at $49.99 to $69.99 with one free template (Hotel Blog); freemium is inferred from that listing, not from a pricing page."
+    ]
+  }
+}

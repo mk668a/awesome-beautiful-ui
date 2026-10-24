@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://upfork.dev",
+  "facts": {
+    "found": true,
+    "url": "https://upfork.dev",
+    "finalUrl": "https://upfork.dev",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:15+00:00",
+    "title": "UpFork: components, landing pages, full-stack projects & mobile",
+    "description": "React + Tailwind components for the shadcn CLI, landing pages, full-stack projects, React Native components and desktop software. Take the free ones, pay for the rest in USDT.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "UpFork",
+    "note": "Marketplace of React components, landing pages and full-stack projects installed via the shadcn CLI and paid in USDT.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-22",
+    "lastUpdatedEvidence": [
+      "https://upfork.dev/products/restaurant-hero-section-react"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Maple hero: a filmed cartoon cow that follows the cursor across a steak menu",
+        "Infall black hole hero",
+        "OrbitGallery 3D carousel"
+      ],
+      "evidenceUrls": [
+        "https://upfork.dev/products/restaurant-hero-section-react",
+        "https://upfork.dev/"
+      ]
+    },
+    "unverified": [
+      "UpFork also lists work by third-party sellers, so it is partly a marketplace rather than one author's collection.",
+      "Infall and OrbitGallery were seen only as names on the homepage, not running."
+    ]
+  }
+}

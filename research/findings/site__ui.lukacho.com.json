@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "url": "https://ui.lukacho.com",
+  "facts": {
+    "found": true,
+    "url": "https://ui.lukacho.com",
+    "finalUrl": "https://ui.lukacho.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:44+00:00",
+    "title": "Lukacho UI | Components | Charts | Animations",
+    "description": "Animated UI component Collection made with Next.js | TailwindCSS | Framer Motion",
+    "keywords": "Next.js,React,Tailwind CSS,Framer Motion"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Lukacho UI",
+    "note": "Small set of free Next.js, Tailwind and Framer Motion components, with a paid template and design services.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2025-08-17",
+    "lastUpdatedEvidence": [
+      "https://ui.lukacho.com/sitemap.xml"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://ui.lukacho.com/components",
+        "https://ui.lukacho.com/components/maxed-seo"
+      ]
+    },
+    "unverified": [
+      "The only date found is the sitemap lastmod 2025-08-17, which is a uniform build timestamp rather than a dated product change.",
+      "The pricing page calls the components open source, but no public repository was found on the site or by GitHub search."
+    ]
+  }
+}

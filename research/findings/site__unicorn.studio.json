@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "url": "https://unicorn.studio",
+  "facts": {
+    "found": true,
+    "url": "https://unicorn.studio",
+    "finalUrl": "https://www.unicorn.studio/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:24+00:00",
+    "title": "Unicorn Studio — Craft Interactive Graphics that Ship",
+    "description": "Design production-ready web components with shaders, media, 3D, and interactive motion in a visual canvas.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "tool",
+    "name": "Unicorn Studio",
+    "note": "A browser-based visual editor for shader, 3D and interactive motion scenes that embed on sites through a small JS SDK.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-07",
+    "lastUpdatedEvidence": [
+      "https://www.unicorn.studio/docs/changelog/"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "75+ stackable shader effects such as dither, distortion, blur and retro, driven by scroll, hover and mouse events",
+        "Scroll Timeline for staging scroll events as bars",
+        "GPU text layers rendered as shader materials"
+      ],
+      "evidenceUrls": [
+        "https://www.unicorn.studio/",
+        "https://www.unicorn.studio/templates",
+        "https://www.unicorn.studio/docs/changelog/"
+      ]
+    },
+    "unverified": []
+  }
+}

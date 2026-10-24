@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "url": "https://ui.chetanverma.com",
+  "facts": {
+    "found": true,
+    "url": "https://ui.chetanverma.com",
+    "finalUrl": "https://ui.chetanverma.com/components/stacking-navbar",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:44+00:00",
+    "title": "Stacking Navbar - React Component | ChetanVerma UI",
+    "description": "a simple stacking navbar component made with framer motion and tailwind css.",
+    "keywords": "Stacking Navbar,React component,Tailwind CSS,Framer Motion,UI component,animated component,responsive design"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "chetanverma/ui",
+    "note": "Small set of Framer Motion and Tailwind components such as a stacking navbar and stacked cards.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-01-25",
+    "lastUpdatedEvidence": [
+      "https://github.com/chetanverma16/chetanverma-ui/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Stacking Navbar whose pills stack and fan out",
+        "Stacked Cards Interaction"
+      ],
+      "evidenceUrls": [
+        "https://ui.chetanverma.com/components/stacking-navbar"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository github.com/chetanverma16/chetanverma-ui; research that repository instead of this site.",
+      "The newest commit (2026-01-25) is a dependency security fix, not a new component."
+    ]
+  }
+}

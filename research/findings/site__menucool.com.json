@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "url": "https://menucool.com",
+  "facts": {
+    "found": true,
+    "url": "https://menucool.com",
+    "finalUrl": "https://www.menucool.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:56+00:00",
+    "title": "Elegant web components that help build websites",
+    "description": "Pure HTML, CSS, and JavaScript components that seamlessly integrate with any web application.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Menucool",
+    "note": "Long-running set of plain HTML, CSS and JavaScript menus, image sliders and tooltips, free for commercial use since November 2025.",
+    "openSource": false,
+    "pricing": "free",
+    "lastUpdated": "2025-11-11",
+    "lastUpdatedEvidence": [
+      "https://www.menucool.com/",
+      "https://www.menucool.com/responsive-slider/",
+      "https://www.menucool.com/assets/terms-of-use.html"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "No public source repository was found; components are downloaded as zips from the site and the terms keep all IP with Menucool."
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "url": "https://kokonutui.com",
+  "facts": {
+    "found": true,
+    "url": "https://kokonutui.com",
+    "finalUrl": "https://kokonutui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:24+00:00",
+    "title": "Kokonut UI - Free Open Source UI Components for React and Tailwind CSSGithubXAgentAgentAgentAgentAgentAgentAgentAgentAgentAgentAgentAgentMOVE: 479 of 800 CAL, 60%EXERCISE: 42 of 30 MIN, 140%STAND: 6 of 12 HR, 50%",
+    "description": "Open-source React components built with Tailwind CSS, Motion and shadcn/ui. Install any of them with one command or one prompt.",
+    "keywords": "ui,components,Tailwind CSS,Next.js,shadcn,motion,react design"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Kokonut UI",
+    "note": "React components on Tailwind, Motion and shadcn/ui, many modeled on physical objects such as receipts, boarding passes and dials.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-22",
+    "lastUpdatedEvidence": [
+      "https://kokonutui.com/docs/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Apple Activity Card whose three rings fill as it mounts",
+        "Receipt Printer card",
+        "Page Flip card turned by dragging a page over the spine",
+        "Time Zone Planner that turns a meeting round a 24-hour dial with one ring per person",
+        "Contact Sheet picker with china-marker circling and a loupe"
+      ],
+      "evidenceUrls": [
+        "https://kokonutui.com",
+        "https://kokonutui.com/docs/changelog"
+      ]
+    },
+    "unverified": [
+      "The component source is public in the MIT repository kokonut-labs/kokonutui (linked from the site); that repository has not yet been researched as its own candidate.",
+      "The Receipt Printer, Page Flip, Time Zone Planner and Contact Sheet effects are taken from changelog descriptions; only the Apple Activity Card was seen rendered."
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://amagi.dev/vfx-js",
+  "facts": {
+    "found": true,
+    "url": "https://amagi.dev/vfx-js",
+    "finalUrl": "https://amagi.dev/vfx-js/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:54+00:00",
+    "title": "VFX-JS - Visual Effects Framework for Web #VFXJS",
+    "description": "VFX-JS is a JavaScript library to add WebGL powered effects to your website.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "name": "VFX-JS",
+    "note": "JavaScript library that attaches WebGL shader effects such as glitch, RGB shift and halftone to ordinary img, video, canvas and div elements.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-19",
+    "lastUpdatedEvidence": [
+      "https://github.com/fand/vfx-js/commit/bbe54e6876f04ef1494fc604c88357adf7762cb0",
+      "https://registry.npmjs.org/@vfx-js/core"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "WebGL post-effects attached to plain DOM elements (img, video, GIF, canvas, experimental live div with inputs)",
+        "Preset shaders such as glitch with overflow beyond the element, rgbShift, rainbow, halftone and duotone",
+        "Viewport-triggered transition shaders: slitScanTransition, warpTransition, pixelateTransition, focusTransition"
+      ],
+      "evidenceUrls": [
+        "https://amagi.dev/vfx-js/"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository fand/vfx-js (MIT, 1158 stars); this site research has not yet been redone as a repository research of fand/vfx-js."
+    ]
+  }
+}

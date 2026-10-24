@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "url": "https://plasma.nusaiba.dev",
+  "facts": {
+    "found": true,
+    "url": "https://plasma.nusaiba.dev",
+    "finalUrl": "https://plasma.nusaiba.dev",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:18+00:00",
+    "title": "Plasma — Stunning WebGL Backgrounds Made Easy",
+    "description": "Tune colors, speed, and warp intensity live. Copy the generated WebGL shader and drop it into your project.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "tool",
+    "name": "Plasma",
+    "note": "In-browser WebGL background generator with live color, speed and warp controls that exports HTML, JS, JSON or iframe.",
+    "openSource": false,
+    "pricing": "free",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Animated warped plasma gradient background with grain and dither",
+        "Three switchable shader engines"
+      ],
+      "evidenceUrls": [
+        "https://plasma.nusaiba.dev"
+      ]
+    },
+    "unverified": [
+      "The site says it is open source under the MIT License, but it links no repository and GitHub searches found none, so openSource is false until a repository is located.",
+      "No dated change was visible on the site; only the HTTP Last-Modified header (2026-10-19) suggests a recent deploy, so lastUpdated is left empty."
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://keyframeui.com",
+  "facts": {
+    "found": true,
+    "url": "https://keyframeui.com",
+    "finalUrl": "https://keyframeui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:57+00:00",
+    "title": "KeyframeUI: Animated React components for shadcn/ui",
+    "description": "Animated React components for shadcn/ui, built with Tailwind CSS and Motion. Install a component, or a whole demo, as source with one shadcn CLI command.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "KeyframeUI",
+    "note": "Animated shadcn registry of whole landing sections, each built around one motion idea and installed as source.",
+    "openSource": false,
+    "pricing": "free",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Paint Reveal: the pointer paints a second image in with a soft brush and the stroke closes back behind it",
+        "Sentence Form: a contact form written as a sentence whose blanks stretch as you type",
+        "Keyframe timeline hero that replays the headline, copy and actions animation on a visible track"
+      ],
+      "evidenceUrls": [
+        "https://keyframeui.com/",
+        "https://keyframeui.com/preview/paint-reveal-demo",
+        "https://keyframeui.com/components/sentence-form"
+      ]
+    },
+    "unverified": [
+      "No dated changelog or release was found; the site only labels Zeno Progress as New without a date, and the sitemap has no lastmod, so lastUpdated is empty.",
+      "No public source repository was found on the site or via GitHub search; component source is only served through the registry at keyframeui.com/r.",
+      "Pricing is recorded as free because no pricing page or paid tier was found and every component installs from the public registry."
+    ]
+  }
+}

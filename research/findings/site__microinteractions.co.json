@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "url": "https://microinteractions.co",
+  "facts": {
+    "found": true,
+    "url": "https://microinteractions.co",
+    "finalUrl": "https://microinteractions.co",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:33+00:00",
+    "title": "TALAS789 : Eksplorasi Efek Visual dan Interaksi Web Modernangle-downsearchbars",
+    "description": "Jelajahi inspirasi desain interaktif bersama TALAS789, dari animasi mikro, efek hover, hingga transisi antarelemen yang memperkaya pengalaman pengguna.",
+    "keywords": "TALAS789, situs resmi, TALAS789 resmi, link TALAS789, situs TALAS789, Login TALAS789, Daftar TALAS789"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "other",
+    "name": "Microinteractions",
+    "note": "Domain now serves an Indonesian gambling site (TALAS789) instead of a microinteractions gallery.",
+    "openSource": false,
+    "pricing": "free",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": true,
+    "demoViewed": false,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "On 2026-10-24 microinteractions.co rendered a TALAS789 gambling landing page with login and register buttons, so the original product could not be viewed.",
+      "The name Microinteractions is inferred from the domain; openSource, pricing and genericCollection are placeholders because no product could be observed."
+    ]
+  }
+}

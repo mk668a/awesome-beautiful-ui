@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "url": "https://uiverse.io",
+  "facts": {
+    "found": true,
+    "url": "https://uiverse.io",
+    "finalUrl": "https://uiverse.io",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:20+00:00",
+    "title": "Uiverse | The Largest Library of Open-Source UI elements",
+    "description": "Community-made library of free and customizable UI elements made with CSS or Tailwind. It's all free to copy and use in your projects. Uiverse can save you many hours spent on building & customizing UI components for your next project.",
+    "keywords": null
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Uiverse",
+    "note": "Community-made gallery of thousands of free CSS and Tailwind UI elements such as buttons, loaders and toggles.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2024-09-02",
+    "lastUpdatedEvidence": [
+      "https://github.com/uiverse-io/galaxy"
+    ],
+    "genericCollection": null,
+    "demoViewed": false,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The elements are mirrored in the public repository uiverse-io/galaxy (MIT, about 13.6k stars); research that repository instead.",
+      "uiverse.io blocked headless browsers and curl with a Cloudflare page, so the gallery was not seen; demoViewed is false and genericCollection is undetermined.",
+      "The galaxy repository's last commit is 2024-09-02; the site's own newer activity could not be checked."
+    ]
+  }
+}

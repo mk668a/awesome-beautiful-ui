@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://vritti.thesatyajit.com",
+  "facts": {
+    "found": true,
+    "url": "https://vritti.thesatyajit.com",
+    "finalUrl": "https://vritti.thesatyajit.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:57+00:00",
+    "title": "Vritti UI",
+    "description": "Beautifully designed React components built with Next.js 16, Tailwind CSS v4, and Motion animations.",
+    "keywords": "React,Next.js,Tailwind CSS,Components,UI Library,Motion,Animations"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Vritti UI",
+    "note": "Large shadcn registry of animated components and blocks plus in-browser creative tools such as a Shader Studio and Dither Studio.",
+    "openSource": false,
+    "pricing": "free",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Shader Studio: 87 Canvas 2D and WebGL generative shaders (flow field particle trails, topographic contour map, L-system tree) with colour schemes and code export",
+        "Dither Studio for SVG dithered backgrounds and Texture Studio with stackable WebGL filters"
+      ],
+      "evidenceUrls": [
+        "https://vritti.thesatyajit.com/shader-studio",
+        "https://vritti.thesatyajit.com/"
+      ]
+    },
+    "unverified": [
+      "No dated changelog or release was found (/changelog and /docs/changelog return 404), so lastUpdated is empty.",
+      "No public source repository was found: the author's GitHub account satyajitghana has no Vritti repository and GitHub repository search for vritti returned only unrelated projects.",
+      "Pricing is free based on the absence of any pricing page or paid tier; no explicit statement was seen.",
+      "Dither Studio and Texture Studio were not opened; they are described on the home page."
+    ]
+  }
+}

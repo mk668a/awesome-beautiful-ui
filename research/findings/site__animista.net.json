@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "url": "https://animista.net",
+  "facts": {
+    "found": true,
+    "url": "https://animista.net",
+    "finalUrl": "https://animista.net",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:26+00:00",
+    "title": "Animista - On-Demand CSS Animations Library",
+    "description": "Animista is a CSS animation library and a place where you can play with a collection of ready-made CSS animations and download only those you will use.",
+    "keywords": "CSS, animation, library, web, front-end, frontend, development, ux, design, motion, keyframe"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "tool",
+    "name": "Animista",
+    "note": "Browser playground of CSS keyframe animations you tune live and download as a file containing only the ones you picked.",
+    "openSource": false,
+    "pricing": "free",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "On-demand builder: tune duration, easing, delay and iteration per animation and generate only its keyframes",
+        "Favorites basket downloaded as one custom CSS file of just the chosen animations"
+      ],
+      "evidenceUrls": [
+        "https://animista.net/play/basic/scale-up",
+        "https://animista.net/"
+      ]
+    },
+    "unverified": [
+      "No dated change was found: the footer says only ©2017 and the sitemap lists lastmod 2005-01-01, so lastUpdated is empty."
+    ]
+  }
+}

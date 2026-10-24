@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://odysseyui.com",
+  "facts": {
+    "found": true,
+    "url": "https://odysseyui.com",
+    "finalUrl": "https://www.odysseyui.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:08+00:00",
+    "title": "Odyssey UI - Animated React Components",
+    "description": "Fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion and Shadcn CLI. Browse a list of components you can install, modify, and use in your projects.",
+    "keywords": "Odyssey UI,React,TypeScript,Tailwind CSS,Framer Motion,Open-source components,Animated UI components,UI library"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Odyssey UI",
+    "note": "Animated React components including AI chat elements, Spotify-style music cards and text effects.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-05-06",
+    "lastUpdatedEvidence": [
+      "https://github.com/Shr3kx/OdysseyUI/commit/b83eb73b43a446be293cac9ae5af313aa45201e6"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "AI Elements set: Thought Chain, Token Usage, Model Selector, Prompt Input",
+        "Music widgets: Spotify Card and Album Cards",
+        "Greetings Preloader",
+        "Pixel-font hero over an animated rippling fabric background"
+      ],
+      "evidenceUrls": [
+        "https://www.odysseyui.com/",
+        "https://www.odysseyui.com/docs/components"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository Shr3kx/OdysseyUI (no license detected by GitHub); that repository has not been researched yet.",
+      "Individual components were seen only as names in the docs sidebar; the homepage was the only demo viewed."
+    ]
+  }
+}

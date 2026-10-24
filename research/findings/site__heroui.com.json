@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "url": "https://heroui.com",
+  "facts": {
+    "found": true,
+    "url": "https://heroui.com",
+    "finalUrl": "https://heroui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:07+00:00",
+    "title": "HeroUI v3 (Previously NextUI) - Beautiful by default, customizable by design.",
+    "description": "Beautiful, accessible React UI components built on React Aria and Tailwind CSS v4. The modern alternative to MUI, Chakra UI, and shadcn/ui for building production-ready applications.",
+    "keywords": "React,Next.js,NextUI,Tailwind CSS,HeroUI,React Aria,Server Components,React Components,UI Components,UI Kit,UI Library,UI Framework,UI Design System,React UI library,React component library,Tailwind CSS components,accessible React components,React design system,best React UI library,React UI kit,shadcn alternative,MUI alternative,Chakra UI alternative"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "name": "HeroUI",
+    "note": "React and React Native component library built on React Aria and Tailwind CSS v4, formerly NextUI.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-20",
+    "lastUpdatedEvidence": [
+      "https://heroui.com/en/docs/native/releases/v1-0-11"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://heroui.com/"
+      ]
+    },
+    "unverified": [
+      "The component source is public in github.com/heroui-inc/heroui (Apache-2.0); research that repository instead of this site."
+    ]
+  }
+}

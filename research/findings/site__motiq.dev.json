@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "url": "https://motiq.dev",
+  "facts": {
+    "found": true,
+    "url": "https://motiq.dev",
+    "finalUrl": "https://motiq.dev",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:59+00:00",
+    "title": "Motiq - Animated React & shadcn components, installable as editable source.",
+    "description": "Beautiful, production-ready animated React and shadcn components you install as editable source.",
+    "keywords": "React components,shadcn components,animated components,Next.js components,Framer Motion,Motion for React,UI library,component registry,editable source,reduced motion,accessible components,Tailwind CSS,RSC,copy paste components"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Motiq",
+    "note": "Animated React and shadcn components for product workflows such as streaming AI responses, agent timelines and ambient backgrounds.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-08-11",
+    "lastUpdatedEvidence": [
+      "https://motiq.dev/updates"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "AI Response Stream: streaming assistant reply with a live Responding status",
+        "Luminous Topography: layered contour background that flows around focal regions with a travelling light"
+      ],
+      "evidenceUrls": [
+        "https://motiq.dev/",
+        "https://motiq.dev/components?category=backgrounds"
+      ]
+    },
+    "unverified": [
+      "The components are in the public repository RMahammad/motiq (MIT, 25 stars, last commit 2026-09-05); that repository has not been researched yet."
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "url": "https://jolyui.dev",
+  "facts": {
+    "found": true,
+    "url": "https://jolyui.dev",
+    "finalUrl": "https://www.jolyui.dev/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:22+00:00",
+    "title": "Joly UI - 50+ Free shadcn/ui Components for React & Next.js",
+    "description": "50+ free, open-source React components built on shadcn/ui & Radix. Copy-paste ready for Next.js, TypeScript & Tailwind CSS.",
+    "keywords": "react components,ui library,shadcn ui,shadcn components,shadcn registry,radix ui,tailwind css components,tailwind ui,typescript components,nextjs ui,nextjs components,react 19,react server components,accessible components,a11y components,wcag compliant,keyboard navigation,dark mode ui,theming,copy paste components,free ui components,open source ui library,component library,design system,headless ui,react ui kit,button components,form components,input components,navigation components,modal components,dialog components,dropdown menu,text animations,animated components,shadcn alternative,radix ui components,chakra ui alternative,material ui alternative"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Joly UI",
+    "note": "A free shadcn/ui registry of about 50 React components, mostly buttons, inputs and text animations.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-09-20",
+    "lastUpdatedEvidence": [
+      "https://www.jolyui.dev/docs/components/buttons/liquid-metal-button",
+      "https://www.jolyui.dev/docs/components/creative/image-sphere"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The component source is public at github.com/Johuniq/jolyui (MIT, 268 stars); that repository has not yet been researched as a repo candidate.",
+      "The Liquid Metal Button builds on the @paper-design/shaders package rather than an effect of its own, which is why no signature effect is recorded."
+    ]
+  }
+}

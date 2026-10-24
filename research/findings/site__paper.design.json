@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://paper.design",
+  "facts": {
+    "found": true,
+    "url": "https://paper.design",
+    "finalUrl": "https://paper.design",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:24+00:00",
+    "title": "Paper – design, share, ship",
+    "description": "Paper is a modern and powerful design tool that helps you create, share, and ship your best work.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "app",
+    "name": "Paper",
+    "note": "Design tool on a web-standards canvas with built-in GPU shaders and an MCP server for coding agents.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-21",
+    "lastUpdatedEvidence": [
+      "https://github.com/paper-design/shaders/commits/main",
+      "https://paper.design/build-log"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Paper Shaders: GPU shader fills such as Paper Texture and CMYK Halftone",
+        "Agents drawing artboards on the canvas through Paper's MCP tools"
+      ],
+      "evidenceUrls": [
+        "https://paper.design/",
+        "https://paper.design/build-log",
+        "https://paper.design/blog"
+      ]
+    },
+    "unverified": [
+      "The 2026-10-21 date is the Publish 0.0.82 commit of the Paper Shaders package; the app's own build log is dated only by month (September 2026)."
+    ]
+  }
+}

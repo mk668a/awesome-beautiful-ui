@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://chamaac.com",
+  "facts": {
+    "found": true,
+    "url": "https://chamaac.com",
+    "finalUrl": "https://www.chamaac.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:54+00:00",
+    "title": "Chamaac UI | High-Performance Shaders & UI Components",
+    "description": "Explore a premium collection of high-performance shader components, interactive backgrounds, and modern UI elements crafted with React and GLSL.",
+    "keywords": "Chamaac UI,Shaders,GLSL Shaders,Animated Backgrounds,Shaders & UI Components,React Shader Components,GLSL Components,WebGL UI,High-performance shaders,React Three Fiber backgrounds,Interactive UI components,Modern web design,Framer Motion components,Next.js components"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Chamaac UI",
+    "note": "React components centred on GLSL shader backgrounds such as Astral Flow, Liquid Chrome and Grid Bloom.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-06-30",
+    "lastUpdatedEvidence": [
+      "https://github.com/amarnathdhumal/chamaacui/commit/345d79b1b1d4c89c2394a5c23ac12a9861c383c2"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "GLSL shader backgrounds: Astral Flow, Grid Bloom, Liquid Chrome, Electric Mist, Nebula, Light Speed",
+        "Gif Text: large lettering filled with moving imagery",
+        "Grid Bloom: a warping glowing wireframe grid"
+      ],
+      "evidenceUrls": [
+        "https://www.chamaac.com/",
+        "https://www.chamaac.com/components/backgrounds/astral-flow",
+        "https://www.chamaac.com/components/text-animations/gif-text"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository amarnathdhumal/chamaacui (MIT); that repository has not been researched yet.",
+      "Pricing free is inferred from the MIT repository and the absence of a pricing page; the site FAQ 'Is it free to use?' answer was not expanded, and later requests were blocked by a Cloudflare 1015 rate limit."
+    ]
+  }
+}

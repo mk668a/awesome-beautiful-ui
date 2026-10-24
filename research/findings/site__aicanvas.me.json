@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://aicanvas.me",
+  "facts": {
+    "found": true,
+    "url": "https://aicanvas.me",
+    "finalUrl": "https://aicanvas.me",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:36+00:00",
+    "title": "React Component Registry: Components, Blocks & Design Systems | AI Canvas",
+    "description": "Install finished React components, blocks, and design systems with one shadcn CLI command. Real, editable code you own, no AI tokens spent.",
+    "keywords": "animated react components,react component library,framer motion components,tailwind css components,shadcn registry,copy paste react components,UI components with AI prompts,react component AI prompt,V0 animated component,vibe coding UI components,free react UI components,open source animated components,animated UI kit"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "AI Canvas",
+    "note": "Animated React components, blocks and design systems installed with the shadcn CLI, with AI-agent diagram widgets.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-23",
+    "lastUpdatedEvidence": [
+      "https://github.com/aicanvas-me/aicanvas/commit/b22339a6fdff94b437901662349595a94ec026cb"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Agent Cost Flow: a sankey-like diagram of source strands bundling into subagent lanes sized by cost",
+        "Fluid Simulation Hero on a real-time WebGL fluid the pointer stirs",
+        "Magnetic Logo Cluster: a drifting swarm of logo marks that bends toward the cursor",
+        "Diamond Grid canvas where seeded sparks send light outward until fronts meet"
+      ],
+      "evidenceUrls": [
+        "https://aicanvas.me/components",
+        "https://aicanvas.me"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository aicanvas-me/aicanvas (MIT, described as open-core); that repository has not been researched yet.",
+      "Premium items (Andromeda Pro and components marked Premium) were seen on the site; the exact prices on https://aicanvas.me/pricing were not opened."
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "url": "https://skecher-ui.com",
+  "facts": {
+    "found": true,
+    "url": "https://skecher-ui.com",
+    "finalUrl": "https://skecher-ui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:19+00:00",
+    "title": "Skecher UI - Motion Components for React",
+    "description": "Copy polished React motion components with live previews, source code, dependencies, and shadcn registry commands.",
+    "keywords": "Skecher UI,React motion components,shadcn registry,shadcn components,Motion React,animated React components,Tailwind CSS components,component library"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Skecher UI",
+    "note": "shadcn registry of about 28 React motion components such as liquid glass, gooey toolbar and dithered credit card.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-19",
+    "lastUpdatedEvidence": [
+      "https://github.com/CoDesign-Spa27/skecher-ui"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Dither credit card",
+        "Liquid morphology slideshow",
+        "Gooey toolbar",
+        "3D wheel carousel",
+        "ASCII dot-field hero backdrop"
+      ],
+      "evidenceUrls": [
+        "https://skecher-ui.com",
+        "https://github.com/CoDesign-Spa27/skecher-ui"
+      ]
+    },
+    "unverified": [
+      "The source is in the public repository CoDesign-Spa27/skecher-ui; research that repository instead. The repository reports no license.",
+      "Only the homepage was seen in a screenshot; component effects are named from the repository registry.json, not viewed running."
+    ]
+  }
+}

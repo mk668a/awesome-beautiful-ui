@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://atelier-ui.com",
+  "facts": {
+    "found": true,
+    "url": "https://atelier-ui.com",
+    "finalUrl": "https://www.atelier-ui.com/en",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:16+00:00",
+    "title": "Atelier UI — Handcrafted React Animations & UI Components",
+    "description": "Atelier UI is a growing collection of quality web animations and creative tools, built with React, TypeScript, Tailwind CSS, Motion, and React Three Fiber.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Atelier UI",
+    "note": "React animation registry of WebGL shaders and 3D galleries built with React Three Fiber and Motion.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-20",
+    "lastUpdatedEvidence": [
+      "https://github.com/whatisjery/atelier-ui"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Fluid Distortion cursor shader",
+        "Orbit, Sphere and Spiral 3D image galleries",
+        "Glowing Fog postprocessing background",
+        "Halftone Glow background"
+      ],
+      "evidenceUrls": [
+        "https://www.atelier-ui.com/en",
+        "https://www.atelier-ui.com/en/docs/components/cursor/fluid-distortion"
+      ]
+    },
+    "unverified": [
+      "The free components are in the public repository whatisjery/atelier-ui (MIT); research that repository instead. The 14 pro-only components ($79.99 one-time) are presumably not in it.",
+      "Only the homepage hero was seen in a screenshot; the effect names come from the page text and component links."
+    ]
+  }
+}

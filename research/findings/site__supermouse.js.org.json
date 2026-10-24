@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://supermouse.js.org",
+  "facts": {
+    "found": true,
+    "url": "https://supermouse.js.org",
+    "finalUrl": "https://supermouse.js.org",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:49+00:00",
+    "title": "Home | Supermouse.js",
+    "description": "A modular, high-performance cursor engine for building dynamic, beautiful cursors for the web.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "name": "supermouse.js",
+    "note": "Plugin-based custom cursor engine with spring smoothing, where dot, ring, trail, magnetic and stick effects are separate packages.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-09-08",
+    "lastUpdatedEvidence": [
+      "https://github.com/Whitestar14/supermouse-js"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Kernel plus plugin cursor architecture with priority-scheduled logic and visual plugins",
+        "Magnetic and stick cursor plugins that pull the cursor toward hovered targets"
+      ],
+      "evidenceUrls": [
+        "https://supermouse.js.org",
+        "https://github.com/Whitestar14/supermouse-js"
+      ]
+    },
+    "unverified": [
+      "The source is public at https://github.com/Whitestar14/supermouse-js (MIT, 2 stars); the candidate should be researched as that repository instead of the site.",
+      "The magnetic and stick effects are taken from the package list and changelog; only the custom pointer cursor was seen running on the homepage."
+    ]
+  }
+}

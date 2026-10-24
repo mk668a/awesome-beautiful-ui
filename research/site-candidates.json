@@ -1,0 +1,1396 @@
+{
+  "generatedAt": "2026-10-24T04:38:56+00:00",
+  "queryIds": [
+    "react-animation",
+    "text-animation",
+    "animated-components",
+    "shadcn-animation",
+    "design-engineers",
+    "shaders",
+    "creative-coding",
+    "generative-art",
+    "react-webgl",
+    "web-components",
+    "framer-components",
+    "no-code-components",
+    "mcp-components",
+    "alternatives"
+  ],
+  "surfaced": {
+    "https://reactbits.dev": [
+      "react-animation",
+      "alternatives",
+      "text-animation",
+      "mcp-components"
+    ],
+    "https://fancycomponents.dev": [
+      "react-animation",
+      "shadcn-animation",
+      "alternatives"
+    ],
+    "https://magicui.design": [
+      "react-animation",
+      "animated-components",
+      "shadcn-animation",
+      "framer-components",
+      "alternatives",
+      "web-components",
+      "design-engineers"
+    ],
+    "https://ui.aceternity.com": [
+      "react-animation",
+      "animated-components",
+      "shadcn-animation",
+      "framer-components",
+      "alternatives",
+      "text-animation",
+      "web-components"
+    ],
+    "https://cult-ui.com": [
+      "react-animation",
+      "animated-components",
+      "shadcn-animation",
+      "framer-components",
+      "alternatives",
+      "web-components"
+    ],
+    "https://motion-primitives.com": [
+      "react-animation",
+      "animated-components",
+      "shadcn-animation",
+      "framer-components",
+      "alternatives",
+      "web-components"
+    ],
+    "https://eldoraui.site": [
+      "react-animation",
+      "animated-components",
+      "shadcn-animation",
+      "framer-components",
+      "alternatives",
+      "web-components"
+    ],
+    "https://animata.design": [
+      "react-animation",
+      "animated-components",
+      "framer-components",
+      "alternatives",
+      "text-animation",
+      "web-components",
+      "design-engineers"
+    ],
+    "https://originui.com": [
+      "react-animation",
+      "animated-components",
+      "alternatives",
+      "web-components",
+      "design-engineers"
+    ],
+    "https://kibo-ui.com": [
+      "react-animation",
+      "animated-components",
+      "alternatives",
+      "web-components",
+      "design-engineers"
+    ],
+    "https://vault.hyperiux.com": [
+      "react-animation",
+      "animated-components",
+      "shadcn-animation",
+      "framer-components",
+      "alternatives",
+      "mcp-components",
+      "react-webgl"
+    ],
+    "https://shadcnspace.com": [
+      "react-animation",
+      "design-engineers"
+    ],
+    "https://heroui.com": [
+      "react-animation"
+    ],
+    "https://originkit.dev": [
+      "animated-components",
+      "framer-components",
+      "no-code-components"
+    ],
+    "https://daisyui.com": [
+      "animated-components",
+      "web-components"
+    ],
+    "https://uiverse.io": [
+      "animated-components",
+      "alternatives",
+      "web-components"
+    ],
+    "https://floatui.com": [
+      "animated-components",
+      "web-components"
+    ],
+    "https://ui.shadcn.com": [
+      "animated-components",
+      "web-components"
+    ],
+    "https://nextui.org": [
+      "animated-components",
+      "web-components"
+    ],
+    "https://threeui.com": [
+      "animated-components",
+      "shadcn-animation",
+      "framer-components",
+      "mcp-components",
+      "alternatives"
+    ],
+    "https://smoothui.dev": [
+      "animated-components",
+      "shadcn-animation",
+      "framer-components",
+      "mcp-components",
+      "alternatives"
+    ],
+    "https://great-ui.com": [
+      "animated-components",
+      "framer-components",
+      "mcp-components",
+      "alternatives"
+    ],
+    "https://kaif-ui.vercel.app": [
+      "animated-components",
+      "framer-components",
+      "alternatives"
+    ],
+    "https://uaiblocks.dev": [
+      "animated-components",
+      "framer-components",
+      "mcp-components",
+      "alternatives"
+    ],
+    "https://docs.avenra.online": [
+      "animated-components",
+      "framer-components",
+      "alternatives"
+    ],
+    "https://bundui.io": [
+      "animated-components"
+    ],
+    "https://osmo.supply": [
+      "animated-components",
+      "text-animation",
+      "no-code-components",
+      "alternatives"
+    ],
+    "https://flow-shield-effect.vercel.app": [
+      "animated-components"
+    ],
+    "https://animate-ui.com": [
+      "shadcn-animation",
+      "react-animation",
+      "alternatives"
+    ],
+    "https://ui-layouts.com": [
+      "shadcn-animation",
+      "alternatives",
+      "react-webgl"
+    ],
+    "https://spell.sh": [
+      "shadcn-animation",
+      "alternatives"
+    ],
+    "https://componentry.fun": [
+      "shadcn-animation"
+    ],
+    "https://jolyui.dev": [
+      "shadcn-animation",
+      "alternatives"
+    ],
+    "https://terrae.dev": [
+      "shadcn-animation"
+    ],
+    "https://evilbuttons.com": [
+      "shadcn-animation"
+    ],
+    "https://forgeui.in": [
+      "shadcn-animation",
+      "alternatives"
+    ],
+    "https://framecn.vercel.app": [
+      "shadcn-animation"
+    ],
+    "https://sona-ui.vercel.app": [
+      "shadcn-animation"
+    ],
+    "https://ui.unlumen.com": [
+      "shadcn-animation"
+    ],
+    "https://remotionui.com": [
+      "shadcn-animation"
+    ],
+    "https://microkit.co": [
+      "shadcn-animation"
+    ],
+    "https://spark-ui-olive.vercel.app": [
+      "shadcn-animation"
+    ],
+    "https://grootstudio.vercel.app": [
+      "shadcn-animation"
+    ],
+    "https://motion-lexicon.pages.dev": [
+      "shadcn-animation"
+    ],
+    "https://serenity-ui.com": [
+      "shadcn-animation",
+      "alternatives"
+    ],
+    "https://atelier-ui.com": [
+      "shadcn-animation"
+    ],
+    "https://skecher-ui.com": [
+      "shadcn-animation"
+    ],
+    "https://animbits.dev": [
+      "shadcn-animation"
+    ],
+    "https://systaliko-ui.vercel.app": [
+      "shadcn-animation",
+      "alternatives"
+    ],
+    "https://gooseui.pro": [
+      "shadcn-animation"
+    ],
+    "https://odysseyui.com": [
+      "shadcn-animation"
+    ],
+    "https://motiq.dev": [
+      "shadcn-animation",
+      "alternatives"
+    ],
+    "https://gsap.pacekit.dev": [
+      "shadcn-animation",
+      "text-animation"
+    ],
+    "https://paceui.com": [
+      "shadcn-animation",
+      "alternatives"
+    ],
+    "https://ui.pacekit.dev": [
+      "shadcn-animation"
+    ],
+    "https://ui.soralabs.studio": [
+      "shadcn-animation"
+    ],
+    "https://ui.radiumcoders.com": [
+      "shadcn-animation"
+    ],
+    "https://corsairui.vercel.app": [
+      "shadcn-animation"
+    ],
+    "https://slidecn.vercel.app": [
+      "shadcn-animation"
+    ],
+    "https://ui.iandefined.com": [
+      "shadcn-animation"
+    ],
+    "https://crafterui.com": [
+      "shadcn-animation"
+    ],
+    "https://trytweenly.vercel.app": [
+      "shadcn-animation"
+    ],
+    "https://mewo-ui.vercel.app": [
+      "shadcn-animation"
+    ],
+    "https://dev.stacklyui.in": [
+      "shadcn-animation"
+    ],
+    "https://awwwardedui.vercel.app": [
+      "shadcn-animation"
+    ],
+    "https://facadeui.dev": [
+      "shadcn-animation"
+    ],
+    "https://ui.wensity.com": [
+      "shadcn-animation"
+    ],
+    "https://upfork.dev": [
+      "shadcn-animation"
+    ],
+    "https://viberdy.dev": [
+      "shadcn-animation"
+    ],
+    "https://blockdex.dev": [
+      "shadcn-animation"
+    ],
+    "https://chewypixel.io": [
+      "shadcn-animation"
+    ],
+    "https://keyframeui.com": [
+      "shadcn-animation"
+    ],
+    "https://morphiq.prathampatel.design": [
+      "shadcn-animation"
+    ],
+    "https://nexus-ui.com": [
+      "shadcn-animation"
+    ],
+    "https://satoriui.site": [
+      "shadcn-animation"
+    ],
+    "https://sonaui.com": [
+      "shadcn-animation"
+    ],
+    "https://uniquel.io": [
+      "shadcn-animation"
+    ],
+    "https://uselayouts.com": [
+      "shadcn-animation"
+    ],
+    "https://framercomponentss.framer.website": [
+      "framer-components"
+    ],
+    "https://framepad.co": [
+      "framer-components"
+    ],
+    "https://framerize.co": [
+      "framer-components"
+    ],
+    "https://tilebit.io": [
+      "framer-components"
+    ],
+    "https://everythingframer.com": [
+      "framer-components"
+    ],
+    "https://flowbase.co": [
+      "framer-components",
+      "no-code-components"
+    ],
+    "https://shadersbypaper.framer.ai": [
+      "framer-components"
+    ],
+    "https://paper.design": [
+      "framer-components",
+      "creative-coding"
+    ],
+    "https://framer.university": [
+      "framer-components"
+    ],
+    "https://pro.reactbits.dev": [
+      "alternatives"
+    ],
+    "https://vue-bits.dev": [
+      "alternatives"
+    ],
+    "https://kokonutui.com": [
+      "alternatives",
+      "react-animation",
+      "design-engineers"
+    ],
+    "https://skiper-ui.com": [
+      "alternatives"
+    ],
+    "https://hover.dev": [
+      "alternatives",
+      "web-components"
+    ],
+    "https://lunarui.dev": [
+      "alternatives"
+    ],
+    "https://launchuicomponents.com": [
+      "alternatives"
+    ],
+    "https://shadcn.io": [
+      "text-animation"
+    ],
+    "https://10015.io": [
+      "text-animation"
+    ],
+    "https://animista.net": [
+      "text-animation"
+    ],
+    "https://motion.dev": [
+      "text-animation",
+      "design-engineers",
+      "mcp-components"
+    ],
+    "https://cssfx.netlify.app": [
+      "creative-coding"
+    ],
+    "https://supermouse.js.org": [
+      "creative-coding"
+    ],
+    "https://unicorn.studio": [
+      "creative-coding",
+      "shaders"
+    ],
+    "https://instantgradient.com": [
+      "creative-coding"
+    ],
+    "https://weavesilk.com": [
+      "generative-art"
+    ],
+    "https://generative.app": [
+      "generative-art"
+    ],
+    "https://codebox.net/pages/generative-patterns": [
+      "generative-art"
+    ],
+    "https://webawesome.com": [
+      "web-components"
+    ],
+    "https://menucool.com": [
+      "web-components"
+    ],
+    "https://ayroui.com": [
+      "web-components"
+    ],
+    "https://vritti.thesatyajit.com": [
+      "design-engineers"
+    ],
+    "https://shader.gallery": [
+      "design-engineers",
+      "shaders"
+    ],
+    "https://framersnippets.com": [
+      "no-code-components"
+    ],
+    "https://microinteractions.co": [
+      "no-code-components"
+    ],
+    "https://relume.io": [
+      "no-code-components"
+    ],
+    "https://brixtemplates.com/elements-free-webflow-library": [
+      "no-code-components"
+    ],
+    "https://aicanvas.me": [
+      "mcp-components"
+    ],
+    "https://ui.soralabs.io.vn": [
+      "mcp-components"
+    ],
+    "https://shaders.com": [
+      "mcp-components",
+      "shaders"
+    ],
+    "https://untitledui.com": [
+      "mcp-components"
+    ],
+    "https://ui.chetanverma.com": [
+      "alternatives"
+    ],
+    "https://svg-ui.com": [
+      "alternatives"
+    ],
+    "https://farmui.com": [
+      "alternatives"
+    ],
+    "https://badtz-ui.com": [
+      "alternatives"
+    ],
+    "https://shsfui.com": [
+      "alternatives"
+    ],
+    "https://remocn.dev": [
+      "alternatives"
+    ],
+    "https://ui.lukacho.com": [
+      "alternatives"
+    ],
+    "https://ui.rechesoares.com": [
+      "alternatives"
+    ],
+    "https://buildui.com": [
+      "alternatives"
+    ],
+    "https://ui.phucbm.com": [
+      "alternatives"
+    ],
+    "https://nyxbui.design": [
+      "alternatives"
+    ],
+    "https://voxlet-ui.vercel.app": [
+      "alternatives"
+    ],
+    "https://plasma.nusaiba.dev": [
+      "shaders"
+    ],
+    "https://shadergradient.co": [
+      "shaders"
+    ],
+    "https://neat.firecms.co": [
+      "shaders"
+    ],
+    "https://color4bg.com": [
+      "shaders"
+    ],
+    "https://amagi.dev/vfx-js": [
+      "shaders"
+    ],
+    "https://noisedeck.app": [
+      "shaders"
+    ],
+    "https://magicpattern.design/tools/shader-background-generator": [
+      "shaders"
+    ],
+    "https://uvcanvas.com": [
+      "react-webgl"
+    ],
+    "https://cobe.vercel.app": [
+      "react-webgl"
+    ],
+    "https://axiom-ui-pink.vercel.app": [
+      "react-webgl"
+    ],
+    "https://chamaac.com": [
+      "react-webgl"
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://reactbits.dev",
+      "queryIds": [
+        "react-animation"
+      ]
+    },
+    {
+      "url": "https://fancycomponents.dev",
+      "queryIds": [
+        "react-animation"
+      ]
+    },
+    {
+      "url": "https://magicui.design",
+      "queryIds": [
+        "react-animation"
+      ]
+    },
+    {
+      "url": "https://ui.aceternity.com",
+      "queryIds": [
+        "react-animation"
+      ]
+    },
+    {
+      "url": "https://cult-ui.com",
+      "queryIds": [
+        "react-animation"
+      ]
+    },
+    {
+      "url": "https://motion-primitives.com",
+      "queryIds": [
+        "react-animation"
+      ]
+    },
+    {
+      "url": "https://eldoraui.site",
+      "queryIds": [
+        "react-animation"
+      ]
+    },
+    {
+      "url": "https://animata.design",
+      "queryIds": [
+        "react-animation"
+      ]
+    },
+    {
+      "url": "https://originui.com",
+      "queryIds": [
+        "react-animation"
+      ]
+    },
+    {
+      "url": "https://kibo-ui.com",
+      "queryIds": [
+        "react-animation"
+      ]
+    },
+    {
+      "url": "https://vault.hyperiux.com",
+      "queryIds": [
+        "react-animation"
+      ]
+    },
+    {
+      "url": "https://shadcnspace.com",
+      "queryIds": [
+        "react-animation"
+      ]
+    },
+    {
+      "url": "https://heroui.com",
+      "queryIds": [
+        "react-animation"
+      ]
+    },
+    {
+      "url": "https://originkit.dev",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://daisyui.com",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://uiverse.io",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://floatui.com",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://ui.shadcn.com",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://nextui.org",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://threeui.com",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://smoothui.dev",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://great-ui.com",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://kaif-ui.vercel.app",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://uaiblocks.dev",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://docs.avenra.online",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://bundui.io",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://osmo.supply",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://flow-shield-effect.vercel.app",
+      "queryIds": [
+        "animated-components"
+      ]
+    },
+    {
+      "url": "https://animate-ui.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://ui-layouts.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://spell.sh",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://componentry.fun",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://jolyui.dev",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://terrae.dev",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://evilbuttons.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://forgeui.in",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://framecn.vercel.app",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://sona-ui.vercel.app",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://ui.unlumen.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://remotionui.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://microkit.co",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://spark-ui-olive.vercel.app",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://grootstudio.vercel.app",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://motion-lexicon.pages.dev",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://serenity-ui.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://atelier-ui.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://skecher-ui.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://animbits.dev",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://systaliko-ui.vercel.app",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://gooseui.pro",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://odysseyui.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://motiq.dev",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://gsap.pacekit.dev",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://paceui.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://ui.pacekit.dev",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://ui.soralabs.studio",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://ui.radiumcoders.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://corsairui.vercel.app",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://slidecn.vercel.app",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://ui.iandefined.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://crafterui.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://trytweenly.vercel.app",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://mewo-ui.vercel.app",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://dev.stacklyui.in",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://awwwardedui.vercel.app",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://facadeui.dev",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://ui.wensity.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://upfork.dev",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://viberdy.dev",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://blockdex.dev",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://chewypixel.io",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://keyframeui.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://morphiq.prathampatel.design",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://nexus-ui.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://satoriui.site",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://sonaui.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://uniquel.io",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://uselayouts.com",
+      "queryIds": [
+        "shadcn-animation"
+      ]
+    },
+    {
+      "url": "https://framercomponentss.framer.website",
+      "queryIds": [
+        "framer-components"
+      ]
+    },
+    {
+      "url": "https://framepad.co",
+      "queryIds": [
+        "framer-components"
+      ]
+    },
+    {
+      "url": "https://framerize.co",
+      "queryIds": [
+        "framer-components"
+      ]
+    },
+    {
+      "url": "https://tilebit.io",
+      "queryIds": [
+        "framer-components"
+      ]
+    },
+    {
+      "url": "https://everythingframer.com",
+      "queryIds": [
+        "framer-components"
+      ]
+    },
+    {
+      "url": "https://flowbase.co",
+      "queryIds": [
+        "framer-components"
+      ]
+    },
+    {
+      "url": "https://shadersbypaper.framer.ai",
+      "queryIds": [
+        "framer-components"
+      ]
+    },
+    {
+      "url": "https://paper.design",
+      "queryIds": [
+        "framer-components"
+      ]
+    },
+    {
+      "url": "https://framer.university",
+      "queryIds": [
+        "framer-components"
+      ]
+    },
+    {
+      "url": "https://pro.reactbits.dev",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://vue-bits.dev",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://kokonutui.com",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://skiper-ui.com",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://hover.dev",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://lunarui.dev",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://launchuicomponents.com",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://shadcn.io",
+      "queryIds": [
+        "text-animation"
+      ]
+    },
+    {
+      "url": "https://10015.io",
+      "queryIds": [
+        "text-animation"
+      ]
+    },
+    {
+      "url": "https://animista.net",
+      "queryIds": [
+        "text-animation"
+      ]
+    },
+    {
+      "url": "https://motion.dev",
+      "queryIds": [
+        "text-animation"
+      ]
+    },
+    {
+      "url": "https://cssfx.netlify.app",
+      "queryIds": [
+        "creative-coding"
+      ]
+    },
+    {
+      "url": "https://supermouse.js.org",
+      "queryIds": [
+        "creative-coding"
+      ]
+    },
+    {
+      "url": "https://unicorn.studio",
+      "queryIds": [
+        "creative-coding"
+      ]
+    },
+    {
+      "url": "https://instantgradient.com",
+      "queryIds": [
+        "creative-coding"
+      ]
+    },
+    {
+      "url": "https://weavesilk.com",
+      "queryIds": [
+        "generative-art"
+      ]
+    },
+    {
+      "url": "https://generative.app",
+      "queryIds": [
+        "generative-art"
+      ]
+    },
+    {
+      "url": "https://codebox.net/pages/generative-patterns",
+      "queryIds": [
+        "generative-art"
+      ]
+    },
+    {
+      "url": "https://webawesome.com",
+      "queryIds": [
+        "web-components"
+      ]
+    },
+    {
+      "url": "https://menucool.com",
+      "queryIds": [
+        "web-components"
+      ]
+    },
+    {
+      "url": "https://ayroui.com",
+      "queryIds": [
+        "web-components"
+      ]
+    },
+    {
+      "url": "https://vritti.thesatyajit.com",
+      "queryIds": [
+        "design-engineers"
+      ]
+    },
+    {
+      "url": "https://shader.gallery",
+      "queryIds": [
+        "design-engineers"
+      ]
+    },
+    {
+      "url": "https://framersnippets.com",
+      "queryIds": [
+        "no-code-components"
+      ]
+    },
+    {
+      "url": "https://microinteractions.co",
+      "queryIds": [
+        "no-code-components"
+      ]
+    },
+    {
+      "url": "https://relume.io",
+      "queryIds": [
+        "no-code-components"
+      ]
+    },
+    {
+      "url": "https://brixtemplates.com/elements-free-webflow-library",
+      "queryIds": [
+        "no-code-components"
+      ]
+    },
+    {
+      "url": "https://aicanvas.me",
+      "queryIds": [
+        "mcp-components"
+      ]
+    },
+    {
+      "url": "https://ui.soralabs.io.vn",
+      "queryIds": [
+        "mcp-components"
+      ]
+    },
+    {
+      "url": "https://shaders.com",
+      "queryIds": [
+        "mcp-components"
+      ]
+    },
+    {
+      "url": "https://untitledui.com",
+      "queryIds": [
+        "mcp-components"
+      ]
+    },
+    {
+      "url": "https://ui.chetanverma.com",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://svg-ui.com",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://farmui.com",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://badtz-ui.com",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://shsfui.com",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://remocn.dev",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://ui.lukacho.com",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://ui.rechesoares.com",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://buildui.com",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://ui.phucbm.com",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://nyxbui.design",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://voxlet-ui.vercel.app",
+      "queryIds": [
+        "alternatives"
+      ]
+    },
+    {
+      "url": "https://plasma.nusaiba.dev",
+      "queryIds": [
+        "shaders"
+      ]
+    },
+    {
+      "url": "https://shadergradient.co",
+      "queryIds": [
+        "shaders"
+      ]
+    },
+    {
+      "url": "https://neat.firecms.co",
+      "queryIds": [
+        "shaders"
+      ]
+    },
+    {
+      "url": "https://color4bg.com",
+      "queryIds": [
+        "shaders"
+      ]
+    },
+    {
+      "url": "https://amagi.dev/vfx-js",
+      "queryIds": [
+        "shaders"
+      ]
+    },
+    {
+      "url": "https://noisedeck.app",
+      "queryIds": [
+        "shaders"
+      ]
+    },
+    {
+      "url": "https://magicpattern.design/tools/shader-background-generator",
+      "queryIds": [
+        "shaders"
+      ]
+    },
+    {
+      "url": "https://uvcanvas.com",
+      "queryIds": [
+        "react-webgl"
+      ]
+    },
+    {
+      "url": "https://cobe.vercel.app",
+      "queryIds": [
+        "react-webgl"
+      ]
+    },
+    {
+      "url": "https://axiom-ui-pink.vercel.app",
+      "queryIds": [
+        "react-webgl"
+      ]
+    },
+    {
+      "url": "https://chamaac.com",
+      "queryIds": [
+        "react-webgl"
+      ]
+    }
+  ]
+}

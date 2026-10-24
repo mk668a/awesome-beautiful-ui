@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "url": "https://blockdex.dev",
+  "facts": {
+    "found": true,
+    "url": "https://blockdex.dev",
+    "finalUrl": "https://blockdex.dev",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:17+00:00",
+    "title": "BlockDex, the console",
+    "description": "Find the right shadcn component across registries. Compare previews, dependencies, access checks and dated install results, then install directly from the publisher.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "list",
+    "name": "BlockDex",
+    "note": "A searchable index of components and blocks from over 1,200 shadcn registries, with previews, dependency lists and probed access checks.",
+    "openSource": false,
+    "pricing": "free",
+    "lastUpdated": "2026-10-23",
+    "lastUpdatedEvidence": [
+      "https://blockdex.dev",
+      "https://blockdex.dev/changelog"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

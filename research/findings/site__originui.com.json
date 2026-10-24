@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "url": "https://originui.com",
+  "facts": {
+    "found": true,
+    "url": "https://originui.com",
+    "finalUrl": "https://coss.com/ui",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:03+00:00",
+    "title": "A new, modern UI component library built on top of Base UI - coss ui",
+    "description": "Built for developers and AI.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "coss ui",
+    "note": "Cal.com design system of accessible React components on Base UI, formerly Origin UI, with 529 copyable particles.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-20",
+    "lastUpdatedEvidence": [
+      "https://coss.com/ui/docs/changelog"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The components' source is public in the GitHub repository cosscom/ui, linked from the site; that repository has not yet been researched in place of this site."
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "url": "https://sona-ui.vercel.app",
+  "facts": {
+    "found": null,
+    "url": "https://sona-ui.vercel.app",
+    "finalUrl": null,
+    "status": 429,
+    "fetchedAt": "2026-10-24T04:46:56+00:00"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Sona UI",
+    "note": "Animated React components focused on interaction behavior, such as a circular context menu and depth tiles.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-09-29",
+    "lastUpdatedEvidence": [
+      "https://github.com/Dinil-Thilakarathne/sona-ui/releases/tag/v2.28.0"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Circular Context Menu with an edge-aware action arc",
+        "Depth Tiles image stack",
+        "Circular Card Marquee"
+      ],
+      "evidenceUrls": [
+        "https://sona-ui.vercel.app/components",
+        "https://sona-ui.vercel.app/docs/circular-context-menu"
+      ]
+    },
+    "unverified": [
+      "collect_facts.py returned HTTP 429 twice, so the facts block is unfilled; the site did load in a headless browser.",
+      "The source is public at github.com/Dinil-Thilakarathne/sona-ui (MIT), whose homepage is sonaui.com; research that repository instead.",
+      "The circular menu's arc was not seen opening; only its idle preview and description were seen."
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "url": "https://ui.aceternity.com",
+  "facts": {
+    "found": true,
+    "url": "https://ui.aceternity.com",
+    "finalUrl": "https://ui.aceternity.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:23+00:00",
+    "title": "Aceternity UI — React & Tailwind CSS Component Library",
+    "description": "Aceternity UI is a React component library with 200+ copy-paste components, blocks, and landing page templates built with Tailwind CSS and Motion.",
+    "keywords": "React components,Next.js components,Tailwind CSS components,Framer Motion components,animated UI components,copy paste components,shadcn blocks,Next.js templates,landing page templates,UI component library"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Aceternity UI",
+    "note": "React, Tailwind and Motion components for landing pages, free animated components plus paid blocks, pages and templates.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-22",
+    "lastUpdatedEvidence": [
+      "https://ui.aceternity.com/changelog#2026-10-22-signup-with-guide-lines"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Liquid Glass surface that refracts the content behind it",
+        "Background Cubes Grid of 3D cubes that ripple under the cursor",
+        "Text Flipping Board, Cloud Shader and dither shader hero sections"
+      ],
+      "evidenceUrls": [
+        "https://ui.aceternity.com/components",
+        "https://ui.aceternity.com/",
+        "https://ui.aceternity.com/changelog"
+      ]
+    },
+    "unverified": []
+  }
+}

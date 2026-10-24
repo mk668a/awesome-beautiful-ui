@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "url": "https://generative.app",
+  "facts": {
+    "found": true,
+    "url": "https://generative.app",
+    "finalUrl": "https://domains.atom.com/lpd/name/generative.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:47+00:00",
+    "title": "Generative.app — Domain For Sale | Atom",
+    "description": "Generative.app is a verified domain available for purchase. Buy now or pay in installments. Free transaction support, no extra fees.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "other",
+    "name": "Generative.app",
+    "note": "The domain redirects to an Atom.com listing offering it for sale, with no product to review.",
+    "openSource": false,
+    "pricing": "paid",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": true,
+    "demoViewed": false,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://domains.atom.com/lpd/name/generative.app"
+      ]
+    },
+    "unverified": [
+      "generative.app redirects to a domain-for-sale page (https://domains.atom.com/lpd/name/generative.app); no product exists, so kind, pricing and the other fields describe the parked domain, not a UI project.",
+      "No demo exists to view."
+    ]
+  }
+}

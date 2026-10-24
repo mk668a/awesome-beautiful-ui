@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "url": "https://ayroui.com",
+  "facts": {
+    "found": true,
+    "url": "https://ayroui.com",
+    "finalUrl": "https://ayroui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:55+00:00",
+    "title": "Free Bootstrap Snippets, UI Components, and Library | Ayro UI",
+    "description": "Free Bootstrap HTML5 Snippets, UI Library, Blocks, Components and Toolkit for Creating Fast & Responsive - Landing Pages, Templates, or Websites by Copy-Paste",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Ayro UI",
+    "note": "Bootstrap 5 HTML snippets and UI components for landing pages, with a free open-source core and paid full set.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2022-06-15",
+    "lastUpdatedEvidence": [
+      "https://github.com/ayroui/bootstrap-ui-components"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://ayroui.com/"
+      ]
+    },
+    "unverified": [
+      "The free core components are in the public repository ayroui/bootstrap-ui-components (MIT, last commit 2022-06-15); that repository has not been researched yet, and the paid full set is not public.",
+      "The update log at https://ayroui.com/update-logs lists version 2.0 without a date, so lastUpdated uses the last commit to the free core repository."
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://skiper-ui.com",
+  "facts": {
+    "found": true,
+    "url": "https://skiper-ui.com",
+    "finalUrl": "https://skiper-ui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:23+00:00",
+    "title": "Un-common Components for shadcn/ui | Skiper UI",
+    "description": "Brand new uncommon components for your Next.js project. Use with ease through shadcn CLI 3.0, featuring fast-growing components and collections that are easy to edit and use.",
+    "keywords": "shadcn/ui,react components,nextjs,ui library,tailwind css,typescript,web components,design system"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Skiper UI",
+    "note": "Uncommon shadcn/ui components modeled on product interactions, such as a Dynamic Island, Vercel tooltips and preloaders.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-08-29",
+    "lastUpdatedEvidence": [
+      "https://web.archive.org/web/20260829145315/https://skiper-ui.com/v1/skiper107"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Dynamic Island component with states such as ring, timer, airdrop and find my",
+        "Product-inspired interactions such as Vercel Tooltip, Aave token swap and Family wallet",
+        "Preloaders and scroll effects such as stairs preloader, ASCII simulation and canvas crowd"
+      ],
+      "evidenceUrls": [
+        "https://skiper-ui.com/components",
+        "https://skiper-ui.com/v1/skiper2",
+        "https://skiper-ui.com/v1/skiper1"
+      ]
+    },
+    "unverified": [
+      "The site marks its newest components as New without dates; 2026-08-29 is the first Wayback Machine capture of the newest one (skiper107), not a release date.",
+      "No public repository with the component source was found; the founder's GitHub (Gurvinder-Singh02) has no such repository."
+    ]
+  }
+}

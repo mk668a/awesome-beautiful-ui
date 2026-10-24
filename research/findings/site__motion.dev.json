@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://motion.dev",
+  "facts": {
+    "found": true,
+    "url": "https://motion.dev",
+    "finalUrl": "https://motion.dev",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:18+00:00",
+    "title": "Motion (prev Framer Motion): JavaScript & React animation library",
+    "description": "Motion (prev Framer Motion) is a fast, production-grade animation library for React, JavaScript and Vue. Build smooth UI animations at a tiny footprint.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "name": "Motion",
+    "note": "Animation library for React, Vue and JavaScript, formerly Framer Motion, with layout, gesture and scroll animations.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-20",
+    "lastUpdatedEvidence": [
+      "https://motion.dev/changelog",
+      "https://github.com/motiondivision/motion"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Layout animations",
+        "Spring and gesture animations",
+        "Scroll-linked animations"
+      ],
+      "evidenceUrls": [
+        "https://motion.dev",
+        "https://motion.dev/changelog"
+      ]
+    },
+    "unverified": [
+      "The source is in the public repository motiondivision/motion (MIT, about 34k stars); research that repository instead.",
+      "Freemium reflects the paid Motion+ tier linked from the header; the library itself is free and open source. The signature effects are taken from the homepage text, not observed demos beyond the hero particle sphere."
+    ]
+  }
+}

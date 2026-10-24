@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "url": "https://gooseui.pro",
+  "facts": {
+    "found": true,
+    "url": "https://gooseui.pro",
+    "finalUrl": "https://gooseui.pro",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:07+00:00",
+    "title": "GooseUIGitHub",
+    "description": "Open source component library for building modern web applications",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "GooseUI",
+    "note": "A shadcn/ui registry of React components, effects and blocks such as a flip timer and Morphing Dialog.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-03-26",
+    "lastUpdatedEvidence": [
+      "https://github.com/goosen-x/gooseui/commit/c807cd1a2574302bb152ae7be061663c2edae1bc"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The component source is in the public repository goosen-x/gooseui (MIT); that repository has not been researched yet."
+    ]
+  }
+}

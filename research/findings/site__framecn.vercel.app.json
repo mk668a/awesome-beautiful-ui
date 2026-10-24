@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "url": "https://framecn.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://framecn.vercel.app",
+    "finalUrl": "https://www.framecn.dev/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:42+00:00",
+    "title": "framecn - Beautiful videos, made simple",
+    "description": "A collection of beautifully designed, and customizable video components. Built on Editframe. Works with shadcn/ui.",
+    "keywords": "video,video components,editframe,video editing,mp4,rendering,shadcn,shadcn registry,component registry,shadcn components,next.js,tailwindcss,npx shadcn add"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "framecn",
+    "note": "shadcn registry of customizable React video components, captions and transitions rendered with Editframe.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-07",
+    "lastUpdatedEvidence": [
+      "https://github.com/shadcn-labs/framecn/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Video components installed through the shadcn CLI and rendered to MP4 with Editframe",
+        "Chromatic Aberration Wipe transition with an RGB glitch on peak frames",
+        "Pill Karaoke and Kinetic Slam caption styles",
+        "Hero Device Assemble and Dashboard Populate compositions"
+      ],
+      "evidenceUrls": [
+        "https://www.framecn.dev/",
+        "https://www.framecn.dev/docs/components",
+        "https://www.framecn.dev/docs/components/transitions/chromatic-aberration-wipe"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository github.com/shadcn-labs/framecn; research that repository instead of this site."
+    ]
+  }
+}

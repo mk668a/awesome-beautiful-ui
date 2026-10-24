@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "url": "https://nexus-ui.com",
+  "facts": {
+    "found": true,
+    "url": "https://nexus-ui.com",
+    "finalUrl": "https://www.nexus-ui.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:01+00:00",
+    "title": "Nexus UI Labs — Animated React Components & Templates",
+    "description": "Free animated React components and Next.js templates built with Tailwind CSS and Framer Motion. Copy-paste, or install with the shadcn CLI.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Nexus UI",
+    "note": "Animated React components, blocks and templates on Tailwind and Motion, with interface sounds and physics-driven interactions.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Glass Bubbles: glass orbs hanging on threads that swing, collide and spin their icons when the pointer sweeps through",
+        "Draggable stickers thrown around the hero section",
+        "Interface sounds generated in code for many components"
+      ],
+      "evidenceUrls": [
+        "https://www.nexus-ui.com/",
+        "https://www.nexus-ui.com/components/glass-bubbles"
+      ]
+    },
+    "unverified": [
+      "No dated product change was found: there is no changelog page, components are marked New without dates, and the dated blog posts (newest October 20, 2026) are guides rather than release notes.",
+      "The Glass Bubbles motion and the thrown stickers were seen only in static screenshots and descriptions, not in motion."
+    ]
+  }
+}

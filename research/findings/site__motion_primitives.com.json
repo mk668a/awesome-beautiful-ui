@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://motion-primitives.com",
+  "facts": {
+    "found": true,
+    "url": "https://motion-primitives.com",
+    "finalUrl": "https://motion-primitives.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:43+00:00",
+    "title": "Motion-Primitives - UI kit to make beautiful, animated interfaces, faster.XGitHubGitHub",
+    "description": "Motion-Primitives is an open-source UI kit to make beautiful, animated interfaces, faster. Built for React, Next.js, and Tailwind CSS.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Motion-Primitives",
+    "note": "Copy-paste animated React components built with Motion and Tailwind CSS, with a paid Pro tier of sections and templates.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-09-28",
+    "lastUpdatedEvidence": [
+      "https://github.com/ibelick/motion-primitives/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Morphing Dialog that layout-animates a card into a focused dialog",
+        "Text Morph",
+        "Progressive Blur",
+        "Border Trail"
+      ],
+      "evidenceUrls": [
+        "https://motion-primitives.com/docs",
+        "https://motion-primitives.com/docs/morphing-dialog"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository github.com/ibelick/motion-primitives; research that repository instead of this site."
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "url": "https://animbits.dev",
+  "facts": {
+    "found": true,
+    "url": "https://animbits.dev",
+    "finalUrl": "https://www.animbits.dev/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:04+00:00",
+    "title": "Animbits - The Foundation for Interactive UIanimbits",
+    "description": "A curated suite of animations, hooks, and components. Designed to make your applications feel alive. Copy, paste, and ship premium interfaces.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "AnimBits",
+    "note": "Copy-paste Framer Motion animations, hooks and transitions for React, with a playground that composes them on a canvas.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-06-07",
+    "lastUpdatedEvidence": [
+      "https://github.com/Garvit1000/AnimBits/commits"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://www.animbits.dev/",
+        "https://www.animbits.dev/playground"
+      ]
+    },
+    "unverified": [
+      "The component source is public in github.com/Garvit1000/AnimBits (MIT); research that repository instead of this site."
+    ]
+  }
+}

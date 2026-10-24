@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://instantgradient.com",
+  "facts": {
+    "found": true,
+    "url": "https://instantgradient.com",
+    "finalUrl": "https://instantgradient.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:18+00:00",
+    "title": "The ultimate mesh gradient generator | InstantGradient",
+    "description": "Create animated mesh gradients with WebGL shaders and export them as images, video, or code. Add dithering, halftone, pixelate, or ASCII effects to any image. Free, no sign-up.",
+    "keywords": "InstantGradient"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "tool",
+    "name": "InstantGradient",
+    "note": "Browser editor for animated WebGL mesh gradients exported as image, MP4 or code, plus image dithering and ASCII tools.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-09-18",
+    "lastUpdatedEvidence": [
+      "https://instantgradient.com/blog",
+      "https://instantgradient.com/blog/bloom-shader"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Animated WebGL mesh gradient shaders with palette generator and grain",
+        "Dithering, halftone, pixelate and ASCII image effects"
+      ],
+      "evidenceUrls": [
+        "https://instantgradient.com"
+      ]
+    },
+    "unverified": [
+      "The 2026-09-18 date is the newest blog post date on the blog index (bloom-shader post); no changelog page exists (/changelog returns 404).",
+      "No public source repository was found; the GitHub search hit HectorFylkner/InstantGradient is an unrelated 2025 repo."
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://animata.design",
+  "facts": {
+    "found": true,
+    "url": "https://animata.design",
+    "finalUrl": "https://animata.design",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:01+00:00",
+    "title": "Free Animated React Components | Animata | animata",
+    "description": "Ship stunning UI faster with Ship stunning UI faster with ready-made React components.. Browse hundreds of copy-paste React animations built with Tailwind CSS for Next.js — MIT licensed, theme-aware, and production-ready.",
+    "keywords": "Animata,animated React components,Tailwind CSS animations,Next.js UI,open source UI library,copy paste components,UI micro-interactions,React animation library"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Animata",
+    "note": "Copy-paste collection of about 156 animated React and Tailwind components, including widgets, text effects and backgrounds.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-14",
+    "lastUpdatedEvidence": [
+      "https://github.com/codse/animata/commits/main",
+      "https://animata.design/docs/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Boids Ecosystem background",
+        "Card Spread throw motion",
+        "Sibling Focus Nav"
+      ],
+      "evidenceUrls": [
+        "https://animata.design/docs/changelog"
+      ]
+    },
+    "unverified": [
+      "The components' source is public in the GitHub repository codse/animata, linked from the site; that repository has not yet been researched in place of this site.",
+      "The signature effects were named in the changelog; I did not watch each of them running."
+    ]
+  }
+}

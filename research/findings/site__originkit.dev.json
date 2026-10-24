@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "url": "https://originkit.dev",
+  "facts": {
+    "found": true,
+    "url": "https://originkit.dev",
+    "finalUrl": "https://www.originkit.dev/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:56+00:00",
+    "title": "Originkit — Free Animated component library for modern websites",
+    "description": "The largest free animated component library for building modern websites. Copy code, use in Framer, or connect through MCP.",
+    "keywords": "Framer components,React components,Framer code components,copy paste components,component library,MCP components,Framer marketplace,UI components,Framer canvas,UI Library,Open Source library,awwwards inspiration"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Originkit",
+    "note": "Large gallery of animated WebGL and canvas components, sections and templates for React and Framer, with daily copy limits on the free plan.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-20",
+    "lastUpdatedEvidence": [
+      "https://www.originkit.dev/",
+      "https://www.originkit.dev/components/tornado"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Tornado: a particle-line vortex",
+        "Accretion Disc: a glowing particle disc around a black hole",
+        "Glimmer Vale: a glittering particle landscape",
+        "Coverflow Gallery and Gallery Tunnel image galleries"
+      ],
+      "evidenceUrls": [
+        "https://www.originkit.dev/"
+      ]
+    },
+    "unverified": []
+  }
+}

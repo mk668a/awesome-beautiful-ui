@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://satoriui.site",
+  "facts": {
+    "found": true,
+    "url": "https://satoriui.site",
+    "finalUrl": "https://www.satoriui.site/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:02+00:00",
+    "title": "SatoriUI",
+    "description": "A comprehensive suite of high-fidelity, interactive, accessible and extensible components to use with shadcn/ui.",
+    "keywords": "component library, satoriu, shadcn, react components, tailwindcss, tailwind components, ui components, accessible components, interactive components, extensible components, design system, frontend development, web development, user interface"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "SatoriUI",
+    "note": "Copy-paste React components with physics-based motion, including an interactive keyboard, flip clock and shader backgrounds.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-04-27",
+    "lastUpdatedEvidence": [
+      "https://github.com/Harit007x/satoriui/commits"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Keyboard UI: an interactive laptop-style keyboard whose keys light up as you type"
+      ],
+      "evidenceUrls": [
+        "https://www.satoriui.site/",
+        "https://www.satoriui.site/components/keyboard-ui"
+      ]
+    },
+    "unverified": [
+      "The source appears to be github.com/Harit007x/satoriui, whose app routes match the site's components (keyboard-ui, flip-clock, cyberpunk-button, beacon-badge, pulse-button), but the site does not link it and the repository has no license file even though the site says MIT; that repository has not been researched in place of this site yet.",
+      "The date comes from that repository's newest commit, not from the site, whose Changelog and Pricing links return 404.",
+      "The Dotted Modern background embeds code from ibelick/background-snippets, so not every component is original."
+    ]
+  }
+}

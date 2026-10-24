@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "url": "https://daisyui.com",
+  "facts": {
+    "found": true,
+    "url": "https://daisyui.com",
+    "finalUrl": "https://daisyui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:43:56+00:00",
+    "title": "daisyUI - Tailwind CSS Component Library",
+    "description": "Tailwind CSS component library by daisyUI. Build faster with semantic components, built-in themes, and reusable UI blocks.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "name": "daisyUI",
+    "note": "Tailwind CSS plugin that adds semantic component class names and a set of built-in themes.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-13",
+    "lastUpdatedEvidence": [
+      "https://github.com/saadeghi/daisyui/releases/tag/v5.7.50"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://daisyui.com/components/"
+      ]
+    },
+    "unverified": [
+      "The source is public at github.com/saadeghi/daisyui (MIT); research that repository instead.",
+      "Pricing is freemium because the daisyUI store sells templates and a Figma library; the component library itself is free."
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://cult-ui.com",
+  "facts": {
+    "found": true,
+    "url": "https://cult-ui.com",
+    "finalUrl": "https://www.cult-ui.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:55+00:00",
+    "title": "Cult UI – Shadcn UI Components, Blocks & TemplatesAI SDK AgentsOpenAIAISDKFirecrawlUpstashNext.jsAISDKUpstashNext.jsOpenAIAISDKFirecrawlUpstashNext.jsGeminiAISDKNext.jsOpenAIUpstashAISDKFirecrawlUpstashNext.jsOpenAIAISDKOpenAIUpstashScreen CaptureTwitterLoom",
+    "description": "Open-source Shadcn UI components, animated blocks, and full templates you can copy-paste into any TypeScript/Next.js project.",
+    "keywords": "shadcn,shadcn ui,shadcn components,shadcn blocks,shadcn templates,shadcn animate,tailwind css,next.js 15,typescript ui kit"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "cult ui",
+    "note": "Animated shadcn/ui components and landing sections, including WebGL dither heroes and an iPhone-style Dynamic Island.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-01",
+    "lastUpdatedEvidence": [
+      "https://www.cult-ui.com/docs/changelog",
+      "https://www.cult-ui.com/docs/components/hero-dithering"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Hero Dithering: split hero with a WebGL dithering shader",
+        "Dynamic Island: composable iPhone Dynamic Island that morphs between size presets"
+      ],
+      "evidenceUrls": [
+        "https://www.cult-ui.com/docs/components/hero-dithering",
+        "https://www.cult-ui.com/docs/components/dynamic-island"
+      ]
+    },
+    "unverified": [
+      "The components are in the public repository nolly-studio/cult-ui (MIT, last commit 2026-10-14); that repository has not been researched yet.",
+      "Pricing is freemium because the site also sells paid AI SDK Agents blocks (marked PAID, one-time purchase); the components themselves are free."
+    ]
+  }
+}

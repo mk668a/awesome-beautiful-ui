@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://gsap.pacekit.dev",
+  "facts": {
+    "found": true,
+    "url": "https://gsap.pacekit.dev",
+    "finalUrl": "https://paceui.com/components/gsap",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:09+00:00",
+    "title": "Free GSAP React Components | PaceUI",
+    "description": "Free animated React components powered by GSAP timelines for Next.js and TanStack Start. Copy-paste source via the shadcn CLI.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "PaceUI",
+    "note": "React components, blocks and templates animated with GSAP timelines and installed through the shadcn CLI, with a paid Pro tier.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-15",
+    "lastUpdatedEvidence": [
+      "https://paceui.com/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Mouse Wave Text, a pointer-driven wave that lifts letters using GSAP quickTo tweens",
+        "GSAP text effects such as Distort, Squash, Scramble and Draw Line text"
+      ],
+      "evidenceUrls": [
+        "https://paceui.com/components/gsap/mouse-wave-text",
+        "https://paceui.com/components/gsap"
+      ]
+    },
+    "unverified": [
+      "gsap.pacekit.dev redirects to paceui.com/components/gsap; the research covers PaceUI as a whole.",
+      "No public source repository was found; paceui/community on GitHub holds only feedback and issues."
+    ]
+  }
+}

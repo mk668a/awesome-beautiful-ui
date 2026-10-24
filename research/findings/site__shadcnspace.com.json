@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "url": "https://shadcnspace.com",
+  "facts": {
+    "found": true,
+    "url": "https://shadcnspace.com",
+    "finalUrl": "https://shadcnspace.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:43:55+00:00",
+    "title": "Shadcn UI Blocks, Templates, and Components | Free and Pro",
+    "description": "A collection of beautifully designed Shadcn UI blocks, components, templates, and dashboard layouts for React. Built on Base UI and Radix UI primitives, styled with Tailwind CSS, ready to copy-paste or install via the shadcn CLI.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Shadcn Space",
+    "note": "Large set of shadcn/ui blocks, components and templates on Radix UI or Base UI, with paid Pro tiers.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-21",
+    "lastUpdatedEvidence": [
+      "https://github.com/shadcnspace/shadcnspace/commit/dcad0ca26038955fdbdb757cf2273d60635e2d8c",
+      "https://shadcnspace.com/changelog"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The free component source is in the public repository shadcnspace/shadcnspace (MIT); that repository has not been researched yet."
+    ]
+  }
+}

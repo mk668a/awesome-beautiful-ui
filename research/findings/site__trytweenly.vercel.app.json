@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "url": "https://trytweenly.vercel.app",
+  "facts": {
+    "found": true,
+    "url": "https://trytweenly.vercel.app",
+    "finalUrl": "https://trytweenly.vercel.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:13+00:00",
+    "title": "tweenly: The motion layer for shadcn/ui",
+    "description": "Beautifully crafted animated components. Tweak them live, copy the code, and own it.",
+    "keywords": "shadcn,shadcn/ui,react animation,animated components,framer motion,motion,gsap,tailwind,next.js,ui library"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "tweenly",
+    "note": "74 animated shadcn/ui components built with Motion or GSAP, with a playground that exports animations as code.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-07",
+    "lastUpdatedEvidence": [
+      "https://github.com/mirukullacode/Tweenly/commits/main",
+      "https://trytweenly.vercel.app/changelog"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "Source is public at github.com/mirukullacode/Tweenly (MIT, 3 stars); research that repository instead of this site."
+    ]
+  }
+}

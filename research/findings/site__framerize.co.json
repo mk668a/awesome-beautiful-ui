@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "url": "https://framerize.co",
+  "facts": {
+    "found": true,
+    "url": "https://framerize.co",
+    "finalUrl": "https://framerize.co",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:59+00:00",
+    "title": "Framerize — Framer Component Library",
+    "description": "Get access to 300+ customizable Framer components. Streamline your design process with Framerize's efficient component library.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Framerize",
+    "note": "Copy-and-paste library of 300+ Framer sections such as navbars, heroes, features and pricing, plus a Framer plugin.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2025-10-24",
+    "lastUpdatedEvidence": [
+      "https://framerize.co/updates"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The pricing page at framerize.co/pricing returned a not-found page; freemium is based on the free components page and PRO badges plus an Unlimited Access offer on the home page."
+    ]
+  }
+}

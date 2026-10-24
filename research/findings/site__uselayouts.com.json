@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "url": "https://uselayouts.com",
+  "facts": {
+    "found": true,
+    "url": "https://uselayouts.com",
+    "finalUrl": "https://uselayouts.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:21+00:00",
+    "title": "useLayouts | Free animated React components",
+    "description": "Free React components with animation, built with Framer Motion and Tailwind CSS. Preview them, copy the code, and add them to your site.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "useLayouts",
+    "note": "Free animated React components built on Motion and Tailwind, many shaped like physical objects such as folders, books and polaroids.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-10-19",
+    "lastUpdatedEvidence": [
+      "https://github.com/iurvish/uselayouts/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Confidential Folder card that slides out of a folder",
+        "Polaroid Stack",
+        "3D Book",
+        "Analog Stick control",
+        "Shake Testimonial"
+      ],
+      "evidenceUrls": [
+        "https://uselayouts.com/docs/components/confidential-folder",
+        "https://uselayouts.com"
+      ]
+    },
+    "unverified": [
+      "The component source is public in the MIT repository iurvish/uselayouts (linked from the site); that repository has not yet been researched as its own candidate.",
+      "Only Confidential Folder and Polaroid Stack were seen rendered; the other effects are taken from the component menu."
+    ]
+  }
+}

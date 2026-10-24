@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "url": "https://kibo-ui.com",
+  "facts": {
+    "found": true,
+    "url": "https://kibo-ui.com",
+    "finalUrl": "https://www.kibo-ui.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:43:54+00:00",
+    "title": "Kibo UIKibo UIGitHubReactTypeScriptTailwind CSSLucideRadix UIGitHubKibo UI",
+    "description": "Kibo UI is a custom registry of composable, accessible and open source components designed for use with shadcn/ui.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Kibo UI",
+    "note": "shadcn/ui registry of larger composable components such as Gantt, Kanban, contribution graph and image crop.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-03-09",
+    "lastUpdatedEvidence": [
+      "https://github.com/shadcnblocks/kibo/commit/a79b3b37884707d08ccd382eb4acee0edfd52078"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Gantt chart component with draggable timeline",
+        "Kanban board",
+        "GitHub-style contribution graph"
+      ],
+      "evidenceUrls": [
+        "https://www.kibo-ui.com/components/gantt",
+        "https://github.com/shadcnblocks/kibo"
+      ]
+    },
+    "unverified": [
+      "The source is public at github.com/shadcnblocks/kibo (moved from haydenbleasel/kibo, MIT); research that repository instead.",
+      "Only the Gantt demo was seen; Kanban and contribution graph are listed from the repository packages."
+    ]
+  }
+}

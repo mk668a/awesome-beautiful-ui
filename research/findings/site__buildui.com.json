@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "url": "https://buildui.com",
+  "facts": {
+    "found": true,
+    "url": "https://buildui.com",
+    "finalUrl": "https://buildui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:57+00:00",
+    "title": "Build UI",
+    "description": "Learn how to build modern user interfaces for the web.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "course",
+    "name": "Build UI",
+    "note": "Video courses and free code recipes by Sam Selikoff and Ryan Toronto on building React interfaces with Tailwind, Radix and Framer Motion.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": "2024-10-21",
+    "lastUpdatedEvidence": [
+      "https://buildui.com/recipes/use-animated-text",
+      "https://buildui.com/recipes"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "lastUpdated comes from the date in the demo deployment URL of the newest recipe (2024-10-21-recipe-use-animated-text); posts and courses show no dates."
+    ]
+  }
+}

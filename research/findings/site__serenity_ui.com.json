@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://serenity-ui.com",
+  "facts": {
+    "found": true,
+    "url": "https://serenity-ui.com",
+    "finalUrl": "https://serenity-ui.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:03+00:00",
+    "title": "Serenity UI | React Components, Blocks & Templates",
+    "description": "Free, open source React, Canvas & WebGL components. Add them with the shadcn CLI or copy the code directly.",
+    "keywords": "React components,Next.js UI library,Tailwind CSS components,WebGL animations,Canvas UI,Interactive React components,Creative web components"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Serenity UI",
+    "note": "Free open source React, Canvas and WebGL components such as 3D mechanical keyboards and a flame button, installable with the shadcn CLI.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-09-18",
+    "lastUpdatedEvidence": [
+      "https://github.com/ayushmxxn/serenity-ui/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Mechanical Keyboard with 3D rendered keycaps",
+        "Vintage Keyboard",
+        "Flame Button",
+        "Carousel 360"
+      ],
+      "evidenceUrls": [
+        "https://serenity-ui.com/components"
+      ]
+    },
+    "unverified": [
+      "The component source is public at github.com/ayushmxxn/serenity-ui (MIT); that repository has not been researched as a repository candidate yet."
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "url": "https://cssfx.netlify.app",
+  "facts": {
+    "found": true,
+    "url": "https://cssfx.netlify.app",
+    "finalUrl": "https://cssfx.netlify.app",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:41+00:00",
+    "title": "CSSFX - Beautifully simple click-to-copy CSS effects",
+    "description": "Browse a carefully crafted collection of loaders, hover effects, transitions, and other CSS effects to use in your next project. Effects are designed with an emphasis on fluidity, simplicity, and ease of use.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "CSSFX",
+    "note": "Click-to-copy CSS hover, input, loader and text effects with minimal markup.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2021-08-15",
+    "lastUpdatedEvidence": [
+      "https://github.com/jolaleye/cssfx/commits/master"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://cssfx.netlify.app"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository github.com/jolaleye/cssfx; research that repository instead of this site. The GitHub API reports it as archived."
+    ]
+  }
+}

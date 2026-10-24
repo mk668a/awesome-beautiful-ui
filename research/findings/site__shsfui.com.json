@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "url": "https://shsfui.com",
+  "facts": {
+    "found": null,
+    "url": "https://shsfui.com",
+    "finalUrl": null,
+    "status": null,
+    "fetchedAt": "2026-10-24T04:46:11+00:00",
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)"
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": "2026-10-24",
+    "kind": null,
+    "name": null,
+    "note": null,
+    "openSource": null,
+    "pricing": null,
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": null,
+    "demoViewed": false,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "collect_facts.py failed twice with an SSL certificate verify error.",
+      "In a browser on 2026-10-24, https://shsfui.com/ redirected through ad networks (zealous-garden.site, rm358.com) to an FX broker promotion page, so no product was visible and nothing else could be recorded."
+    ]
+  }
+}

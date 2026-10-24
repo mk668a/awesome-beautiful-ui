@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "url": "https://ui.radiumcoders.com",
+  "facts": {
+    "found": true,
+    "url": "https://ui.radiumcoders.com",
+    "finalUrl": "https://ui.radiumcoders.com",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:04+00:00",
+    "title": "XCN/UI",
+    "description": null,
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "XCN/UI",
+    "note": "Small free set of six Tailwind and Motion components, including fanned glowing cards, a stamp and skeuomorphic buttons.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-04-25",
+    "lastUpdatedEvidence": [
+      "https://github.com/radiumcoders/ui/commits/main"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Animated Cards fanned out at angles with colored glow"
+      ],
+      "evidenceUrls": [
+        "https://ui.radiumcoders.com/docs/thingyyy"
+      ]
+    },
+    "unverified": [
+      "The component source is public at github.com/radiumcoders/ui (Apache-2.0); that repository has not been researched as a repository candidate yet."
+    ]
+  }
+}

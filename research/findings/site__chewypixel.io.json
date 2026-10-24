@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "url": "https://chewypixel.io",
+  "facts": {
+    "found": true,
+    "url": "https://chewypixel.io",
+    "finalUrl": "https://chewypixel.io",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:45:54+00:00",
+    "title": "Chewypixel · React templates that feel finished",
+    "description": "React app templates built with Next.js, shadcn/ui and Motion. Accessible, animated and ready to ship.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "template",
+    "name": "Chewypixel",
+    "note": "Paid Next.js app templates (admin dashboard, AI chat, messenger) with a few free Motion-animated shadcn/ui components.",
+    "openSource": false,
+    "pricing": "freemium",
+    "lastUpdated": null,
+    "lastUpdatedEvidence": [],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "No dated changelog, release post or dated component was found on chewypixel.io (/changelog returns 404; template changelogs ship only inside the paid zip), so lastUpdated is empty.",
+      "No public GitHub repository for Chewypixel was found; gh search repos chewypixel returned nothing and the template license forbids publishing the source."
+    ]
+  }
+}

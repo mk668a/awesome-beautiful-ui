@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "url": "https://eldoraui.site",
+  "facts": {
+    "found": true,
+    "url": "https://eldoraui.site",
+    "finalUrl": "https://www.eldoraui.site/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:59+00:00",
+    "title": "Eldora UIReactTailwind CSSMotion",
+    "description": "Beautiful UI components and templates to make your landing page look stunning.",
+    "keywords": "React,Tailwind CSS,Motion,Landing Page,Components,Next.js"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Eldora UI",
+    "note": "Free animated React and Tailwind components, device mockups and templates built with Motion as a companion to shadcn/ui.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-09-26",
+    "lastUpdatedEvidence": [
+      "https://github.com/karthikmudunuri/eldoraui/commits/main",
+      "https://www.eldoraui.site/docs/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Photon Beam WebGL background with animated light trails and bloom",
+        "GitHub Inline Comments component",
+        "Clerk-style OTP input demo",
+        "Hacker Background"
+      ],
+      "evidenceUrls": [
+        "https://www.eldoraui.site/docs/components",
+        "https://www.eldoraui.site/docs/components/photon-beam"
+      ]
+    },
+    "unverified": [
+      "The component source is public at github.com/karthikmudunuri/eldoraui (MIT); that repository has not been researched as a repository candidate yet.",
+      "The Photon Beam preview rendered black in the headless screenshot; the effect is known only from its description."
+    ]
+  }
+}

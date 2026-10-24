@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "url": "https://magicui.design",
+  "facts": {
+    "found": true,
+    "url": "https://magicui.design",
+    "finalUrl": "https://magicui.design",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:43:52+00:00",
+    "title": "Magic UIReactTailwind CSSMotionPlayPlayPlayPlayPlay",
+    "description": "Beautiful UI components and templates to make your landing page look stunning.",
+    "keywords": "React,Tailwind CSS,Motion,Landing Page,Components,Next.js"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Magic UI",
+    "note": "Free animated React and Tailwind components and effects meant as a companion to shadcn/ui, with paid Pro templates.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-10-17",
+    "lastUpdatedEvidence": [
+      "https://github.com/magicuidesign/magicui/commit/efe76fc5755eca1142dd4f74c1d6f0ace2887e3c"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Border Beam and Animated Beam light-trail effects",
+        "Globe and Icon Cloud 3D visuals",
+        "Floating 3D Particles background",
+        "Glyph Matrix and Dia Text Reveal text effects"
+      ],
+      "evidenceUrls": [
+        "https://magicui.design/docs/components",
+        "https://magicui.design"
+      ]
+    },
+    "unverified": [
+      "The component source is in the public repository magicuidesign/magicui (MIT); that repository has not been researched yet.",
+      "The effects were named from the component index; only the homepage and index were viewed, not each effect running.",
+      "Pro templates are priced at $49 each on https://pro.magicui.design/."
+    ]
+  }
+}

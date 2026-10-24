@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "url": "https://codebox.net/pages/generative-patterns",
+  "facts": {
+    "found": true,
+    "url": "https://codebox.net/pages/generative-patterns",
+    "finalUrl": "https://codebox.net/pages/generative-patterns",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:44:30+00:00",
+    "title": "Generative Patterns - Codebox Software",
+    "description": "Web-based Generative Pattern Maker",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "tool",
+    "name": "Generative Patterns",
+    "note": "Browser-based generative pattern maker that layers translucent overlapping rectangles into seeded, downloadable images.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2020-06-12",
+    "lastUpdatedEvidence": [
+      "https://codebox.net/pages/generative-patterns",
+      "https://github.com/codebox/generative-patterns"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Seeded generative compositions of overlapping translucent rotated rectangles in a single hue"
+      ],
+      "evidenceUrls": [
+        "https://codebox.net/pages/generative-patterns",
+        "https://codebox.net/html_raw/generative-patterns/index.html"
+      ]
+    },
+    "unverified": [
+      "The source is public in codebox/generative-patterns (MIT, 23 stars, last commit 2020-06-12); that repository has not yet been researched as a repository entry.",
+      "The live maker loaded with an empty canvas before START was pressed; the output was seen only in the example images on the project page."
+    ]
+  }
+}

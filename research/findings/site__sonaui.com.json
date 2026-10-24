@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "url": "https://sonaui.com",
+  "facts": {
+    "found": null,
+    "url": "https://sonaui.com",
+    "finalUrl": null,
+    "status": 429,
+    "fetchedAt": "2026-10-24T04:46:56+00:00"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Sona UI",
+    "note": "A small set of 26 animated React components, such as fluid tabs, expanding actions and a morph surface, installed through a shadcn registry.",
+    "openSource": true,
+    "pricing": "free",
+    "lastUpdated": "2026-09-29",
+    "lastUpdatedEvidence": [
+      "https://sonaui.com/docs/changelog"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "collect_facts.py still gets 429 from sonaui.com (a Vercel security checkpoint); the site was read through a headless browser instead.",
+      "The component source is public in the MIT repository Dinil-Thilakarathne/sona-ui (linked from the site); that repository has not yet been researched as its own candidate."
+    ]
+  }
+}

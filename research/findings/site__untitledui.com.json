@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "url": "https://untitledui.com",
+  "facts": {
+    "found": true,
+    "url": "https://untitledui.com",
+    "finalUrl": "https://www.untitledui.com/",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:47:02+00:00",
+    "title": "Untitled UI — Figma UI Kit and React Component Library",
+    "description": "Untitled UI is the world's largest Figma UI kit and React component library. Kickstart any project with everything you need to design and develop—fast.",
+    "keywords": null
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "Untitled UI",
+    "note": "Large Figma UI kit with a matching React component library built on Tailwind CSS and React Aria.",
+    "openSource": true,
+    "pricing": "freemium",
+    "lastUpdated": "2026-09-23",
+    "lastUpdatedEvidence": [
+      "https://www.untitledui.com/changelog"
+    ],
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://www.untitledui.com/"
+      ]
+    },
+    "unverified": [
+      "The React components are in the public repository untitleduico/react (MIT, about 2,000 stars, last commit 2026-10-09); that repository has not been researched yet, and the full Figma kit and PRO components are paid."
+    ]
+  }
+}

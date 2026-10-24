@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "url": "https://pro.reactbits.dev",
+  "facts": {
+    "found": true,
+    "url": "https://pro.reactbits.dev",
+    "finalUrl": "https://pro.reactbits.dev",
+    "status": 200,
+    "fetchedAt": "2026-10-24T04:46:23+00:00",
+    "title": "React Bits Pro | Animated React Components, Blocks & Templates",
+    "description": "230 animated React components, 300 page blocks, 300 app UI blocks, 15 templates and an AI Agent Kit. One-time payment, lifetime updates.",
+    "keywords": "React components,animated React components,React component library,Tailwind UI blocks,Next.js templates,landing page templates,shadcn registry,React UI library,Motion animations,AI agent skills"
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "name": "React Bits Pro",
+    "note": "Paid companion to React Bits with 230 animated components, many of them shader and 3D backgrounds, plus page blocks, app UI and templates.",
+    "openSource": false,
+    "pricing": "paid",
+    "lastUpdated": "2026-10-18",
+    "lastUpdatedEvidence": [
+      "https://pro.reactbits.dev/changelog"
+    ],
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Glowing 3D and shader backgrounds such as Spectral Drape, Photon Knot and Nexus Rays",
+        "Text effects such as ASCII Ripple, Cipher Reveal and Domino Lettering",
+        "App UI blocks shipped in two switchable styles (Default and Sorbet)"
+      ],
+      "evidenceUrls": [
+        "https://pro.reactbits.dev/docs/components",
+        "https://pro.reactbits.dev/changelog"
+      ]
+    },
+    "unverified": []
+  }
+}
