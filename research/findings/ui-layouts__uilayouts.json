@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "repo": "ui-layouts/uilayouts",
+  "facts": {
+    "found": true,
+    "repo": "ui-layouts/uilayouts",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:20:26+00:00",
+    "stars": 3818,
+    "archived": false,
+    "fork": false,
+    "created": "2024-08-11",
+    "pushed": "2026-08-23",
+    "description": "UI Layouts isn’t just a library. It’s your complete front-end universe with components, effects, design tools, and ready-to-use blocks, everything you need to build modern interfaces, faster.",
+    "homepage": "https://www.ui-layouts.com",
+    "topics": [
+      "accertinity",
+      "accordion-component",
+      "animated-tabs",
+      "codehike",
+      "component-library",
+      "components",
+      "components-react",
+      "drawer",
+      "framer-motion",
+      "image-mousetrail",
+      "modal",
+      "mouse-animation",
+      "mousetrail",
+      "react",
+      "react-animation-components",
+      "shadcn",
+      "shadcnui",
+      "sparkles",
+      "spotlight",
+      "tailwindcss"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2024 UI LAYOUT\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".commandcode",
+      ".eslintrc.js",
+      ".github",
+      ".gitignore",
+      ".npmrc",
+      ".prettierrc.json",
+      ".vscode",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "SECURITY.md",
+      "apps",
+      "biome.json",
+      "main-logo.png",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "scripts",
+      "tsconfig.json",
+      "turbo.json",
+      "ui-layouts.gif",
+      "ui-layouts.jpg"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "UI Layouts",
+    "note": "Copy-paste React and Tailwind components and effects, including a macOS genie dock, mesh gradients and R3F blobs.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "macOS genie-effect dock with app windows",
+        "image ripple reveal effect",
+        "R3F 3D blob",
+        "mesh gradients"
+      ],
+      "evidenceUrls": [
+        "https://www.ui-layouts.com/components",
+        "https://www.ui-layouts.com/components/mac-genie"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "repo": "viberdy-dev/ui",
+  "facts": {
+    "found": true,
+    "repo": "viberdy-dev/ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:16:04+00:00",
+    "stars": 0,
+    "archived": false,
+    "fork": false,
+    "created": "2026-10-05",
+    "pushed": "2026-10-16",
+    "description": "161 animated React components in 14 design styles: glassmorphism, aurora, kinetic type, spatial 3D, dither & ASCII. Install one at a time with the shadcn CLI. Tailwind v4, Framer Motion, an AI prompt for each.",
+    "homepage": "https://viberdy.dev",
+    "topics": [
+      "ai-prompts",
+      "animation",
+      "component-library",
+      "framer-motion",
+      "glassmorphism",
+      "kinetic-typography",
+      "micro-interactions",
+      "nextjs",
+      "react",
+      "react-components",
+      "shadcn",
+      "shadcn-registry",
+      "shadcn-ui",
+      "tailwindcss",
+      "typescript",
+      "ui-components",
+      "ui-design",
+      "vibe-coding",
+      "web-design"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE",
+      "head": "The MIT License with Commons Clause\nCopyright (c) 2026 viberdy.dev\n\"Commons Clause\" License Condition v1.0\nThe Software is provided to you by the Licensor under the License, as defined\nbelow, subject to the following condition.\nWithout limiting other conditions in the License, the grant of rights under the\nLicense will not include, and the License does not grant to you, the right to\nSell the Software.\nFor purposes of the foregoing, \"Sell\" means practicing any or all of the rights\ngranted to you under the License to provide to third parties, for a fee or other\nconsideration (including without limitation fees for hosting or consulting/\nsupport services related to the Software), a product or service whose value"
+    },
+    "rootFiles": [
+      ".gitattributes",
+      ".github",
+      "LICENSE",
+      "README.md",
+      "components",
+      "previews",
+      "prompts",
+      "registry.json"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "repo": "karthikmudunuri/eldoraui",
+  "facts": {
+    "found": true,
+    "repo": "karthikmudunuri/eldoraui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:53+00:00",
+    "stars": 1972,
+    "archived": false,
+    "fork": false,
+    "created": "2024-06-01",
+    "pushed": "2026-09-26",
+    "description": "Eldora UI is a collection of re-usable components that you can copy and paste into your web apps. It primarily features components, blocks, and templates.",
+    "homepage": "https://www.eldoraui.site",
+    "topics": [],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE.md",
+      "head": "MIT License\nCopyright (c) Mudunuri Bhaskara Karthikeya Varma\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".cursor",
+      ".dockerignore",
+      ".editorconfig",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".prettierignore",
+      ".vscode",
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "Dockerfile",
+      "LICENSE.md",
+      "README.md",
+      "apps",
+      "docker-compose.yml",
+      "lefthook.yml",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "registry.json",
+      "turbo.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "Eldora UI",
+    "note": "Animated React, Tailwind and Motion components, device mockups and templates, with a WebGL Photon Beam background.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Photon Beam WebGL background with animated light trails and bloom"
+      ],
+      "evidenceUrls": [
+        "https://www.eldoraui.site/docs/components/photon-beam"
+      ]
+    },
+    "unverified": []
+  }
+}

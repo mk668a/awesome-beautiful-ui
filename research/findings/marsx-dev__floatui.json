@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "repo": "MarsX-dev/floatui",
+  "facts": {
+    "found": true,
+    "repo": "MarsX-dev/floatui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:18:08+00:00",
+    "stars": 3589,
+    "archived": false,
+    "fork": false,
+    "created": "2023-02-13",
+    "pushed": "2025-03-23",
+    "description": "Beautiful and responsive UI components and templates for React and Vue (soon) with Tailwind CSS.",
+    "homepage": "https://floatui.com/",
+    "topics": [
+      "design-systems",
+      "nextjs",
+      "react",
+      "react-components",
+      "tailwind-template",
+      "tailwindcss",
+      "tailwindui",
+      "ui-components",
+      "vue",
+      "vue-components"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE.md",
+      "head": "# License\nAll you need to know about the Float UI licensing model\n### With this license, you are granted permission to:\n- Create unlimited End Products using the Components or Templates.\n- Modify the Components and Templates to create derivative Components, and Templates, which are also subject to this license.\n- Create unlimited End Products for unlimited clients using the Components .\n- Create End Products using the Components and Templates that can be sold to End Users.\n- Create End Products using the Components and Templates that are open source and freely available to End Users.\n### However, you are not allowed to:\nCreate End Products using the Components and Templates that are designed to allow End Users to build their own End Products using the Components and Templates or derivative components.\nDistribute the Components or derivative components separately from an End Product, either in code or as design assets.\n### Example usage"
+    },
+    "rootFiles": [
+      ".gitignore",
+      ".vscode",
+      "CONTRIBUTING.md",
+      "LICENSE.md",
+      "README.md",
+      "app",
+      "components",
+      "componentsDB",
+      "componentsNames.ts",
+      "content",
+      "demo",
+      "firebase",
+      "metatag.ts",
+      "next-env.d.ts",
+      "next.config.js",
+      "package.json",
+      "pnpm-lock.yaml",
+      "postcss.config.js",
+      "posts",
+      "previewsComponents",
+      "public",
+      "readme",
+      "sections",
+      "styles",
+      "tailwind.config.js",
+      "tsconfig.json",
+      "types",
+      "utils",
+      "viewport"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "Float UI",
+    "note": "Tailwind CSS marketing sections and website templates, free to use in end products under a custom license.",
+    "license": "Custom Float UI license (free for end products, no redistribution of components on their own)",
+    "requiresHostedService": false,
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

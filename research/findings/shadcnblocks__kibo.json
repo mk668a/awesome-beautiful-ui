@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "repo": "shadcnblocks/kibo",
+  "facts": {
+    "found": true,
+    "repo": "shadcnblocks/kibo",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:19:43+00:00",
+    "stars": 3966,
+    "archived": false,
+    "fork": false,
+    "created": "2024-08-25",
+    "pushed": "2026-05-04",
+    "description": "A custom registry of composable, accessible and extensible components designed for use with shadcn/ui. Free and open source, forever.",
+    "homepage": "https://www.kibo-ui.com/",
+    "topics": [
+      "accessible",
+      "components",
+      "composable",
+      "react",
+      "shadcn-ui",
+      "typescript",
+      "ui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "license.md",
+      "head": "Copyright (c) 2023 — Present shadcnblocks\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    "rootFiles": [
+      ".autorc",
+      ".coderabbit.yaml",
+      ".cursor",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".vscode",
+      "CHANGELOG.md",
+      "README.md",
+      "apps",
+      "biome.jsonc",
+      "license.md",
+      "next-env.d.ts",
+      "package-lock.json",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "scripts",
+      "tsconfig.json",
+      "tsup.config.ts",
+      "turbo.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "Kibo UI",
+    "note": "shadcn/ui registry of larger composable components such as Gantt, Kanban, contribution graph and image crop.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Gantt chart with resizable timeline items, date markers and a today marker",
+        "drag-and-drop Kanban board with status columns",
+        "GitHub-style contribution graph with legend and tooltips"
+      ],
+      "evidenceUrls": [
+        "https://www.kibo-ui.com/components/gantt",
+        "https://www.kibo-ui.com/components/kanban",
+        "https://www.kibo-ui.com/components/contribution-graph"
+      ]
+    },
+    "unverified": []
+  }
+}

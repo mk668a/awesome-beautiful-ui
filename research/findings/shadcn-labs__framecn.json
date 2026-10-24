@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "repo": "shadcn-labs/framecn",
+  "facts": {
+    "found": true,
+    "repo": "shadcn-labs/framecn",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:19:38+00:00",
+    "stars": 156,
+    "archived": false,
+    "fork": false,
+    "created": "2026-05-04",
+    "pushed": "2026-10-07",
+    "description": "Beautiful video components, built on Editframe. 100% Free, Zero config, one command setup.",
+    "homepage": "https://framecn.dev",
+    "topics": [
+      "editframe",
+      "react",
+      "shadcn",
+      "video"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Shadcn Labs\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".agents",
+      ".claude",
+      ".cursor",
+      ".github",
+      ".gitignore",
+      ".vscode",
+      ".web-kits",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "LICENSE",
+      "README.md",
+      "app",
+      "audio",
+      "components.json",
+      "components",
+      "constants",
+      "content",
+      "examples",
+      "hooks",
+      "lefthook.yml",
+      "lib",
+      "mdx-components.tsx",
+      "next.config.mjs",
+      "oxfmt.config.ts",
+      "oxlint.config.ts",
+      "package.json",
+      "pnpm-lock.yaml",
+      "postcss.config.mjs",
+      "proxy.ts",
+      "public",
+      "registry.json",
+      "registry",
+      "scripts",
+      "seo",
+      "skills-lock.json",
+      "source.config.ts",
+      "styles",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "motion",
+    "name": "framecn",
+    "note": "Video components for React installed with the shadcn CLI, with captions, transitions and scenes that play in the page and adjust with sliders.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Video components distributed through the shadcn registry, played in an in-page player with live customize sliders",
+        "Kinetic Slam captions that slam in one large word at a time"
+      ],
+      "evidenceUrls": [
+        "https://framecn.dev/docs/components/captions/kinetic-slam",
+        "https://framecn.dev/docs/components/transitions/chromatic-aberration-wipe"
+      ]
+    },
+    "unverified": []
+  }
+}

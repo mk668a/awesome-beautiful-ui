@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "repo": "codebox/generative-patterns",
+  "facts": {
+    "found": true,
+    "repo": "codebox/generative-patterns",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:14:45+00:00",
+    "stars": 23,
+    "archived": false,
+    "fork": false,
+    "created": "2020-06-08",
+    "pushed": "2020-06-12",
+    "description": "Web-Based Generative Pattern Maker",
+    "homepage": "https://codebox.net/pages/generative-patterns",
+    "topics": [
+      "generative-art",
+      "javascript"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2020 Rob Dawson\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "css",
+      "js",
+      "map.html"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "repo": "aicanvas-me/aicanvas",
+  "facts": {
+    "found": true,
+    "repo": "aicanvas-me/aicanvas",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:16:52+00:00",
+    "stars": 68,
+    "archived": false,
+    "fork": false,
+    "created": "2026-04-04",
+    "pushed": "2026-10-23",
+    "description": "Open-core registry of animated React components, blocks, design systems, and templates. Real, editable code: install with one shadcn CLI command or let your AI agent pull it over MCP.",
+    "homepage": "https://aicanvas.me",
+    "topics": [
+      "ai",
+      "claude-code",
+      "component-library",
+      "copy-paste",
+      "design-system",
+      "framer-motion",
+      "mcp",
+      "model-context-protocol",
+      "nextjs",
+      "react",
+      "shadcn-registry",
+      "shadcn-ui",
+      "tailwindcss",
+      "typescript",
+      "ui-components"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 AI Canvas\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".agents",
+      ".env.example",
+      ".githooks",
+      ".github",
+      ".gitignore",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "LICENSE",
+      "PROFILE_README.md",
+      "README.md",
+      "app",
+      "assets",
+      "component-order.json",
+      "components-workspace",
+      "design-systems",
+      "eslint.config.mjs",
+      "glama.json",
+      "instrumentation.ts",
+      "integration",
+      "lib",
+      "mcp",
+      "next.config.ts",
+      "package-lock.json",
+      "package.json",
+      "postcss.config.mjs",
+      "premium.lock.json",
+      "proxy.ts",
+      "public",
+      "registry-data",
+      "reviewer",
+      "scripts",
+      "skills",
+      "supabase",
+      "supervisor",
+      "tsconfig.json",
+      "vercel.json",
+      "vitest.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "AI Canvas",
+    "note": "Animated React and Tailwind components and blocks installed with the shadcn CLI, including AI-agent diagram widgets.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Agent Cost Flow: sankey-style diagram of 178 source strands feeding colored agent lanes with a cost total",
+        "Agent Feedback Loop: isometric widget of six AI agent stages in a loop",
+        "AI Knowledge Map: dotted AI orb wired to scored category cards and a dense tree of entities"
+      ],
+      "evidenceUrls": [
+        "https://aicanvas.me/components"
+      ]
+    },
+    "unverified": []
+  }
+}

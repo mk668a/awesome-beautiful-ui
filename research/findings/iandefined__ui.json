@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "repo": "iandefined/ui",
+  "facts": {
+    "found": true,
+    "repo": "iandefined/ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:15:51+00:00",
+    "stars": 5,
+    "archived": false,
+    "fork": false,
+    "created": "2026-08-25",
+    "pushed": "2026-09-21",
+    "description": "Thoughtful components for product engineers.",
+    "homepage": "https://ui.iandefined.com",
+    "topics": [
+      "base-ui",
+      "component-library",
+      "component-registry",
+      "components",
+      "react",
+      "shadcn-ui",
+      "tanstack-start"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Ian de Jesus\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".agents",
+      ".fallowrc.jsonc",
+      ".github",
+      ".gitignore",
+      ".icon-qa",
+      ".node-version",
+      ".vite-hooks",
+      ".vscode",
+      "AGENTS.md",
+      "LICENSE",
+      "components.json",
+      "content",
+      "examples",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "postcss.config.mjs",
+      "public",
+      "registry.json",
+      "scratch_batches_bc.html",
+      "scripts",
+      "skills-lock.json",
+      "source.config.ts",
+      "src",
+      "tsconfig.json",
+      "vite.config.ts",
+      "wrangler.jsonc"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "repo": "radiumcoders/Evil-Buttons",
+  "facts": {
+    "found": true,
+    "repo": "radiumcoders/Evil-Buttons",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:19:20+00:00",
+    "stars": 235,
+    "archived": false,
+    "fork": false,
+    "created": "2026-04-28",
+    "pushed": "2026-10-19",
+    "description": "shadcn/ui registry of playful, highly animated button components with evil aesthetics and killing interactions.",
+    "homepage": "https://evilbuttons.com",
+    "topics": [
+      "8bit",
+      "animated",
+      "buttons",
+      "framer-motion",
+      "motion",
+      "nextjs",
+      "react",
+      "reusable-components",
+      "shadcn-ui",
+      "tailwindcss"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "file": "LICENSE",
+      "head": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n   1. Definitions.\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,"
+    },
+    "rootFiles": [
+      ".agents",
+      ".claude",
+      ".commandcode",
+      ".github",
+      ".gitignore",
+      ".npmrc",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "app",
+      "assets",
+      "components.json",
+      "components",
+      "content",
+      "eslint.config.mjs",
+      "hooks",
+      "lib",
+      "next.config.mjs",
+      "package.json",
+      "plans",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "postcss.config.mjs",
+      "public",
+      "registry.components.json",
+      "scripts",
+      "skills-lock.json",
+      "source.config.ts",
+      "tsconfig.json",
+      "types"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "Evil Buttons",
+    "note": "A shadcn/ui registry of animated buttons with mischievous behavior, such as slide to detonate, doubt, troll and ordered dither.",
+    "license": "Apache-2.0",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "DitherButton with an animated 4x4 ordered-dither background and a knockout label",
+        "MinecraftButton with a pixel-textured stone look"
+      ],
+      "evidenceUrls": [
+        "https://www.evilbuttons.com/docs/dither-button",
+        "https://www.evilbuttons.com/"
+      ]
+    },
+    "unverified": []
+  }
+}

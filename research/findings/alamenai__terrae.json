@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "repo": "alamenai/terrae",
+  "facts": {
+    "found": true,
+    "repo": "alamenai/terrae",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:16:54+00:00",
+    "stars": 250,
+    "archived": false,
+    "fork": false,
+    "created": "2026-01-16",
+    "pushed": "2026-04-06",
+    "description": "Composable and animated components that replace imperative layers with simple props. The perfect companion for shadcn/ui.",
+    "homepage": "https://www.terrae.dev",
+    "topics": [
+      "mapbox",
+      "mapbox-react",
+      "react-map-gl",
+      "react-mapbox-gl",
+      "shadcn-re"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2025 Ala Eddine\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".claude",
+      ".claudeignore",
+      ".env.example",
+      ".gitignore",
+      ".husky",
+      ".prettierignore",
+      ".prettierrc",
+      ".vscode",
+      "CLAUDE.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "commitlint.config.cjs",
+      "components.json",
+      "eslint.config.mjs",
+      "next.config.ts",
+      "package-lock.json",
+      "package.json",
+      "postcss.config.mjs",
+      "public",
+      "registry.json",
+      "scripts",
+      "src",
+      "tsconfig.json",
+      "vitest.config.ts",
+      "vitest.setup.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "gems",
+    "name": "Terrae",
+    "note": "Composable React map components on Mapbox and MapLibre, including animated overlays such as a volcano eruption, a cyclone and a meteor strike.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Volcano eruption overlay with a lava and ash plume on the map",
+        "Cyclone overlay with a swirling particle funnel",
+        "Meteor strike overlay with scattering impact particles"
+      ],
+      "evidenceUrls": [
+        "https://www.terrae.dev/docs/volcano",
+        "https://www.terrae.dev/docs/cyclone",
+        "https://www.terrae.dev/docs/meteor"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "repo": "jolaleye/cssfx",
+  "facts": {
+    "found": true,
+    "repo": "jolaleye/cssfx",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:49+00:00",
+    "stars": 6112,
+    "archived": true,
+    "fork": false,
+    "created": "2019-04-06",
+    "pushed": "2021-08-15",
+    "description": "✨ Beautifully simple click-to-copy CSS effects",
+    "homepage": "https://cssfx.netlify.com",
+    "topics": [
+      "animation",
+      "css",
+      "design",
+      "svg",
+      "vue"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2019 Jonathan Olaleye\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".gitignore",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "assets",
+      "banner.png",
+      "components",
+      "effects",
+      "nuxt.config.js",
+      "package-lock.json",
+      "package.json",
+      "pages",
+      "plugins",
+      "static"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "CSSFX",
+    "note": "Click-to-copy CSS effects for hovers, inputs, loaders and text, written with minimal markup.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://cssfx.netlify.app"
+      ]
+    },
+    "unverified": [
+      "The screenshot of the homepage showed only static buttons labelled Bubble, Jelly, Pulse, Shine and Slide; I did not see any of the animations run.",
+      "Loader, input and text effect categories come from the site description, not from pages I viewed."
+    ]
+  }
+}

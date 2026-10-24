@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "repo": "imskyleen/animate-ui",
+  "facts": {
+    "found": true,
+    "repo": "imskyleen/animate-ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:40+00:00",
+    "stars": 4606,
+    "archived": false,
+    "fork": false,
+    "created": "2025-03-26",
+    "pushed": "2026-10-23",
+    "description": "Fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion, and Shadcn CLI. Browse a list of components you can install, modify, and use in your projects.",
+    "homepage": "https://animate-ui.com",
+    "topics": [
+      "components",
+      "framer-motion",
+      "motion",
+      "nextjs",
+      "radix",
+      "react",
+      "shadcn-ui",
+      "tailwindcss",
+      "typescript"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE.md",
+      "head": "MIT + Commons Clause License Condition\nCopyright (c) 2025 Elliot Sutton\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, and distribute the Software **as part of an application, website, or product**, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n## Commons Clause Restriction\nYou may use this Software, including for any commercial purpose, **so long as you do not sell or redistribute the components themselves in their original form—whether alone or in a bundle.**\n## No Warranty\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR"
+    },
+    "rootFiles": [
+      ".cursor",
+      ".github",
+      ".gitignore",
+      ".husky",
+      ".npmrc",
+      ".prettierignore",
+      ".prettierrc",
+      ".vscode",
+      "AGENTS.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE.md",
+      "README.md",
+      "apps",
+      "commitlint.config.mjs",
+      "e2e",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "scripts",
+      "skills",
+      "tsconfig.json",
+      "turbo.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "motion",
+    "name": "Animate UI",
+    "note": "Animated drop-in versions of Radix, Base UI and React Aria primitives built with Motion, plus animated backgrounds, text effects and icons.",
+    "license": "MIT + Commons Clause",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Gravity Stars background of drifting particles",
+        "Liquid button that fills with color from the bottom on hover",
+        "Swap-the-import animated variants of Radix, Base UI and React Aria primitives"
+      ],
+      "evidenceUrls": [
+        "https://animate-ui.com/docs/backgrounds/gravity-stars",
+        "https://animate-ui.com/docs/primitives/animate-ui/liquid-button",
+        "https://github.com/imskyleen/animate-ui"
+      ]
+    },
+    "unverified": []
+  }
+}

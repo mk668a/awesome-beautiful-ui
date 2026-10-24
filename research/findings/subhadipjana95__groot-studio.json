@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "repo": "Subhadipjana95/Groot-Studio",
+  "facts": {
+    "found": true,
+    "repo": "Subhadipjana95/Groot-Studio",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:20:25+00:00",
+    "stars": 60,
+    "archived": false,
+    "fork": false,
+    "created": "2026-03-26",
+    "pushed": "2026-09-25",
+    "description": "A shadcn registry of beautiful next.js components.",
+    "homepage": "https://grootstudio.dev",
+    "topics": [
+      "framer-motion",
+      "frontend-library",
+      "nextjs",
+      "radix-ui",
+      "shadcn-ui",
+      "tailwindcss",
+      "ui-library"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2025 Subhadip Jana\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".cursor",
+      ".eslintrc.js",
+      ".github",
+      ".gitignore",
+      ".npmrc",
+      ".prettierignore",
+      ".prettierrc",
+      ".vscode",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "SECURITY.md",
+      "apps",
+      "logo.xml",
+      "package-lock.json",
+      "package.json",
+      "packages",
+      "scripts",
+      "tsconfig.json",
+      "turbo.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "Groot Studio",
+    "note": "shadcn registry of Next.js components such as buttons, toasts, text animations and backgrounds, on a dark crimson docs site.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "Individual component animations were not seen running; only the homepage, the component index and the Pebble Toast page were viewed as static headless screenshots."
+    ]
+  }
+}

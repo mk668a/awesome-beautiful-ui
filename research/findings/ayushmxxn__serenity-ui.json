@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "repo": "ayushmxxn/serenity-ui",
+  "facts": {
+    "found": true,
+    "repo": "ayushmxxn/serenity-ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:15:32+00:00",
+    "stars": 49,
+    "archived": false,
+    "fork": false,
+    "created": "2024-09-01",
+    "pushed": "2026-09-18",
+    "description": "Free, open source React, Canvas & WebGL components. Add them with the shadcn CLI or copy the code directly.",
+    "homepage": "https://www.serenity-ui.com",
+    "topics": [
+      "component-library",
+      "framer-motion",
+      "nextjs16",
+      "open-source",
+      "react",
+      "react-components",
+      "shadcn-ui",
+      "tailwind-css",
+      "typescript",
+      "ui-components",
+      "ui-library",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Ayushmaan Singh\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".eslintrc.json",
+      ".github",
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "app",
+      "eslint.config.mjs",
+      "next.config.mjs",
+      "package-lock.json",
+      "package.json",
+      "postcss.config.mjs",
+      "public",
+      "registry.json",
+      "tsconfig.json",
+      "vite.config.ts",
+      "worker",
+      "wrangler.jsonc"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

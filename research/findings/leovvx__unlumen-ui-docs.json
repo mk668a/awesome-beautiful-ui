@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "repo": "leovvx/unlumen-ui-docs",
+  "facts": {
+    "found": true,
+    "repo": "leovvx/unlumen-ui-docs",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:22:00+00:00",
+    "stars": 74,
+    "archived": false,
+    "fork": false,
+    "created": "2026-07-06",
+    "pushed": "2026-09-13",
+    "description": "Open-source documentation and public component registry for unlumen UI",
+    "homepage": "https://ui.unlumen.com/docs",
+    "topics": [
+      "component-library",
+      "nextjs",
+      "react",
+      "shadcn-ui",
+      "tailwindcss",
+      "typescript"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Léo Wicki\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".nvmrc",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "SECURITY.md",
+      "__registry__",
+      "app",
+      "components.json",
+      "components",
+      "content",
+      "eslint.config.mjs",
+      "global.d.ts",
+      "hooks",
+      "lib",
+      "mdx-components.tsx",
+      "next-env.d.ts",
+      "next.config.mjs",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "postcss.config.mjs",
+      "public",
+      "registry",
+      "scripts",
+      "source.config.ts",
+      "tsconfig.json",
+      "vercel.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "motion",
+    "name": "unlumen UI",
+    "note": "Docs site and public shadcn registry of motion components for React, with some items free and others sold as Pro.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Cursor Image Trail that follows the pointer with a fanned trail of images",
+        "Hover Feature Cards that reveal a nested preview under the cursor",
+        "Tilt Card with stacked pricing previews"
+      ],
+      "evidenceUrls": [
+        "https://ui.unlumen.com/components"
+      ]
+    },
+    "unverified": []
+  }
+}

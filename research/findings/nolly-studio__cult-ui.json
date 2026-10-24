@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "repo": "nolly-studio/cult-ui",
+  "facts": {
+    "found": true,
+    "repo": "nolly-studio/cult-ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:18:10+00:00",
+    "stars": 6697,
+    "archived": false,
+    "fork": false,
+    "created": "2024-05-28",
+    "pushed": "2026-10-14",
+    "description": "Animated components for design engineers. 150+ free shadcn/ui components, built with Tailwind CSS and Motion. MIT licensed.",
+    "homepage": "https://www.cult-ui.com",
+    "topics": [
+      "components",
+      "design-engineering",
+      "framer-motion",
+      "nextjs",
+      "react",
+      "shadcn-ui",
+      "tailwindcss",
+      "typescript"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE.md",
+      "head": "MIT License\nCopyright (c) 2023 Jordan-Gilliam\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    "rootFiles": [
+      ".agents",
+      ".changeset",
+      ".claude",
+      ".commitlintrc.json",
+      ".cursor",
+      ".editorconfig",
+      ".eslintrc.json",
+      ".github",
+      ".gitignore",
+      ".husky",
+      ".kodiak.toml",
+      ".npmrc",
+      ".nvmrc",
+      ".prettierignore",
+      ".vscode",
+      "CONTRIBUTING.md",
+      "DESIGN.md",
+      "LICENSE.md",
+      "README.md",
+      "apps",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "postcss.config.mjs",
+      "prettier.config.cjs",
+      "tailwind.config.cjs",
+      "tsconfig.json",
+      "turbo.json",
+      "vitest.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "motion",
+    "name": "Cult UI",
+    "note": "Animated shadcn/ui components built with Tailwind and Motion, including a WebGL dithering hero and a morphing Dynamic Island.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Hero Dithering: split hero section with a WebGL dithering shader that renders a pixelated blue sphere",
+        "Dynamic Island: composable iPhone-style Dynamic Island that morphs between size presets (the preview cycles long and medium)"
+      ],
+      "evidenceUrls": [
+        "https://www.cult-ui.com/docs/components/hero-dithering",
+        "https://www.cult-ui.com/docs/components/dynamic-island"
+      ]
+    },
+    "unverified": []
+  }
+}

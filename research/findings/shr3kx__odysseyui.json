@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "repo": "Shr3kx/OdysseyUI",
+  "facts": {
+    "found": true,
+    "repo": "Shr3kx/OdysseyUI",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:15:26+00:00",
+    "stars": 30,
+    "archived": false,
+    "fork": false,
+    "created": "2026-02-19",
+    "pushed": "2026-05-06",
+    "description": null,
+    "homepage": "https://www.odysseyui.com/",
+    "topics": [],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".gitignore",
+      ".npmrc",
+      ".prettierrc",
+      "README.md",
+      "apps",
+      "commitlint.config.mjs",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "todo.md",
+      "tsconfig.json",
+      "turbo.json"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

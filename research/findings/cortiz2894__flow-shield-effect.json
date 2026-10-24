@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "repo": "cortiz2894/flow-shield-effect",
+  "facts": {
+    "found": true,
+    "repo": "cortiz2894/flow-shield-effect",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:15+00:00",
+    "stars": 179,
+    "archived": false,
+    "fork": false,
+    "created": "2026-03-01",
+    "pushed": "2026-05-22",
+    "description": "A real-time force shield effect built with React Three Fiber, Three.js, and custom GLSL shaders. This repository is a free open-source resource for the creative development community.",
+    "homepage": "https://flow-shield-effect.vercel.app",
+    "topics": [
+      "gamevfx",
+      "threejs"
+    ],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".claude",
+      ".github",
+      ".gitignore",
+      "README.md",
+      "eslint.config.mjs",
+      "next.config.ts",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "postcss.config.mjs",
+      "public",
+      "src",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "other",
+    "section": "webgl",
+    "name": "Force Shield VFX",
+    "note": "Hand-written GLSL force shield sphere with hex cells and a glowing rim, shown in a live 3D playground with tweakable controls.",
+    "license": "none (no license file in the repository)",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "hexagonal cell force shield with cyan fresnel rim glow, rendered with custom GLSL",
+        "live 3D playground with Leva control panel, bloom and Default/Droideka presets"
+      ],
+      "evidenceUrls": [
+        "https://flow-shield-effect.vercel.app"
+      ]
+    },
+    "unverified": []
+  }
+}

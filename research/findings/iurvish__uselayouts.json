@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "repo": "iurvish/uselayouts",
+  "facts": {
+    "found": true,
+    "repo": "iurvish/uselayouts",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:43+00:00",
+    "stars": 698,
+    "archived": false,
+    "fork": false,
+    "created": "2025-12-14",
+    "pushed": "2026-10-19",
+    "description": "Free premium animated React components and micro-interactions built with Framer Motion and Tailwind CSS",
+    "homepage": "https://uselayouts.com",
+    "topics": [
+      "animated-components",
+      "components-library-web-development",
+      "nextjs-ui-components",
+      "open-source",
+      "open-source-ui-library",
+      "shadcn-ui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2025 Urvish Mali\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".env.example",
+      ".github",
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "app",
+      "cli.json",
+      "components.json",
+      "components",
+      "content",
+      "emails",
+      "eslint.config.mjs",
+      "hooks",
+      "lib",
+      "mdx-components.tsx",
+      "middleware.ts",
+      "next.config.mjs",
+      "package-lock.json",
+      "package.json",
+      "postcss.config.mjs",
+      "public",
+      "registry.json",
+      "registry",
+      "scripts",
+      "skills-lock.json",
+      "source.config.ts",
+      "styles",
+      "supabase",
+      "tsconfig.json",
+      "types",
+      "yarn.lock"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "useLayouts",
+    "note": "Free animated React components on Motion and Tailwind, installed through the shadcn CLI, with pieces like a folder that slides a card out.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Confidential Folder card that slides out of a folder, with an orbital line-art cover"
+      ],
+      "evidenceUrls": [
+        "https://uselayouts.com/docs/components/confidential-folder",
+        "https://uselayouts.com"
+      ]
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "repo": "Saurabh-2607/GreatUI",
+  "facts": {
+    "found": true,
+    "repo": "Saurabh-2607/GreatUI",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:19:35+00:00",
+    "stars": 277,
+    "archived": false,
+    "fork": false,
+    "created": "2026-07-19",
+    "pushed": "2026-10-23",
+    "description": "Beautiful, animated React components built with TypeScript, Tailwind CSS, and Motion.",
+    "homepage": "https://www.great-ui.com",
+    "topics": [
+      "motion",
+      "react",
+      "tailwindcss",
+      "ui-components",
+      "ui-design"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE",
+      "head": "Great UI Custom License Agreement\nCopyright (c) 2024-2026 Saurabh Sharma\nThis License Agreement (\"Agreement\") governs the use of the Great UI component library and associated documentation files (the \"Software\"). By using the Software, you agree to be bound by the terms of this Agreement.\n1. GRANT OF LICENSE\nSubject to the terms and conditions of this Agreement, permission is hereby granted, free of charge, to any person obtaining a copy of this Software, to use, copy, modify, and merge the Software for both personal and commercial projects. \n2. RESTRICTIONS ON REDISTRIBUTION\nYou are explicitly NOT permitted to:\na. Resell, redistribute, sublicense, or publish the Software (or modified versions thereof) as a standalone UI kit, template, or component library.\nb. Package the Software as part of a derivative UI library, theme, or framework meant for redistribution or sale.\n(Note: You are completely free to use the components to build end-user applications, SaaS products, and websites, including commercial ones.)\n3. ATTRIBUTION\nWhile not strictly required, attribution to Great UI is highly appreciated when utilizing components from the Software in your projects."
+    },
+    "rootFiles": [
+      ".gitignore",
+      ".husky",
+      ".lintstagedrc.js",
+      ".prettierrc",
+      "AGENTS.md",
+      "LICENSE",
+      "README.md",
+      "app",
+      "banner.png",
+      "components",
+      "eslint.config.mjs",
+      "instrumentation-client.ts",
+      "lib",
+      "next-env.d.ts",
+      "next.config.ts",
+      "package-lock.json",
+      "package.json",
+      "postcss.config.mjs",
+      "public",
+      "scripts",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "motion",
+    "name": "Great UI",
+    "note": "Copy-paste React and Motion components with many page and theme transitions, a canvas pixel wipe and a pixel-to-ASCII image.",
+    "license": "Custom license, free use but no redistribution as a UI kit",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Pixel to ASCII image that renders a picture as ASCII characters",
+        "Pixel Swipe page transition and text animation with a pixel-dithered canvas wipe",
+        "Radial Gooey Menu using an SVG gooey blur filter with spring-driven motion",
+        "Venetian blinds page transition with horizontal or vertical slats"
+      ],
+      "evidenceUrls": [
+        "https://www.great-ui.com/",
+        "https://www.great-ui.com/previews/GUI-Pixel-Swipe-Page-Transition.webp",
+        "https://www.great-ui.com/previews/GUI-Venetian-Blinds-Page-Transition.webp",
+        "https://github.com/Saurabh-2607/GreatUI/blob/main/components/ui/RadialGooeyMenu.tsx"
+      ]
+    },
+    "unverified": []
+  }
+}

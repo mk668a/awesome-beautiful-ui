@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "repo": "codse/animata",
+  "facts": {
+    "found": true,
+    "repo": "codse/animata",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:13+00:00",
+    "stars": 2981,
+    "archived": false,
+    "fork": false,
+    "created": "2024-06-10",
+    "pushed": "2026-10-14",
+    "description": "Bring your site to life with easy to use animation & interaction code. Copy. Paste. Animate. ",
+    "homepage": "https://animata.design",
+    "topics": [
+      "animation",
+      "css-animations",
+      "hacktober",
+      "hacktoberfest",
+      "hacktoberfest-accepted",
+      "interaction",
+      "nextjs",
+      "react",
+      "tailwindcss"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE.md",
+      "head": "MIT License\nCopyright (c) Animata\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,"
+    },
+    "rootFiles": [
+      ".env.development",
+      ".env.production",
+      ".github",
+      ".gitignore",
+      ".husky",
+      ".node-version",
+      ".prettierrc.cjs",
+      ".storybook",
+      ".vscode",
+      "CLAUDE.md",
+      "CODE_OF_CONDUCT.md",
+      "LICENSE.md",
+      "README.md",
+      "animata",
+      "app",
+      "biome.json",
+      "commitlint.config.cjs",
+      "components.json",
+      "components",
+      "config",
+      "content",
+      "doctor.config.ts",
+      "global.d.ts",
+      "hooks",
+      "lib",
+      "next.config.mjs",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "postcss.config.mjs",
+      "public",
+      "scripts",
+      "styles",
+      "templates",
+      "tsconfig.json",
+      "types",
+      "velite.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "Animata",
+    "note": "Copy-paste collection of 156+ animated React and Tailwind components, with a canvas boids flocking background that parts around the cursor.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "boids flocking canvas background that parts around the cursor"
+      ],
+      "evidenceUrls": [
+        "https://animata.design/docs/background/boids-ecosystem"
+      ]
+    },
+    "unverified": []
+  }
+}

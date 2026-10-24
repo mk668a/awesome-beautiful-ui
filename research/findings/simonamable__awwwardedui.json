@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "repo": "SimonAmable/awwwardedui",
+  "facts": {
+    "found": true,
+    "repo": "SimonAmable/awwwardedui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:14:34+00:00",
+    "stars": 0,
+    "archived": false,
+    "fork": false,
+    "created": "2026-08-05",
+    "pushed": "2026-08-10",
+    "description": null,
+    "homepage": "https://awwwardedui.vercel.app",
+    "topics": [],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".codex",
+      ".gitignore",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "README.md",
+      "app",
+      "components.json",
+      "components",
+      "content",
+      "eslint.config.mjs",
+      "fixtures",
+      "lib",
+      "next-env.d.ts",
+      "next.config.ts",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "postcss.config.mjs",
+      "public",
+      "registry.json",
+      "registry",
+      "scripts",
+      "tailwind.config.ts",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

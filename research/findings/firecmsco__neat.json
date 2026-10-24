@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "repo": "firecmsco/neat",
+  "facts": {
+    "found": true,
+    "repo": "firecmsco/neat",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:31+00:00",
+    "stars": 439,
+    "archived": false,
+    "fork": false,
+    "created": "2022-10-06",
+    "pushed": "2026-10-06",
+    "description": "Neat allows you to build awesome gradients for your website, using 3d shaders",
+    "homepage": "https://neat.firecms.co",
+    "topics": [],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE",
+      "head": "The MIT License (MIT)\nCopyright (c) 2024-present FireCMS\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".claude",
+      ".firebaserc",
+      ".github",
+      ".gitignore",
+      ".yarnrc.yml",
+      "DESIGN.md",
+      "LICENSE",
+      "PRODUCT.md",
+      "README.md",
+      "demo",
+      "editor",
+      "firebase.json",
+      "functions",
+      "keygen",
+      "lib",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "tea.yaml",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "section": "webgl",
+    "name": "Neat",
+    "note": "Zero-dependency WebGL library that renders animated 3D mesh gradients, with a browser editor for presets and export.",
+    "license": "MIT + Commons Clause",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "animated 3D mesh gradient with flowing wave distortion on a full-bleed canvas"
+      ],
+      "evidenceUrls": [
+        "https://neat.firecms.co",
+        "https://neat.rebase.pro/"
+      ]
+    },
+    "unverified": []
+  }
+}

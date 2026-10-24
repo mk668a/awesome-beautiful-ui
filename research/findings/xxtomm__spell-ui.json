@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "repo": "xxtomm/spell-ui",
+  "facts": {
+    "found": true,
+    "repo": "xxtomm/spell-ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:20:33+00:00",
+    "stars": 1359,
+    "archived": false,
+    "fork": false,
+    "created": "2025-11-19",
+    "pushed": "2026-10-10",
+    "description": "A large collection of high-quality React components that you can copy and paste into any project.",
+    "homepage": "https://spell.sh",
+    "topics": [
+      "components",
+      "motion",
+      "nextjs",
+      "react",
+      "shadcn-ui",
+      "tailwindcss",
+      "typescript",
+      "ui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2025 Spell UI\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "app",
+      "basic-doc.ts",
+      "components.json",
+      "components",
+      "content-collections.ts",
+      "content",
+      "db",
+      "docs",
+      "drizzle.config.ts",
+      "eslint.config.mjs",
+      "hooks",
+      "lib",
+      "mdx-components.tsx",
+      "next.config.ts",
+      "package.json",
+      "pnpm-lock.yaml",
+      "postcss.config.mjs",
+      "public",
+      "registry.json",
+      "registry",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "Spell UI",
+    "note": "Free copy-paste React and Tailwind components, with pieces like a 3D perspective book, light rays and an exploding input.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "3D perspective book",
+        "light rays background",
+        "exploding particle input",
+        "Spotify now-playing card"
+      ],
+      "evidenceUrls": [
+        "https://spell.sh/",
+        "https://spell.sh/docs/perspective-book",
+        "https://spell.sh/docs/exploding-input"
+      ]
+    },
+    "unverified": []
+  }
+}

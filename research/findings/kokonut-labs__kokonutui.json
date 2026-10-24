@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "repo": "kokonut-labs/kokonutui",
+  "facts": {
+    "found": true,
+    "repo": "kokonut-labs/kokonutui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:19:06+00:00",
+    "stars": 2197,
+    "archived": false,
+    "fork": false,
+    "created": "2024-11-01",
+    "pushed": "2026-10-24",
+    "description": "Open-source collection of stunning Components built with Tailwind CSS, shadcn/ui and Motion to use on your websites",
+    "homepage": "https://kokonutui.com",
+    "topics": [
+      "components",
+      "framer-motion",
+      "library",
+      "nextjs",
+      "react",
+      "shadcn-ui",
+      "tailwindcss",
+      "vercel"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2025 kokonutUI\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".agents",
+      ".github",
+      ".gitignore",
+      ".vscode",
+      "CLAUDE.md",
+      "LICENSE",
+      "README.md",
+      "app",
+      "biome.jsonc",
+      "bun.lock",
+      "components.json",
+      "components",
+      "config",
+      "content",
+      "hooks",
+      "lib",
+      "next.config.mjs",
+      "package.json",
+      "postcss.config.mjs",
+      "proxy.ts",
+      "public",
+      "registry.json",
+      "registry",
+      "scripts",
+      "source.config.ts",
+      "tsconfig.json",
+      "vercel.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "Kokonut UI",
+    "note": "React components on Tailwind, Motion and shadcn/ui, many modeled on physical objects such as receipts, boarding passes and dials.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Detent Dial temperature control with tick marks you turn or flick and let coast",
+        "Receipt Printer card",
+        "Split Flap Text departure-board lettering"
+      ],
+      "evidenceUrls": [
+        "https://kokonutui.com",
+        "https://kokonutui.com/docs/changelog",
+        "https://kokonutui.com/docs/inputs/detent-dial",
+        "https://kokonutui.com/docs/cards/receipt-printer",
+        "https://kokonutui.com/docs/texts/split-flap-text"
+      ]
+    },
+    "unverified": []
+  }
+}

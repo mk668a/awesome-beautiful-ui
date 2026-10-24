@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "repo": "DavidHDev/vue-bits",
+  "facts": {
+    "found": true,
+    "repo": "DavidHDev/vue-bits",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:21+00:00",
+    "stars": 4616,
+    "archived": false,
+    "fork": false,
+    "created": "2025-07-07",
+    "pushed": "2026-10-19",
+    "description": "An open source collection of animated, interactive & fully customizable Vue components for building stunning, memorable websites.",
+    "homepage": "https://vue-bits.dev/",
+    "topics": [
+      "javascript",
+      "tailwind",
+      "tailwindcss",
+      "typescript",
+      "ui-components",
+      "ui-library",
+      "vue",
+      "vue3",
+      "vuejs",
+      "vuejs-components",
+      "vuejs3"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE.md",
+      "head": "MIT + Commons Clause License Condition v1.0\nCopyright (c) 2025 David Haz\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, and distribute the Software **as part of an application, website, or product**, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n## Commons Clause Restriction\nYou may use this Software, including for any commercial purpose, **so long as you do not sell, sublicense, or redistribute the components themselves-whether alone, in a bundle, template, or as a ported version.**\n## No Warranty\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR"
+    },
+    "rootFiles": [
+      ".editorconfig",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".husky",
+      ".prettierignore",
+      ".prettierrc",
+      "CONTRIBUTING.md",
+      "LICENSE.md",
+      "README.md",
+      "env.d.ts",
+      "eslint.config.ts",
+      "index.html",
+      "jsrepo.config.ts",
+      "package-lock.json",
+      "package.json",
+      "pnpm-lock.yaml",
+      "public",
+      "scripts",
+      "src",
+      "tsconfig.app.json",
+      "tsconfig.json",
+      "tsconfig.node.json",
+      "vite.config.ts",
+      "wrangler.jsonc"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "webgl",
+    "name": "Vue Bits",
+    "note": "Vue 3 collection of 200+ animated components, with WebGL backgrounds such as Balatro, Ballpit and Color Bends.",
+    "license": "MIT + Commons Clause",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Balatro swirling shader background",
+        "Ballpit cluster of glossy 3D spheres",
+        "Color Bends flowing glow-band shader background"
+      ],
+      "evidenceUrls": [
+        "https://vue-bits.dev/backgrounds/balatro",
+        "https://vue-bits.dev/animations/ballpit",
+        "https://vue-bits.dev/backgrounds/color-bends",
+        "https://vue-bits.dev/"
+      ]
+    },
+    "unverified": []
+  }
+}

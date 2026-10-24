@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "repo": "badtzx0/badtz-ui",
+  "facts": {
+    "found": true,
+    "repo": "badtzx0/badtz-ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:04+00:00",
+    "stars": 268,
+    "archived": false,
+    "fork": false,
+    "created": "2025-02-16",
+    "pushed": "2026-02-27",
+    "description": null,
+    "homepage": "https://badtz-ui.com",
+    "topics": [],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE.md",
+      "head": "MIT License\nCopyright (c) 2025 Badtz\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n**Additional Restriction:**\nRedistribution or sale of the original or modified versions of the Software,"
+    },
+    "rootFiles": [
+      ".gitignore",
+      ".prettierignore",
+      "CONTRIBUTING.md",
+      "LICENSE.md",
+      "README.md",
+      "app",
+      "components.json",
+      "components",
+      "content",
+      "emails",
+      "eslint.config.mjs",
+      "fonts",
+      "generated",
+      "hooks",
+      "lib",
+      "mdx-components.tsx",
+      "middleware.ts",
+      "next.config.mjs",
+      "package.json",
+      "pnpm-lock.yaml",
+      "postcss.config.mjs",
+      "prisma",
+      "public",
+      "registry.json",
+      "registry",
+      "scripts",
+      "source.config.ts",
+      "store",
+      "styles",
+      "tsconfig.json",
+      "tsconfig.scripts.json",
+      "types"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "BadtzUI",
+    "note": "Animated React and Tailwind components for shadcn projects, with a Cloud Orbit of tool icons circling an avatar.",
+    "license": "MIT + no-resale restriction",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Cloud Orbit: tool icons orbiting a central avatar"
+      ],
+      "evidenceUrls": [
+        "https://www.badtz-ui.com/docs/components/cloud-orbit"
+      ]
+    },
+    "unverified": []
+  }
+}

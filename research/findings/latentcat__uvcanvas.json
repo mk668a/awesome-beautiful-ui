@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "repo": "latentcat/uvcanvas",
+  "facts": {
+    "found": true,
+    "repo": "latentcat/uvcanvas",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:19:10+00:00",
+    "stars": 1370,
+    "archived": false,
+    "fork": false,
+    "created": "2024-02-29",
+    "pushed": "2025-03-28",
+    "description": "An React.js component library for beautifully shaded canvas https://uvcanvas.com",
+    "homepage": "https://uvcanvas.com",
+    "topics": [
+      "component-library",
+      "graphics",
+      "nextjs",
+      "react",
+      "reactjs",
+      "shaders",
+      "typescript",
+      "webgl"
+    ],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      "CONTRIBUTING.md",
+      "README.md",
+      "core",
+      "github",
+      "site"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "section": "webgl",
+    "name": "UVCanvas",
+    "note": "React components that render animated WebGL shader gradients as drop-in canvas backgrounds.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "drop-in animated WebGL shader gradient canvases such as Lumiflex, Zenitho, Novatrix and Velustro"
+      ],
+      "evidenceUrls": [
+        "https://uvcanvas.com/docs/components/lumiflex",
+        "https://uvcanvas.com/docs/components/zenitho",
+        "https://uvcanvas.com/docs/components/novatrix",
+        "https://uvcanvas.com/docs/components/velustro"
+      ]
+    },
+    "unverified": []
+  }
+}

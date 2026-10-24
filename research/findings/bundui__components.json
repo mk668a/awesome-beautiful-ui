@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "repo": "bundui/components",
+  "facts": {
+    "found": true,
+    "repo": "bundui/components",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:07+00:00",
+    "stars": 407,
+    "archived": false,
+    "fork": false,
+    "created": "2024-08-15",
+    "pushed": "2025-10-04",
+    "description": "A collection of components that you can copy and paste into your apps. Built with Tailwind CSS and Motion. Supports shadcn/ui.",
+    "homepage": "https://bundui.io",
+    "topics": [
+      "animated",
+      "components",
+      "framer-motion",
+      "javascript",
+      "motion",
+      "nextjs",
+      "radix-ui",
+      "react",
+      "shadcn-ui",
+      "tailwindcss",
+      "typescript",
+      "ui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENCE.md",
+      "head": "MIT License\nCopyright (c) 2024 Bundui\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".eslintrc.json",
+      ".gitignore",
+      ".prettierrc",
+      ".source",
+      "LICENCE.md",
+      "README.md",
+      "app",
+      "components.json",
+      "components",
+      "content",
+      "hooks",
+      "lib",
+      "mdx-components.tsx",
+      "next.config.mjs",
+      "package-lock.json",
+      "package.json",
+      "postcss.config.mjs",
+      "prettierrc.json",
+      "public",
+      "scripts",
+      "source.config.ts",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "Bundui",
+    "note": "Copy-paste Tailwind and shadcn/ui components and page blocks, plus a small set of Motion text effects.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": [
+        "https://bundui.io",
+        "https://bundui.io/motion"
+      ]
+    },
+    "unverified": []
+  }
+}

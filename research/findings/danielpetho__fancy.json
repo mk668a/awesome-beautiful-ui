@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "repo": "danielpetho/fancy",
+  "facts": {
+    "found": true,
+    "repo": "danielpetho/fancy",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:19+00:00",
+    "stars": 3264,
+    "archived": false,
+    "fork": false,
+    "created": "2024-06-02",
+    "pushed": "2026-03-14",
+    "description": null,
+    "homepage": "https://fancycomponents.dev",
+    "topics": [
+      "animation",
+      "design",
+      "framer-motion",
+      "motion",
+      "tailwindcss",
+      "ui-components"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2024 Daniel Petho\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".eslintignore",
+      ".eslintrc.json",
+      ".gitignore",
+      ".prettierignore",
+      "ACCEPTANCE_CRITERIA.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "components.json",
+      "next.config.js",
+      "package-lock.json",
+      "package.json",
+      "postcss.config.mjs",
+      "prettier.config.cjs",
+      "public",
+      "src",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "motion",
+    "name": "Fancy Components",
+    "note": "React and Motion components for playful microinteractions such as variable-font cursor proximity text and physics-based tag piles.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "variable font weight that follows cursor proximity",
+        "physics tag pile"
+      ],
+      "evidenceUrls": [
+        "https://www.fancycomponents.dev/",
+        "https://www.fancycomponents.dev/docs/components/text/variable-font-cursor-proximity"
+      ]
+    },
+    "unverified": []
+  }
+}

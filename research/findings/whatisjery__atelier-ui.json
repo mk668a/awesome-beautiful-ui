@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "repo": "whatisjery/atelier-ui",
+  "facts": {
+    "found": true,
+    "repo": "whatisjery/atelier-ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:14:33+00:00",
+    "stars": 41,
+    "archived": false,
+    "fork": false,
+    "created": "2026-05-07",
+    "pushed": "2026-10-20",
+    "description": "A registry of WebGL and motion components for React.",
+    "homepage": "https://atelier-ui.com",
+    "topics": [
+      "animation-library",
+      "awwwards",
+      "css",
+      "motion",
+      "nextjs",
+      "r3f",
+      "react",
+      "react-three-fiber",
+      "shaders",
+      "taiwlindcss",
+      "ui-library",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE.md",
+      "head": "MIT License\nCopyright (c) 2024-2025 whatisjery\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".vscode",
+      ".zed",
+      "LICENSE.md",
+      "README.md",
+      "biome.json",
+      "lefthook.yml",
+      "mdx-components.tsx",
+      "next.config.ts",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "postcss.config.mjs",
+      "public",
+      "skills",
+      "src",
+      "tsconfig.json",
+      "vitest.config.mts"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

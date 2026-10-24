@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "repo": "Johuniq/jolyui",
+  "facts": {
+    "found": true,
+    "repo": "Johuniq/jolyui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:44+00:00",
+    "stars": 268,
+    "archived": false,
+    "fork": false,
+    "created": "2025-11-17",
+    "pushed": "2026-10-07",
+    "description": "A custom registry of composable, accessible and extensible components designed for use with shadcn/ui. Free and open source, forever.",
+    "homepage": "https://jolyui.dev/",
+    "topics": [
+      "component-library",
+      "jolyui",
+      "shadcn",
+      "shadcn-registry",
+      "shadcn-ui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2025 Johuniq\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".changeset",
+      ".cursor",
+      ".github",
+      ".gitignore",
+      ".husky",
+      ".vscode",
+      "CODE_OF_CONDUCT.md",
+      "COMMIT_CONVENTION.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "biome.json",
+      "docs",
+      "knip.json",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "tsconfig.json",
+      "turbo.json",
+      "vitest.config.ts",
+      "vitest.setup.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "components",
+    "name": "Joly UI",
+    "note": "A copy-paste shadcn/ui registry of about 40 React components, mostly buttons, inputs and text animations.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": true,
+    "demoViewed": true,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": [
+      "The Liquid Metal Button page references the @paper-design/shaders package, so the shader effect appears to come from that package rather than from this project; the headless screenshot showed a dark metallic pill button but not the animation.",
+      "The Image Sphere page rendered only a few scattered avatars in the headless screenshot, so the 3D rotating sphere itself was not seen."
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "repo": "Dinil-Thilakarathne/sona-ui",
+  "facts": {
+    "found": true,
+    "repo": "Dinil-Thilakarathne/sona-ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:24+00:00",
+    "stars": 116,
+    "archived": false,
+    "fork": false,
+    "created": "2025-04-11",
+    "pushed": "2026-10-07",
+    "description": "A modern UI component library built with React and TailwindCSS to help you build beautiful and accessible web applications faster.",
+    "homepage": "https://sonaui.com",
+    "topics": [
+      "components",
+      "motion",
+      "open-source",
+      "react",
+      "tailwindcss"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Dinil Thilakarathne\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".agents",
+      ".claude",
+      ".env.example",
+      ".github",
+      ".gitignore",
+      ".oxlintrc.json",
+      ".pnpm-store",
+      ".vscode",
+      ".zed",
+      "AGENTS.md",
+      "CHANGELOG.md",
+      "CLAUDE.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "SECURITY.md",
+      "biome.json",
+      "bun.lock",
+      "components.json",
+      "content-collections.ts",
+      "docs",
+      "manifest.json",
+      "next.config.ts",
+      "package.json",
+      "patches",
+      "postcss.config.mjs",
+      "public",
+      "registry.json",
+      "release.config.cjs",
+      "scripts",
+      "skills-lock.json",
+      "src",
+      "tests",
+      "tsconfig.json",
+      "vitest-setup.ts",
+      "vitest.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "motion",
+    "name": "Sona UI",
+    "note": "Animated React components copied in through the shadcn CLI, including a layered depth-tile carousel and a scattered card marquee.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Depth Tiles layered image stack that cycles with the active tile in focus",
+        "Circular Card Marquee of tilted polaroid-style cards"
+      ],
+      "evidenceUrls": [
+        "https://sonaui.com/components",
+        "https://sonaui.com/docs/depth-tiles",
+        "https://sonaui.com/docs/circular-context-menu"
+      ]
+    },
+    "unverified": []
+  }
+}

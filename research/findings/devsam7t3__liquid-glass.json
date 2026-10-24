@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "repo": "DevSam7t3/liquid-glass",
+  "facts": {
+    "found": true,
+    "repo": "DevSam7t3/liquid-glass",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:14:55+00:00",
+    "stars": 7,
+    "archived": false,
+    "fork": false,
+    "created": "2026-06-04",
+    "pushed": "2026-08-11",
+    "description": "Physics-based liquid glass UI effect — Snell's law SVG displacement maps, spring animations, zero runtime dependencies.",
+    "homepage": "https://docs.avenra.online/docs/liquid-glass/getting-started",
+    "topics": [],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 DevSam7t3\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".agents",
+      ".editorconfig",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".husky",
+      ".npmignore",
+      ".prettierignore",
+      ".prettierrc",
+      "CHANGELOG.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "SECURITY.md",
+      "SUPPORT.md",
+      "demo",
+      "eslint.config.mjs",
+      "package-lock.json",
+      "package.json",
+      "public",
+      "registry.json",
+      "registry",
+      "rollup.config.js",
+      "skills-lock.json",
+      "src",
+      "styles",
+      "tests",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "repo": "CoDesign-Spa27/skecher-ui",
+  "facts": {
+    "found": true,
+    "repo": "CoDesign-Spa27/skecher-ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:15:36+00:00",
+    "stars": 38,
+    "archived": false,
+    "fork": false,
+    "created": "2026-04-10",
+    "pushed": "2026-10-19",
+    "description": "motion component library on top of shadcn cli.",
+    "homepage": "https://skecher-ui.com",
+    "topics": [],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".gitignore",
+      "AGENTS.md",
+      "PRODUCT.md",
+      "README.md",
+      "app",
+      "assets",
+      "biome.json",
+      "bun.lock",
+      "components.json",
+      "components",
+      "constants",
+      "design-file.md",
+      "hooks",
+      "lib",
+      "next.config.ts",
+      "package.json",
+      "postcss.config.mjs",
+      "public",
+      "registry.json",
+      "scripts",
+      "tsconfig.json",
+      "types"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

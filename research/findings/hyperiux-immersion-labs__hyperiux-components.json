@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "repo": "Hyperiux-Immersion-Labs/hyperiux-components",
+  "facts": {
+    "found": true,
+    "repo": "Hyperiux-Immersion-Labs/hyperiux-components",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:40+00:00",
+    "stars": 101,
+    "archived": false,
+    "fork": false,
+    "created": "2026-05-20",
+    "pushed": "2026-10-23",
+    "description": "Animation effects and interactive UI components for Next.js - CLI-installable, 50+ free MPL 2.0 effects and 100+ Pro",
+    "homepage": "https://vault.hyperiux.com",
+    "topics": [
+      "animation",
+      "cli",
+      "component-library",
+      "gsap",
+      "nextjs",
+      "open-source",
+      "react",
+      "tailwindcss",
+      "threejs",
+      "ui-components",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Hyperiux\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".github",
+      ".gitignore",
+      ".npmrc",
+      "CHANGELOG.md",
+      "CONTRIBUTING.md",
+      "Dockerfile",
+      "LICENSE",
+      "LICENSE_EFFECTS",
+      "MCP-DOCUMENTATION.md",
+      "MCP-OVERVIEW.md",
+      "README.md",
+      "glama.json",
+      "media",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "registry",
+      "tsconfig.json",
+      "turbo.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "webgl",
+    "name": "Hyperiux Vault",
+    "note": "Scroll, cursor, text and WebGL effects for Next.js, installed as source files by a CLI, with free MPL 2.0 effects and paid Pro ones.",
+    "license": "MIT (CLI) + MPL 2.0 (free effects) + proprietary Pro",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Spider Particles interactive particle field that reacts to the cursor (Three.js)",
+        "Pixel Text Fill text animation (GSAP)",
+        "Phantom image trail cursor effect"
+      ],
+      "evidenceUrls": [
+        "https://vault.hyperiux.com/effects",
+        "https://raw.githubusercontent.com/Hyperiux-Immersion-Labs/hyperiux-components/main/media/effects/spider-particles.gif",
+        "https://github.com/Hyperiux-Immersion-Labs/hyperiux-components/tree/main/registry/effects/backgrounds/spider-particles"
+      ]
+    },
+    "unverified": []
+  }
+}

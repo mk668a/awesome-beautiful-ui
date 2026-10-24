@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "repo": "facade-ui/facade-ui",
+  "facts": {
+    "found": true,
+    "repo": "facade-ui/facade-ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:14:59+00:00",
+    "stars": 0,
+    "archived": false,
+    "fork": false,
+    "created": "2026-09-21",
+    "pushed": "2026-10-11",
+    "description": "Sections and page templates for marketing websites: heroes, feature grids, pricing tables, FAQs and footers. Free and open source. Install with the shadcn CLI.",
+    "homepage": "https://facadeui.dev",
+    "topics": [
+      "landing-page",
+      "react",
+      "shadcn",
+      "shadcn-registry",
+      "tailwindcss"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Facade UI contributors\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".claude",
+      ".github",
+      ".gitignore",
+      ".npmrc",
+      ".prettierignore",
+      ".prettierrc.json",
+      "AGENTS.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "ROADMAP.md",
+      "apps",
+      "context7.json",
+      "e2e",
+      "package.json",
+      "packages",
+      "playwright.config.ts",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "scripts",
+      "turbo.json"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

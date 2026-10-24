@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "repo": "SoraLabsOSS/ui",
+  "facts": {
+    "found": true,
+    "repo": "SoraLabsOSS/ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:15:56+00:00",
+    "stars": 12,
+    "archived": false,
+    "fork": false,
+    "created": "2026-05-18",
+    "pushed": "2026-10-21",
+    "description": "Sora UI - Motion-first React primitives for shadcn/ui. Open-source registry — copy-paste components built with Motion, Tailwind, and GSAP.",
+    "homepage": "https://ui.soralabs.studio",
+    "topics": [
+      "animation",
+      "gsap",
+      "nextjs",
+      "react",
+      "shadcn-ui",
+      "tailwindcss",
+      "typescript",
+      "ui"
+    ],
+    "license": {
+      "spdx": "NOASSERTION",
+      "file": "LICENSE.md",
+      "head": "# Sora UI Licensing\nOriginal Sora UI code is licensed under the MIT License. Portions derived from third-party projects remain subject to their respective licenses.\nCopyright (c) 2026 Alexsandr Senaviev\nSora UI — https://github.com/SoraLabsOSS/ui\nThe MIT License below applies to original Sora UI code and architecture authored by SoraLabs / Sora UI.\n---\n## Third-Party Code\nCertain portions of Sora UI are derived from Animate UI:\nhttps://github.com/animate-ui/animate-ui\nCopyright (c) 2025 Elliot Sutton.\nThose portions remain subject to the original Animate UI license terms, including the MIT + Commons Clause License Condition.\nThe Animate UI license applies only to the portions derived from Animate UI and does not apply to independently authored Sora UI code."
+    },
+    "rootFiles": [
+      ".agents",
+      ".claude",
+      ".cursor",
+      ".cursorignore",
+      ".gitattributes",
+      ".github",
+      ".gitignore",
+      ".npmrc",
+      ".vscode",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE.md",
+      "README.md",
+      "SECURITY.md",
+      "apps",
+      "biome.jsonc",
+      "bun.lock",
+      "lefthook.yml",
+      "package.json",
+      "packages",
+      "skills-lock.json",
+      "tsconfig.json",
+      "turbo.json"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

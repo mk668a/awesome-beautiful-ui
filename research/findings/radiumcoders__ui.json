@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "repo": "radiumcoders/ui",
+  "facts": {
+    "found": true,
+    "repo": "radiumcoders/ui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:15:54+00:00",
+    "stars": 9,
+    "archived": false,
+    "fork": false,
+    "created": "2026-04-13",
+    "pushed": "2026-04-25",
+    "description": "Hand-crafted, beautiful, and minimal UI components built with Tailwind CSS and Motion.",
+    "homepage": "https://ui.radiumcoders.com",
+    "topics": [
+      "components",
+      "react",
+      "shadcn-ui",
+      "tailwindcss",
+      "tanstack-start",
+      "typescript",
+      "ui"
+    ],
+    "license": {
+      "spdx": "Apache-2.0",
+      "file": "LICENSE",
+      "head": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n   1. Definitions.\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,"
+    },
+    "rootFiles": [
+      ".cta.json",
+      ".gitignore",
+      ".prettierignore",
+      ".prettierrc",
+      "LICENSE",
+      "README.md",
+      "components.json",
+      "eslint.config.js",
+      "package.json",
+      "pnpm-lock.yaml",
+      "public",
+      "scripts",
+      "src",
+      "tsconfig.json",
+      "vite.config.ts"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

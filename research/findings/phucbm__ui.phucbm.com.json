@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "repo": "phucbm/ui.phucbm.com",
+  "facts": {
+    "found": true,
+    "repo": "phucbm/ui.phucbm.com",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:15:53+00:00",
+    "stars": 5,
+    "archived": true,
+    "fork": false,
+    "created": "2025-10-12",
+    "pushed": "2026-04-29",
+    "description": "A collection of modern React UI components with GSAP animations, built with TypeScript, Tailwind CSS, and Nextra documentation.",
+    "homepage": "https://ui.phucbm.com",
+    "topics": [
+      "component",
+      "gsap",
+      "nextra",
+      "shadcn"
+    ],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".claude",
+      ".gitignore",
+      "ARCHITECTURE_DIAGRAMS.md",
+      "CLAUDE.md",
+      "DOCUMENTATION_INDEX.md",
+      "QUICK_REFERENCE.md",
+      "README.md",
+      "app",
+      "components.json",
+      "components",
+      "content-draft",
+      "content",
+      "hooks",
+      "lib",
+      "mdx-components.tsx",
+      "next.config.mjs",
+      "package.json",
+      "pnpm-lock.yaml",
+      "postcss.config.mjs",
+      "public",
+      "registry.json",
+      "registry",
+      "scripts",
+      "tsconfig.json"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

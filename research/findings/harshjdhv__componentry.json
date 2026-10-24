@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "repo": "harshjdhv/componentry",
+  "facts": {
+    "found": true,
+    "repo": "harshjdhv/componentry",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:17:36+00:00",
+    "stars": 617,
+    "archived": false,
+    "fork": false,
+    "created": "2025-12-24",
+    "pushed": "2026-10-12",
+    "description": "Animated, production-ready UI components. Built the way real products need them.",
+    "homepage": "https://componentry.dev",
+    "topics": [
+      "components",
+      "components-library",
+      "ui"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Harsh Jadhav\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".eslintrc.js",
+      ".github",
+      ".gitignore",
+      ".npmrc",
+      ".vscode",
+      "LICENSE",
+      "README.md",
+      "agents",
+      "apps",
+      "docs",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "scripts",
+      "temporary",
+      "tests",
+      "tsconfig.json",
+      "turbo.json"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "webgl",
+    "name": "Componentry",
+    "note": "Animated React components installed through the shadcn CLI, with WebGL ripple, liquid glass and dithering effects.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Dither-pattern hero background",
+        "Liquid Glass Carousel seen through a WebGL lens with chromatic rim",
+        "Image Ripple Effect with WebGL cursor ripples",
+        "Spectral Ribbon light shader on black"
+      ],
+      "evidenceUrls": [
+        "https://componentry.dev/",
+        "https://componentry.dev/docs/components"
+      ]
+    },
+    "unverified": []
+  }
+}

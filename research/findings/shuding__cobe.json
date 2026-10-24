@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "repo": "shuding/cobe",
+  "facts": {
+    "found": true,
+    "repo": "shuding/cobe",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:20:20+00:00",
+    "stars": 6003,
+    "archived": false,
+    "fork": false,
+    "created": "2021-11-18",
+    "pushed": "2026-09-22",
+    "description": "5KB WebGL globe lib.",
+    "homepage": "https://cobe.vercel.app",
+    "topics": [
+      "globe",
+      "webgl"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2021 Shu Ding\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "card.png",
+      "ideas-1_4x.mp4",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "scripts",
+      "src",
+      "tsconfig.json",
+      "website"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "library",
+    "section": "webgl",
+    "name": "COBE",
+    "note": "A small WebGL library that draws a dotted globe with markers and arcs, and lets ordinary DOM elements attach to them.",
+    "license": "MIT",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Dotted-map WebGL globe in about 5KB",
+        "Arcs drawn between locations on the globe",
+        "DOM elements with CSS transitions and animations bound to globe markers and arcs through CSS anchor positioning"
+      ],
+      "evidenceUrls": [
+        "https://cobe.vercel.app",
+        "https://github.com/shuding/cobe"
+      ]
+    },
+    "unverified": []
+  }
+}

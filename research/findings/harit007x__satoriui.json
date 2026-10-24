@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "repo": "Harit007x/satoriui",
+  "facts": {
+    "found": true,
+    "repo": "Harit007x/satoriui",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:15:30+00:00",
+    "stars": 0,
+    "archived": false,
+    "fork": false,
+    "created": "2025-12-12",
+    "pushed": "2026-05-19",
+    "description": null,
+    "homepage": "https://satoriui.vercel.app",
+    "topics": [],
+    "license": {
+      "spdx": null,
+      "file": null,
+      "head": null
+    },
+    "rootFiles": [
+      ".gitignore",
+      "COMMANDS.md",
+      "README.md",
+      "app",
+      "components.json",
+      "components",
+      "eslint.config.mjs",
+      "hooks",
+      "lib",
+      "next.config.ts",
+      "package.json",
+      "packages",
+      "pnpm-lock.yaml",
+      "postcss.config.mjs",
+      "public",
+      "registry.json",
+      "store",
+      "tsconfig.json",
+      "utils"
+    ]
+  },
+  "research": {
+    "status": "pending",
+    "researchedAt": null,
+    "kind": null,
+    "section": null,
+    "name": null,
+    "note": null,
+    "license": null,
+    "requiresHostedService": null,
+    "genericCollection": null,
+    "demoViewed": null,
+    "signature": {
+      "effects": [],
+      "evidenceUrls": []
+    },
+    "unverified": []
+  }
+}

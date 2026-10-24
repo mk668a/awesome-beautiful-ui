@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "repo": "Ryan-yang125/motion-lexicon",
+  "facts": {
+    "found": true,
+    "repo": "Ryan-yang125/motion-lexicon",
+    "movedFrom": null,
+    "fetchedAt": "2026-10-24T09:19:33+00:00",
+    "stars": 50,
+    "archived": false,
+    "fork": false,
+    "created": "2026-07-23",
+    "pushed": "2026-10-21",
+    "description": "Describe a motion feeling, compare candidates, tune a recipe, and copy the implementation.",
+    "homepage": "https://motion-lexicon.pages.dev",
+    "topics": [
+      "accessibility",
+      "agent-skills",
+      "animation",
+      "cli",
+      "css-animations",
+      "motion-design",
+      "typescript",
+      "web-animations"
+    ],
+    "license": {
+      "spdx": "MIT",
+      "file": "LICENSE",
+      "head": "MIT License\nCopyright (c) 2026 Motion Lexicon contributors\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,"
+    },
+    "rootFiles": [
+      ".env.example",
+      ".github",
+      ".gitignore",
+      ".npmrc",
+      "AGENTS.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTENT-LICENSE",
+      "CONTRIBUTING.md",
+      "DESIGN.md",
+      "LICENSE",
+      "NOTICE",
+      "PRODUCT.md",
+      "README.md",
+      "README.zh-CN.md",
+      "SECURITY.md",
+      "SPEC-V6.md",
+      "components.json",
+      "docs",
+      "eslint.config.js",
+      "index.html",
+      "package-lock.json",
+      "package.json",
+      "playwright.config.ts",
+      "playwright.lab.config.ts",
+      "prototype",
+      "public",
+      "registry.json",
+      "scripts",
+      "skills",
+      "src",
+      "tests",
+      "tsconfig.app.json",
+      "tsconfig.json",
+      "tsconfig.node.json",
+      "vite.config.ts",
+      "vitest.config.ts"
+    ]
+  },
+  "research": {
+    "status": "done",
+    "researchedAt": "2026-10-24",
+    "kind": "component-collection",
+    "section": "motion",
+    "name": "Motion Lexicon",
+    "note": "100 copy-ready React motion components grouped by scene and runtime cost, installable through a shadcn registry.",
+    "license": "MIT (code); CC BY 4.0 for written content and data",
+    "requiresHostedService": false,
+    "genericCollection": false,
+    "demoViewed": true,
+    "signature": {
+      "effects": [
+        "Dither reveal card: the page describes a pixel-dither threshold that advances so imagery develops with texture, rendered with motion + webgl",
+        "Every component is tagged with a scene family (product mono, editorial warm, spatial dark) and a runtime cost label such as Heavy",
+        "Copy for Agent button on each component page, plus an agent skill for choosing and composing components"
+      ],
+      "evidenceUrls": [
+        "https://motion-lexicon.pages.dev/en/",
+        "https://motion-lexicon.pages.dev/en/components/dither-reveal-card/"
+      ]
+    },
+    "unverified": []
+  }
+}
