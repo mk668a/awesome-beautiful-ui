@@ -51,8 +51,8 @@ CHROME_NAMES = ["google-chrome", "google-chrome-stable", "chromium", "chromium-b
 
 IMG = re.compile(r'<img[^>]+src="([^"]+)"', re.I)
 NOT_A_SCREENSHOT = re.compile(
-    r"shields\.io|badge|/workflows/|travis-ci|codecov|opencollective|sponsor|buymeacoffee"
-    r"|contrib\.rocks|star-history|vercel\.com/button|hits\.|logo|icon|avatar|banner",
+    r"shields\.io|shieldcn\.dev|repobeats|badge|/workflows/|travis-ci|codecov|opencollective|sponsor|buymeacoffee"
+    r"|contrib\.rocks|contrib-circles|star-history|vercel\.com/button|hits\.|logo|icon|avatar|banner",
     re.I,
 )
 

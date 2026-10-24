@@ -34,6 +34,8 @@ Edit only the `research` block of `{file}`. Leave `facts` alone.
 
 The judge blocks inclusion while `unverified` contains observations. Resolve them with evidence; do not delete them just to pass a rule.
 
+Look at pages headlessly, for example with Chrome's `--headless=new --screenshot`, and read the image. Never open a visible browser window: it takes over the user's screen.
+
 Only record what a tool result in this session supports. If you could not open the demo, set `demoViewed` to `false` and say so in `unverified`. Do not edit any other file.
 
 Reply with one line: the repository, the `kind`, and the first signature effect or "no signature".
