@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Captures up to four screenshots per list.json entry into assets/screenshots/.
 
-Usage: python3 scripts/screenshots.py [--only owner/name|url ...] [--force]
+Usage: python3 scripts/screenshots.py [--only owner/name|url ...] [--force | --redetect]
 
 Each entry has a directory assets/screenshots/<owner>__<name>/ (site__<host>
 for a url entry) holding
@@ -10,7 +10,8 @@ to four items, each a page or image URL, or {"url": ..., "y": pixels} to
 capture a page scrolled down. An animated GIF is captured 60% of the way
 through, or at {"url": ..., "t": fraction} from 0 to 1. A missing sources.json is detected once: the
 repository homepage and the first README images, or the site itself. Edit it to pick better views,
-then rerun with --only.
+then rerun with --only. --force recaptures from the existing sources.json; --redetect replaces it
+with freshly detected sources, discarding hand edits.
 
 Needs Google Chrome or Chromium, and cwebp. GIF frames need ffmpeg and ffprobe;
 without them a GIF shows its first frame. Only one browser runs at a time.
@@ -54,6 +55,12 @@ NOT_A_SCREENSHOT = re.compile(
     r"shields\.io|shieldcn\.dev|repobeats|badge|/workflows/|travis-ci|codecov|opencollective|sponsor|buymeacoffee"
     r"|contrib\.rocks|contrib-circles|star-history|vercel\.com/button|hits\.|logo|icon|avatar|banner",
     re.I,
+)
+# README attachments render as signed URLs that expire within minutes; the
+# github.com/user-attachments form redirects to the same image and lasts.
+SIGNED_ATTACHMENT = re.compile(
+    r"^https://private-user-images\.githubusercontent\.com/\d+/\d+-"
+    r"([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\."
 )
 
 WRAPPER = """<!doctype html><meta charset="utf-8">
@@ -133,6 +140,11 @@ def readme_images(repo, token):
     found = []
     for src in IMG.findall(rendered):
         src = src.replace("&amp;", "&")
+        if "private-user-images." in src:
+            signed = SIGNED_ATTACHMENT.match(src)
+            if not signed:
+                continue
+            src = "https://github.com/user-attachments/assets/" + signed.group(1)
         if src.startswith("http") and not NOT_A_SCREENSHOT.search(src) and src not in found:
             found.append(src)
     return found
@@ -278,8 +290,12 @@ def capture(chrome, url, y, t, out):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--only", action="append", default=[], metavar="owner/name|url", help="capture just this entry; repeatable")
-    parser.add_argument("--force", action="store_true", help="recapture entries that already have screenshots")
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("--force", action="store_true", help="recapture entries that already have screenshots")
+    group.add_argument("--redetect", action="store_true", help="detect sources again, replacing sources.json, and recapture")
     args = parser.parse_args()
+    if args.redetect and not args.only:
+        parser.error("--redetect discards hand-edited sources; name the entries with --only")
 
     if not shutil.which("cwebp"):
         sys.exit("cwebp not found. Install the webp tools.")
@@ -293,9 +309,9 @@ def main():
     todo = [
         e for e in entries
         if (key(e).lower() in only if only else True)
-        and (args.force or bool(only) or not shots(key(e)))
+        and (args.force or args.redetect or bool(only) or not shots(key(e)))
     ]
-    missing = [e for e in todo if read_sources(key(e)) is None]
+    missing = [e for e in todo if args.redetect or read_sources(key(e)) is None]
     if missing:
         token = _token() if any(e.get("repo") for e in missing) else None
         with ThreadPoolExecutor(max_workers=8) as pool:

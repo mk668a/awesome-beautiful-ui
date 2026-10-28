@@ -22,6 +22,7 @@ SCRIPTS = {
     "collect": "skills/research-candidates/scripts/collect_facts.py",
     "audit": "skills/audit-list/scripts/audit.py",
     "build": "scripts/build.py",
+    "screenshots": "scripts/screenshots.py",
 }
 
 
@@ -395,6 +396,19 @@ class RuntimeTests(unittest.TestCase):
             self.assertTrue(text.startswith("Before\n"))
             self.assertTrue(text.endswith("After\n"))
             self.assertNotIn("<img", text)
+
+    def test_readme_images_keep_lasting_urls_only(self):
+        shots = load("screenshots")
+        signed = ("https://private-user-images.githubusercontent.com/7636626/356249575-"
+                  "68dd9cc9-3182-49ee-b8d5-cd6301902b6e.jpg?jwt=abc&amp;x=1")
+        html = ('<img src="%s"><img src="https://private-user-images.githubusercontent.com/1/x.png?jwt=abc">'
+                '<img src="https://www.shieldcn.dev/github/stars/a/b.svg"><img src="https://repobeats.axiom.co/api/embed/1.svg">'
+                '<img src="https://contrib-circles.vercel.app/a/b"><img src="https://example.com/demo.png">' % signed)
+        with patch.object(shots, "gh", return_value=html):
+            self.assertEqual(shots.readme_images("a/b", None), [
+                "https://github.com/user-attachments/assets/68dd9cc9-3182-49ee-b8d5-cd6301902b6e",
+                "https://example.com/demo.png",
+            ])
 
     def test_build_adds_existing_screenshots_to_an_entry(self):
         build = load("build")
