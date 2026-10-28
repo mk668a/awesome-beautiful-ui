@@ -1,8 +1,8 @@
 [
   { "section": "gems", "repo": "danielwh2/slot-text", "name": "slot-text", "note": "Slot-machine text roll with zero dependencies, for vanilla JS, React and Vue." },
   { "section": "gems", "repo": "ibelick/motion-primitives", "name": "motion-primitives", "note": "Named text and border effects (Text Morph, Scramble, Shimmer Wave, Border Trail) where the motion itself is the product." },
-  { "section": "gems", "repo": "nolly-studio/cult-ui", "name": "cult-ui", "note": "Shader-grade components: Warp Shader, Simplex Dithering, Neuro Noise, Fluted Glass, a 3D folded card." },
-  { "section": "gems", "repo": "kokonut-labs/kokonutui", "name": "Kokonut UI", "note": "Motion-led components with personality, such as an audio player with EQ and waveform, and glowing orb cards." },
+  { "section": "gems", "repo": "nolly-studio/cult-ui", "name": "cult-ui", "note": "Components with shader effects such as a dithering hero and a Warp-shader AI avatar, plus a folded-corner card and a morphing Dynamic Island." },
+  { "section": "gems", "repo": "kokonut-labs/kokonutui", "name": "Kokonut UI", "note": "Components modeled on physical objects, such as a turnable detent dial, a receipt printer, split-flap text and a boarding pass that rolls over changes." },
   { "section": "gems", "repo": "paper-design/shaders", "name": "Paper Shaders", "note": "Zero-dependency canvas shaders: liquid metal, god rays, metaballs, voronoi, CMYK halftone and more." },
   { "section": "gems", "repo": "ruucm/shadergradient", "name": "ShaderGradient", "note": "Animated 3D gradients with film grain, for React, Framer and Figma." },
   { "section": "gems", "repo": "hydra-synth/hydra", "name": "Hydra", "note": "Live-coded video synth in the browser: oscillators, kaleidoscopes, modulation and feedback." },
