@@ -1,6 +1,6 @@
 ---
 name: audit-list
-description: Use when asked to check the health of the Awesome Beautiful UI list, before a release or refresh, or when the build script prints a "moved" warning. Finds entries whose repository moved, was archived or deleted, entries whose license is still unresolved, and sites that are unreachable or whose last confirmed update is stale, then proposes the list.json fixes.
+description: Use when asked to check the health of the Awesome Beautiful UI list, before a release or refresh, or when the build script prints a "moved" warning. Finds entries whose repository moved, was archived or deleted, entries whose license is still unresolved, entries whose note no longer matches their latest research, and sites that are unreachable or whose last confirmed update is stale, then proposes the list.json fixes.
 license: MIT
 compatibility: Run from a checkout of awesome-beautiful-ui. Needs Python 3.9+ and a GitHub token (GITHUB_TOKEN, or a logged-in gh CLI).
 ---
@@ -22,5 +22,6 @@ The script checks every entry and prints one line per problem. It exits with the
 | `duplicate` | Two entries point at the same repository or site. Keep one |
 | `unreachable` | A site returned an HTTP error or did not answer. Open it by hand: bot protection can return 403 to a live site. Propose removal only if it is gone |
 | `stale` | A site's confirmed update is older than the `site-active` rule allows. Re-research it with `research-candidates`, then update `updated` in `list.json` |
+| `note-drift` | Its finding was researched with a different note. Compare the entry's note with the finding's `research.note` and `signature`, and with the project as it is now. Update the entry when something it names is gone, renamed or now paid; otherwise correct the finding's note to the entry's |
 
 Report the findings and the exact edits you propose. Apply them only if asked, then regenerate with `python3 scripts/build.py`.

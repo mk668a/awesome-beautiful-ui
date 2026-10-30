@@ -397,6 +397,27 @@ class RuntimeTests(unittest.TestCase):
             self.assertTrue(text.endswith("After\n"))
             self.assertNotIn("<img", text)
 
+    def test_audit_reports_notes_that_differ_from_research(self):
+        audit = load("audit")
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            write_json(tmp / "list.json", [
+                {"section": "gems", "repo": "a/same", "name": "Same", "note": "Same note."},
+                {"section": "gems", "repo": "a/drift", "name": "Drift", "note": "Old note."},
+            ])
+            write_json(tmp / "findings/a__same.json", {"repo": "a/same", "research": {"status": "done", "note": "Same note."}})
+            write_json(tmp / "findings/a__drift.json", {"repo": "A/Drift", "research": {"status": "done", "note": "New note."}})
+            repo = {"archived": False, "pushed_at": "2026-10-01T00:00:00Z", "license": {"spdx_id": "MIT"}}
+            out = io.StringIO()
+            with patch.object(audit, "_token", return_value=None), \
+                    patch.object(audit, "gh", side_effect=lambda path, token: dict(repo, full_name=path.split("/repos/")[1])), \
+                    patch.object(sys, "argv", ["audit", "--list", str(tmp / "list.json"), "--findings", str(tmp / "findings")]), \
+                    contextlib.redirect_stdout(out), contextlib.redirect_stderr(io.StringIO()), \
+                    self.assertRaises(SystemExit) as done:
+                audit.main()
+            self.assertEqual(done.exception.code, 1)
+            self.assertEqual(out.getvalue(), "note-drift\ta/drift\tresearch says: New note.\n")
+
     def test_readme_images_keep_lasting_urls_only(self):
         shots = load("screenshots")
         signed = ("https://private-user-images.githubusercontent.com/7636626/356249575-"

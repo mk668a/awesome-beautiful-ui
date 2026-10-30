@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Checks every entry in list.json and prints one line per problem.
 
-Usage: python3 audit.py [--list list.json]
+Usage: python3 audit.py [--list list.json] [--findings research/findings]
 Exit code is the number of problems.
 
 Entries with a "url" are sites outside GitHub: they are checked for an HTTP
 error and for a confirmed update older than the site-active rule allows.
+An entry whose finding was researched with a different note is reported as
+note-drift: the project may have changed since the entry was written.
 """
 
 import argparse
@@ -78,6 +80,7 @@ def months_ago(months):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--list", default="list.json")
+    parser.add_argument("--findings", default="research/findings")
     args = parser.parse_args()
 
 
@@ -120,6 +123,18 @@ def main():
         spdx = (data.get("license") or {}).get("spdx_id")
         if not entry.get("license") and (not spdx or spdx == "NOASSERTION"):
             problems.append(("license-unresolved", repo, "GitHub reports %s" % (spdx or "no license")))
+
+    researched = {}
+    for path in Path(args.findings).glob("*.json"):
+        finding = json.loads(path.read_text(encoding="utf-8"))
+        research = finding.get("research") or {}
+        if research.get("status") == "done" and research.get("note"):
+            researched[(finding.get("repo") or finding.get("url") or "").lower()] = research["note"]
+    for entry in all_entries:
+        key = entry.get("repo") or entry.get("url")
+        note = researched.get(key.lower())
+        if note and note != entry.get("note"):
+            problems.append(("note-drift", key, "research says: " + note))
 
     for problem in sorted(problems):
         print("\t".join(problem))

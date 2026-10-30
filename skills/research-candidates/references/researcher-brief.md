@@ -31,10 +31,11 @@ Edit only the `research` block of `{file}`. Leave `facts` alone.
 | `signature.effects` | The specific effects or ideas that are its own, each named concretely (`"liquid metal shader"`, `"structural diff by syntax tree"`). Empty if there are none |
 | `signature.evidenceUrls` | The URLs where you saw those effects |
 | `unverified` | Anything above that you inferred instead of observing, in plain sentences |
+| `notSeen` | Optional. What you looked for but could not see, such as a preview that would not play, with the URL. The judge does not read it |
 
 The judge blocks inclusion while `unverified` contains observations. Resolve them with evidence; do not delete them just to pass a rule.
 
-Look at pages headlessly, for example with Chrome's `--headless=new --screenshot`, and read the image. Never open a visible browser window: it takes over the user's screen.
+Look at pages headlessly, for example with Chrome's `--headless=new --screenshot`, and read the image. Never open a visible browser window: it takes over the user's screen. Run each browser command under `timeout 60` so a hung browser does not outlive you. A screenshot is one moment: for a preview that moves over time or plays after a click, record a few seconds headlessly, for example with Playwright's `record_video_dir`, and read frames extracted with ffmpeg.
 
 Only record what a tool result in this session supports. If you could not open the demo, set `demoViewed` to `false` and say so in `unverified`. Do not edit any other file.
 
