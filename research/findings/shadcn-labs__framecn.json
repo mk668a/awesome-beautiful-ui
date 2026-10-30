@@ -86,6 +86,10 @@
         "https://framecn.dev/docs/components/transitions/chromatic-aberration-wipe"
       ]
     },
-    "unverified": []
+    "unverified": [],
+    "notSeen": [
+      "Chromatic Aberration Wipe: the headless player did not play in a recording, so the RGB glitch was not seen. https://framecn.dev/docs/components/transitions/chromatic-aberration-wipe",
+      "Pill Karaoke, Hero Device Assemble and Dashboard Populate: seen only as names in the components index."
+    ]
   }
 }

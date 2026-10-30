@@ -69,12 +69,16 @@
       "effects": [
         "Volcano eruption overlay with a lava and ash plume on the map",
         "Cyclone overlay with a swirling particle funnel",
-        "Meteor strike overlay with scattering impact particles"
+        "Meteor strike overlay with scattering impact particles",
+        "Lightning overlay with a branching bolt striking the map",
+        "Tsunami overlay with an incoming wave, foam and debris particles"
       ],
       "evidenceUrls": [
         "https://www.terrae.dev/docs/volcano",
         "https://www.terrae.dev/docs/cyclone",
-        "https://www.terrae.dev/docs/meteor"
+        "https://www.terrae.dev/docs/meteor",
+        "https://www.terrae.dev/docs/lightning",
+        "https://www.terrae.dev/docs/tsunami"
       ]
     },
     "unverified": []

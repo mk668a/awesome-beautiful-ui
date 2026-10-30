@@ -57,7 +57,7 @@
     "kind": "tool",
     "section": "terminal",
     "name": "sabiql",
-    "note": "Vim-keyed terminal client for PostgreSQL, MySQL and SQLite that shows a diff, the SQL and a risk level before applying an edit.",
+    "note": "Vim-keyed terminal client for PostgreSQL, MySQL and SQLite that shows the SQL and a risk level before applying an edit.",
     "license": "MIT",
     "requiresHostedService": false,
     "genericCollection": false,

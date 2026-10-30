@@ -67,7 +67,7 @@
     "kind": "tool",
     "section": "motion",
     "name": "anidoodle",
-    "note": "Agent skill and Node engine that draws illustrations and animations in 31 hand-made styles from deterministic code, each able to film itself being drawn.",
+    "note": "Agent skill and Node engine that draws illustrations and animations in 32 hand-made styles from deterministic code, each able to film itself being drawn.",
     "license": "Apache-2.0",
     "requiresHostedService": false,
     "genericCollection": false,

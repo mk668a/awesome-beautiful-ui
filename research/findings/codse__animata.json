@@ -88,6 +88,9 @@
         "https://animata.design/docs/background/boids-ecosystem"
       ]
     },
-    "unverified": []
+    "unverified": [],
+    "notSeen": [
+      "Sibling Focus Nav: a recording with the pointer over the preview showed the nav row but not the dimming of siblings. https://animata.design/docs/container/sibling-focus-nav"
+    ]
   }
 }

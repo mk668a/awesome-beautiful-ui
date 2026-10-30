@@ -64,7 +64,7 @@
     "kind": "component-collection",
     "section": "components",
     "name": "Kokonut UI",
-    "note": "React components on Tailwind, Motion and shadcn/ui, many modeled on physical objects such as receipts, boarding passes and dials.",
+    "note": "Components modeled on physical objects, such as a turnable detent dial, a receipt printer, split-flap text and a boarding pass that rolls over changes.",
     "license": "MIT",
     "requiresHostedService": false,
     "genericCollection": false,

@@ -66,7 +66,7 @@
     "kind": "component-collection",
     "section": "motion",
     "name": "Cult UI",
-    "note": "Animated shadcn/ui components built with Tailwind and Motion, including a WebGL dithering hero and a morphing Dynamic Island.",
+    "note": "Components with shader effects such as a dithering hero and a Warp-shader AI avatar, plus a folded-corner card and a morphing Dynamic Island.",
     "license": "MIT",
     "requiresHostedService": false,
     "genericCollection": false,
@@ -81,6 +81,9 @@
         "https://www.cult-ui.com/docs/components/dynamic-island"
       ]
     },
-    "unverified": []
+    "unverified": [],
+    "notSeen": [
+      "Fluted Glass: the preview showed only the image picker and controls, not the ribbed distortion. https://www.cult-ui.com/docs/components/fluted-glass"
+    ]
   }
 }

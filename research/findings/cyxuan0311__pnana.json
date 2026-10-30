@@ -64,7 +64,7 @@
     "kind": "tool",
     "section": "terminal",
     "name": "pnana",
-    "note": "Terminal text editor built on FTXUI with a command palette, fuzzy file finder with preview pane, split views and in-editor image preview.",
+    "note": "Terminal text editor built on FTXUI with a command palette, file picker with a preview pane, split views and optional image preview.",
     "license": "MIT",
     "requiresHostedService": false,
     "genericCollection": false,

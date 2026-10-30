@@ -67,10 +67,12 @@
     "demoViewed": true,
     "signature": {
       "effects": [
-        "Cloud Orbit: tool icons orbiting a central avatar"
+        "Cloud Orbit: tool icons orbiting a central avatar",
+        "Pixel Distortion: an image breaks into displaced pixel blocks around the pointer"
       ],
       "evidenceUrls": [
-        "https://www.badtz-ui.com/docs/components/cloud-orbit"
+        "https://www.badtz-ui.com/docs/components/cloud-orbit",
+        "https://www.badtz-ui.com/docs/shaders/pixel-distorsion"
       ]
     },
     "unverified": []

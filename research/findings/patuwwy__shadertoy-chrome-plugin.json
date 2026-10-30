@@ -51,7 +51,7 @@
     "kind": "tool",
     "section": "webgl",
     "name": "ShaderToy unofficial plugin",
-    "note": "Browser extension that adds iTime and iMouse sliders, GPU render timers, a vec3 color picker and export to the Shadertoy editor.",
+    "note": "Browser extension that adds iTime and iMouse sliders, GPU render timers, a vec3 color picker and JSON or ZIP shader export.",
     "license": "MIT",
     "requiresHostedService": false,
     "genericCollection": false,

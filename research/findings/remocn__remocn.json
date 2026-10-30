@@ -85,6 +85,9 @@
         "https://remocn.dev/changelog"
       ]
     },
-    "unverified": []
+    "unverified": [],
+    "notSeen": [
+      "Typography reveals and transitions such as Glitch Cut and Ember Burn: the players stayed on their first frame in headless recordings. https://remocn.dev/docs/typography https://remocn.dev/docs/transitions/glitch-cut"
+    ]
   }
 }

@@ -81,6 +81,9 @@
         "https://spark-ui-olive.vercel.app/docs/components/interactive-pets"
       ]
     },
-    "unverified": []
+    "unverified": [],
+    "notSeen": [
+      "Dynamic Island: a recording showed the idle pill but not the morph between compact and expanded. https://spark-ui-olive.vercel.app/docs/components/dynamic-island"
+    ]
   }
 }

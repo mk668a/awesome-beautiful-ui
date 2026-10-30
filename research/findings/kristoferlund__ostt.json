@@ -58,7 +58,7 @@
     "kind": "tool",
     "section": "terminal",
     "name": "OSTT",
-    "note": "Terminal voice-to-text popup that draws a live mirrored waveform while recording, then pastes the transcript.",
+    "note": "Terminal voice-to-text tool with a hotkey popup that draws a live waveform or spectrum while recording, then sends the transcript to the clipboard.",
     "license": "MIT",
     "requiresHostedService": false,
     "genericCollection": false,

@@ -53,7 +53,7 @@
     "kind": "component-collection",
     "section": "motion",
     "name": "React UseAnimations",
-    "note": "Lottie-based animated icon set for React whose icons play a short state change on click, such as a star filling or a trash lid lifting.",
+    "note": "Animated icon set for React with hover, click and loop interactions built in, such as a trash can whose lid lifts on hover.",
     "license": "Custom useAnimations terms: CC BY 4.0 with required attribution to useanimations.com, plus a ban on redistribution or resale of the files",
     "requiresHostedService": false,
     "genericCollection": false,

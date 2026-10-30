@@ -53,7 +53,7 @@
     "kind": "component-collection",
     "section": "webgl",
     "name": "ThreeUI Community",
-    "note": "React catalog of Three.js scenes, shader backgrounds and liquid-metal buttons, each with live controls and copyable source.",
+    "note": "React catalog of Three.js scenes, landing pages, hero sections and shader backgrounds, each with live controls and copyable source.",
     "license": "MIT",
     "requiresHostedService": false,
     "genericCollection": false,
